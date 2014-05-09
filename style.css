@@ -1,0 +1,111 @@
+a:link, a:visited
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+div#content
+{
+	width: 905px;
+	margin:auto;
+	position: relative;	
+}
+
+div.game, div.game div.img, div.game div.img a, div.game div.game a img
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: 0px;
+}
+
+div.game a img
+{
+}
+
+div#title
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+div#links
+{
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+}
+
+.leftinfo, .rightinfo
+{
+	background-color:#fff;
+	opacity: 0.8;
+	overflow: auto;
+	width: 450px;
+	height: 338px;
+	padding: 0px;
+	margin: auto;
+	font-size: 16px;
+}
+
+.leftinfo div, .rightinfo div
+{
+	color:#000000;
+	padding: 10px;
+	background-color:#fff;
+	opacity:1.0;
+}
+
+div.game
+{
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.leftinfo
+{
+	text-align:left;
+	position:absolute;
+	left:-450px;
+	top: 0px;
+}
+
+.rightinfo
+{
+	text-align:right;
+	position:absolute;
+	left:450px;
+	top: 0px;
+}
+
+#sociallinks
+{
+	position: absolute;
+	left: 260px;
+	top: 70px;
+	background-color:#fff;
+	font-size: 1.1em;
+	padding: 10px;
+	border-style:solid;
+	border-width:5px;
+	border-color:#000;
+	display: none;
+}
+
+div.img
+{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 450px;
+	height: 338px;
+}
+
+p.images img
+{
+	margin-left: 3px;
+}
