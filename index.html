@@ -7,11 +7,11 @@
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
 		<link href="lightbox.css" rel="stylesheet" />
-	</head>
-	
-	<body>
-		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<link rel="stylesheet" href="colorbox.css">
+		
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
 		<script src="lightbox.min.js"></script>
+		<script src="jquery.colorbox-min.js"></script>
 		<script  type="text/javascript">
 				$(document).ready(function(){
 					$("a.left").click(function(event){
@@ -42,10 +42,15 @@
 						event.preventDefault();
 						$("#sociallinks").slideToggle("fast");
 					});
+					
+					/* setup colorbox links */
+					$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
 				});
 		</script>
+	</head>
+	
+	<body>
 		<div id="content">
-		
 			<div id="title">Gustav Jansson - Software Developer</div>
 			<div id="links">
 				<a id="social" href="">social</a> | <a href="https://keybase.io/madeso">keybase.io</a> | <a onclick="this.href='&#x6D;&#x61;&#x69;'+'&#x6C;&#x74;&#x6F;&#x3A;&#x73;&#x69;&#x72;&#x2E;&#x67;&#x75;'+'&#x73;&#x74;&#x61;&#x76;&#x2E;&#x74;'+'&#x68;&#x65;&#x2E;&#x63;&#x6F;&#x64;'+'&#x65;&#x72;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;'+'&#x63;&#x6F;&#x6D;'" href="">mail</a> | <a href="http://www.linkedin.com/in/gsmjansson">linked in</a>
@@ -68,6 +73,8 @@
 							<p>
 							Donec pulvinar leo eu lorem pretium, a congue lorem pretium. Sed a ante et tortor vehicula feugiat at nec quam. Donec ornare erat fringilla erat scelerisque, in congue lacus rhoncus. Mauris tempus neque ligula, nec ultricies lorem eleifend nec. Maecenas euismod molestie justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel massa ut leo congue mattis quis ut nisl. Integer viverra ipsum sapien. Ut ac sem rutrum, egestas dui vel, tristique dui. Morbi luctus dictum metus, ut gravida mauris convallis sed. Donec pulvinar sapien sit amet orci gravida gravida. Vivamus auctor, sem tempus convallis gravida, ligula mi posuere justo, ut mollis diam nisi a odio. Aenean sodales velit id nunc varius mattis. Phasellus nulla eros, facilisis sed ipsum molestie, lacinia rhoncus est.
 							</p>
+							
+							<p><a class='youtube' href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&amp;wmode=transparent"><img src="lolball/lolball4.png" width="50" height="50"/></a></p>
 							
 							<p class="images">
 								<a href="lolball/lolball.png" data-lightbox="lolball">
