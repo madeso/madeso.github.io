@@ -25,6 +25,9 @@
 							-450 :
 							0
 						});
+						var $img = $(this).children("img");
+						if( $currentleft == 0 ) $img.addClass("grayscale")
+						else $img.removeClass("grayscale")
 					});
 					$("a.right").click(function(event){
 						event.preventDefault();
@@ -37,7 +40,11 @@
 							450 :
 							0
 						});
+						var $img = $(this).children("img");
+						if( $currentleft == 0 ) $img.addClass("grayscale")
+						else $img.removeClass("grayscale")
 					});
+					$("a.left img, a.right img").addClass("grayscale")
 					$("a#social").click(function(event){
 						event.preventDefault();
 						$("#sociallinks").slideToggle("fast");
