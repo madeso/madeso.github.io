@@ -109,3 +109,13 @@ p.images img
 {
 	margin-left: 3px;
 }
+
+div.inlinelinks {
+	display: none;
+}
+
+div.inlinelink {
+	padding: 10px;
+	background: #000;
+	color: #fff;
+}
