@@ -53,6 +53,10 @@
 					/* setup colorbox links */
 					$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
 					$(".inline").colorbox({inline:true});
+					
+					if( location.hash != "" ) {
+						$('a[id=' + location.hash.substring(1) + ']').colorbox({open:true}); 
+					}
 				});
 		</script>
 	</head>
@@ -100,7 +104,7 @@
 							
 							<p>
 								Play game:
-								<p><a class='inline' href="#lolball_gameplay"><img src="lolball/lolball4.png" width="50" height="50"/></a></p>
+								<p><a class='inline' id="play-lolball" href="#lolball_gameplay"><img src="lolball/lolball4.png" width="50" height="50"/></a></p>
 							</p>
 						</div>
 					</div>
