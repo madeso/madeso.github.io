@@ -6,269 +6,110 @@
 		<!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> -->
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
-		<link href="lightbox.css" rel="stylesheet" />
-		<link rel="stylesheet" href="colorbox.css">
-		
-        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-		<script src="lightbox.min.js"></script>
-		<script src="jquery.colorbox-min.js"></script>
-		<script  type="text/javascript">
-				$(document).ready(function(){
-					$("a.left").click(function(event){
-						event.preventDefault();
-						// slide from left to right
-						var $lefty = $(this).parents().parents().children("div.img").children("div.leftinfo");
-						// $lefty.animate({width: 'toggle'}, "fast");
-						$currentleft = parseInt($lefty.css('left'),0)
-						$lefty.animate({
-						  left: $currentleft == 0 ?
-							-450 :
-							0
-						});
-						var $img = $(this).children("img");
-						if( $currentleft == 0 ) $img.addClass("grayscale")
-						else $img.removeClass("grayscale")
-					});
-					$("a.right").click(function(event){
-						event.preventDefault();
-						// slide from right to left
-						var $lefty = $(this).parents().parents().children("div.img").children("div.rightinfo");
-						// $lefty.animate({width: 'toggle'}, "fast");
-						$currentleft = parseInt($lefty.css('left'),0)
-						$lefty.animate({
-						  left: $currentleft == 0 ?
-							450 :
-							0
-						});
-						var $img = $(this).children("img");
-						if( $currentleft == 0 ) $img.addClass("grayscale")
-						else $img.removeClass("grayscale")
-					});
-					$("a.left img, a.right img").addClass("grayscale")
-					$("a#social").click(function(event){
-						event.preventDefault();
-						$("#sociallinks").slideToggle("fast");
-					});
-					
-					/* setup colorbox links */
-					$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-					$(".inline").colorbox({inline:true});
-					
-					if( location.hash != "" ) {
-						$('a[id=' + location.hash.substring(1) + ']').colorbox({open:true}); 
-					}
-				});
-		</script>
+		<link href="css/lightbox.css" rel="stylesheet" />
+		<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 	</head>
 	
 	<body>
+		<script type="application/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="application/javascript" src="js/lightbox.min.js"></script>
+		
 		<div id="content">
 			<div id="title">Gustav Jansson - Software Developer</div>
 			<div id="links">
-				<a id="social" href="">social</a> | <a href="https://keybase.io/madeso">keybase.io</a> | <a onclick="this.href='&#x6D;&#x61;&#x69;'+'&#x6C;&#x74;&#x6F;&#x3A;&#x73;&#x69;&#x72;&#x2E;&#x67;&#x75;'+'&#x73;&#x74;&#x61;&#x76;&#x2E;&#x74;'+'&#x68;&#x65;&#x2E;&#x63;&#x6F;&#x64;'+'&#x65;&#x72;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;'+'&#x63;&#x6F;&#x6D;'" href="">mail</a> | <a href="http://www.linkedin.com/in/gsmjansson">linked in</a>
+				<a id="social" href=""><i class="fa fa-user"></i>&nbsp; social</a>&nbsp;&nbsp;
+				<a href="https://keybase.io/madeso"><i class="fa fa-external-link"></i>&nbsp; keybase.io</a>&nbsp;&nbsp;
+				<a onclick="this.href='&#x6D;&#x61;&#x69;'+'&#x6C;&#x74;&#x6F;&#x3A;&#x73;&#x69;&#x72;&#x2E;&#x67;&#x75;'+'&#x73;&#x74;&#x61;&#x76;&#x2E;&#x74;'+'&#x68;&#x65;&#x2E;&#x63;&#x6F;&#x64;'+'&#x65;&#x72;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;'+'&#x63;&#x6F;&#x6D;'" href=""><i class="fa fa-envelope-o"></i>&nbsp; mail</a>&nbsp;&nbsp;
+				<a href="http://www.linkedin.com/in/gsmjansson"><i class="fa fa-linkedin"></i>&nbsp; linked in</a>
 			</div>
 			
 			<div class="spacer"><br /></div>
 			
 			<div class="game">
 				<div class="img">
-					<a class="left" href="4thdimension/index.html">
-						<img alt="4th dimension" src="4thdimension.png" />
-					</a>
-					<div class="rightinfo">
-						<div>
-							 <h1>Lorem ipsum dolor sit amet</h1>
-							 <p>
-							 Consectetur adipiscing elit. Aenean eleifend at ligula ut sagittis. Nulla vulputate pulvinar nibh hendrerit iaculis. Etiam eu iaculis nunc, ac fringilla sapien. Nunc sed felis dolor. Aenean et vestibulum arcu. Etiam egestas id libero sollicitudin facilisis. Nullam tempus massa sed faucibus laoreet.
-							 </p>
-
-							<p>
-							Donec pulvinar leo eu lorem pretium, a congue lorem pretium. Sed a ante et tortor vehicula feugiat at nec quam. Donec ornare erat fringilla erat scelerisque, in congue lacus rhoncus. Mauris tempus neque ligula, nec ultricies lorem eleifend nec. Maecenas euismod molestie justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel massa ut leo congue mattis quis ut nisl. Integer viverra ipsum sapien. Ut ac sem rutrum, egestas dui vel, tristique dui. Morbi luctus dictum metus, ut gravida mauris convallis sed. Donec pulvinar sapien sit amet orci gravida gravida. Vivamus auctor, sem tempus convallis gravida, ligula mi posuere justo, ut mollis diam nisi a odio. Aenean sodales velit id nunc varius mattis. Phasellus nulla eros, facilisis sed ipsum molestie, lacinia rhoncus est.
-							</p>
+					<img alt="lolball" src="projects/lolball/main.png" />
+				</div>
+				
+				<div class="info">
+					<div>
+						<h1>Lolball</h1>
+						<p>
+							Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.
+						</p>
+						
+						<p class="images">
+							<a href="projects/lolball/screens/lolball.png" data-lightbox="lolball">
+								<img src="projects/lolball/screens/lolball.png" width="50" height="50"/>
+							</a>
 							
-							<p>Gameplay: <a class='youtube' href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&amp;wmode=transparent"><img src="lolball/lolball4.png" width="50" height="50"/></a></p>
+							<a href="projects/lolball/screens/lolball3.png" data-lightbox="lolball">
+								<img src="projects/lolball/screens/lolball3.png" width="50" height="50"/>
+							</a>
 							
-							<p class="images">
-								<a href="lolball/lolball.png" data-lightbox="lolball">
-									<img src="lolball/lolball.png" width="50" height="50"/>
-								</a>
-								
-								<a href="lolball/lolball3.png" data-lightbox="lolball">
-									<img src="lolball/lolball3.png" width="50" height="50"/>
-								</a>
-								
-								<a href="lolball/lolball4.png" data-lightbox="lolball">
-									<img src="lolball/lolball4.png" width="50" height="50"/>
-								</a>
-							</p>
-							
-							<p>
-								Play game:
-								<p><a class='inline' id="play-lolball" href="#lolball_gameplay"><img src="lolball/lolball4.png" width="50" height="50"/></a></p>
-							</p>
-						</div>
+							<a href="projects/lolball/screens/lolball4.png" data-lightbox="lolball">
+								<img src="projects/lolball/screens/lolball4.png" width="50" height="50"/>
+							</a>
+						</p>
 					</div>
+				</div>
+				
+				<div class="gamefooter">
+					<a href=""><i class="fa fa-windows"></i> windows</a>
+					<a href="https://www.youtube.com/watch?v=BjG1_d7Fxc8"><i class="fa fa-youtube-play"></i> gameplay</a>
+					<a href=""><i class="fa fa-github"></i> github</a>
+				</div>
+			</div>
+			
+			<hr /> <!-- ======================================================================================================================= -->
+			
+			<!-- template
+			<div class="game">
+				<div class="img">
+					<img alt="lolball" src="projects/lolball/main.png" />
+				</div>
+				
+				<div class="info">
+					<div>
+						<h1>Lorem ipsum dolor sit amet</h1>
+						<p>
+							Consectetur adipiscing elit. Aenean eleifend at ligula ut sagittis. Nulla vulputate pulvinar nibh hendrerit iaculis. Etiam eu iaculis nunc, ac fringilla sapien. Nunc sed felis dolor. Aenean et vestibulum arcu. Etiam egestas id libero sollicitudin facilisis. Nullam tempus massa sed faucibus laoreet.
+						</p>
+						
+						<p class="images">
+							<a href="projects/lolball/screens/lolball.png" data-lightbox="lolball1">
+								<img src="projects/lolball/screens/lolball.png" width="50" height="50"/>
+							</a>
+							
+							<a href="projects/lolball/screens/lolball3.png" data-lightbox="lolball1">
+								<img src="projects/lolball/screens/lolball3.png" width="50" height="50"/>
+							</a>
+							
+							<a href="projects/lolball/screens/lolball4.png" data-lightbox="lolball1">
+								<img src="projects/lolball/screens/lolball4.png" width="50" height="50"/>
+							</a>
+						</p>
+					</div>
+				</div>
+				
+				<div class="gamefooter">
+					<a href=""><i class="fa fa-gamepad"> play now</i></a>
+					<a href=""><i class="fa fa-github"></i> github</a>
+					<a href=""><i class="fa fa-youtube-play"></i> gameplay</a>
 					
-					<div class="inlinelinks">
-						<div id="lolball_gameplay" class="inlinelink">
-							<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="my-flash-game" width="640" height="480" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-								<param name="movie" value="myflashgame.swf" />
-								<param name="quality" value="high" />
-								<param name="bgcolor" value="#000000" />
-								<param name="allowScriptAccess" value="sameDomain" />
-								<param name="allowFullScreen" value="true" />
-								<embed src="https://gamesmadeinweekends.googlecode.com/hg/ludumdare_20/bin/myflashgame.swf" quality="high" bgcolor="#000000"
-										width="640" height="480" name="my-game" align="middle"
-										play="true"
-										loop="false"
-										quality="high"
-										allowScriptAccess="sameDomain"
-										allowFullScreen="true"
-										type="application/x-shockwave-flash"
-										pluginspage="http://www.adobe.com/go/getflashplayer">
-								</embed>
-							</object>
-							<br />
-							<br />
-							<b>hold LEFT/RIGHT</b> - move<br />
-							<b>press X</b> - jump<br />
-							<b>hold C + and press UP/DOWN/LEFT/RIGHT</b> - dash<br />
-							<br />
-							<b>press R</b> - reset <br />
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<a class="right" href="aspwnnamedbob/index.html">
-						<img alt="a spawn named bob" src="aspwnnamedbob.png" />
-					</a>
-					<div class="leftinfo">
-						<div>
-							<h1>Mauris felis nisl</h1>
-							<p>
-							Consequat at semper at, malesuada vitae urna. Vestibulum lobortis sed libero et convallis. Vestibulum ac lacus ligula. Quisque porta metus ac tellus consequat blandit. Nam at metus commodo, consectetur tellus pulvinar, suscipit ligula. Integer ultrices posuere mi vel tincidunt. Proin congue erat in arcu tempor malesuada non sodales mi.
-							</p>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tortor metus, et vehicula quam suscipit sit amet. Vivamus sit amet faucibus nulla. Phasellus in augue non turpis pharetra pharetra vitae a nisl. Curabitur quis sapien semper, bibendum neque eget, tincidunt turpis. Praesent vestibulum quis nulla at auctor. Ut pellentesque, ante vitae dignissim venenatis, lorem magna blandit nisl, et eleifend justo ligula ac urna. In hac habitasse platea dictumst. Integer venenatis ligula nec quam egestas condimentum. Donec quis sapien sit amet dui fermentum ullamcorper a non tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum consectetur pulvinar. Vivamus vel metus scelerisque, vestibulum dolor at, vestibulum arcu. Mauris posuere lacinia interdum. Cras justo sem, imperdiet in dui sit amet, accumsan bibendum dolor. Sed bibendum neque eget dapibus sagittis. 
-							</p>
-						</div>
-					</div>
+					<a href=""><i class="fa fa-windows"></i> windows</a>
+					<a href=""><i class="fa fa-steam"></i> steam</a>
+					<a href=""><i class="fa fa-android"></i> android</a>
+					<a href=""><i class="fa fa-apple"></i> osx</a>
+					<a href=""><i class="fa fa-linux"></i> linux</a>
 				</div>
 			</div>
-			
-			<div class="game">
-				<div class="img">
-					<a class="left" href="alone/index.html">
-						<img alt="alone" src="alone.png" />
-					</a>
-					<div class="rightinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<a class="right" href="chucknorris/index.html">
-						<img alt="chucknorris" src="chucknorris.png" />
-					</a>
-					<div class="leftinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="game">
-				<div class="img">
-					<a class="left" href="dudidadala/index.html">
-						<img alt="dudidadala" src="dudidadala.png" />
-					</a>
-					<div class="rightinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<a class="right" href="epictreasurehunter/index.html">
-						<img alt="epictreasurehunter" src="epictreasurehunter.png" />
-					</a>
-					<div class="leftinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="game">
-				<div class="img">
-					<a class="left" href="guru/index.html">
-						<img alt="guru" src="guru.png" />
-					</a>
-					<div class="rightinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<a class="right" href="infection/index.html">
-						<img alt="infection" src="infection.png" />
-					</a>
-					<div class="leftinfo">
-						<div>
-							Hello world
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="game">
-				<div class="img"><a class="left" href="letsgocaveburrowing/index.html"> <img alt="lets go cave burrowing" src="letsgocaveburrowing.png" /> </a><div class="rightinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-				<div class="img"><a class="right" href="survivors/index.html"> <img alt="survivors" src="survivors.png" /> </a><div class="leftinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-			</div>
-			
-			<div class="game">
-				<div class="img"><a class="left" href="tsp/index.html"> <img alt="tsp" src="tsp.png" /> </a>
-				<div class="rightinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-				<div class="img"><a class="right" href="worldwildwest/index.html"> <img alt="worldwildwest" src="worldwildwest.png" /> </a><div class="leftinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-			</div>
-			
-			<div class="game">
-				<div class="img"><a class="left" href="xplorer/index.html"> <img alt="xplorer" src="xplorer.png" /> </a><div class="rightinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-				<div class="img"><a class="right" href="escapethecolors/index.html"> <img alt="escapethecolors" src="escapethecolors.png" /> </a><div class="leftinfo">
-					<div>
-						Hello world
-					</div>
-				</div></div>
-			</div> 
+			-->
 		
 			<div class="spacer"><br /></div>
 			
 			<div id="sociallinks">
-				<a href="http://twitter.com/sirGustav">twitter</a> | <a href="http://www.ludumdare.com/compo/author/sirGustav/">ludum dare</a> | <a href="http://www.reddit.com/user/sirGustav/">reddit</a> | <a href="https://plus.google.com/photos/104914211472274668508/albums/5824570292610928049"> photos</a>
+				<a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i>twitter</a> | <a href="http://www.ludumdare.com/compo/author/sirGustav/">ludum dare</a> | <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i>
+ reddit</a> | <a href="https://plus.google.com/photos/104914211472274668508/albums/5824570292610928049"><i class="fa fa-camera"></i>photos</a>
 			</div>
 		</div>
 	</body>

@@ -3,9 +3,14 @@ a:link, a:visited
 	text-decoration: none;
 }
 
-a:hover
-{
-	text-decoration: underline;
+a {
+	padding-right: 6px;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
 }
 
 div#content
@@ -39,7 +44,7 @@ div#links
 	font-size: 20px;
 }
 
-.leftinfo, .rightinfo
+.info
 {
 	background-color:#fff;
 	opacity: 0.8;
@@ -51,12 +56,16 @@ div#links
 	font-size: 16px;
 }
 
-.leftinfo div, .rightinfo div
+div.gamefooter {
+	font-size: 16px;
+	padding: 3px;
+	padding-right: 6px;
+}
+
+.info div
 {
 	color:#000000;
 	padding: 10px;
-	background-color:#fff;
-	opacity:1.0;
 }
 
 div.game
@@ -66,17 +75,9 @@ div.game
 	top: 0px;
 }
 
-.leftinfo
+.info
 {
 	text-align:left;
-	position:absolute;
-	left:-450px;
-	top: 0px;
-}
-
-.rightinfo
-{
-	text-align:right;
 	position:absolute;
 	left:450px;
 	top: 0px;
@@ -123,17 +124,4 @@ div.inlinelink {
 div.inline {
 	margin: 10px;
 	padding: 0px;
-}
-
-img.grayscale {
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
-	filter: gray; /* IE6-9 */
-	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-	-webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
-	-webkit-backface-visibility: hidden; /* Fix for transition flickering */
-}
-
-img.grayscale:hover {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -webkit-filter: grayscale(0%);
 }
