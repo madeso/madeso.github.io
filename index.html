@@ -13,12 +13,21 @@
 	<body>
 		<script type="application/javascript" src="js/jquery-1.11.0.min.js"></script>
 		<script type="application/javascript" src="js/lightbox.min.js"></script>
+		<script type="">
+			$(document).ready(function(){
+				$("a#social").click(function(event){
+						event.preventDefault();
+						$("#sociallinks").slideToggle("fast");
+					});
+				}
+			)
+		</script>
 		
 		<div id="content">
 			<div id="title">Gustav Jansson - Software Developer</div>
 			<div id="links">
 				<a id="social" href=""><i class="fa fa-user"></i>&nbsp; social</a>&nbsp;&nbsp;
-				<a href="https://keybase.io/madeso"><i class="fa fa-external-link"></i>&nbsp; keybase.io</a>&nbsp;&nbsp;
+				<a href="https://keybase.io/madeso"><i class="fa fa-key"></i>&nbsp; keybase.io</a>&nbsp;&nbsp;
 				<a onclick="this.href='&#x6D;&#x61;&#x69;'+'&#x6C;&#x74;&#x6F;&#x3A;&#x73;&#x69;&#x72;&#x2E;&#x67;&#x75;'+'&#x73;&#x74;&#x61;&#x76;&#x2E;&#x74;'+'&#x68;&#x65;&#x2E;&#x63;&#x6F;&#x64;'+'&#x65;&#x72;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;'+'&#x63;&#x6F;&#x6D;'" href=""><i class="fa fa-envelope-o"></i>&nbsp; mail</a>&nbsp;&nbsp;
 				<a href="http://www.linkedin.com/in/gsmjansson"><i class="fa fa-linkedin"></i>&nbsp; linked in</a>
 			</div>
@@ -307,8 +316,7 @@
 			<div class="spacer"><br /></div>
 			
 			<div id="sociallinks">
-				<a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i>twitter</a> | <a href="http://www.ludumdare.com/compo/author/sirGustav/">ludum dare</a> | <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i>
- reddit</a> | <a href="https://plus.google.com/photos/104914211472274668508/albums/5824570292610928049"><i class="fa fa-camera"></i>photos</a>
+				<a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i>&nbsp;twitter</a> | <a href="http://www.ludumdare.com/compo/author/sirGustav/"><i class="fa fa-external-link"></i>&nbsp;ludum dare</a> | <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i>&nbsp;reddit</a> | <a href="https://plus.google.com/photos/104914211472274668508/albums/5824570292610928049"><i class="fa fa-camera"></i>&nbsp;photos</a>
 			</div>
 		</div>
 	</body>
