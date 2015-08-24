@@ -7,10 +7,10 @@ var game;
             });
         }
         Main.prototype.preload = function () {
-            this.game.load.image("titlescreen", "/assets/title.png");
-            this.game.load.spritesheet("player", "/assets/player.png", 128, 128);
-            this.game.load.tilemap("level1", "/assets/level1.json", null, Phaser.Tilemap.TILED_JSON);
-            this.game.load.spritesheet("tiles", "/assets/tiles.png", 128, 128);
+            this.game.load.image("titlescreen", "assets/title.png");
+            this.game.load.spritesheet("player", "assets/player.png", 128, 128);
+            this.game.load.tilemap("level1", "assets/level1.json", null, Phaser.Tilemap.TILED_JSON);
+            this.game.load.spritesheet("tiles", "assets/tiles.png", 128, 128);
         };
         Main.prototype.create = function () {
             this.game.state.add("title", ld33.TitleState, true);
