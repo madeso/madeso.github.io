@@ -1,0 +1,316 @@
+body
+{
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #77797C;
+}
+
+/* ------------------------------------------------------------------------ */
+
+div#header
+{
+  background: #fff none repeat scroll 0% 0%;
+  width: 100%;
+  text-align: left;
+  height: 50px;
+  
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 101;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div#headercontainer
+{
+  padding: 0;
+  position: relative;
+  margin: auto;
+  width: 982px;
+  overflow: visible;
+  white-space: nowrap;
+  padding: 0px;
+}
+
+#headercontainer a {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  
+  margin: 0px;
+  font-style: normal;
+  font-size-adjust: none;
+  text-decoration: none;
+  color: #aaa;
+  position: relative;
+  top: 10px;
+}
+
+#headercontainer a:hover {
+  color: #000;
+  background: #F0F2F3;
+}
+
+div#logo
+{
+  background: transparent url("ride-logo.png") no-repeat;
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+}
+
+div#headercontainer h1 {
+  position: absolute;
+  top: 0px;
+  left: 170px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+#body {
+  width: 100%;
+  max-width: 82em;
+  margin: 0px auto;
+}
+
+#head #content {
+  width: 100%;
+  max-width: 82em;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#footer div {
+  width: 100%;
+  max-width: 82em;
+  margin: 0px auto;
+}
+
+/* ------------------------------------------------------------------------ */
+
+#head {
+  background-color: #F0F2F3;
+  margin: 50px 0px 0px;
+}
+
+#head h1 {
+  color: #2D2D2D;
+  padding-top: 80px;
+  font-size: 40px;
+  max-width: 70%;
+  margin: 0px auto;
+  line-height: 1.3em;
+  font-weight: lighter;
+  display: block;
+}
+
+#content #download {
+  font-size: 18px;
+  background-color: #288EDF;
+  color: #fff;
+  font-weight: lighter;
+  border-radius: 6px;
+  outline: 0px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 30px;
+  transition: all 400ms ease 0s;
+}
+
+#content #download:hover {
+  background-color: #0A7CD4;
+  transition: all 400ms ease 0s;
+}
+
+#content #links {
+  padding-top: 3px;
+  padding-bottom: 60px;
+  white-space: nowrap
+}
+
+#links a {
+  font-weight: 400;
+  outline: 0px;
+  text-decoration: none;
+  color: #2098F5;
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+#head #content #frontimage {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#play {
+  position: absolute;
+  top: 100px;
+  font-size: 150px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#play a {
+  color: rgba(255,255,255, 0.8);
+}
+
+#play a:hover {
+  color: rgba(255,255,255, 1.0);
+}
+
+/* ------------------------------------------------------------------------ */
+
+#maininfo {
+  margin: 30px;
+  font-size: 27px;
+  line-height: 42px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.inforow {
+  position: relative;
+  height: 400px;
+}
+
+.inforow .left {
+  width: 375px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  max-height: 450px;
+  margin: auto 0px;
+}
+
+.inforow .right {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 400px;
+  top: 0px;
+}
+
+.left h3 {
+  font-size: 30px;
+}
+
+.left p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+#footer {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #F0F2F3;
+}
+
+#footer div {
+  text-align: right;
+  position: relative;
+  right: 40px;
+}
+
+#footer div a {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------ */
+
+#footer div .beating-heart {
+  color: red;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.beating-heart {
+  animation: beating-heart 1.2s ease infinite;
+}
+
+@keyframes beating-heart {
+  0% {
+    transform: scale(1);
+  }
+  
+  15% {
+    transform: scale(1.7);
+  }
+  
+  30% {
+    transform: scale(1);
+  }
+  
+  45% {
+    transform: scale(1.7);
+  }
+  
+  60% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+
+#os-support {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.anim3-1 {
+  animation: anim3 1.5s ease infinite;
+  animation-delay: 0.0s;
+}
+
+.anim3-2 {
+  animation: anim3 1.5s ease infinite;
+  animation-delay: 0.2s;
+}
+
+.anim3-3 {
+  animation: anim3 1.5s ease infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes anim3 {
+  0% {
+    transform: scale(1);
+  }
+  
+  10% {
+    transform: scale(2);
+  }
+  
+  20% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ------------------------------------------------------------------------ */
