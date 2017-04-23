@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devlog on Gustav Jansson</title>
+    <link>http://madeso.github.io/devlog/</link>
+    <description>Recent content in devlog on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
+    
+	<atom:link href="http://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>week15</title>
+      <link>http://madeso.github.io/devlog/week15/</link>
+      <pubDate>Mon, 17 Apr 2017 19:54:04 +0200</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week15/</guid>
+      <description>This week I continued working on gaf, now supporting json loading and default values, next up is array support (yay)</description>
+    </item>
+    
+    <item>
+      <title>week14</title>
+      <link>http://madeso.github.io/devlog/week14/</link>
+      <pubDate>Wed, 12 Apr 2017 15:16:00 +0200</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week14/</guid>
+      <description>I continued working on gaf, and currently it parses a few test files, generate some c++11 code and runs a few unit tests on Travis. Next up is adding Json io and enums or arrays</description>
+    </item>
+    
+    <item>
+      <title>week13</title>
+      <link>http://madeso.github.io/devlog/week13/</link>
+      <pubDate>Tue, 04 Apr 2017 23:41:57 +0200</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week13/</guid>
+      <description>Last week was kinda productive despite a birthday party in Germany. I finally started on gaf, the game format file format generator, and separated the game and the engine part of spacetyper into super and sub repos.</description>
+    </item>
+    
+    <item>
+      <title>week12</title>
+      <link>http://madeso.github.io/devlog/week12/</link>
+      <pubDate>Tue, 28 Mar 2017 23:23:55 +0200</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week12/</guid>
+      <description>Last week wasn&amp;rsquo;t that eventful. Life got in my way I guess so no code was neither written nor committed. Better luck next(this) week I guess&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>week11</title>
+      <link>http://madeso.github.io/devlog/week11/</link>
+      <pubDate>Mon, 20 Mar 2017 07:07:41 +0100</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week11/</guid>
+      <description>I did nothing at all this week except watching Netflix. I managed to watch the entire Jessica Jones season 1 though so I&amp;rsquo;m both proud and appalled about my accomplishment.</description>
+    </item>
+    
+    <item>
+      <title>week10</title>
+      <link>http://madeso.github.io/devlog/week10/</link>
+      <pubDate>Tue, 14 Mar 2017 00:21:39 +0100</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week10/</guid>
+      <description>I haven&amp;rsquo;t really been doing that much last week. Instead of staring designing or coding the 2d rendering system I started on separating the engine repo from the game repo, but nothing is complete yet. I hope I&amp;rsquo;ll be able to finish it this week.</description>
+    </item>
+    
+    <item>
+      <title>week9</title>
+      <link>http://madeso.github.io/devlog/week9/</link>
+      <pubDate>Mon, 06 Mar 2017 05:44:35 +0100</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week9/</guid>
+      <description>This week I didn&amp;rsquo;t do much, except implementing radix sort with count sort as the second sorter. Pretty standard I guess but it wasn&amp;rsquo;t in my toolbox library and I will need it for the upcoming render optimization</description>
+    </item>
+    
+    <item>
+      <title>week8</title>
+      <link>http://madeso.github.io/devlog/week8/</link>
+      <pubDate>Sun, 26 Feb 2017 12:25:31 +0100</pubDate>
+      
+      <guid>http://madeso.github.io/devlog/week8/</guid>
+      <description>This week I replaced the built-in assert with a custom one to get callstack information, and I&amp;rsquo;ve also finally completed the rewrite of the new opengl buffer rendering.</description>
+    </item>
+    
+  </channel>
+</rss>

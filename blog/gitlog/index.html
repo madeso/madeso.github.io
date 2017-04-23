@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="author" content=""/>
+
+  
+  
+  <meta property="twitter:title" content="A better git log">
+  
+      <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:description" content="">
+
+  <meta name="generator" content="Hugo 0.20.2" /><link rel="canonical" href="http://madeso.github.io/blog/gitlog/"> 
+  <title>A better git log</title>
+
+  <link rel="stylesheet" href="http://madeso.github.io/css/reset.css" />
+  <link rel="stylesheet" href="http://madeso.github.io/css/style.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="stylesheet" href="http://madeso.github.io/external/lightbox/css/lightbox.min.css">
+
+  <link rel="shortcut icon" href="http://madeso.github.io//favicon.ico" type="image/x-icon">
+  <link rel="icon" href="http://madeso.github.io//favicon.ico" type="image/x-icon">
+</head>
+
+<body lang="en" id="top">
+
+<div id="content">
+
+<img src="http://madeso.github.io/logo.png">
+
+<h1>Gustav Jansson</h1>
+<p>
+
+
+
+
+
+<a href="http://madeso.github.io/">home</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://madeso.github.io/devlog/">devlog</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://madeso.github.io/blog/">blog</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://madeso.github.io/project/">Projects</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://madeso.github.io/about/">about</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+<hr>
+<hr>
+
+
+
+
+
+
+
+<p>Wednesday, Feb 22, 2017 at 08:38</p>
+<a href="http://madeso.github.io/blog/gitlog/"><h3>A better git log</h3></a>
+
+
+
+
+<div class="markdown">
+
+
+
+
+
+
+
+<p>I&rsquo;ve just changed my git log command from the standard:</p>
+
+<p><a href="http://madeso.github.io/blog/gitlog/old.jpg" data-lightbox="blog-A better git log"><img src="http://madeso.github.io/blog/gitlog/old.jpg" alt=/></p ></a>
+
+<p>to the more compact and colorful:</p>
+
+<p><a href="http://madeso.github.io/blog/gitlog/new.jpg" data-lightbox="blog-A better git log"><img src="http://madeso.github.io/blog/gitlog/new.jpg" alt=/></p ></a>
+
+<p>It&rsquo;s simple to get this log. Just type in:</p>
+
+<pre><code class="language-shell">$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit
+</code></pre>
+
+<p>I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:</p>
+
+<pre><code class="language-shell">$ git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit&quot;
+</code></pre>
+
+<p>And every time you need to see your log, just type in</p>
+
+<pre><code class="language-shell">$ git lg
+</code></pre>
+
+<p>Everything here is shamelessly copied from this article: <a href="https://coderwall.com/p/euwpig/a-better-git-log">https://coderwall.com/p/euwpig/a-better-git-log</a></p>
+
+</div>
+
+
+  
+
+
+
+  <span class="post-meta">
+  
+    &nbsp;<a href="/tags/git">#git</a>
+  
+    &nbsp;<a href="/tags/log">#log</a>
+  
+    &nbsp;<a href="/tags/code">#code</a>
+  
+
+  or <a href="/tags/">(all)</a>
+  </span>
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+ <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
+ <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
+ <a href="https://github.com/madeso/"><i class="fa fa-github"></i></a> 
+ <a href="https://plus.google.com/photos/104914211472274668508/albums/5824570292610928049"><i class="fa fa-camera"></i></a> 
+ <a href="https://keybase.io/madeso"><i class="fa fa-key"></i></a> 
+ <a href="http://www.linkedin.com/in/gsmjansson"><i class="fa fa-linkedin"></i></a> 
+
+
+</div> 
+
+
+<script>
+$('a[href^="http:\/\/madeso.github.io\/blog\/gitlog\/#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>
+
+<script src="http://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
+
+</body>
+</html>
+
