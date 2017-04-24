@@ -1,3 +1,15 @@
+{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	line-height: 1.75em;
+  color: #313537;
+  font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+}
+
 a:link, a:visited
 {
 	text-decoration: none;
@@ -10,12 +22,169 @@ a {
 
 div#content
 {
-	width: 905px;
+	max-width: 805px;
 	margin:auto;
 	position: relative;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 90px;
 }
 
-.markdown img
+img, .screenshots img.screenshot
 {
-	max-width: 600px
+	max-width: 90%;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	vertical-align: middle;
+}
+
+#featuredprojects img
+{
+	max-width: 30%;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	vertical-align: middle;
+	padding-left: 1px;
+}
+
+.screenshots img.screenshot {
+	padding: 3px;
+}
+
+.screenshots {
+	display: inline-block;
+	float: none;
+}
+
+.post img {
+	display: block;
+	float: none;
+}
+
+.post {
+	margin-bottom: 80px;
+
+	/* temporary to fix mobile tight view */
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.to-top, .socialbuttons {
+	text-align: center;
+}
+
+.socialbuttons {
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+
+.socialbuttons a {
+	padding-right: 6px;
+}
+
+.featured {
+	display: inline-block;
+}
+
+#header {
+	display: block;
+	padding-bottom: 30px;
+}
+
+#header h1 {
+	font-size: 2em;
+	display: inline-block;
+}
+
+#header #toplinks {
+	display: block;
+}
+
+#header #mainlogo {
+	padding: 6px;
+	display: inline-block;
+}
+
+pre code {
+	font-family: 'Source Code Pro', monospace;
+}
+
+
+
+
+
+
+/* terminal design by http://codepen.io/simoami/pen/zstvo */
+.terminal-window {
+  text-align: left;
+  border-radius: 0px;
+	padding: 6px;
+}
+
+.terminal-window header {
+  background: #E0E8F0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+	border: 1px solid #AAA;
+	border-bottom: 0;
+}
+
+.terminal-window header .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 6px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.terminal-window header .button.green {
+  background: #3BB662;
+}
+
+.terminal-window header .button.yellow {
+  background: #E5C30F;
+}
+
+.terminal-window header .button.red {
+  background: #E75448;
+}
+
+.terminal-window section.terminal {
+  color: white;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+  padding: 10px;
+}
+
+.terminal-window  pre .language-shell {
+  background: #30353A;
+	color: white;
+}
+
+.terminal-window  pre .language-shell .hljs-meta {
+  color: gray;
+}
+
+.terminal-window  pre .language-shell .hljs-built_in {
+	color: white;
+}
+
+.terminal-window  pre .language-shell .hljs-string {
+  color: green;
+}
+
+.terminal-window .language-shell {
+	border: 0;
+	padding: 10px
+}
+
+.terminal-window pre {
+	border: 0;
+	padding: 0;
+	margin: 0;
 }

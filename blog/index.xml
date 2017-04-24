@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Gustav Jansson</title>
-    <link>http://madeso.github.io/blog/</link>
+    <link>https://madeso.github.io/blog/</link>
     <description>Recent content in blog on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 22:08:45 +0200</lastBuildDate>
     
-	<atom:link href="http://madeso.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://madeso.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shoelacing</title>
-      <link>http://madeso.github.io/blog/shoelacing/</link>
+      <link>https://madeso.github.io/blog/shoelacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/shoelacing/</guid>
+      <guid>https://madeso.github.io/blog/shoelacing/</guid>
       <description>I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!
 http://www.fieggen.com/shoelace/</description>
     </item>
     
     <item>
       <title>Keep your ubuntu-gnome from waking up at random</title>
-      <link>http://madeso.github.io/blog/gnomewakeup/</link>
+      <link>https://madeso.github.io/blog/gnomewakeup/</link>
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/gnomewakeup/</guid>
+      <guid>https://madeso.github.io/blog/gnomewakeup/</guid>
       <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.
 It is really quite simple. First you need to install it, unless you already have it installed:
 $ sudo apt-get install acpitool  Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
@@ -34,10 +34,10 @@ $ sudo apt-get install acpitool  Once it&amp;rsquo;s installed you can list what
     
     <item>
       <title>Non recursive file searching in Nautilus</title>
-      <link>http://madeso.github.io/blog/nonerecursivesearch/</link>
+      <link>https://madeso.github.io/blog/nonerecursivesearch/</link>
       <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/nonerecursivesearch/</guid>
+      <guid>https://madeso.github.io/blog/nonerecursivesearch/</guid>
       <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).
 This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.
 http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
@@ -45,10 +45,10 @@ http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</descriptio
     
     <item>
       <title>Revert google&#43; to a standard blogger profile on blogger</title>
-      <link>http://madeso.github.io/blog/googleplusblogger/</link>
+      <link>https://madeso.github.io/blog/googleplusblogger/</link>
       <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/googleplusblogger/</guid>
+      <guid>https://madeso.github.io/blog/googleplusblogger/</guid>
       <description>It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:
 http://www.blogger.com/revert-profile.g﻿
 Pretty simple but it took far too long to find it.</description>
@@ -56,29 +56,29 @@ Pretty simple but it took far too long to find it.</description>
     
     <item>
       <title>Folders before files in ubuntu</title>
-      <link>http://madeso.github.io/blog/foldersbeforefiles/</link>
+      <link>https://madeso.github.io/blog/foldersbeforefiles/</link>
       <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/foldersbeforefiles/</guid>
+      <guid>https://madeso.github.io/blog/foldersbeforefiles/</guid>
       <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:
 In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
     </item>
     
     <item>
       <title>Windows 10 wakes up from sleep at random</title>
-      <link>http://madeso.github.io/blog/win10wakeup/</link>
+      <link>https://madeso.github.io/blog/win10wakeup/</link>
       <pubDate>Fri, 26 Aug 2016 19:12:53 +0200</pubDate>
       
-      <guid>http://madeso.github.io/blog/win10wakeup/</guid>
+      <guid>https://madeso.github.io/blog/win10wakeup/</guid>
       <description>After upgrading to Windows 10, my computer started randomly waking up. This extensive guide on superuser has proven time and time again to be a perfect guide to keep windows from waking up.</description>
     </item>
     
     <item>
       <title>Test markdown</title>
-      <link>http://madeso.github.io/blog/test/</link>
+      <link>https://madeso.github.io/blog/test/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://madeso.github.io/blog/test/</guid>
+      <guid>https://madeso.github.io/blog/test/</guid>
       <description>Here&amp;rsquo;s a code chunk with syntax highlighting:
 var foo = function(x) { return(x + 5); } foo(3)  $ echo $EDITOR vim $ git checkout master Switched to branch &#39;master&#39; Your branch is up-to-date with &#39;origin/master&#39;. $ git push Everything up-to-date $ echo &#39;All &amp;gt; done!&#39; All done!  You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</description>
     </item>
