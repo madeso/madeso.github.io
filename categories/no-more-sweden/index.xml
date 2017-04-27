@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>No More Sweden on Gustav Jansson</title>
+    <link>https://madeso.github.io/categories/no-more-sweden/</link>
+    <description>Recent content in No More Sweden on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 22:25:42 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/categories/no-more-sweden/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chuck Norris The Demolition Dude</title>
+      <link>https://madeso.github.io/project/chucknorris/</link>
+      <pubDate>Fri, 21 Apr 2017 22:25:42 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/chucknorris/</guid>
+      <description>A old gamejam game. There is nothing really that can be done in the game, as I ran out of time, but there was a interesting mechaninc with roundhousekicking as a platform mechanic.</description>
+    </item>
+    
+    <item>
+      <title>Octohack</title>
+      <link>https://madeso.github.io/project/octohack/</link>
+      <pubDate>Fri, 21 Apr 2017 22:05:44 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/octohack/</guid>
+      <description>As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.</description>
+    </item>
+    
+    <item>
+      <title>Guru: the meaning of life</title>
+      <link>https://madeso.github.io/project/guru/</link>
+      <pubDate>Fri, 21 Apr 2017 22:04:21 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/guru/</guid>
+      <description>Find out the meaning of life while surfing on your beard.</description>
+    </item>
+    
+  </channel>
+</rss>

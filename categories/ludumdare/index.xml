@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ludumdare on Gustav Jansson</title>
+    <link>https://madeso.github.io/categories/ludumdare/</link>
+    <description>Recent content in Ludumdare on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Apr 2017 22:41:52 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/categories/ludumdare/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Mondrian crash</title>
+      <link>https://madeso.github.io/project/mondrian/</link>
+      <pubDate>Sun, 23 Apr 2017 22:41:52 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/mondrian/</guid>
+      <description>Score points by building chains and destroying them with explosions.</description>
+    </item>
+    
+    <item>
+      <title>Xplorer</title>
+      <link>https://madeso.github.io/project/xplorer/</link>
+      <pubDate>Fri, 21 Apr 2017 22:06:06 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/xplorer/</guid>
+      <description>Two player turn based game about exploring.</description>
+    </item>
+    
+    <item>
+      <title>Traveling salesman problem</title>
+      <link>https://madeso.github.io/project/tsp/</link>
+      <pubDate>Fri, 21 Apr 2017 22:05:56 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/tsp/</guid>
+      <description>Another ludum dare game. This time I decided that game maker would be a good fit, so of I went. You play as a salesman, pick up lumber from trees and gold from miners and sell stuff but avoid the pirates por be prepared to fight.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s go cave burrowing</title>
+      <link>https://madeso.github.io/project/letsgocaveburrowing/</link>
+      <pubDate>Fri, 21 Apr 2017 22:05:36 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/letsgocaveburrowing/</guid>
+      <description>This was my first ludum dare. I managed to get something playable but there isn&amp;rsquo;t much of a gameplay. Still pretty good for 48 hours and C++ from scratch.</description>
+    </item>
+    
+    <item>
+      <title>The Furry Fours vs. Goatie the EVIL Goat</title>
+      <link>https://madeso.github.io/project/goatie/</link>
+      <pubDate>Fri, 21 Apr 2017 22:05:23 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/goatie/</guid>
+      <description>Play as a the evil goat and kill innocent small rabbits and kill the heroes.
+This ludum dare I spent most of the time on the transitions and never really had the time to make the gmaeplay interesting. It&amp;rsquo;s function but not much else. It&amp;rsquo;s unfortunate since I really like the graphics and transitions.</description>
+    </item>
+    
+    <item>
+      <title>A scientific experiment</title>
+      <link>https://madeso.github.io/project/ascientificexperiment/</link>
+      <pubDate>Fri, 21 Apr 2017 22:04:50 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/ascientificexperiment/</guid>
+      <description>Play as a cat, a rat or a skunk , their children and their childrens children. Die, mate and evolve while killing squiggles.</description>
+    </item>
+    
+    <item>
+      <title>You can&#39;t escape the colors!</title>
+      <link>https://madeso.github.io/project/escapethecolors/</link>
+      <pubDate>Fri, 21 Apr 2017 22:04:31 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/escapethecolors/</guid>
+      <description>Move the cursors away from the red items, charge and explode converting all reds into blue scores that need to be picked up before red can convert them.
+Somewhat inspired by a mini game seen from somewhere and it shows. Not really a good game but kinda fun and from concept to implementation was less than a day so that&amp;rsquo;s good I guess.</description>
+    </item>
+    
+    <item>
+      <title>Epic Treasure Hunt</title>
+      <link>https://madeso.github.io/project/epictreasurehunt/</link>
+      <pubDate>Fri, 21 Apr 2017 22:04:16 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/epictreasurehunt/</guid>
+      <description>Climb around, throw stones at monkeys and find treasures. A somewhat failed attempt at humor in games and long boring/grinding levels.</description>
+    </item>
+    
+    <item>
+      <title>dudidadala</title>
+      <link>https://madeso.github.io/project/dudidadala/</link>
+      <pubDate>Fri, 21 Apr 2017 22:03:59 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/dudidadala/</guid>
+      <description>Mario-esc jump and shoot kinda game.</description>
+    </item>
+    
+    <item>
+      <title>Alone</title>
+      <link>https://madeso.github.io/project/alone/</link>
+      <pubDate>Fri, 21 Apr 2017 22:03:48 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/alone/</guid>
+      <description>Basic 2d shooter that never ends. Becomes a little tactical since the different enemies require you to aim and a limmited amount of bullets force you to venture to the middle of the level.</description>
+    </item>
+    
+    <item>
+      <title>A spawn named bob</title>
+      <link>https://madeso.github.io/project/aspawnnamedbob/</link>
+      <pubDate>Fri, 21 Apr 2017 22:03:05 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/aspawnnamedbob/</guid>
+      <description>Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free Time on Gustav Jansson</title>
+    <link>https://madeso.github.io/categories/free-time/</link>
+    <description>Recent content in Free Time on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/categories/free-time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ride</title>
+      <link>https://madeso.github.io/project/ride/</link>
+      <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/ride/</guid>
+      <description>A somewhat work in progress of my Rust IDE, currently written in C++.</description>
+    </item>
+    
+    <item>
+      <title>World editor</title>
+      <link>https://madeso.github.io/project/wed/</link>
+      <pubDate>Fri, 21 Apr 2017 22:29:03 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/wed/</guid>
+      <description>A basic world editor inspired by sketchup.</description>
+    </item>
+    
+    <item>
+      <title>Survivors</title>
+      <link>https://madeso.github.io/project/survivors/</link>
+      <pubDate>Fri, 21 Apr 2017 22:28:56 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/survivors/</guid>
+      <description>A failed reboot of my previous game Infection.</description>
+    </item>
+    
+    <item>
+      <title>4th Dimension</title>
+      <link>https://madeso.github.io/project/4thdimension/</link>
+      <pubDate>Fri, 21 Apr 2017 22:24:09 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/4thdimension/</guid>
+      <description>A clone of a really old game on mac I played.</description>
+    </item>
+    
+    <item>
+      <title>Infection</title>
+      <link>https://madeso.github.io/project/infection/</link>
+      <pubDate>Fri, 21 Apr 2017 22:03:32 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/infection/</guid>
+      <description>Infection is a unfinished FPS that I worked on between 2002-2004.</description>
+    </item>
+    
+    <item>
+      <title>Lolball</title>
+      <link>https://madeso.github.io/project/lolball/</link>
+      <pubDate>Fri, 21 Apr 2017 22:03:12 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/lolball/</guid>
+      <description>Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.</description>
+    </item>
+    
+  </channel>
+</rss>

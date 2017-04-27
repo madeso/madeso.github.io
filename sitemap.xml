@@ -217,6 +217,18 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/categories/4e/</loc>
+    <lastmod>2017-04-21T22:06:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/categories/apps/</loc>
+    <lastmod>2017-04-21T22:30:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/tags/blogger/</loc>
     <lastmod>2016-08-26T19:29:53+02:00</lastmod>
     <priority>0</priority>
@@ -224,6 +236,7 @@
   
   <url>
     <loc>https://madeso.github.io/categories/</loc>
+    <lastmod>2017-04-21T22:06:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,6 +249,18 @@
   <url>
     <loc>https://madeso.github.io/tags/example/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/categories/free-time/</loc>
+    <lastmod>2017-04-21T22:30:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/categories/games/</loc>
+    <lastmod>2017-04-23T22:41:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -282,6 +307,12 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/categories/ludumdare/</loc>
+    <lastmod>2017-04-23T22:41:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -290,6 +321,12 @@
   <url>
     <loc>https://madeso.github.io/tags/nautilus/</loc>
     <lastmod>2016-08-27T13:07:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/categories/no-more-sweden/</loc>
+    <lastmod>2017-04-21T22:25:42+02:00</lastmod>
     <priority>0</priority>
   </url>
   
