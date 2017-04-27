@@ -6,10 +6,21 @@
     <description>Recent content in No More Sweden on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2014 01:07:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 01:31:06 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/categories/no-more-sweden/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sloth Dictator</title>
+      <link>https://madeso.github.io/project/slothdictator/</link>
+      <pubDate>Sun, 19 Jul 2015 01:31:06 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/slothdictator/</guid>
+      <description>The Sloth dictator and his sloth generals are overseeing the Slothlympics.
+Compete in the role of one of four animals and mash that button to get first to the finish line, but be careful: the dictator wants you to go slowly, so if they see you going fast, you&amp;rsquo;ll be penalized!
+Mash the button to go faster, and use the other two to change lanes. If you get behind another runner, you can push them to make them go fast, and be penalized!</description>
+    </item>
     
     <item>
       <title>Bad Dude</title>

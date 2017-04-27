@@ -6,19 +6,10 @@
     <description>Recent content in Games on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Apr 2017 01:12:27 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jan 2017 01:03:26 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/categories/games/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Untitled Lududm Dare 2014</title>
-      <link>https://madeso.github.io/project/musicgame/</link>
-      <pubDate>Fri, 28 Apr 2017 01:12:27 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/musicgame/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Wave Ohoy</title>
@@ -35,7 +26,7 @@
       <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/truckgame/</guid>
-      <description></description>
+      <description>Pseudo-3D game with a top-down view where 2 cats drive water supply trucks through the desert. Each player must try to destroy the other truck with weaponry, or by gaining a considerable lead.</description>
     </item>
     
     <item>
@@ -44,7 +35,29 @@
       <pubDate>Sun, 31 Jan 2016 00:58:29 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/officerituals/</guid>
-      <description></description>
+      <description>Just another day at the office. Drink loads of coffee. Smoke cigarettes. Take credit for your co workers accomplishments. Go to pointless meetings and avoid getting fired.
+Drink coffee and smoke so that you can work efficiently. Everyone is working on the same project, but you win if you did most of the work ! You can steal each other&amp;rsquo;s work by working at someone else&amp;rsquo;s desk.
+Oh, also, don&amp;rsquo;t miss the meetings or your Boss will be angry!</description>
+    </item>
+    
+    <item>
+      <title>Sloth Dictator</title>
+      <link>https://madeso.github.io/project/slothdictator/</link>
+      <pubDate>Sun, 19 Jul 2015 01:31:06 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/slothdictator/</guid>
+      <description>The Sloth dictator and his sloth generals are overseeing the Slothlympics.
+Compete in the role of one of four animals and mash that button to get first to the finish line, but be careful: the dictator wants you to go slowly, so if they see you going fast, you&amp;rsquo;ll be penalized!
+Mash the button to go faster, and use the other two to change lanes. If you get behind another runner, you can push them to make them go fast, and be penalized!</description>
+    </item>
+    
+    <item>
+      <title>The Forrest Of Unconditional Love</title>
+      <link>https://madeso.github.io/project/forrest/</link>
+      <pubDate>Sun, 24 May 2015 01:40:41 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/forrest/</guid>
+      <description>Experience the feeling of beeing a giant on a cabin in the woods looking at cute animals and enjoying life.</description>
     </item>
     
     <item>
@@ -53,7 +66,7 @@
       <pubDate>Sun, 08 Feb 2015 01:05:09 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/roomy/</guid>
-      <description></description>
+      <description>Get ouside the room. The most obvious is to use the key, but will that get you out?</description>
     </item>
     
     <item>
@@ -62,6 +75,15 @@
       <pubDate>Thu, 28 Aug 2014 01:07:04 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/baddude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Musicgame</title>
+      <link>https://madeso.github.io/project/musicgame/</link>
+      <pubDate>Mon, 28 Apr 2014 01:12:27 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/musicgame/</guid>
       <description></description>
     </item>
     
