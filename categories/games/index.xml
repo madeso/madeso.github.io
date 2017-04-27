@@ -6,96 +6,87 @@
     <description>Recent content in Games on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2017 22:41:52 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2017 01:12:27 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/categories/games/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Untitled Lududm Dare 2014</title>
+      <link>https://madeso.github.io/project/musicgame/</link>
+      <pubDate>Fri, 28 Apr 2017 01:12:27 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/musicgame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wave Ohoy</title>
+      <link>https://madeso.github.io/project/waveohoy/</link>
+      <pubDate>Sun, 22 Jan 2017 01:03:26 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/waveohoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truck game</title>
+      <link>https://madeso.github.io/project/truckgame/</link>
+      <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/truckgame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office rituals</title>
+      <link>https://madeso.github.io/project/officerituals/</link>
+      <pubDate>Sun, 31 Jan 2016 00:58:29 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/officerituals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roomy</title>
+      <link>https://madeso.github.io/project/roomy/</link>
+      <pubDate>Sun, 08 Feb 2015 01:05:09 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/roomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bad Dude</title>
+      <link>https://madeso.github.io/project/baddude/</link>
+      <pubDate>Thu, 28 Aug 2014 01:07:04 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/baddude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Untitled Lududm Dare 2014 Game</title>
+      <link>https://madeso.github.io/project/ld14/</link>
+      <pubDate>Mon, 28 Apr 2014 01:10:38 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/ld14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Mondrian crash</title>
       <link>https://madeso.github.io/project/mondrian/</link>
-      <pubDate>Sun, 23 Apr 2017 22:41:52 +0200</pubDate>
+      <pubDate>Tue, 23 Apr 2013 22:41:52 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/mondrian/</guid>
       <description>Score points by building chains and destroying them with explosions.</description>
     </item>
     
     <item>
-      <title>Survivors</title>
-      <link>https://madeso.github.io/project/survivors/</link>
-      <pubDate>Fri, 21 Apr 2017 22:28:56 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/survivors/</guid>
-      <description>A failed reboot of my previous game Infection.</description>
-    </item>
-    
-    <item>
-      <title>Chuck Norris The Demolition Dude</title>
-      <link>https://madeso.github.io/project/chucknorris/</link>
-      <pubDate>Fri, 21 Apr 2017 22:25:42 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/chucknorris/</guid>
-      <description>A old gamejam game. There is nothing really that can be done in the game, as I ran out of time, but there was a interesting mechaninc with roundhousekicking as a platform mechanic.</description>
-    </item>
-    
-    <item>
-      <title>4th Dimension</title>
-      <link>https://madeso.github.io/project/4thdimension/</link>
-      <pubDate>Fri, 21 Apr 2017 22:24:09 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/4thdimension/</guid>
-      <description>A clone of a really old game on mac I played.</description>
-    </item>
-    
-    <item>
-      <title>Xplorer</title>
-      <link>https://madeso.github.io/project/xplorer/</link>
-      <pubDate>Fri, 21 Apr 2017 22:06:06 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/xplorer/</guid>
-      <description>Two player turn based game about exploring.</description>
-    </item>
-    
-    <item>
-      <title>World wild west</title>
-      <link>https://madeso.github.io/project/www/</link>
-      <pubDate>Fri, 21 Apr 2017 22:06:00 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/www/</guid>
-      <description>Created for the 4e5 gamedev.net competition, this somewhat ambitious c++ ogree game was made. A bit too ambitious for the time I had available because unfortunatley time ran out and it&amp;rsquo;s mostly unfinished. It still contains some fun elements.</description>
-    </item>
-    
-    <item>
-      <title>Traveling salesman problem</title>
-      <link>https://madeso.github.io/project/tsp/</link>
-      <pubDate>Fri, 21 Apr 2017 22:05:56 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/tsp/</guid>
-      <description>Another ludum dare game. This time I decided that game maker would be a good fit, so of I went. You play as a salesman, pick up lumber from trees and gold from miners and sell stuff but avoid the pirates por be prepared to fight.</description>
-    </item>
-    
-    <item>
-      <title>Octohack</title>
-      <link>https://madeso.github.io/project/octohack/</link>
-      <pubDate>Fri, 21 Apr 2017 22:05:44 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/octohack/</guid>
-      <description>As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.</description>
-    </item>
-    
-    <item>
-      <title>Let&#39;s go cave burrowing</title>
-      <link>https://madeso.github.io/project/letsgocaveburrowing/</link>
-      <pubDate>Fri, 21 Apr 2017 22:05:36 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/letsgocaveburrowing/</guid>
-      <description>This was my first ludum dare. I managed to get something playable but there isn&amp;rsquo;t much of a gameplay. Still pretty good for 48 hours and C++ from scratch.</description>
-    </item>
-    
-    <item>
       <title>The Furry Fours vs. Goatie the EVIL Goat</title>
       <link>https://madeso.github.io/project/goatie/</link>
-      <pubDate>Fri, 21 Apr 2017 22:05:23 +0200</pubDate>
+      <pubDate>Fri, 21 Dec 2012 22:05:23 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/goatie/</guid>
       <description>Play as a the evil goat and kill innocent small rabbits and kill the heroes.
@@ -105,16 +96,34 @@ This ludum dare I spent most of the time on the transitions and never really had
     <item>
       <title>A scientific experiment</title>
       <link>https://madeso.github.io/project/ascientificexperiment/</link>
-      <pubDate>Fri, 21 Apr 2017 22:04:50 +0200</pubDate>
+      <pubDate>Tue, 21 Aug 2012 22:04:50 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/ascientificexperiment/</guid>
       <description>Play as a cat, a rat or a skunk , their children and their childrens children. Die, mate and evolve while killing squiggles.</description>
     </item>
     
     <item>
+      <title>Octohack</title>
+      <link>https://madeso.github.io/project/octohack/</link>
+      <pubDate>Sun, 12 Aug 2012 22:05:44 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/octohack/</guid>
+      <description>As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.</description>
+    </item>
+    
+    <item>
+      <title>Alone</title>
+      <link>https://madeso.github.io/project/alone/</link>
+      <pubDate>Wed, 21 Dec 2011 22:03:48 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/alone/</guid>
+      <description>Basic 2d shooter that never ends. Becomes a little tactical since the different enemies require you to aim and a limmited amount of bullets force you to venture to the middle of the level.</description>
+    </item>
+    
+    <item>
       <title>You can&#39;t escape the colors!</title>
       <link>https://madeso.github.io/project/escapethecolors/</link>
-      <pubDate>Fri, 21 Apr 2017 22:04:31 +0200</pubDate>
+      <pubDate>Sun, 21 Aug 2011 22:04:31 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/escapethecolors/</guid>
       <description>Move the cursors away from the red items, charge and explode converting all reds into blue scores that need to be picked up before red can convert them.
@@ -124,64 +133,118 @@ Somewhat inspired by a mini game seen from somewhere and it shows. Not really a 
     <item>
       <title>Guru: the meaning of life</title>
       <link>https://madeso.github.io/project/guru/</link>
-      <pubDate>Fri, 21 Apr 2017 22:04:21 +0200</pubDate>
+      <pubDate>Sun, 07 Aug 2011 22:04:21 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/guru/</guid>
       <description>Find out the meaning of life while surfing on your beard.</description>
     </item>
     
     <item>
+      <title>A spawn named bob</title>
+      <link>https://madeso.github.io/project/aspawnnamedbob/</link>
+      <pubDate>Thu, 21 Apr 2011 22:03:05 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/aspawnnamedbob/</guid>
+      <description>Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.</description>
+    </item>
+    
+    <item>
       <title>Epic Treasure Hunt</title>
       <link>https://madeso.github.io/project/epictreasurehunt/</link>
-      <pubDate>Fri, 21 Apr 2017 22:04:16 +0200</pubDate>
+      <pubDate>Tue, 21 Dec 2010 22:04:16 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/epictreasurehunt/</guid>
       <description>Climb around, throw stones at monkeys and find treasures. A somewhat failed attempt at humor in games and long boring/grinding levels.</description>
     </item>
     
     <item>
+      <title>Chuck Norris The Demolition Dude</title>
+      <link>https://madeso.github.io/project/chucknorris/</link>
+      <pubDate>Sat, 21 Aug 2010 22:25:42 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/chucknorris/</guid>
+      <description>A old gamejam game. There is nothing really that can be done in the game, as I ran out of time, but there was a interesting mechaninc with roundhousekicking as a platform mechanic.</description>
+    </item>
+    
+    <item>
       <title>dudidadala</title>
       <link>https://madeso.github.io/project/dudidadala/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:59 +0200</pubDate>
+      <pubDate>Sat, 21 Aug 2010 22:03:59 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/dudidadala/</guid>
       <description>Mario-esc jump and shoot kinda game.</description>
     </item>
     
     <item>
-      <title>Alone</title>
-      <link>https://madeso.github.io/project/alone/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:48 +0200</pubDate>
+      <title>Traveling salesman problem</title>
+      <link>https://madeso.github.io/project/tsp/</link>
+      <pubDate>Sun, 11 Apr 2010 22:05:56 +0200</pubDate>
       
-      <guid>https://madeso.github.io/project/alone/</guid>
-      <description>Basic 2d shooter that never ends. Becomes a little tactical since the different enemies require you to aim and a limmited amount of bullets force you to venture to the middle of the level.</description>
+      <guid>https://madeso.github.io/project/tsp/</guid>
+      <description>Another ludum dare game. This time I decided that game maker would be a good fit, so of I went. You play as a salesman, pick up lumber from trees and gold from miners and sell stuff but avoid the pirates por be prepared to fight.</description>
     </item>
     
     <item>
-      <title>Infection</title>
-      <link>https://madeso.github.io/project/infection/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:32 +0200</pubDate>
+      <title>Xplorer</title>
+      <link>https://madeso.github.io/project/xplorer/</link>
+      <pubDate>Fri, 11 Dec 2009 22:06:06 +0200</pubDate>
       
-      <guid>https://madeso.github.io/project/infection/</guid>
-      <description>Infection is a unfinished FPS that I worked on between 2002-2004.</description>
+      <guid>https://madeso.github.io/project/xplorer/</guid>
+      <description>Two player turn based game about exploring.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s go cave burrowing</title>
+      <link>https://madeso.github.io/project/letsgocaveburrowing/</link>
+      <pubDate>Fri, 21 Aug 2009 22:05:36 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/letsgocaveburrowing/</guid>
+      <description>This was my first ludum dare. I managed to get something playable but there isn&amp;rsquo;t much of a gameplay. Still pretty good for 48 hours and C++ from scratch.</description>
+    </item>
+    
+    <item>
+      <title>4th Dimension</title>
+      <link>https://madeso.github.io/project/4thdimension/</link>
+      <pubDate>Wed, 21 Nov 2007 22:24:09 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/4thdimension/</guid>
+      <description>So&amp;hellip; In my quest to make a complete game with each engine, here is my second game. My first game was made with a homegrown 3d engine in OpenGL with ODE. This one however is in 2d and uses HGE and bass(through HGE). My previous game was made in a month, this was made in a week. The Game The game itself is based on a really old game for the mac that I liked, and I think it was called The 4th dimension, though I can only find a game dev company called 4th dimension.</description>
+    </item>
+    
+    <item>
+      <title>Survivors</title>
+      <link>https://madeso.github.io/project/survivors/</link>
+      <pubDate>Sat, 21 Apr 2007 22:28:56 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/survivors/</guid>
+      <description>A failed reboot of my previous game Infection.</description>
     </item>
     
     <item>
       <title>Lolball</title>
       <link>https://madeso.github.io/project/lolball/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:12 +0200</pubDate>
+      <pubDate>Wed, 21 Mar 2007 22:03:12 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/lolball/</guid>
       <description>Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.</description>
     </item>
     
     <item>
-      <title>A spawn named bob</title>
-      <link>https://madeso.github.io/project/aspawnnamedbob/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:05 +0200</pubDate>
+      <title>World wild west</title>
+      <link>https://madeso.github.io/project/www/</link>
+      <pubDate>Wed, 21 Jun 2006 22:06:00 +0200</pubDate>
       
-      <guid>https://madeso.github.io/project/aspawnnamedbob/</guid>
-      <description>Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.</description>
+      <guid>https://madeso.github.io/project/www/</guid>
+      <description>Created for the 4e5 gamedev.net competition, this somewhat ambitious c++ ogree game was made. A bit too ambitious for the time I had available because unfortunatley time ran out and it&amp;rsquo;s mostly unfinished. It still contains some fun elements.</description>
+    </item>
+    
+    <item>
+      <title>Infection</title>
+      <link>https://madeso.github.io/project/infection/</link>
+      <pubDate>Wed, 21 Jan 2004 22:03:32 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/infection/</guid>
+      <description>Infection is a unfinished FPS that I worked on between 2002-2004.</description>
     </item>
     
   </channel>

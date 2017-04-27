@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>4th Dimension</title>
+      <link>https://madeso.github.io/project/4thdimension/</link>
+      <pubDate>Wed, 21 Nov 2007 22:24:09 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/4thdimension/</guid>
+      <description>So&amp;hellip; In my quest to make a complete game with each engine, here is my second game. My first game was made with a homegrown 3d engine in OpenGL with ODE. This one however is in 2d and uses HGE and bass(through HGE). My previous game was made in a month, this was made in a week. The Game The game itself is based on a really old game for the mac that I liked, and I think it was called The 4th dimension, though I can only find a game dev company called 4th dimension.</description>
+    </item>
+    
+    <item>
       <title>World editor</title>
       <link>https://madeso.github.io/project/wed/</link>
-      <pubDate>Fri, 21 Apr 2017 22:29:03 +0200</pubDate>
+      <pubDate>Sat, 21 Apr 2007 22:29:03 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/wed/</guid>
       <description>A basic world editor inspired by sketchup.</description>
@@ -32,37 +41,28 @@
     <item>
       <title>Survivors</title>
       <link>https://madeso.github.io/project/survivors/</link>
-      <pubDate>Fri, 21 Apr 2017 22:28:56 +0200</pubDate>
+      <pubDate>Sat, 21 Apr 2007 22:28:56 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/survivors/</guid>
       <description>A failed reboot of my previous game Infection.</description>
     </item>
     
     <item>
-      <title>4th Dimension</title>
-      <link>https://madeso.github.io/project/4thdimension/</link>
-      <pubDate>Fri, 21 Apr 2017 22:24:09 +0200</pubDate>
+      <title>Lolball</title>
+      <link>https://madeso.github.io/project/lolball/</link>
+      <pubDate>Wed, 21 Mar 2007 22:03:12 +0200</pubDate>
       
-      <guid>https://madeso.github.io/project/4thdimension/</guid>
-      <description>A clone of a really old game on mac I played.</description>
+      <guid>https://madeso.github.io/project/lolball/</guid>
+      <description>Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.</description>
     </item>
     
     <item>
       <title>Infection</title>
       <link>https://madeso.github.io/project/infection/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:32 +0200</pubDate>
+      <pubDate>Wed, 21 Jan 2004 22:03:32 +0200</pubDate>
       
       <guid>https://madeso.github.io/project/infection/</guid>
       <description>Infection is a unfinished FPS that I worked on between 2002-2004.</description>
-    </item>
-    
-    <item>
-      <title>Lolball</title>
-      <link>https://madeso.github.io/project/lolball/</link>
-      <pubDate>Fri, 21 Apr 2017 22:03:12 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/lolball/</guid>
-      <description>Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.</description>
     </item>
     
   </channel>
