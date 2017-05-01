@@ -46,7 +46,8 @@ img, .screenshots img.screenshot
 
 #featuredprojects img
 {
-	max-width: 32%;
+	/* image size should be 250 * 180  */
+	width: 32%;
 	margin: 0;
 	padding: 0;
 	display: inline;
@@ -240,6 +241,14 @@ a:hover img.screenshot {
 }
 
 
+div.bigimage {
+	width: 100%;
+}
+
+div.bigimage img.bigimage {
+	width: 100%;
+	max-width: 100%;
+}
 
 
 /* terminal design by http://codepen.io/simoami/pen/zstvo */
