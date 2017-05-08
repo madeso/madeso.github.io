@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>week18</title>
+      <link>https://madeso.github.io/devlog/week18/</link>
+      <pubDate>Mon, 08 May 2017 21:07:52 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week18/</guid>
+      <description>This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.</description>
+    </item>
+    
+    <item>
       <title>week17</title>
       <link>https://madeso.github.io/devlog/week17/</link>
       <pubDate>Mon, 01 May 2017 20:46:12 +0200</pubDate>
