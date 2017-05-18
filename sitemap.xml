@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://madeso.github.io/blog/spotify-windows-ssd/</loc>
+    <lastmod>2017-05-18T07:28:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/devlog/week19/</loc>
     <lastmod>2017-05-15T08:42:27+02:00</lastmod>
   </url>
@@ -421,6 +426,18 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/tags/spotify/</loc>
+    <lastmod>2017-05-18T07:28:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/ssd/</loc>
+    <lastmod>2017-05-18T07:28:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/tags/</loc>
     <lastmod>2016-08-26T19:29:53+02:00</lastmod>
     <priority>0</priority>
@@ -434,7 +451,7 @@
   
   <url>
     <loc>https://madeso.github.io/tags/windows/</loc>
-    <lastmod>2016-08-26T19:12:53+02:00</lastmod>
+    <lastmod>2017-05-18T07:28:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   

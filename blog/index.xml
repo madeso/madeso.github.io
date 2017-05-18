@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>A fix for spotify filling up the C: drive</title>
+      <link>https://madeso.github.io/blog/spotify-windows-ssd/</link>
+      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/spotify-windows-ssd/</guid>
+      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.
+It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
+    </item>
+    
+    <item>
       <title>Shoelacing</title>
       <link>https://madeso.github.io/blog/shoelacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
