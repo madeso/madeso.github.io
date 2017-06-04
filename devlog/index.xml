@@ -12,12 +12,21 @@
     
     
     <item>
+      <title>week22</title>
+      <link>https://madeso.github.io/devlog/week22/</link>
+      <pubDate>Sun, 04 Jun 2017 21:22:50 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week22/</guid>
+      <description>This week started with a small project of creating a tracery.io commandline application in C++. It currently missing some advanced features but it was a nice break in the great konmari cleansing.</description>
+    </item>
+    
+    <item>
       <title>week21</title>
       <link>https://madeso.github.io/devlog/week21/</link>
       <pubDate>Tue, 30 May 2017 07:19:39 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week21/</guid>
-      <description>This was a little bit better. I watched a little bit of netflit, but converted the current deploy script from bash to python so I, in the future, can add more advanced image rezising functions that hugo currently doesnt support. Then I pretty much started the konmari appartment cleanup so I guess I wont get much development stuff done for a couple of weeks.</description>
+      <description>This was a little bit better. I watched a little bit of netflix, but converted the current deploy script from bash to python so I, in the future, can add more advanced image rezising functions that hugo currently doesnt support. Then I pretty much started the konmari appartment cleanup so I guess I wont get much development stuff done for a couple of weeks.</description>
     </item>
     
     <item>
