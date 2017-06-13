@@ -6,10 +6,19 @@
     <description>Recent content in In 48 Hours on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2017 01:03:26 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/categories/in-48-hours/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Looking for love</title>
+      <link>https://madeso.github.io/project/looking-for-love/</link>
+      <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/project/looking-for-love/</guid>
+      <description>In this experience you wait for a bus that never seems to come and can take out your phone and try to look for love.</description>
+    </item>
     
     <item>
       <title>Wave Ohoy</title>
