@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Week25</title>
+      <link>https://madeso.github.io/devlog/week25/</link>
+      <pubDate>Thu, 29 Jun 2017 21:07:47 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week25/</guid>
+      <description>This week I started on a project called nodecalc. It aims to replace my need for most excel/open office calc needs by calculating expressions in a graph like manner instead of referencing cells.</description>
+    </item>
+    
+    <item>
       <title>Week24</title>
       <link>https://madeso.github.io/devlog/week24/</link>
       <pubDate>Thu, 22 Jun 2017 07:16:31 +0200</pubDate>
