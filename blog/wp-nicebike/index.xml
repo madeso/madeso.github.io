@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Say, that&#39;s a nice bike on Gustav Jansson</title>
+    <link>https://madeso.github.io/blog/wp-nicebike/</link>
+    <description>Recent content in Say, that&#39;s a nice bike on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2009 11:22:52 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/blog/wp-nicebike/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

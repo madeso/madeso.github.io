@@ -278,6 +278,11 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/blog/wp-notdead/</loc>
+    <lastmod>2010-05-04T12:19:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/project/tsp/</loc>
     <lastmod>2010-04-11T22:05:56+02:00</lastmod>
   </url>
@@ -288,8 +293,98 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/blog/wp-busy/</loc>
+    <lastmod>2009-11-01T12:16:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-temptation/</loc>
+    <lastmod>2009-09-24T12:12:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/project/letsgocaveburrowing/</loc>
     <lastmod>2009-08-21T22:05:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-epicfail/</loc>
+    <lastmod>2009-07-29T11:26:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-nicebike/</loc>
+    <lastmod>2009-07-14T11:22:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-nomoresweden/</loc>
+    <lastmod>2009-07-13T11:20:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-yofrankie/</loc>
+    <lastmod>2009-07-06T11:18:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-ui-excursions/</loc>
+    <lastmod>2009-06-25T11:08:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-tetris-sacked/</loc>
+    <lastmod>2009-06-07T11:06:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-darkangel/</loc>
+    <lastmod>2009-06-02T11:02:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-stairway/</loc>
+    <lastmod>2009-05-23T11:01:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-foobar/</loc>
+    <lastmod>2009-05-13T10:55:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-shellbone/</loc>
+    <lastmod>2009-03-23T10:54:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-turtlebones/</loc>
+    <lastmod>2009-03-02T10:50:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-osnotfound/</loc>
+    <lastmod>2009-02-24T10:47:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-fear/</loc>
+    <lastmod>2009-02-12T10:45:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-silverlight/</loc>
+    <lastmod>2009-02-03T10:42:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-hello/</loc>
+    <lastmod>2009-01-25T10:40:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/blog/wp-firstpost/</loc>
+    <lastmod>2008-12-30T10:38:53+02:00</lastmod>
   </url>
   
   <url>
@@ -361,6 +456,12 @@
   <url>
     <loc>https://madeso.github.io/categories/free-time/</loc>
     <lastmod>2017-04-21T22:30:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/from-wordpress/</loc>
+    <lastmod>2010-05-04T12:19:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
