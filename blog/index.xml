@@ -94,6 +94,75 @@ var foo = function(x) { return(x + 5); } foo(3)  $ echo $EDITOR vim $ git checko
     </item>
     
     <item>
+      <title>The road that follows</title>
+      <link>https://madeso.github.io/blog/sh-roadthatfollows/</link>
+      <pubDate>Fri, 25 Oct 2013 13:53:42 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-roadthatfollows/</guid>
+      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
+ Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
+    </item>
+    
+    <item>
+      <title>Sh Devstories</title>
+      <link>https://madeso.github.io/blog/sh-devstories/</link>
+      <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-devstories/</guid>
+      <description>It’s been a while since I posted, but I have been buried deep in rift and input development. Rift development is pretty much done and I have rift support. I have received my razer hydra and backed the stem system and I’m hoping I’ll receive my sixense stem system in July.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on the controls</title>
+      <link>https://madeso.github.io/blog/sh-controls/</link>
+      <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-controls/</guid>
+      <description>I have started implementing the basic controls for both the keyboard and joysticks and to test everything out I added basic thrust and torque controls, and while this is really hard to control as each torque requires a counter torque from stopping to spinning I started thinking. The WebGL version of lander and I recall the original (I still can’t get it to play on my win7 system) let’s you enter the desired orientation and let a AI controls the torque thrusts.</description>
+    </item>
+    
+    <item>
+      <title>The music</title>
+      <link>https://madeso.github.io/blog/sh-music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-music/</guid>
+      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
+  Or some some ambient 80’s style electro music like this.
+Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Distribution</title>
+      <link>https://madeso.github.io/blog/sh-distribution/</link>
+      <pubDate>Thu, 20 Jun 2013 13:36:13 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-distribution/</guid>
+      <description>This week instead of talking just design I thought I would be nice to share some development ideas that I’ve been brewing for a while, and it has to do with distribution of the game. The obvious choice is steam, and probably the equivalent to the appstore on ubuntu(if that still exists and is flourishing), but a part of me wants to sell the game to all linux distributions and I can’t test that at all.</description>
+    </item>
+    
+    <item>
+      <title>Name of the game</title>
+      <link>https://madeso.github.io/blog/sh-name/</link>
+      <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-name/</guid>
+      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.
+First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.
+Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
+    </item>
+    
+    <item>
+      <title>And so it begins...</title>
+      <link>https://madeso.github.io/blog/sh-begins/</link>
+      <pubDate>Tue, 21 May 2013 13:15:57 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-begins/</guid>
+      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.
+I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
+    </item>
+    
+    <item>
       <title>I&#39;m not dead</title>
       <link>https://madeso.github.io/blog/wp-notdead/</link>
       <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
@@ -237,6 +306,15 @@ Until next time…</description>
       
       <guid>https://madeso.github.io/blog/wp-firstpost/</guid>
       <description>As the current year is slowly coming to a close, I figured that it would be smart to make a few promises. The first would be to actually add a new post once in a while, say every week, instead of once a year. So who am I…? Stay tuned for my next update 🙂</description>
+    </item>
+    
+    <item>
+      <title>Flowstorm</title>
+      <link>https://madeso.github.io/blog/sh-flowstorm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-flowstorm/</guid>
+      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
     </item>
     
   </channel>
