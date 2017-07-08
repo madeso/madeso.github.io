@@ -104,7 +104,7 @@ var foo = function(x) { return(x + 5); } foo(3)  $ echo $EDITOR vim $ git checko
     </item>
     
     <item>
-      <title>Sh Devstories</title>
+      <title>Development stories</title>
       <link>https://madeso.github.io/blog/sh-devstories/</link>
       <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
       
@@ -150,6 +150,15 @@ Given the I’ve already found some electro music that seems to be fitting and t
       <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.
 First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.
 Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
+    </item>
+    
+    <item>
+      <title>Flowstorm</title>
+      <link>https://madeso.github.io/blog/sh-flowstorm/</link>
+      <pubDate>Thu, 23 May 2013 13:18:10 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-flowstorm/</guid>
+      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
     </item>
     
     <item>
@@ -306,15 +315,6 @@ Until next time…</description>
       
       <guid>https://madeso.github.io/blog/wp-firstpost/</guid>
       <description>As the current year is slowly coming to a close, I figured that it would be smart to make a few promises. The first would be to actually add a new post once in a while, say every week, instead of once a year. So who am I…? Stay tuned for my next update 🙂</description>
-    </item>
-    
-    <item>
-      <title>Flowstorm</title>
-      <link>https://madeso.github.io/blog/sh-flowstorm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://madeso.github.io/blog/sh-flowstorm/</guid>
-      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
     </item>
     
   </channel>

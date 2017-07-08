@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Sh Devstories</title>
+      <title>Development stories</title>
       <link>https://madeso.github.io/blog/sh-devstories/</link>
       <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
       
@@ -126,6 +126,15 @@ One idea I’ve been tossing around is the World War 2 with jet engines.</descri
     </item>
     
     <item>
+      <title>Flowstorm</title>
+      <link>https://madeso.github.io/blog/sh-flowstorm/</link>
+      <pubDate>Thu, 23 May 2013 13:18:10 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/sh-flowstorm/</guid>
+      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
+    </item>
+    
+    <item>
       <title>And so it begins...</title>
       <link>https://madeso.github.io/blog/sh-begins/</link>
       <pubDate>Tue, 21 May 2013 13:15:57 +0200</pubDate>
@@ -133,15 +142,6 @@ One idea I’ve been tossing around is the World War 2 with jet engines.</descri
       <guid>https://madeso.github.io/blog/sh-begins/</guid>
       <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.
 I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
-    </item>
-    
-    <item>
-      <title>Flowstorm</title>
-      <link>https://madeso.github.io/blog/sh-flowstorm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://madeso.github.io/blog/sh-flowstorm/</guid>
-      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
     </item>
     
   </channel>
