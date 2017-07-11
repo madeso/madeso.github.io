@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Gustav Jansson</title>
+    <link>https://madeso.github.io/tags/review/</link>
+    <description>Recent content in Review on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Feb 2009 10:45:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fear the consoles</title>
+      <link>https://madeso.github.io/blog/wp-fear/</link>
+      <pubDate>Thu, 12 Feb 2009 10:45:14 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/wp-fear/</guid>
+      <description>I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Aug 2016 19:29:53 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2009 11:18:56 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assets</title>
+      <link>https://madeso.github.io/tags/assets/</link>
+      <pubDate>Mon, 06 Jul 2009 11:18:56 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/assets/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blogger</title>
@@ -35,6 +44,24 @@
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://madeso.github.io/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fail</title>
+      <link>https://madeso.github.io/tags/fail/</link>
+      <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/fail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foobar</title>
+      <link>https://madeso.github.io/tags/foobar/</link>
+      <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/foobar/</guid>
       <description></description>
     </item>
     
@@ -75,6 +102,24 @@
     </item>
     
     <item>
+      <title>Input</title>
+      <link>https://madeso.github.io/tags/input/</link>
+      <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamtime</title>
+      <link>https://madeso.github.io/tags/jamtime/</link>
+      <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/jamtime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lacing</title>
       <link>https://madeso.github.io/tags/lacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
@@ -102,20 +147,20 @@
     </item>
     
     <item>
-      <title>Log</title>
-      <link>https://madeso.github.io/tags/log/</link>
-      <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/tags/log/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Markdown</title>
       <link>https://madeso.github.io/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://madeso.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://madeso.github.io/tags/music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/music/</guid>
       <description></description>
     </item>
     
@@ -129,11 +174,47 @@
     </item>
     
     <item>
+      <title>Other Games</title>
+      <link>https://madeso.github.io/tags/other-games/</link>
+      <pubDate>Thu, 23 May 2013 13:18:10 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/other-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://madeso.github.io/tags/review/</link>
+      <pubDate>Thu, 12 Feb 2009 10:45:14 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shoes</title>
       <link>https://madeso.github.io/tags/shoes/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
       
       <guid>https://madeso.github.io/tags/shoes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skeleton</title>
+      <link>https://madeso.github.io/tags/skeleton/</link>
+      <pubDate>Mon, 23 Mar 2009 10:54:15 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/skeleton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sketchbook</title>
+      <link>https://madeso.github.io/tags/sketchbook/</link>
+      <pubDate>Sun, 01 Sep 2013 13:45:20 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/sketchbook/</guid>
       <description></description>
     </item>
     
@@ -165,11 +246,38 @@
     </item>
     
     <item>
+      <title>Tetris</title>
+      <link>https://madeso.github.io/tags/tetris/</link>
+      <pubDate>Sun, 07 Jun 2009 11:06:13 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/tetris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ubuntu</title>
       <link>https://madeso.github.io/tags/ubuntu/</link>
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       
       <guid>https://madeso.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui</title>
+      <link>https://madeso.github.io/tags/ui/</link>
+      <pubDate>Thu, 25 Jun 2009 11:08:13 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vr</title>
+      <link>https://madeso.github.io/tags/vr/</link>
+      <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/tags/vr/</guid>
       <description></description>
     </item>
     

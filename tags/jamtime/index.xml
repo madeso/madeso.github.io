@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamtime on Gustav Jansson</title>
+    <link>https://madeso.github.io/tags/jamtime/</link>
+    <description>Recent content in Jamtime on Gustav Jansson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 May 2010 12:19:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://madeso.github.io/tags/jamtime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I&#39;m not dead</title>
+      <link>https://madeso.github.io/blog/wp-notdead/</link>
+      <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/wp-notdead/</guid>
+      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂
+Anyways, I’ve been quite busy since last time:
+ My pwn game library is still in development. and I’ve entered ludum dare twice..  I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve been busy</title>
+      <link>https://madeso.github.io/blog/wp-busy/</link>
+      <pubDate>Sun, 01 Nov 2009 12:16:30 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/wp-busy/</guid>
+      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.
+Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.
+I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
+    </item>
+    
+    <item>
+      <title>Epic fail</title>
+      <link>https://madeso.github.io/blog/wp-epicfail/</link>
+      <pubDate>Wed, 29 Jul 2009 11:26:22 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/wp-epicfail/</guid>
+      <description>I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish no more sweden :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the (external) editor, and to my horror it didn’t load. No message, no crash nor any exception – just silence.</description>
+    </item>
+    
+    <item>
+      <title>No more sweden - It can&#39;t be true</title>
+      <link>https://madeso.github.io/blog/wp-nomoresweden/</link>
+      <pubDate>Mon, 13 Jul 2009 11:20:12 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/wp-nomoresweden/</guid>
+      <description>So I’m attending this game-jam called No more sweden(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer, so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.</description>
+    </item>
+    
+  </channel>
+</rss>

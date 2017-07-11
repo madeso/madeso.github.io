@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://madeso.github.io/devlog/week27/</loc>
+    <lastmod>2017-07-11T08:24:57+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/devlog/week26/</loc>
     <lastmod>2017-07-03T07:33:18+02:00</lastmod>
   </url>
@@ -500,6 +505,12 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/tags/assets/</loc>
+    <lastmod>2009-07-06T11:18:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/tags/blogger/</loc>
     <lastmod>2016-08-26T19:29:53+02:00</lastmod>
     <priority>0</priority>
@@ -520,6 +531,18 @@
   <url>
     <loc>https://madeso.github.io/tags/example/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/fail/</loc>
+    <lastmod>2013-09-07T13:48:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/foobar/</loc>
+    <lastmod>2009-05-13T10:55:57+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -572,6 +595,18 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/tags/input/</loc>
+    <lastmod>2013-08-22T13:42:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/jamtime/</loc>
+    <lastmod>2010-05-04T12:19:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/tags/lacing/</loc>
     <lastmod>2016-09-18T14:39:04+02:00</lastmod>
     <priority>0</priority>
@@ -590,12 +625,6 @@
   </url>
   
   <url>
-    <loc>https://madeso.github.io/tags/log/</loc>
-    <lastmod>2017-02-22T08:38:53+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://madeso.github.io/categories/ludumdare/</loc>
     <lastmod>2014-04-28T01:10:38+02:00</lastmod>
     <priority>0</priority>
@@ -604,6 +633,12 @@
   <url>
     <loc>https://madeso.github.io/tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/music/</loc>
+    <lastmod>2013-07-02T13:28:26+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -626,6 +661,18 @@
   </url>
   
   <url>
+    <loc>https://madeso.github.io/tags/other-games/</loc>
+    <lastmod>2013-05-23T13:18:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/review/</loc>
+    <lastmod>2009-02-12T10:45:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://madeso.github.io/categories/shayla/</loc>
     <lastmod>2015-05-24T01:40:41+02:00</lastmod>
     <priority>0</priority>
@@ -634,6 +681,18 @@
   <url>
     <loc>https://madeso.github.io/tags/shoes/</loc>
     <lastmod>2016-09-18T14:39:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/skeleton/</loc>
+    <lastmod>2009-03-23T10:54:15+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/sketchbook/</loc>
+    <lastmod>2013-09-01T13:45:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -657,13 +716,31 @@
   
   <url>
     <loc>https://madeso.github.io/tags/</loc>
-    <lastmod>2016-08-26T19:29:53+02:00</lastmod>
+    <lastmod>2009-07-06T11:18:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/tetris/</loc>
+    <lastmod>2009-06-07T11:06:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://madeso.github.io/tags/ubuntu/</loc>
     <lastmod>2016-09-18T14:34:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/ui/</loc>
+    <lastmod>2009-06-25T11:08:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://madeso.github.io/tags/vr/</loc>
+    <lastmod>2013-10-13T13:52:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
