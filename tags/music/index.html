@@ -39,10 +39,10 @@
     <a href="https://madeso.github.io/about/">about</a>
   </div>
 </div>
-<div class="container">
-    <div class="content">
-        <div class="posts">
-            <div class="page-heading">Posts about Music</div>
+<div class="firstcontent">
+  <div class="page-heading">Posts about Music</div>
+</div>
+<div id="pages">
 <div class="post">
   <a href="https://madeso.github.io/blog/sh-music/"><h1>The music</h1></a>
   <p>Tuesday, 2 July 2013 at 13:28</p>
@@ -166,10 +166,63 @@
     </a>
     </div>
 </div>
-        </div>
-    </div>
 </div>
-<div class="social-footer">
+<div id="spinner">
+<div class="lds-css ng-scope">
+  <div style="width:100%;height:100%" class="lds-rolling">
+    <div></div>
+  </div>
+<style type="text/css">@keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.lds-rolling {
+  position: relative;
+}
+.lds-rolling div,
+.lds-rolling div:after {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 20px solid #888888;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.lds-rolling div {
+  -webkit-animation: lds-rolling 1s linear infinite;
+  animation: lds-rolling 1s linear infinite;
+  top: 100px;
+  left: 100px;
+}
+.lds-rolling div:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.lds-rolling {
+  width: 50px !important;
+  height: 50px !important;
+  -webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+  transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+}
+</style></div>
+</div>
+<div id="footer" class="social-footer">
 <div class="socialbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
  <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
@@ -191,5 +244,28 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/music\/#"]').click(function(e) {
 })
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
+<script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
 </body>
 </html>
+<script>
+(function () {
+  $('#spinner').hide();
+  var loadPage =  1 ;
+  var totalPages =  1 ;
+  $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
+    if (visible == true) {
+      loadPage = loadPage + 1;
+      if (loadPage > totalPages) {
+        $('#footer').off('inview');
+        return;
+      }
+      $('#spinner').show();
+      console.log("Loading next page");
+      $.get('\/tags\/music\//page/' + loadPage, function (result) {
+        $('#pages').append($(result).find('#pages'));
+        $('#spinner').hide();
+      })
+    }
+  });
+})();
+</script>

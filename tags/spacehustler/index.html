@@ -39,10 +39,10 @@
     <a href="https://madeso.github.io/about/">about</a>
   </div>
 </div>
-<div class="container">
-    <div class="content">
-        <div class="posts">
-            <div class="page-heading">Posts about Spacehustler</div>
+<div class="firstcontent">
+  <div class="page-heading">Posts about Spacehustler</div>
+</div>
+<div id="pages">
 <div class="post">
   <a href="https://madeso.github.io/blog/sh-roadthatfollows/"><h1>The road that follows</h1></a>
   <p>Friday, 25 October 2013 at 13:53</p>
@@ -429,180 +429,63 @@ the oculus rift</p>
     </a>
     </div>
 </div>
-<div class="post">
-  <a href="https://madeso.github.io/blog/sh-missiontypes/"><h1>Thoughts on mission types</h1></a>
-  <p>Saturday, 1 June 2013 at 13:25</p>
-<div class="markdown">
-<p>This week I’ve been thinking a lot about the different skirmish and mission types. The original lander basically had fetch an object and destroy missions. Hopper introduced “challenges” in the form of land without taking any damage and races, and while this could be expanded upon with acrobatical challenges(move through a narrow gap) and survival challenges (survive a meteor rain) I want to expand further in the mission and challenge/skirmish varieties.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" alt=/></p ></a>
-<p>As mouse and keyboard controls are more common now since the original lander was published and hacking in basic mouse support as a test in the WebGL I realised something. Controlling the craft isn’t as hard as I remembered. So adding a few enemy landers could be fun and all the standard shooting would apply such as deathmatch, capture the flag, king of the hill etc. This calls for more weapons than lander had (more on that in a later post) but I’ve been thinking about special mission types where there are intense dogfights but with a lander twist.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/hopper.png" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/hopper.png" alt=/></p ></a>
-<p>One twist that I’ve been entertaining is that the player pick up object with the tractorbeam, swing and then release at the enemy.</p>
-<p>The other twist is a little more acrobatical, but the general idea is that only thing that can hurt the enemy is the flames from the major jet engine . While this might not be feasible it is an interesting dynamic that needs to be explored.</p>
 </div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
-  or <a class="tag" href="/tags/">(all)</a>
+<div id="spinner">
+<div class="lds-css ng-scope">
+  <div style="width:100%;height:100%" class="lds-rolling">
+    <div></div>
   </div>
-    <div class="sharebuttons">
-    Share this:
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Thoughts%20on%20mission%20types%20https%3a%2f%2fmadeso.github.io%2fblog%2fsh-missiontypes%2f"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-    <i class="fa fa-twitter"></i>
-    <span class="hidden">Twitter</span>
-    </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-missiontypes%2f"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-    <i class="fa fa-facebook"></i>
-    <span class="hidden">Facebook</span>
-    </a>
-    <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-missiontypes%2f&amp;description=Thoughts%20on%20mission%20types"
-    onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-    <i class="fa fa-pinterest"></i>
-    <span class="hidden">Pinterest</span>
-    </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-missiontypes%2f"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-    <i class="fa fa-google-plus"></i>
-    <span class="hidden">Google+</span>
-    </a>
-    </div>
+<style type="text/css">@keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-rolling {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.lds-rolling {
+  position: relative;
+}
+.lds-rolling div,
+.lds-rolling div:after {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 20px solid #888888;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.lds-rolling div {
+  -webkit-animation: lds-rolling 1s linear infinite;
+  animation: lds-rolling 1s linear infinite;
+  top: 100px;
+  left: 100px;
+}
+.lds-rolling div:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.lds-rolling {
+  width: 50px !important;
+  height: 50px !important;
+  -webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+  transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+}
+</style></div>
 </div>
-<div class="post">
-  <a href="https://madeso.github.io/blog/sh-artstyle/"><h1>Thoughts on the artstyle</h1></a>
-  <p>Saturday, 25 May 2013 at 13:20</p>
-<div class="markdown">
-<p>Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.</p>
-<p>One idea I’ve been tossing around is the World War 2 with jet engines.</p>
-<p><a href="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" alt=/></p ></a>
-<p>World war 2 inspirational image from <a href="http://www.wallpapervortex.com/wallpaper-28123_aircraft_ww2_airplanes.html">here <i class="fa fa-external-link" aria-hidden="true"></i></a>, or the following (I would assume) tyrian fan image from <a href="http://siteinfo.org.uk/frozenreality.co.uk">here <i class="fa fa-external-link" aria-hidden="true"></i></a>:</p>
-<p><a href="https://madeso.github.io/blog/sh-artstyle/talon.gif" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/talon.gif" alt=/></p ></a>
-<p>Another design would be steampunk a more inspired design, like from Steamboy. This would require removing or altering some weapons and defence like lasers and shields and replacing the jet engine with a propeller instead, but it would set the game apart from the original Lander in style and allow for more particle effects to be added, and everyone loves particles.</p>
-<p><a href="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" alt=/></p ></a>
-</div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
-    <div class="sharebuttons">
-    Share this:
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Thoughts%20on%20the%20artstyle%20https%3a%2f%2fmadeso.github.io%2fblog%2fsh-artstyle%2f"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-    <i class="fa fa-twitter"></i>
-    <span class="hidden">Twitter</span>
-    </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-artstyle%2f"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-    <i class="fa fa-facebook"></i>
-    <span class="hidden">Facebook</span>
-    </a>
-    <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-artstyle%2f&amp;description=Thoughts%20on%20the%20artstyle"
-    onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-    <i class="fa fa-pinterest"></i>
-    <span class="hidden">Pinterest</span>
-    </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-artstyle%2f"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-    <i class="fa fa-google-plus"></i>
-    <span class="hidden">Google+</span>
-    </a>
-    </div>
-</div>
-<div class="post">
-  <a href="https://madeso.github.io/blog/sh-flowstorm/"><h1>Flowstorm</h1></a>
-  <p>Thursday, 23 May 2013 at 13:18</p>
-<div class="markdown">
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/BOI35480vdo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-<p>I attended the <a href="http://nordicgame.com/?id=73">nordic game indie night <i class="fa fa-external-link" aria-hidden="true"></i></a>, and got to play <a href="http://www.flowstormgame.com/">flowstorm <i class="fa fa-external-link" aria-hidden="true"></i></a> (that did
-a <a href="http://www.kickstarter.com/projects/740665854/flowstorm">kickstarter <i class="fa fa-external-link" aria-hidden="true"></i></a>) and
-realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game.
-Check it out if you haven’t already.</p>
-</div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
-    &nbsp;<a class="tag" href="/tags/other-games">#other games</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
-    <div class="sharebuttons">
-    Share this:
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Flowstorm%20https%3a%2f%2fmadeso.github.io%2fblog%2fsh-flowstorm%2f"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-    <i class="fa fa-twitter"></i>
-    <span class="hidden">Twitter</span>
-    </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-flowstorm%2f"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-    <i class="fa fa-facebook"></i>
-    <span class="hidden">Facebook</span>
-    </a>
-    <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-flowstorm%2f&amp;description=Flowstorm"
-    onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-    <i class="fa fa-pinterest"></i>
-    <span class="hidden">Pinterest</span>
-    </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-flowstorm%2f"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-    <i class="fa fa-google-plus"></i>
-    <span class="hidden">Google+</span>
-    </a>
-    </div>
-</div>
-<div class="post">
-  <a href="https://madeso.github.io/blog/sh-begins/"><h1>And so it begins...</h1></a>
-  <p>Tuesday, 21 May 2013 at 13:15</p>
-<div class="markdown">
-<p>So I decided that I need to make a bigger game, a game that I can work on for a
-few months at least and not get bored. I shouldn’t have any complicated animations
-and should be “easy” to make. A basic renderer on the top of a physics simulation
-won’t be that complicated and could be fun.</p>
-<p>I thought about remaking a previous game of mine, <a href="http://www.youtube.com/watch?v=BjG1_d7Fxc8&amp;feature=player_detailpage#t=13s">lolball <i class="fa fa-external-link" aria-hidden="true"></i></a>, but all the design I
-could come up with was way to complicated for what I had imagined. All hope seemed
-to be lost and my motivation for creating something was low.</p>
-<p>However, last week, I finally cracked the case. I’m going to make a spiritual
-remake of <a href="http://en.wikipedia.org/wiki/Lander_%28computer_game%29">Lander <i class="fa fa-external-link" aria-hidden="true"></i></a> by Psygnosis. In it the player controls a lander spaceship
-and navigates tight corridors and sometimes shoots down turrets. The twist is
-that the only main thruster is directed down so to move around one has to
-orient the ship and move around by combining the thruster and gravity.</p>
-<p>This should be a perfect game to make and expand upon. Lots of possibilities for
-explosions and particles, easy models to make, basic shapes doesn’t detract
-from overall look and feel various fun control options and accessories and to
-investigate and most importantly it doesn’t seem to be anyone that is actively
-making a clone.</p>
-</div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
-    <div class="sharebuttons">
-    Share this:
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20And%20so%20it%20begins...%20https%3a%2f%2fmadeso.github.io%2fblog%2fsh-begins%2f"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-    <i class="fa fa-twitter"></i>
-    <span class="hidden">Twitter</span>
-    </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-begins%2f"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-    <i class="fa fa-facebook"></i>
-    <span class="hidden">Facebook</span>
-    </a>
-    <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-begins%2f&amp;description=And%20so%20it%20begins..."
-    onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-    <i class="fa fa-pinterest"></i>
-    <span class="hidden">Pinterest</span>
-    </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fmadeso.github.io%2fblog%2fsh-begins%2f"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-    <i class="fa fa-google-plus"></i>
-    <span class="hidden">Google+</span>
-    </a>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-<div class="social-footer">
+<div id="footer" class="social-footer">
 <div class="socialbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
  <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
@@ -624,5 +507,28 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/spacehustler\/#"]').click(function
 })
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
+<script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
 </body>
 </html>
+<script>
+(function () {
+  $('#spinner').hide();
+  var loadPage =  1 ;
+  var totalPages =  2 ;
+  $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
+    if (visible == true) {
+      loadPage = loadPage + 1;
+      if (loadPage > totalPages) {
+        $('#footer').off('inview');
+        return;
+      }
+      $('#spinner').show();
+      console.log("Loading next page");
+      $.get('\/tags\/spacehustler\//page/' + loadPage, function (result) {
+        $('#pages').append($(result).find('#pages'));
+        $('#spinner').hide();
+      })
+    }
+  });
+})();
+</script>

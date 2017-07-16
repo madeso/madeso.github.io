@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Week28</title>
+      <link>https://madeso.github.io/devlog/week28/</link>
+      <pubDate>Sun, 16 Jul 2017 22:52:35 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week28/</guid>
+      <description>This week I mostly watched season 4 of &amp;ldquo;Agents of Shield&amp;rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</description>
+    </item>
+    
+    <item>
       <title>Week27</title>
       <link>https://madeso.github.io/devlog/week27/</link>
       <pubDate>Tue, 11 Jul 2017 08:24:57 +0200</pubDate>
