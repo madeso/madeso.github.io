@@ -140,7 +140,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/project\/musicgame\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/project\/musicgame\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

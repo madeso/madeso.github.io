@@ -157,7 +157,7 @@ where you are a saleman byuing and selling stuff, trying to avoid pirates and sa
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/wp-notdead\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-notdead\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

@@ -339,7 +339,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/project\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/project\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -365,8 +365,9 @@ $('a[href^="https:\/\/madeso.github.io\/project\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/project\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/project\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

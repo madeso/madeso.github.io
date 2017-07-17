@@ -201,7 +201,7 @@ done!
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/markdown\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/markdown\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -227,8 +227,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/markdown\/#"]').click(function(e) 
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/markdown\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/markdown\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

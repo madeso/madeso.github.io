@@ -184,7 +184,7 @@ Currently however I’m working on a remake of tetris so I can get a stable code
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/tetris\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/tetris\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -210,8 +210,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/tetris\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/tetris\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/tetris\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

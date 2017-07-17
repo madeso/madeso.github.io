@@ -138,7 +138,7 @@ header image size. There only one thing to do, and that&rsquo;s keep on working 
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/devlog\/week17\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/devlog\/week17\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

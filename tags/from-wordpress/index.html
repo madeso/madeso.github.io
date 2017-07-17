@@ -525,7 +525,7 @@ Preferably I like the editor to be integrate-able with <a href="http://www.box2d
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/from-wordpress\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/from-wordpress\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -551,8 +551,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/from-wordpress\/#"]').click(functi
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/from-wordpress\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/from-wordpress\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

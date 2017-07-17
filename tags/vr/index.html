@@ -225,7 +225,7 @@ the oculus rift</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/vr\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/vr\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -251,8 +251,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/vr\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/vr\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/vr\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

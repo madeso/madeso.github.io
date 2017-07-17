@@ -157,7 +157,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/project\/lolball\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/project\/lolball\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

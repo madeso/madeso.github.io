@@ -147,7 +147,7 @@ the oculus rift</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/sh-cockpit\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-cockpit\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

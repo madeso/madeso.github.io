@@ -300,7 +300,7 @@ It still manages to mention silverlight 4 times though without telling you what 
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -326,8 +326,9 @@ $('a[href^="https:\/\/madeso.github.io\/blog\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/blog\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/blog\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

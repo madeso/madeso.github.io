@@ -412,7 +412,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/categories\/free-time\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/categories\/free-time\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -438,8 +438,9 @@ $('a[href^="https:\/\/madeso.github.io\/categories\/free-time\/#"]').click(funct
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/categories\/free-time\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/categories\/free-time\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

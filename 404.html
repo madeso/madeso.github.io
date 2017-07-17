@@ -109,7 +109,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="#"]').click(function(e) {
+$('*').on('click', 'a[href^="#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

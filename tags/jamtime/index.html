@@ -279,7 +279,7 @@ Preferably I like the editor to be integrate-able with <a href="http://www.box2d
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/jamtime\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/jamtime\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -305,8 +305,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/jamtime\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/jamtime\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/jamtime\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

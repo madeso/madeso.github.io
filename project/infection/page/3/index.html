@@ -188,7 +188,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/project\/infection\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/project\/infection\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

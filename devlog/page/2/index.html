@@ -245,7 +245,7 @@ header image size. There only one thing to do, and that&rsquo;s keep on working 
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/devlog\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/devlog\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -271,8 +271,9 @@ $('a[href^="https:\/\/madeso.github.io\/devlog\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/devlog\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/devlog\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

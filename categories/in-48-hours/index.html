@@ -533,7 +533,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/categories\/in-48-hours\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/categories\/in-48-hours\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -559,8 +559,9 @@ $('a[href^="https:\/\/madeso.github.io\/categories\/in-48-hours\/#"]').click(fun
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/categories\/in-48-hours\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/categories\/in-48-hours\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

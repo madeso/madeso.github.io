@@ -148,7 +148,7 @@ have to compensate for the rotational adjustments.</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/sh-controls\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-controls\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

@@ -193,7 +193,7 @@ Check it out if you haven’t already.</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/other-games\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/other-games\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -219,8 +219,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/other-games\/#"]').click(function(
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/other-games\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/other-games\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

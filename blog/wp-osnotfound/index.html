@@ -141,7 +141,7 @@ Luckily it was only a dream…</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/wp-osnotfound\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-osnotfound\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

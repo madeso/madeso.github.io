@@ -144,7 +144,7 @@ receive my <a href="http://www.kickstarter.com/projects/89577853/stem-system-the
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/sh-devstories\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-devstories\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

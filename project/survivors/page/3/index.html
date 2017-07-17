@@ -144,7 +144,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/project\/survivors\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/project\/survivors\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

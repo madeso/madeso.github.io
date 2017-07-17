@@ -147,7 +147,7 @@ Check it out if you haven’t already.</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/sh-flowstorm\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-flowstorm\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

@@ -149,7 +149,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/wp-fear\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-fear\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

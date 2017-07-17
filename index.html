@@ -205,7 +205,7 @@ $ git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

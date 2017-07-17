@@ -142,7 +142,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/wp-tetris-sacked\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-tetris-sacked\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

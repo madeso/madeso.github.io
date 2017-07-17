@@ -122,7 +122,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/categories\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/categories\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

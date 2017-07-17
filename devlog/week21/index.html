@@ -138,7 +138,7 @@ started the konmari appartment cleanup so I guess I wont get much development st
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/devlog\/week21\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/devlog\/week21\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

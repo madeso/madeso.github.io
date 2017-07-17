@@ -153,7 +153,7 @@ have to compensate for the rotational adjustments.</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/tags\/input\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/input\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -179,8 +179,9 @@ $('a[href^="https:\/\/madeso.github.io\/tags\/input\/#"]').click(function(e) {
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/tags\/input\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/tags\/input\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

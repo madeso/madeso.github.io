@@ -147,7 +147,7 @@
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/categories\/4e\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/categories\/4e\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
@@ -173,8 +173,9 @@ $('a[href^="https:\/\/madeso.github.io\/categories\/4e\/#"]').click(function(e) 
         return;
       }
       $('#spinner').show();
-      console.log("Loading next page");
-      $.get('\/categories\/4e\//page/' + loadPage, function (result) {
+      url = 'https:\/\/madeso.github.io\/categories\/4e\/page/' + loadPage + '/'
+      console.log("Loading next page: " + url);
+      $.get(url, function (result) {
         $('#pages').append($(result).find('#pages'));
         $('#spinner').hide();
       })

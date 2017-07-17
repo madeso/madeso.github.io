@@ -146,7 +146,7 @@ Preferably I like the editor to be integrate-able with <a href="http://www.box2d
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/wp-busy\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-busy\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

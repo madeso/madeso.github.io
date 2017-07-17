@@ -148,7 +148,7 @@ on my nexus 7 and sketched some lander ships, this is the result:</p>
 </div>
 </div> 
 <script>
-$('a[href^="https:\/\/madeso.github.io\/blog\/sh-shipdesigns\/#"]').click(function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-shipdesigns\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
