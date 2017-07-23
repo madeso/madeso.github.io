@@ -17,7 +17,7 @@
       <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
       
       <guid>https://madeso.github.io/blog/restart-alsa/</guid>
-      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fidx for this seems to be to restart alsa:
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:
 $ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload  Found on Stack overflow</description>
     </item>
     
