@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Restarting Alsa</title>
+      <link>https://madeso.github.io/blog/restart-alsa/</link>
+      <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/restart-alsa/</guid>
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fidx for this seems to be to restart alsa:
+$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload  Found on Stack overflow</description>
+    </item>
+    
+    <item>
       <title>Week28</title>
       <link>https://madeso.github.io/devlog/week28/</link>
       <pubDate>Sun, 16 Jul 2017 22:52:35 +0200</pubDate>

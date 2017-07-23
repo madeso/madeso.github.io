@@ -6,10 +6,20 @@
     <description>Recent content in Linux on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 14:34:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jul 2017 14:31:24 +0200</lastBuildDate>
     
 	<atom:link href="https://madeso.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Restarting Alsa</title>
+      <link>https://madeso.github.io/blog/restart-alsa/</link>
+      <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/blog/restart-alsa/</guid>
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fidx for this seems to be to restart alsa:
+$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload  Found on Stack overflow</description>
+    </item>
     
     <item>
       <title>Keep your ubuntu-gnome from waking up at random</title>
