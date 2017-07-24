@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Let&#39;s go cave burrowing on Gustav Jansson</title>
+    <title>Gustav Janssons Let&#39;s go cave burrowing </title>
     <link>https://madeso.github.io/project/letsgocaveburrowing/</link>
-    <description>Recent content in Let&#39;s go cave burrowing on Gustav Jansson</description>
+    <description>&lt;p&gt;This was my first ludum dare. I managed to get something playable but there isn&amp;rsquo;t much of a gameplay. Still pretty good for 48 hours and C++ from scratch.&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Aug 2009 22:05:36 +0200</lastBuildDate>
+    <atom:link href="/project/letsgocaveburrowing/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Let&#39;s go cave burrowing</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>project</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/project/letsgocaveburrowing/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

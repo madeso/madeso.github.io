@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Say, that&#39;s a nice bike on Gustav Jansson</title>
+    <title>Gustav Janssons Say, that&#39;s a nice bike </title>
     <link>https://madeso.github.io/blog/wp-nicebike/</link>
-    <description>Recent content in Say, that&#39;s a nice bike on Gustav Jansson</description>
+    <description>&lt;p&gt;So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bikehard.jpg&#34; alt=&#34;bikehard&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Though my extreme/hard-biking might be beacuse I’m so&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1337.jpg&#34; alt=&#34;1337&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;🙂&lt;/p&gt;
+
+&lt;p&gt;Considering my transportation the hardcore game-development, that I entered at the start of this week, hasn’t taken a all that serious blow. Yes I am behind schedule, but not that much. Considering I only had a black screen with no code whatsoever and I now have a almost complete level-loading, collision-detection and game-state code I am might proud 😉&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jul 2009 11:22:52 +0200</lastBuildDate>
+    <atom:link href="/blog/wp-nicebike/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Say, that&#39;s a nice bike</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>blog</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/blog/wp-nicebike/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

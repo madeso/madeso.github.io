@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Foobar on Gustav Jansson</title>
+    <title>Gustav Janssons Foobar </title>
     <link>https://madeso.github.io/tags/foobar/</link>
-    <description>Recent content in Foobar on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 May 2009 10:55:57 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/foobar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/foobar/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Foobar sorting</title>
-      <link>https://madeso.github.io/blog/wp-foobar/</link>
-      <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/wp-foobar/</guid>
-      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
-Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
-$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+      <title>Foobar</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
+    
+    
     
   </channel>
 </rss>

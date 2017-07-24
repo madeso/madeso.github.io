@@ -1,237 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>In 48 Hours on Gustav Jansson</title>
+    <title>Gustav Janssons In 48 Hours </title>
     <link>https://madeso.github.io/categories/in-48-hours/</link>
-    <description>Recent content in In 48 Hours on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/categories/in-48-hours/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/categories/in-48-hours/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Looking for love</title>
-      <link>https://madeso.github.io/project/looking-for-love/</link>
-      <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/looking-for-love/</guid>
-      <description>In this experience you wait for a bus that never seems to come and can take out your phone and try to look for love.</description>
-    </item>
-    
-    <item>
-      <title>Wave Ohoy</title>
-      <link>https://madeso.github.io/project/waveohoy/</link>
-      <pubDate>Sun, 22 Jan 2017 01:03:26 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/waveohoy/</guid>
+      <title>In 48 Hours</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
       <description></description>
     </item>
+
     
-    <item>
-      <title>Truck game</title>
-      <link>https://madeso.github.io/project/truckgame/</link>
-      <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/truckgame/</guid>
-      <description>Pseudo-3D game with a top-down view where 2 cats drive water supply trucks through the desert. Each player must try to destroy the other truck with weaponry, or by gaining a considerable lead.</description>
-    </item>
     
-    <item>
-      <title>Office rituals</title>
-      <link>https://madeso.github.io/project/officerituals/</link>
-      <pubDate>Sun, 31 Jan 2016 00:58:29 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/officerituals/</guid>
-      <description>Just another day at the office. Drink loads of coffee. Smoke cigarettes. Take credit for your co workers accomplishments. Go to pointless meetings and avoid getting fired.
-Drink coffee and smoke so that you can work efficiently. Everyone is working on the same project, but you win if you did most of the work ! You can steal each other&amp;rsquo;s work by working at someone else&amp;rsquo;s desk.
-Oh, also, don&amp;rsquo;t miss the meetings or your Boss will be angry!</description>
-    </item>
-    
-    <item>
-      <title>Sloth Dictator</title>
-      <link>https://madeso.github.io/project/slothdictator/</link>
-      <pubDate>Sun, 19 Jul 2015 01:31:06 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/slothdictator/</guid>
-      <description>The Sloth dictator and his sloth generals are overseeing the Slothlympics.
-Compete in the role of one of four animals and mash that button to get first to the finish line, but be careful: the dictator wants you to go slowly, so if they see you going fast, you&amp;rsquo;ll be penalized!
-Mash the button to go faster, and use the other two to change lanes. If you get behind another runner, you can push them to make them go fast, and be penalized!</description>
-    </item>
-    
-    <item>
-      <title>The Forrest Of Unconditional Love</title>
-      <link>https://madeso.github.io/project/forrest/</link>
-      <pubDate>Sun, 24 May 2015 01:40:41 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/forrest/</guid>
-      <description>Experience the feeling of beeing a giant on a cabin in the woods looking at cute animals and enjoying life.</description>
-    </item>
-    
-    <item>
-      <title>Roomy</title>
-      <link>https://madeso.github.io/project/roomy/</link>
-      <pubDate>Sun, 08 Feb 2015 01:05:09 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/roomy/</guid>
-      <description>Get ouside the room. The most obvious is to use the key, but will that get you out?</description>
-    </item>
-    
-    <item>
-      <title>Bad Dude</title>
-      <link>https://madeso.github.io/project/baddude/</link>
-      <pubDate>Thu, 28 Aug 2014 01:07:04 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/baddude/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Musicgame</title>
-      <link>https://madeso.github.io/project/musicgame/</link>
-      <pubDate>Mon, 28 Apr 2014 01:12:27 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/musicgame/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Untitled Lududm Dare 2014 Game</title>
-      <link>https://madeso.github.io/project/ld14/</link>
-      <pubDate>Mon, 28 Apr 2014 01:10:38 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/ld14/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Mondrian crash</title>
-      <link>https://madeso.github.io/project/mondrian/</link>
-      <pubDate>Tue, 23 Apr 2013 22:41:52 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/mondrian/</guid>
-      <description>Score points by building chains and destroying them with explosions.</description>
-    </item>
-    
-    <item>
-      <title>The Furry Fours vs. Goatie the EVIL Goat</title>
-      <link>https://madeso.github.io/project/goatie/</link>
-      <pubDate>Fri, 21 Dec 2012 22:05:23 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/goatie/</guid>
-      <description>Play as a the evil goat and kill innocent small rabbits and kill the heroes.
-This ludum dare I spent most of the time on the transitions and never really had the time to make the gmaeplay interesting. It&amp;rsquo;s function but not much else. It&amp;rsquo;s unfortunate since I really like the graphics and transitions.</description>
-    </item>
-    
-    <item>
-      <title>A scientific experiment</title>
-      <link>https://madeso.github.io/project/ascientificexperiment/</link>
-      <pubDate>Tue, 21 Aug 2012 22:04:50 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/ascientificexperiment/</guid>
-      <description>Play as a cat, a rat or a skunk , their children and their childrens children. Die, mate and evolve while killing squiggles.</description>
-    </item>
-    
-    <item>
-      <title>Octohack</title>
-      <link>https://madeso.github.io/project/octohack/</link>
-      <pubDate>Sun, 12 Aug 2012 22:05:44 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/octohack/</guid>
-      <description>As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.</description>
-    </item>
-    
-    <item>
-      <title>Alone</title>
-      <link>https://madeso.github.io/project/alone/</link>
-      <pubDate>Wed, 21 Dec 2011 22:03:48 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/alone/</guid>
-      <description>Basic 2d shooter that never ends. Becomes a little tactical since the different enemies require you to aim and a limmited amount of bullets force you to venture to the middle of the level.</description>
-    </item>
-    
-    <item>
-      <title>You can&#39;t escape the colors!</title>
-      <link>https://madeso.github.io/project/escapethecolors/</link>
-      <pubDate>Sun, 21 Aug 2011 22:04:31 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/escapethecolors/</guid>
-      <description>Move the cursors away from the red items, charge and explode converting all reds into blue scores that need to be picked up before red can convert them.
-Somewhat inspired by a mini game seen from somewhere and it shows. Not really a good game but kinda fun and from concept to implementation was less than a day so that&amp;rsquo;s good I guess.</description>
-    </item>
-    
-    <item>
-      <title>Guru: the meaning of life</title>
-      <link>https://madeso.github.io/project/guru/</link>
-      <pubDate>Sun, 07 Aug 2011 22:04:21 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/guru/</guid>
-      <description>Find out the meaning of life while surfing on your beard.</description>
-    </item>
-    
-    <item>
-      <title>A spawn named bob</title>
-      <link>https://madeso.github.io/project/aspawnnamedbob/</link>
-      <pubDate>Thu, 21 Apr 2011 22:03:05 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/aspawnnamedbob/</guid>
-      <description>Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.</description>
-    </item>
-    
-    <item>
-      <title>Epic Treasure Hunt</title>
-      <link>https://madeso.github.io/project/epictreasurehunt/</link>
-      <pubDate>Tue, 21 Dec 2010 22:04:16 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/epictreasurehunt/</guid>
-      <description>Climb around, throw stones at monkeys and find treasures. A somewhat failed attempt at humor in games and long boring/grinding levels.</description>
-    </item>
-    
-    <item>
-      <title>Chuck Norris The Demolition Dude</title>
-      <link>https://madeso.github.io/project/chucknorris/</link>
-      <pubDate>Sat, 21 Aug 2010 22:25:42 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/chucknorris/</guid>
-      <description>A old gamejam game. There is nothing really that can be done in the game, as I ran out of time, but there was a interesting mechaninc with roundhousekicking as a platform mechanic.</description>
-    </item>
-    
-    <item>
-      <title>dudidadala</title>
-      <link>https://madeso.github.io/project/dudidadala/</link>
-      <pubDate>Sat, 21 Aug 2010 22:03:59 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/dudidadala/</guid>
-      <description>Mario-esc jump and shoot kinda game.</description>
-    </item>
-    
-    <item>
-      <title>Traveling salesman problem</title>
-      <link>https://madeso.github.io/project/tsp/</link>
-      <pubDate>Sun, 11 Apr 2010 22:05:56 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/tsp/</guid>
-      <description>Another ludum dare game. This time I decided that game maker would be a good fit, so of I went. You play as a salesman, pick up lumber from trees and gold from miners and sell stuff but avoid the pirates por be prepared to fight.</description>
-    </item>
-    
-    <item>
-      <title>Xplorer</title>
-      <link>https://madeso.github.io/project/xplorer/</link>
-      <pubDate>Fri, 11 Dec 2009 22:06:06 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/xplorer/</guid>
-      <description>Two player turn based game about exploring.</description>
-    </item>
-    
-    <item>
-      <title>Let&#39;s go cave burrowing</title>
-      <link>https://madeso.github.io/project/letsgocaveburrowing/</link>
-      <pubDate>Fri, 21 Aug 2009 22:05:36 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/project/letsgocaveburrowing/</guid>
-      <description>This was my first ludum dare. I managed to get something playable but there isn&amp;rsquo;t much of a gameplay. Still pretty good for 48 hours and C++ from scratch.</description>
-    </item>
     
   </channel>
 </rss>

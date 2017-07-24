@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bad Dude on Gustav Jansson</title>
+    <title>Gustav Janssons Bad Dude </title>
     <link>https://madeso.github.io/project/baddude/</link>
-    <description>Recent content in Bad Dude on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2014 01:07:04 +0200</lastBuildDate>
+    <atom:link href="/project/baddude/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Bad Dude</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>project</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/project/baddude/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

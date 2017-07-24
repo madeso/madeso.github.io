@@ -1,43 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fail on Gustav Jansson</title>
+    <title>Gustav Janssons Fail </title>
     <link>https://madeso.github.io/tags/fail/</link>
-    <description>Recent content in Fail on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Sep 2013 13:48:53 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/fail/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/fail/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Oculus development</title>
-      <link>https://madeso.github.io/blog/sh-oculus/</link>
-      <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/sh-oculus/</guid>
-      <description>I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:</description>
+      <title>Fail</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
     
-    <item>
-      <title>Say, that&#39;s a nice bike</title>
-      <link>https://madeso.github.io/blog/wp-nicebike/</link>
-      <pubDate>Tue, 14 Jul 2009 11:22:52 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/wp-nicebike/</guid>
-      <description>So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.
-Though my extreme/hard-biking might be beacuse I’m so</description>
-    </item>
     
-    <item>
-      <title>There are bones in my turtle</title>
-      <link>https://madeso.github.io/blog/wp-turtlebones/</link>
-      <pubDate>Mon, 02 Mar 2009 10:50:25 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/wp-turtlebones/</guid>
-      <description>Working an a skeleton loader, theese are some shots while developing it. </description>
-    </item>
     
   </channel>
 </rss>

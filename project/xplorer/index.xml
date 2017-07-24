@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xplorer on Gustav Jansson</title>
+    <title>Gustav Janssons Xplorer </title>
     <link>https://madeso.github.io/project/xplorer/</link>
-    <description>Recent content in Xplorer on Gustav Jansson</description>
+    <description>&lt;p&gt;Two player turn based game about exploring.&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Dec 2009 22:06:06 +0200</lastBuildDate>
+    <atom:link href="/project/xplorer/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Xplorer</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>project</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/project/xplorer/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

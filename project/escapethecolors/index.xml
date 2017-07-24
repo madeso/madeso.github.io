@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>You can&#39;t escape the colors! on Gustav Jansson</title>
+    <title>Gustav Janssons You can&#39;t escape the colors! </title>
     <link>https://madeso.github.io/project/escapethecolors/</link>
-    <description>Recent content in You can&#39;t escape the colors! on Gustav Jansson</description>
+    <description>&lt;p&gt;Move the cursors away from the red items, charge and explode converting all reds into blue scores that need to be picked up before red can convert them.&lt;/p&gt;
+
+&lt;p&gt;Somewhat inspired by a mini game seen from somewhere and it shows. Not really a good game but kinda fun and from concept to implementation was less than a day so that&amp;rsquo;s good I guess.&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Aug 2011 22:04:31 +0200</lastBuildDate>
+    <atom:link href="/project/escapethecolors/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>You can&#39;t escape the colors!</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>project</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/project/escapethecolors/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

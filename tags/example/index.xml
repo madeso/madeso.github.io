@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example on Gustav Jansson</title>
+    <title>Gustav Janssons Example </title>
     <link>https://madeso.github.io/tags/example/</link>
-    <description>Recent content in Example on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Feb 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/example/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/example/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Test markdown</title>
-      <link>https://madeso.github.io/blog/test/</link>
-      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://madeso.github.io/blog/test/</guid>
-      <description>Here&amp;rsquo;s a code chunk with syntax highlighting:
-var foo = function(x) { return(x + 5); } foo(3)  $ echo $EDITOR vim $ git checkout master Switched to branch &#39;master&#39; Your branch is up-to-date with &#39;origin/master&#39;. $ git push Everything up-to-date $ echo &#39;All &amp;gt; done!&#39; All done!  You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</description>
+      <title>Example</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
+    
+    
     
   </channel>
 </rss>

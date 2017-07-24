@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devlog on Gustav Jansson</title>
+    <title>Gustav Janssons devlog </title>
     <link>https://madeso.github.io/devlog/</link>
-    <description>Recent content in devlog on Gustav Jansson</description>
+    <description>&lt;p&gt;This blog is a try to me keep motivates and a way to see my progress on my current projects. Let&amp;rsquo;s see how it goes!&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
+    <atom:link href="/devlog/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>devlog</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>devlog</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+
     
     
     <item>
@@ -17,7 +30,8 @@
       <pubDate>Sun, 23 Jul 2017 22:38:16 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week29/</guid>
-      <description>This week I didnt do much, and I&amp;rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.</description>
+      <description>&lt;p&gt;This week I didnt do much, and I&amp;rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -26,7 +40,8 @@
       <pubDate>Sun, 16 Jul 2017 22:52:35 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week28/</guid>
-      <description>This week I mostly watched season 4 of &amp;ldquo;Agents of Shield&amp;rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</description>
+      <description>&lt;p&gt;This week I mostly watched season 4 of &amp;ldquo;Agents of Shield&amp;rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -35,7 +50,8 @@
       <pubDate>Tue, 11 Jul 2017 08:24:57 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week27/</guid>
-      <description>This week I continued working on the graph widget. I also found 2 earlier blogs of mine and moved all of them here.</description>
+      <description>&lt;p&gt;This week I continued working on the graph widget. I also found 2 earlier blogs of mine and moved all of them here.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -44,7 +60,8 @@
       <pubDate>Mon, 03 Jul 2017 07:33:18 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week26/</guid>
-      <description>This week I pretty much continued on NodeCalc and the graph widget driving it all.</description>
+      <description>&lt;p&gt;This week I pretty much continued on NodeCalc and the graph widget driving it all.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -53,7 +70,8 @@
       <pubDate>Thu, 29 Jun 2017 21:07:47 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week25/</guid>
-      <description>This week I started on a project called nodecalc. It aims to replace my need for most excel/open office calc needs by calculating expressions in a graph like manner instead of referencing cells.</description>
+      <description>&lt;p&gt;This week I started on a project called nodecalc. It aims to replace my need for most excel/open office calc needs by calculating expressions in a graph like manner instead of referencing cells.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -62,7 +80,8 @@
       <pubDate>Thu, 22 Jun 2017 07:16:31 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week24/</guid>
-      <description>This week I spent time learning various unity things, trying to up my unity game. I also started learning blender and trying (and failing) to make a 3d character.</description>
+      <description>&lt;p&gt;This week I spent time learning various unity things, trying to up my unity game. I also started learning blender and trying (and failing) to make a 3d character.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -71,7 +90,8 @@
       <pubDate>Tue, 13 Jun 2017 08:43:18 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week23/</guid>
-      <description>This week I entered the no more sweden gamejam and made a game called &amp;ldquo;Looking for love&amp;rdquo;.</description>
+      <description>&lt;p&gt;This week I entered the &lt;a href=&#34;http://www.nomoresweden.com&#34;&gt;no more sweden&lt;/a&gt; gamejam and made a game called &lt;a href=&#34;https://madeso.github.io/project/looking-for-love/&#34;&gt;&amp;ldquo;Looking for love&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -80,7 +100,8 @@
       <pubDate>Sun, 04 Jun 2017 21:22:50 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week22/</guid>
-      <description>This week started with a small project of creating a tracery.io commandline application in C++. It currently missing some advanced features but it was a nice break in the great konmari cleansing.</description>
+      <description>&lt;p&gt;This week started with a small project of creating a tracery.io commandline application in C++. It currently missing some advanced features but it was a nice break in the great konmari cleansing.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -89,7 +110,10 @@
       <pubDate>Tue, 30 May 2017 07:19:39 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week21/</guid>
-      <description>This was a little bit better. I watched a little bit of netflix, but converted the current deploy script from bash to python so I, in the future, can add more advanced image rezising functions that hugo currently doesnt support. Then I pretty much started the konmari appartment cleanup so I guess I wont get much development stuff done for a couple of weeks.</description>
+      <description>&lt;p&gt;This was a little bit better. I watched a little bit of netflix, but converted the current deploy script from bash to python
+so I, in the future, can add more advanced image rezising functions that hugo currently doesnt support. Then I pretty much
+started the konmari appartment cleanup so I guess I wont get much development stuff done for a couple of weeks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -98,7 +122,8 @@
       <pubDate>Sun, 21 May 2017 21:07:17 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week20/</guid>
-      <description>This week was also lazy. What can I say, except I&amp;rsquo;ve now binged one more series on netflix.</description>
+      <description>&lt;p&gt;This week was also lazy. What can I say, except I&amp;rsquo;ve now binged one more series on netflix.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -107,7 +132,8 @@
       <pubDate>Mon, 15 May 2017 08:42:27 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week19/</guid>
-      <description>This week should have been spent on either gaf, t3d or finishing the spacetyper menu but it was spent on finishing crappy series on netflix instead. I guess the blame is mostly on the bad cycle of beeing too tired and then just binge watching myself one more episode past bedtime.</description>
+      <description>&lt;p&gt;This week should have been spent on either gaf, t3d or finishing the spacetyper menu but it was spent on finishing crappy series on netflix instead. I guess the blame is mostly on the bad cycle of beeing too tired and then just binge watching myself one more episode past bedtime.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -116,7 +142,8 @@
       <pubDate>Mon, 08 May 2017 21:07:52 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week18/</guid>
-      <description>This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.</description>
+      <description>&lt;p&gt;This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -125,7 +152,10 @@
       <pubDate>Mon, 01 May 2017 20:46:12 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week17/</guid>
-      <description>Much of the page is now in &amp;ldquo;kinda working&amp;rdquo; order. There are still projects missing images and download links, and most projects have the wrong header image size. There only one thing to do, and that&amp;rsquo;s keep on working on it.</description>
+      <description>&lt;p&gt;Much of the page is now in &amp;ldquo;kinda working&amp;rdquo; order. There are still projects
+missing images and download links, and most projects have the wrong
+header image size. There only one thing to do, and that&amp;rsquo;s keep on working on it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -134,7 +164,8 @@
       <pubDate>Mon, 24 Apr 2017 00:12:50 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week16/</guid>
-      <description>This week I did a little work on gaf, but my whole weeked was spent on moving my blogs and page to this new hugo based page. It isn&amp;rsquo;t done yet, but hopefully soon.</description>
+      <description>&lt;p&gt;This week I did a little work on gaf, but my whole weeked was spent on moving my blogs and page to this new hugo based page. It isn&amp;rsquo;t done yet, but hopefully soon.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -143,71 +174,10 @@
       <pubDate>Mon, 17 Apr 2017 19:54:04 +0200</pubDate>
       
       <guid>https://madeso.github.io/devlog/week15/</guid>
-      <description>This week I continued working on gaf, now supporting json loading and default values, next up is array support (yay)</description>
+      <description>&lt;p&gt;This week I continued working on gaf, now supporting json loading and default values, next up is array support (yay)&lt;/p&gt;
+</description>
     </item>
     
-    <item>
-      <title>week14</title>
-      <link>https://madeso.github.io/devlog/week14/</link>
-      <pubDate>Wed, 12 Apr 2017 15:16:00 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week14/</guid>
-      <description>I continued working on gaf, and currently it parses a few test files, generate some c++11 code and runs a few unit tests on Travis. Next up is adding Json io and enums or arrays</description>
-    </item>
-    
-    <item>
-      <title>week13</title>
-      <link>https://madeso.github.io/devlog/week13/</link>
-      <pubDate>Tue, 04 Apr 2017 23:41:57 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week13/</guid>
-      <description>Last week was kinda productive despite a birthday party in Germany. I finally started on gaf, the game format file format generator, and separated the game and the engine part of spacetyper into super and sub repos.</description>
-    </item>
-    
-    <item>
-      <title>week12</title>
-      <link>https://madeso.github.io/devlog/week12/</link>
-      <pubDate>Tue, 28 Mar 2017 23:23:55 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week12/</guid>
-      <description>Last week wasn&amp;rsquo;t that eventful. Life got in my way I guess so no code was neither written nor committed. Better luck next(this) week I guess&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>week11</title>
-      <link>https://madeso.github.io/devlog/week11/</link>
-      <pubDate>Mon, 20 Mar 2017 07:07:41 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week11/</guid>
-      <description>I did nothing at all this week except watching Netflix. I managed to watch the entire Jessica Jones season 1 though so I&amp;rsquo;m both proud and appalled about my accomplishment.</description>
-    </item>
-    
-    <item>
-      <title>week10</title>
-      <link>https://madeso.github.io/devlog/week10/</link>
-      <pubDate>Tue, 14 Mar 2017 00:21:39 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week10/</guid>
-      <description>I haven&amp;rsquo;t really been doing that much last week. Instead of staring designing or coding the 2d rendering system I started on separating the engine repo from the game repo, but nothing is complete yet. I hope I&amp;rsquo;ll be able to finish it this week.</description>
-    </item>
-    
-    <item>
-      <title>week9</title>
-      <link>https://madeso.github.io/devlog/week9/</link>
-      <pubDate>Mon, 06 Mar 2017 05:44:35 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week9/</guid>
-      <description>This week I didn&amp;rsquo;t do much, except implementing radix sort with count sort as the second sorter. Pretty standard I guess but it wasn&amp;rsquo;t in my toolbox library and I will need it for the upcoming render optimization</description>
-    </item>
-    
-    <item>
-      <title>week8</title>
-      <link>https://madeso.github.io/devlog/week8/</link>
-      <pubDate>Sun, 26 Feb 2017 12:25:31 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week8/</guid>
-      <description>This week I replaced the built-in assert with a custom one to get callstack information, and I&amp;rsquo;ve also finally completed the rewrite of the new opengl buffer rendering.</description>
-    </item>
     
   </channel>
 </rss>

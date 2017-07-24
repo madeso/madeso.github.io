@@ -1,35 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hibernate on Gustav Jansson</title>
+    <title>Gustav Janssons Hibernate </title>
     <link>https://madeso.github.io/tags/hibernate/</link>
-    <description>Recent content in Hibernate on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Sep 2016 14:34:04 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/hibernate/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/hibernate/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Keep your ubuntu-gnome from waking up at random</title>
-      <link>https://madeso.github.io/blog/gnomewakeup/</link>
-      <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/gnomewakeup/</guid>
-      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.
-It is really quite simple. First you need to install it, unless you already have it installed:
-$ sudo apt-get install acpitool  Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
+      <title>Hibernate</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
     
-    <item>
-      <title>Windows 10 wakes up from sleep at random</title>
-      <link>https://madeso.github.io/blog/win10wakeup/</link>
-      <pubDate>Fri, 26 Aug 2016 19:12:53 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/win10wakeup/</guid>
-      <description>After upgrading to Windows 10, my computer started randomly waking up. This extensive guide on superuser has proven time and time again to be a perfect guide to keep windows from waking up.</description>
-    </item>
+    
     
   </channel>
 </rss>

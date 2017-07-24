@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spotify on Gustav Jansson</title>
+    <title>Gustav Janssons Spotify </title>
     <link>https://madeso.github.io/tags/spotify/</link>
-    <description>Recent content in Spotify on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 May 2017 07:28:24 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/spotify/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>A fix for spotify filling up the C: drive</title>
-      <link>https://madeso.github.io/blog/spotify-windows-ssd/</link>
-      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/spotify-windows-ssd/</guid>
-      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.
-It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
+      <title>Spotify</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
+    
+    
     
   </channel>
 </rss>

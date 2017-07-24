@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on the artstyle on Gustav Jansson</title>
+    <title>Gustav Janssons Thoughts on the artstyle </title>
     <link>https://madeso.github.io/blog/sh-artstyle/</link>
-    <description>Recent content in Thoughts on the artstyle on Gustav Jansson</description>
+    <description>&lt;p&gt;Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.&lt;/p&gt;
+
+&lt;p&gt;One idea I’ve been tossing around is the World War 2 with jet engines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ww2.jpg&#34; alt=&#34;ww2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;World war 2 inspirational image from &lt;a href=&#34;http://www.wallpapervortex.com/wallpaper-28123_aircraft_ww2_airplanes.html&#34;&gt;here&lt;/a&gt;, or the following (I would assume) tyrian fan image from &lt;a href=&#34;http://siteinfo.org.uk/frozenreality.co.uk&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;talon.gif&#34; alt=&#34;talon from tyrian&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another design would be steampunk a more inspired design, like from Steamboy. This would require removing or altering some weapons and defence like lasers and shields and replacing the jet engine with a propeller instead, but it would set the game apart from the original Lander in style and allow for more particle effects to be added, and everyone loves particles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;steamboy.jpg&#34; alt=&#34;steamboy steam&#34; /&gt;&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 May 2013 13:20:12 +0200</lastBuildDate>
+    <atom:link href="/blog/sh-artstyle/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Thoughts on the artstyle</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>blog</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/blog/sh-artstyle/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

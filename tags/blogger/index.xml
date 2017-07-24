@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogger on Gustav Jansson</title>
+    <title>Gustav Janssons Blogger </title>
     <link>https://madeso.github.io/tags/blogger/</link>
-    <description>Recent content in Blogger on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Aug 2016 19:29:53 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/blogger/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/blogger/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Revert google&#43; to a standard blogger profile on blogger</title>
-      <link>https://madeso.github.io/blog/googleplusblogger/</link>
-      <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/googleplusblogger/</guid>
-      <description>It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:
-http://www.blogger.com/revert-profile.g﻿
-Pretty simple but it took far too long to find it.</description>
+      <title>Blogger</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
+    
+    
     
   </channel>
 </rss>

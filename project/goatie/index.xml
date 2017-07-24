@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Furry Fours vs. Goatie the EVIL Goat on Gustav Jansson</title>
+    <title>Gustav Janssons The Furry Fours vs. Goatie the EVIL Goat </title>
     <link>https://madeso.github.io/project/goatie/</link>
-    <description>Recent content in The Furry Fours vs. Goatie the EVIL Goat on Gustav Jansson</description>
+    <description>&lt;p&gt;Play as a the evil goat and kill innocent small rabbits and kill the heroes.&lt;/p&gt;
+
+&lt;p&gt;This ludum dare I spent most of the time on the transitions and never really had the time to make the gmaeplay interesting. It&amp;rsquo;s function but not much else. It&amp;rsquo;s unfortunate since I really like the graphics and transitions.&lt;/p&gt;
+</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Dec 2012 22:05:23 +0200</lastBuildDate>
+    <atom:link href="/project/goatie/" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>The Furry Fours vs. Goatie the EVIL Goat</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description>project</description>
+    </item>
+
     
-	<atom:link href="https://madeso.github.io/project/goatie/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ui on Gustav Jansson</title>
+    <title>Gustav Janssons Ui </title>
     <link>https://madeso.github.io/tags/ui/</link>
-    <description>Recent content in Ui on Gustav Jansson</description>
+    <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2009 11:08:13 +0200</lastBuildDate>
-    
-	<atom:link href="https://madeso.github.io/tags/ui/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/ui/" rel="self" type="application/rss+xml" />
+
     <item>
-      <title>Excursions into the UI</title>
-      <link>https://madeso.github.io/blog/wp-ui-excursions/</link>
-      <pubDate>Thu, 25 Jun 2009 11:08:13 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/blog/wp-ui-excursions/</guid>
-      <description>I recently read scarabus’ post regarding guis and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.
-So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d.</description>
+      <title>Ui</title>
+      <link>dog</link>
+      <pubDate>1982</pubDate>
+      <guid>dog</guid>
+      <description></description>
     </item>
+
+    
+    
     
   </channel>
 </rss>
