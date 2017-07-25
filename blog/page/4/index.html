@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="blog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -186,8 +187,8 @@ $replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)  Tha
 </div>
 <div class="markdown">
 <p>Working an a skeleton loader, theese are some shots while developing it.
-<a href="https://madeso.github.io/blog/wp-turtlebones/bones1.png" data-lightbox="blog-There are bones in my turtle"><img src="https://madeso.github.io/blog/wp-turtlebones/bones1.png" alt=/ ></a>
-<a href="https://madeso.github.io/blog/wp-turtlebones/bones2.png" data-lightbox="blog-There are bones in my turtle"><img src="https://madeso.github.io/blog/wp-turtlebones/bones2.png" alt=/></p ></a>
+<a href="https://madeso.github.io/blog/wp-turtlebones/bones1.png" data-lightbox="blog-There are bones in my turtle"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/wp-turtlebones/bones1.png" width="300" height="241" style="width: 300px; height: 241px;"  alt=/ ></a>
+<a href="https://madeso.github.io/blog/wp-turtlebones/bones2.png" data-lightbox="blog-There are bones in my turtle"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/wp-turtlebones/bones2.png" width="300" height="256" style="width: 300px; height: 256px;"  alt=/></p ></a>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/from-wordpress">#from wordpress</a>
@@ -312,6 +313,10 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/#"]', function(e)
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>
 <script>

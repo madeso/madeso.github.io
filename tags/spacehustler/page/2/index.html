@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="Spacehustler">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -49,9 +50,9 @@
   <p>Saturday, 1 June 2013 at 13:25</p>
 <div class="markdown">
 <p>This week I’ve been thinking a lot about the different skirmish and mission types. The original lander basically had fetch an object and destroy missions. Hopper introduced “challenges” in the form of land without taking any damage and races, and while this could be expanded upon with acrobatical challenges(move through a narrow gap) and survival challenges (survive a meteor rain) I want to expand further in the mission and challenge/skirmish varieties.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" width="640" height="480" style="width: 640px; height: 480px;"  alt=/></p ></a>
 <p>As mouse and keyboard controls are more common now since the original lander was published and hacking in basic mouse support as a test in the WebGL I realised something. Controlling the craft isn’t as hard as I remembered. So adding a few enemy landers could be fun and all the standard shooting would apply such as deathmatch, capture the flag, king of the hill etc. This calls for more weapons than lander had (more on that in a later post) but I’ve been thinking about special mission types where there are intense dogfights but with a lander twist.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/hopper.png" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/hopper.png" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-missiontypes/hopper.png" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-missiontypes/hopper.png" width="480" height="354" style="width: 480px; height: 354px;"  alt=/></p ></a>
 <p>One twist that I’ve been entertaining is that the player pick up object with the tractorbeam, swing and then release at the enemy.</p>
 <p>The other twist is a little more acrobatical, but the general idea is that only thing that can hurt the enemy is the flames from the major jet engine . While this might not be feasible it is an interesting dynamic that needs to be explored.</p>
 </div>
@@ -89,11 +90,11 @@
 <div class="markdown">
 <p>Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.</p>
 <p>One idea I’ve been tossing around is the World War 2 with jet engines.</p>
-<p><a href="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-artstyle/ww2.jpg" width="300" height="188" style="width: 300px; height: 188px;"  alt=/></p ></a>
 <p>World war 2 inspirational image from <a href="http://www.wallpapervortex.com/wallpaper-28123_aircraft_ww2_airplanes.html">here <i class="fa fa-external-link" aria-hidden="true"></i></a>, or the following (I would assume) tyrian fan image from <a href="http://siteinfo.org.uk/frozenreality.co.uk">here <i class="fa fa-external-link" aria-hidden="true"></i></a>:</p>
 <p><a href="https://madeso.github.io/blog/sh-artstyle/talon.gif" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/talon.gif" alt=/></p ></a>
 <p>Another design would be steampunk a more inspired design, like from Steamboy. This would require removing or altering some weapons and defence like lasers and shields and replacing the jet engine with a propeller instead, but it would set the game apart from the original Lander in style and allow for more particle effects to be added, and everyone loves particles.</p>
-<p><a href="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" data-lightbox="blog-Thoughts on the artstyle"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-artstyle/steamboy.jpg" width="320" height="240" style="width: 320px; height: 240px;"  alt=/></p ></a>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
@@ -293,6 +294,10 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/spacehustler\/#"]
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>
 <script>

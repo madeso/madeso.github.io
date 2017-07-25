@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="Oculus development">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -45,7 +46,7 @@
   <p>Saturday, 7 September 2013 at 13:48</p>
 <div class="markdown">
 <p>I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:</p>
-<p><a href="https://madeso.github.io/blog/sh-oculus/matrix.png" data-lightbox="blog-Oculus development"><img src="https://madeso.github.io/blog/sh-oculus/matrix.png" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-oculus/matrix.png" data-lightbox="blog-Oculus development"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-oculus/matrix.png" width="1275" height="825" style="width: 1275px; height: 825px;"  alt=/></p ></a>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
@@ -156,5 +157,9 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-oculus\/#"]', 
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>

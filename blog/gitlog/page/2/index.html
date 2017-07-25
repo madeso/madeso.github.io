@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="A better git log">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -45,9 +46,9 @@
   <p>Friday, 25 October 2013 at 13:53</p>
 <div class="markdown">
 <p>I&rsquo;ve just changed my git log command from the standard:</p>
-<p><a href="https://madeso.github.io/blog/gitlog/old.jpg" data-lightbox="blog-A better git log"><img src="https://madeso.github.io/blog/gitlog/old.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/gitlog/old.jpg" data-lightbox="blog-A better git log"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/gitlog/old.jpg" width="1168" height="428" style="width: 1168px; height: 428px;"  alt=/></p ></a>
 <p>to the more compact and colorful:</p>
-<p><a href="https://madeso.github.io/blog/gitlog/new.jpg" data-lightbox="blog-A better git log"><img src="https://madeso.github.io/blog/gitlog/new.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/gitlog/new.jpg" data-lightbox="blog-A better git log"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/gitlog/new.jpg" width="1168" height="428" style="width: 1168px; height: 428px;"  alt=/></p ></a>
 <p>It&rsquo;s simple to get this log. Just type in:</p>
 <div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit
 </code></pre></section></div>
@@ -167,5 +168,9 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/gitlog\/#"]', fun
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>

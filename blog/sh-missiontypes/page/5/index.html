@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="Thoughts on mission types">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -45,9 +46,9 @@
   <p>Tuesday, 3 February 2009 at 10:42</p>
 <div class="markdown">
 <p>This week I’ve been thinking a lot about the different skirmish and mission types. The original lander basically had fetch an object and destroy missions. Hopper introduced “challenges” in the form of land without taking any damage and races, and while this could be expanded upon with acrobatical challenges(move through a narrow gap) and survival challenges (survive a meteor rain) I want to expand further in the mission and challenge/skirmish varieties.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-missiontypes/lander.jpg" width="640" height="480" style="width: 640px; height: 480px;"  alt=/></p ></a>
 <p>As mouse and keyboard controls are more common now since the original lander was published and hacking in basic mouse support as a test in the WebGL I realised something. Controlling the craft isn’t as hard as I remembered. So adding a few enemy landers could be fun and all the standard shooting would apply such as deathmatch, capture the flag, king of the hill etc. This calls for more weapons than lander had (more on that in a later post) but I’ve been thinking about special mission types where there are intense dogfights but with a lander twist.</p>
-<p><a href="https://madeso.github.io/blog/sh-missiontypes/hopper.png" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/blog/sh-missiontypes/hopper.png" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/sh-missiontypes/hopper.png" data-lightbox="blog-Thoughts on mission types"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/sh-missiontypes/hopper.png" width="480" height="354" style="width: 480px; height: 354px;"  alt=/></p ></a>
 <p>One twist that I’ve been entertaining is that the player pick up object with the tractorbeam, swing and then release at the enemy.</p>
 <p>The other twist is a little more acrobatical, but the general idea is that only thing that can hurt the enemy is the flames from the major jet engine . While this might not be feasible it is an interesting dynamic that needs to be explored.</p>
 </div>
@@ -158,5 +159,9 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/sh-missiontypes\/
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>

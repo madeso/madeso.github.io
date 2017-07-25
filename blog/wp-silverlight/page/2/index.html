@@ -7,6 +7,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
+  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="Silverlight Installation">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -46,7 +47,7 @@
 <div class="markdown">
 <p>I recently had to install silverlight at my computer(channel 9 required it), since I wanted to have a look at the brand new Visual Studio 2010 without downloading that huge ctp, and I must say that I really liked the installation process. Unlike most installations it doesn’t force you to press 20 buttons to install it. Only 2, ” install now”, and “close”.  It actually felt refreshing.</p>
 <p>It still manages to mention silverlight 4 times though without telling you what it does. Still, it’s <a href="http://www.joelonsoftware.com/items/2009/01/12.html">better than Java <i class="fa fa-external-link" aria-hidden="true"></i></a>.</p>
-<p><a href="https://madeso.github.io/blog/wp-silverlight/silverlight.png" data-lightbox="blog-Silverlight Installation"><img src="https://madeso.github.io/blog/wp-silverlight/silverlight.png" alt=/></p ></a>
+<p><a href="https://madeso.github.io/blog/wp-silverlight/silverlight.png" data-lightbox="blog-Silverlight Installation"><img src="https://madeso.github.io/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://madeso.github.io/blog/wp-silverlight/silverlight.png" width="509" height="236" style="width: 509px; height: 236px;"  alt=/></p ></a>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/from-wordpress">#from wordpress</a>
@@ -155,5 +156,9 @@ $('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-silverlight\/#
 </script>
 <script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
+<script>
+progressively.init();
+</script>
 </body>
 </html>
