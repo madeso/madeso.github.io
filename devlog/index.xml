@@ -25,6 +25,17 @@
     
     
     <item>
+      <title>Week30</title>
+      <link>https://madeso.github.io/devlog/week30/</link>
+      <pubDate>Fri, 04 Aug 2017 19:25:19 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week30/</guid>
+      <description>&lt;p&gt;This week I mostly spent on binge watching Agents of Shield (again), and did some real world stuff, however I decided that I&amp;rsquo;d want to use my own 3d engine
+for my next game jam, so I spent a significant part of the weekend on this engine. I&amp;rsquo;m hoping that it will be in a useful state for the Kenney jam on a month.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week29</title>
       <link>https://madeso.github.io/devlog/week29/</link>
       <pubDate>Sun, 23 Jul 2017 22:38:16 +0200</pubDate>
@@ -165,16 +176,6 @@ header image size. There only one thing to do, and that&amp;rsquo;s keep on work
       
       <guid>https://madeso.github.io/devlog/week16/</guid>
       <description>&lt;p&gt;This week I did a little work on gaf, but my whole weeked was spent on moving my blogs and page to this new hugo based page. It isn&amp;rsquo;t done yet, but hopefully soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week15</title>
-      <link>https://madeso.github.io/devlog/week15/</link>
-      <pubDate>Mon, 17 Apr 2017 19:54:04 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week15/</guid>
-      <description>&lt;p&gt;This week I continued working on gaf, now supporting json loading and default values, next up is array support (yay)&lt;/p&gt;
 </description>
     </item>
     
