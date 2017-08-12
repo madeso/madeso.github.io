@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week31</title>
+      <link>https://madeso.github.io/devlog/week31/</link>
+      <pubDate>Sat, 12 Aug 2017 20:05:37 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week31/</guid>
+      <description>&lt;p&gt;This week I continued working on the &amp;ldquo;engine&amp;rdquo;, but I dont think I&amp;rsquo;ll be able to use it on my next jam as time is slowly running out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week30</title>
       <link>https://madeso.github.io/devlog/week30/</link>
       <pubDate>Fri, 04 Aug 2017 19:25:19 +0200</pubDate>
@@ -166,16 +176,6 @@ started the konmari appartment cleanup so I guess I wont get much development st
       <description>&lt;p&gt;Much of the page is now in &amp;ldquo;kinda working&amp;rdquo; order. There are still projects
 missing images and download links, and most projects have the wrong
 header image size. There only one thing to do, and that&amp;rsquo;s keep on working on it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week16</title>
-      <link>https://madeso.github.io/devlog/week16/</link>
-      <pubDate>Mon, 24 Apr 2017 00:12:50 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week16/</guid>
-      <description>&lt;p&gt;This week I did a little work on gaf, but my whole weeked was spent on moving my blogs and page to this new hugo based page. It isn&amp;rsquo;t done yet, but hopefully soon.&lt;/p&gt;
 </description>
     </item>
     
