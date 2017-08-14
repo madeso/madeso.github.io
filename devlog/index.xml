@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week32</title>
+      <link>https://madeso.github.io/devlog/week32/</link>
+      <pubDate>Mon, 14 Aug 2017 07:33:33 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week32/</guid>
+      <description>&lt;p&gt;After several days I&amp;rsquo;m back home and back to roughly the same posting shedule. I spent the lasat vacation week with working on &amp;ldquo;the engine&amp;rdquo; and it is slowly getting there, but as I get back to work I expect things to slow down quite a bit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week31</title>
       <link>https://madeso.github.io/devlog/week31/</link>
       <pubDate>Sat, 12 Aug 2017 20:05:37 +0200</pubDate>
@@ -164,18 +174,6 @@ started the konmari appartment cleanup so I guess I wont get much development st
       
       <guid>https://madeso.github.io/devlog/week18/</guid>
       <description>&lt;p&gt;This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week17</title>
-      <link>https://madeso.github.io/devlog/week17/</link>
-      <pubDate>Mon, 01 May 2017 20:46:12 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week17/</guid>
-      <description>&lt;p&gt;Much of the page is now in &amp;ldquo;kinda working&amp;rdquo; order. There are still projects
-missing images and download links, and most projects have the wrong
-header image size. There only one thing to do, and that&amp;rsquo;s keep on working on it.&lt;/p&gt;
 </description>
     </item>
     
