@@ -25,6 +25,20 @@
     
     
     <item>
+      <title>Week33</title>
+      <link>https://madeso.github.io/devlog/week33/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:39 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week33/</guid>
+      <description>&lt;p&gt;This week I was back on work and even though my time was more limited, I still
+managed to do a little bit on the &amp;ldquo;engine&amp;rdquo;. I added clang-tidy and clang-format
+as a optional step in the build process. I then continued on fixing almost all the
+error that clang-tidy found. That took the better part of the week. Then I added
+basic lightning to the engine demo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week32</title>
       <link>https://madeso.github.io/devlog/week32/</link>
       <pubDate>Mon, 14 Aug 2017 07:33:33 +0200</pubDate>
@@ -164,16 +178,6 @@ started the konmari appartment cleanup so I guess I wont get much development st
       
       <guid>https://madeso.github.io/devlog/week19/</guid>
       <description>&lt;p&gt;This week should have been spent on either gaf, t3d or finishing the spacetyper menu but it was spent on finishing crappy series on netflix instead. I guess the blame is mostly on the bad cycle of beeing too tired and then just binge watching myself one more episode past bedtime.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week18</title>
-      <link>https://madeso.github.io/devlog/week18/</link>
-      <pubDate>Mon, 08 May 2017 21:07:52 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week18/</guid>
-      <description>&lt;p&gt;This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.&lt;/p&gt;
 </description>
     </item>
     
