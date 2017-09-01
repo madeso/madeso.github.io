@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week34</title>
+      <link>https://madeso.github.io/devlog/week34/</link>
+      <pubDate>Fri, 01 Sep 2017 20:09:37 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week34/</guid>
+      <description>&lt;p&gt;This week I continued working on the engine, loading advanced meshes, default
+textures in the shader and replaced google test in favour of catch. At the
+weekend I participated in kenney jam and made a breakout clone in unity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week33</title>
       <link>https://madeso.github.io/devlog/week33/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:39 +0200</pubDate>
@@ -168,16 +180,6 @@ started the konmari appartment cleanup so I guess I wont get much development st
       
       <guid>https://madeso.github.io/devlog/week20/</guid>
       <description>&lt;p&gt;This week was also lazy. What can I say, except I&amp;rsquo;ve now binged one more series on netflix.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week19</title>
-      <link>https://madeso.github.io/devlog/week19/</link>
-      <pubDate>Mon, 15 May 2017 08:42:27 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week19/</guid>
-      <description>&lt;p&gt;This week should have been spent on either gaf, t3d or finishing the spacetyper menu but it was spent on finishing crappy series on netflix instead. I guess the blame is mostly on the bad cycle of beeing too tired and then just binge watching myself one more episode past bedtime.&lt;/p&gt;
 </description>
     </item>
     
