@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week37</title>
+      <link>https://madeso.github.io/devlog/week37/</link>
+      <pubDate>Mon, 18 Sep 2017 20:41:36 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week37/</guid>
+      <description>&lt;p&gt;This week I added a linux build on Travis CI and a Windows build on Appveyour. The linux build runs my unit tests and the windows currently only builds. Testing comes later.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week36</title>
       <link>https://madeso.github.io/devlog/week36/</link>
       <pubDate>Sun, 10 Sep 2017 22:52:10 +0200</pubDate>
@@ -171,16 +181,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       
       <guid>https://madeso.github.io/devlog/week23/</guid>
       <description>&lt;p&gt;This week I entered the &lt;a href=&#34;http://www.nomoresweden.com&#34;&gt;no more sweden&lt;/a&gt; gamejam and made a game called &lt;a href=&#34;https://madeso.github.io/project/looking-for-love/&#34;&gt;&amp;ldquo;Looking for love&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week22</title>
-      <link>https://madeso.github.io/devlog/week22/</link>
-      <pubDate>Sun, 04 Jun 2017 21:22:50 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week22/</guid>
-      <description>&lt;p&gt;This week started with a small project of creating a tracery.io commandline application in C++. It currently missing some advanced features but it was a nice break in the great konmari cleansing.&lt;/p&gt;
 </description>
     </item>
     
