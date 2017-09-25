@@ -58,6 +58,18 @@
     <div class="pagenumber"><span>Page 2 </span></div>
       <div class="post">
 <div class="title">
+<a href="https://madeso.github.io/devlog/week28/"><div class="previewheader header">Week28</div></a>
+<div class="shortdate right">16 July 2017</div>
+</div>
+<div class="markdown">
+<p>This week I mostly watched season 4 of &ldquo;Agents of Shield&rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
+      <div class="post">
+<div class="title">
 <a href="https://madeso.github.io/devlog/week27/"><div class="previewheader header">Week27</div></a>
 <div class="shortdate right">11 July 2017</div>
 </div>
@@ -166,18 +178,6 @@ started the konmari appartment cleanup so I guess I wont get much development st
       <div class="to-top">
 <a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://madeso.github.io/devlog/week18/"><div class="previewheader header">week18</div></a>
-<div class="shortdate right">8 May 2017</div>
-</div>
-<div class="markdown">
-<p>This week I continued working on this homepage, scaling images to fit in the design and it&rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&rsquo;s still in its infancy there arent any pretty pictures so I&rsquo;ll keep it here in the devlog for now.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -267,7 +267,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  2 ;
-  var totalPages =  3 ;
+  var totalPages =  4 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;

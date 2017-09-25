@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week38</title>
+      <link>https://madeso.github.io/devlog/week38/</link>
+      <pubDate>Mon, 25 Sep 2017 21:36:52 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week38/</guid>
+      <description>&lt;p&gt;This week I continued on the continuous integration and fixed some image coordinate bugs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week37</title>
       <link>https://madeso.github.io/devlog/week37/</link>
       <pubDate>Mon, 18 Sep 2017 20:41:36 +0200</pubDate>
@@ -171,16 +181,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       
       <guid>https://madeso.github.io/devlog/week24/</guid>
       <description>&lt;p&gt;This week I spent time learning various unity things, trying to up my unity game. I also started learning blender and trying (and failing) to make a 3d character.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>week23</title>
-      <link>https://madeso.github.io/devlog/week23/</link>
-      <pubDate>Tue, 13 Jun 2017 08:43:18 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week23/</guid>
-      <description>&lt;p&gt;This week I entered the &lt;a href=&#34;http://www.nomoresweden.com&#34;&gt;no more sweden&lt;/a&gt; gamejam and made a game called &lt;a href=&#34;https://madeso.github.io/project/looking-for-love/&#34;&gt;&amp;ldquo;Looking for love&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
