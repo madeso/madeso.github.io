@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week40</title>
+      <link>https://madeso.github.io/devlog/week40/</link>
+      <pubDate>Tue, 10 Oct 2017 08:46:15 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week40/</guid>
+      <description>&lt;p&gt;This week I was lazy and didn&amp;rsquo;t do much. I rediscovered agents of shield and spent
+way to much time watching episodes I&amp;rsquo;ve already seen. Then I spent some time on t3d,
+but way way less than I wanted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week39</title>
       <link>https://madeso.github.io/devlog/week39/</link>
       <pubDate>Mon, 02 Oct 2017 00:26:23 +0200</pubDate>
@@ -175,16 +187,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       
       <guid>https://madeso.github.io/devlog/week26/</guid>
       <description>&lt;p&gt;This week I pretty much continued on NodeCalc and the graph widget driving it all.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week25</title>
-      <link>https://madeso.github.io/devlog/week25/</link>
-      <pubDate>Thu, 29 Jun 2017 21:07:47 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week25/</guid>
-      <description>&lt;p&gt;This week I started on a project called nodecalc. It aims to replace my need for most excel/open office calc needs by calculating expressions in a graph like manner instead of referencing cells.&lt;/p&gt;
 </description>
     </item>
     
