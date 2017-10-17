@@ -25,6 +25,19 @@
     
     
     <item>
+      <title>Week41</title>
+      <link>https://madeso.github.io/devlog/week41/</link>
+      <pubDate>Tue, 17 Oct 2017 08:58:16 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week41/</guid>
+      <description>&lt;p&gt;This week I actually did a little work on t3d. I started on a tile library and
+fixed a problem with the mesh loader in euphoria. I loaded the ambient color and
+assimp defaulted to a black ambient, but since most models only specify diffuse
+I added a option to assume the ambient color is the same as the diffuse color.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week40</title>
       <link>https://madeso.github.io/devlog/week40/</link>
       <pubDate>Tue, 10 Oct 2017 08:46:15 +0200</pubDate>
@@ -177,16 +190,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       
       <guid>https://madeso.github.io/devlog/week27/</guid>
       <description>&lt;p&gt;This week I continued working on the graph widget. I also found 2 earlier blogs of mine and moved all of them here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week26</title>
-      <link>https://madeso.github.io/devlog/week26/</link>
-      <pubDate>Mon, 03 Jul 2017 07:33:18 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week26/</guid>
-      <description>&lt;p&gt;This week I pretty much continued on NodeCalc and the graph widget driving it all.&lt;/p&gt;
 </description>
     </item>
     
