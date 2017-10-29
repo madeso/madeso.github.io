@@ -25,6 +25,28 @@
     
     
     <item>
+      <title>Week43</title>
+      <link>https://madeso.github.io/devlog/week43/</link>
+      <pubDate>Sun, 29 Oct 2017 22:26:34 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week43/</guid>
+      <description>&lt;p&gt;This week I finished implementing the aabb collison check, but realized that I probably
+need a sphere/ray intersection instead as that would work regardless of the rotation of the object.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week42</title>
+      <link>https://madeso.github.io/devlog/week42/</link>
+      <pubDate>Sat, 28 Oct 2017 22:05:59 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week42/</guid>
+      <description>&lt;p&gt;This week I completed the basic outline feature to each actor/mesh so I can highlight
+the current selected tile/actor in t3d. I also started work on getting a ray so I can actually select.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week41</title>
       <link>https://madeso.github.io/devlog/week41/</link>
       <pubDate>Tue, 17 Oct 2017 08:58:16 +0200</pubDate>
@@ -170,26 +192,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       
       <guid>https://madeso.github.io/devlog/week29/</guid>
       <description>&lt;p&gt;This week I didnt do much, and I&amp;rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week28</title>
-      <link>https://madeso.github.io/devlog/week28/</link>
-      <pubDate>Sun, 16 Jul 2017 22:52:35 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week28/</guid>
-      <description>&lt;p&gt;This week I mostly watched season 4 of &amp;ldquo;Agents of Shield&amp;rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week27</title>
-      <link>https://madeso.github.io/devlog/week27/</link>
-      <pubDate>Tue, 11 Jul 2017 08:24:57 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week27/</guid>
-      <description>&lt;p&gt;This week I continued working on the graph widget. I also found 2 earlier blogs of mine and moved all of them here.&lt;/p&gt;
 </description>
     </item>
     
