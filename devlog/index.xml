@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week44</title>
+      <link>https://madeso.github.io/devlog/week44/</link>
+      <pubDate>Thu, 09 Nov 2017 08:31:05 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week44/</guid>
+      <description>&lt;p&gt;This week I implemented the ray-sphere collision, and tested it by highlightin
+all the intersections. I realized that a simple check such as this would be suitable
+for clicking on the closest object so I need to implement more acurate ray collisions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week43</title>
       <link>https://madeso.github.io/devlog/week43/</link>
       <pubDate>Sun, 29 Oct 2017 22:26:34 +0100</pubDate>
@@ -182,16 +194,6 @@ basic lightning to the engine demo.&lt;/p&gt;
       <guid>https://madeso.github.io/devlog/week30/</guid>
       <description>&lt;p&gt;This week I mostly spent on binge watching Agents of Shield (again), and did some real world stuff, however I decided that I&amp;rsquo;d want to use my own 3d engine
 for my next game jam, so I spent a significant part of the weekend on this engine. I&amp;rsquo;m hoping that it will be in a useful state for the Kenney jam on a month.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week29</title>
-      <link>https://madeso.github.io/devlog/week29/</link>
-      <pubDate>Sun, 23 Jul 2017 22:38:16 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week29/</guid>
-      <description>&lt;p&gt;This week I didnt do much, and I&amp;rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.&lt;/p&gt;
 </description>
     </item>
     
