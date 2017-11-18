@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week45</title>
+      <link>https://madeso.github.io/devlog/week45/</link>
+      <pubDate>Sat, 18 Nov 2017 23:19:08 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week45/</guid>
+      <description>&lt;p&gt;This week I didnt do much at all. I pretty much just watched random episodes of How I Met Your Mother.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week44</title>
       <link>https://madeso.github.io/devlog/week44/</link>
       <pubDate>Thu, 09 Nov 2017 08:31:05 +0100</pubDate>
@@ -183,17 +193,6 @@ basic lightning to the engine demo.&lt;/p&gt;
       
       <guid>https://madeso.github.io/devlog/week31/</guid>
       <description>&lt;p&gt;This week I continued working on the &amp;ldquo;engine&amp;rdquo;, but I dont think I&amp;rsquo;ll be able to use it on my next jam as time is slowly running out.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week30</title>
-      <link>https://madeso.github.io/devlog/week30/</link>
-      <pubDate>Fri, 04 Aug 2017 19:25:19 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week30/</guid>
-      <description>&lt;p&gt;This week I mostly spent on binge watching Agents of Shield (again), and did some real world stuff, however I decided that I&amp;rsquo;d want to use my own 3d engine
-for my next game jam, so I spent a significant part of the weekend on this engine. I&amp;rsquo;m hoping that it will be in a useful state for the Kenney jam on a month.&lt;/p&gt;
 </description>
     </item>
     
