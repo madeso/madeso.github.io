@@ -25,6 +25,17 @@
     
     
     <item>
+      <title>Week47</title>
+      <link>https://madeso.github.io/devlog/week47/</link>
+      <pubDate>Tue, 28 Nov 2017 19:45:47 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week47/</guid>
+      <description>&lt;p&gt;This week I pretty much continued on star collector. It&amp;rsquo;s progressing
+nicely and I&amp;rsquo;m hoping that it will be done before or arount X-mas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week46</title>
       <link>https://madeso.github.io/devlog/week46/</link>
       <pubDate>Thu, 23 Nov 2017 07:32:50 +0100</pubDate>
@@ -185,16 +196,6 @@ managed to do a little bit on the &amp;ldquo;engine&amp;rdquo;. I added clang-ti
 as a optional step in the build process. I then continued on fixing almost all the
 error that clang-tidy found. That took the better part of the week. Then I added
 basic lightning to the engine demo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week32</title>
-      <link>https://madeso.github.io/devlog/week32/</link>
-      <pubDate>Mon, 14 Aug 2017 07:33:33 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week32/</guid>
-      <description>&lt;p&gt;After several days I&amp;rsquo;m back home and back to roughly the same posting shedule. I spent the lasat vacation week with working on &amp;ldquo;the engine&amp;rdquo; and it is slowly getting there, but as I get back to work I expect things to slow down quite a bit.&lt;/p&gt;
 </description>
     </item>
     
