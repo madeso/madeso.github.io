@@ -58,6 +58,29 @@
     <div class="pagenumber"><span>Page 2 </span></div>
       <div class="post">
 <div class="title">
+<a href="https://madeso.github.io/devlog/week39/"><div class="previewheader header">Week39</div></a>
+<div class="shortdate right">2 October 2017</div>
+</div>
+<p>This week I started on rewriting ride in rust. From the ground up. I have some really basic custom input control in the GTK build, but I&rsquo;ll need to get a proper text rendering system up before I can continue. I also started working on a 3d level editor that I need for any game. Not much progress as I just grabbed the demo application and started removing things from it.</p>
+<p><a href="https://madeso.github.io/devlog/week39/">Read the rest...</a></p>
+</div>
+      <div class="to-top">
+<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
+      <div class="post">
+<div class="title">
+<a href="https://madeso.github.io/devlog/week38/"><div class="previewheader header">Week38</div></a>
+<div class="shortdate right">25 September 2017</div>
+</div>
+<div class="markdown">
+<p>This week I continued on the continuous integration and fixed some image coordinate bugs.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
+      <div class="post">
+<div class="title">
 <a href="https://madeso.github.io/devlog/week37/"><div class="previewheader header">Week37</div></a>
 <div class="shortdate right">18 September 2017</div>
 </div>
@@ -162,30 +185,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       <div class="to-top">
 <a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://madeso.github.io/devlog/week29/"><div class="previewheader header">Week29</div></a>
-<div class="shortdate right">23 July 2017</div>
-</div>
-<div class="markdown">
-<p>This week I didnt do much, and I&rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
-      <div class="post">
-<div class="title">
-<a href="https://madeso.github.io/devlog/week28/"><div class="previewheader header">Week28</div></a>
-<div class="shortdate right">16 July 2017</div>
-</div>
-<div class="markdown">
-<p>This week I mostly watched season 4 of &ldquo;Agents of Shield&rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -275,7 +274,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  2 ;
-  var totalPages =  4 ;
+  var totalPages =  5 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;

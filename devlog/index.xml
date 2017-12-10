@@ -25,6 +25,28 @@
     
     
     <item>
+      <title>Week49</title>
+      <link>https://madeso.github.io/devlog/week49/</link>
+      <pubDate>Sun, 10 Dec 2017 20:46:42 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week49/</guid>
+      <description>&lt;p&gt;Game is shaping up. Not much left now. I&amp;rsquo;m hoping for a release next week or
+the week after that, before x-mas at least.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week48</title>
+      <link>https://madeso.github.io/devlog/week48/</link>
+      <pubDate>Sun, 10 Dec 2017 14:05:19 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week48/</guid>
+      <description>&lt;p&gt;This week I found a few assets and started combining them in unity. Given that
+it&amp;rsquo;s a small game, it shouldnt take that long to complete. Fingers crossed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week47</title>
       <link>https://madeso.github.io/devlog/week47/</link>
       <pubDate>Tue, 28 Nov 2017 19:45:47 +0100</pubDate>
@@ -170,32 +192,6 @@ the demo application and started removing things from it.&lt;/p&gt;
 drawing tests and added base64 support so I can test image loading without being
 dependent on actual files. Finally I updated the dear imgui library to get
 access to the new color widget.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week34</title>
-      <link>https://madeso.github.io/devlog/week34/</link>
-      <pubDate>Fri, 01 Sep 2017 20:09:37 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week34/</guid>
-      <description>&lt;p&gt;This week I continued working on the engine, loading advanced meshes, default
-textures in the shader and replaced google test in favour of catch. At the
-weekend I participated in kenney jam and made a breakout clone in unity.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week33</title>
-      <link>https://madeso.github.io/devlog/week33/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:39 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week33/</guid>
-      <description>&lt;p&gt;This week I was back on work and even though my time was more limited, I still
-managed to do a little bit on the &amp;ldquo;engine&amp;rdquo;. I added clang-tidy and clang-format
-as a optional step in the build process. I then continued on fixing almost all the
-error that clang-tidy found. That took the better part of the week. Then I added
-basic lightning to the engine demo.&lt;/p&gt;
 </description>
     </item>
     
