@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week52</title>
+      <link>https://madeso.github.io/devlog/week52/</link>
+      <pubDate>Sun, 31 Dec 2017 12:21:11 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/week52/</guid>
+      <description>&lt;p&gt;This week I continued on the chatbot and updating the euphoria engine. In a
+few hours I&amp;rsquo;ll be leaving for new years celebration so fishhunt will have to be
+completed in the beginning of the next year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week51</title>
       <link>https://madeso.github.io/devlog/week51/</link>
       <pubDate>Sat, 23 Dec 2017 14:50:24 +0100</pubDate>
@@ -184,16 +196,6 @@ the demo application and started removing things from it.&lt;/p&gt;
       
       <guid>https://madeso.github.io/devlog/week38/</guid>
       <description>&lt;p&gt;This week I continued on the continuous integration and fixed some image coordinate bugs.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week37</title>
-      <link>https://madeso.github.io/devlog/week37/</link>
-      <pubDate>Mon, 18 Sep 2017 20:41:36 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week37/</guid>
-      <description>&lt;p&gt;This week I added a linux build on Travis CI and a Windows build on Appveyour. The linux build runs my unit tests and the windows currently only builds. Testing comes later.&lt;/p&gt;
 </description>
     </item>
     
