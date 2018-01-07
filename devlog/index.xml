@@ -25,11 +25,25 @@
     
     
     <item>
+      <title>Week 1</title>
+      <link>https://madeso.github.io/devlog/2018-01/</link>
+      <pubDate>Sun, 07 Jan 2018 22:15:55 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-01/</guid>
+      <description>&lt;p&gt;This week I mostly spend either watching netflix movies or coding on
+euphoria/spaceyper. One of my new year resolutions is to complete a few projects,
+including fish hunt, space typer and star collector. Of all the projects fish hunt
+is the one that is most completed. Star collector comes second but that is an
+android project so releasing that is another project entirly. Until next week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week52</title>
-      <link>https://madeso.github.io/devlog/week52/</link>
+      <link>https://madeso.github.io/devlog/2017-52/</link>
       <pubDate>Sun, 31 Dec 2017 12:21:11 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week52/</guid>
+      <guid>https://madeso.github.io/devlog/2017-52/</guid>
       <description>&lt;p&gt;This week I continued on the chatbot and updating the euphoria engine. In a
 few hours I&amp;rsquo;ll be leaving for new years celebration so fishhunt will have to be
 completed in the beginning of the next year.&lt;/p&gt;
@@ -38,10 +52,10 @@ completed in the beginning of the next year.&lt;/p&gt;
     
     <item>
       <title>Week51</title>
-      <link>https://madeso.github.io/devlog/week51/</link>
+      <link>https://madeso.github.io/devlog/2017-51/</link>
       <pubDate>Sat, 23 Dec 2017 14:50:24 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week51/</guid>
+      <guid>https://madeso.github.io/devlog/2017-51/</guid>
       <description>&lt;p&gt;This week I continued working on spacetyper and started a semi new project.
 A basic chatbot. Given that I am leaving for xmas celebrations, the week isnt over,
 and I&amp;rsquo;m switching to my laptop I probably will continue working on fishhunt for
@@ -51,10 +65,10 @@ the rest of the week. Stay tuned for next week.&lt;/p&gt;
     
     <item>
       <title>Week50</title>
-      <link>https://madeso.github.io/devlog/week50/</link>
+      <link>https://madeso.github.io/devlog/2017-50/</link>
       <pubDate>Sun, 17 Dec 2017 22:24:23 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week50/</guid>
+      <guid>https://madeso.github.io/devlog/2017-50/</guid>
       <description>&lt;p&gt;This week I mostly worked on upgrading spacetyper to the latest euphoria
 codebase. I really should have worked on completing fishhunt but I wanted to
 code some C++ for a change.&lt;/p&gt;
@@ -63,10 +77,10 @@ code some C++ for a change.&lt;/p&gt;
     
     <item>
       <title>Week49</title>
-      <link>https://madeso.github.io/devlog/week49/</link>
+      <link>https://madeso.github.io/devlog/2017-49/</link>
       <pubDate>Sun, 10 Dec 2017 20:46:42 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week49/</guid>
+      <guid>https://madeso.github.io/devlog/2017-49/</guid>
       <description>&lt;p&gt;Game is shaping up. Not much left now. I&amp;rsquo;m hoping for a release next week or
 the week after that, before x-mas at least.&lt;/p&gt;
 </description>
@@ -74,10 +88,10 @@ the week after that, before x-mas at least.&lt;/p&gt;
     
     <item>
       <title>Week48</title>
-      <link>https://madeso.github.io/devlog/week48/</link>
+      <link>https://madeso.github.io/devlog/2017-48/</link>
       <pubDate>Sun, 10 Dec 2017 14:05:19 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week48/</guid>
+      <guid>https://madeso.github.io/devlog/2017-48/</guid>
       <description>&lt;p&gt;This week I found a few assets and started combining them in unity. Given that
 it&amp;rsquo;s a small game, it shouldnt take that long to complete. Fingers crossed.&lt;/p&gt;
 </description>
@@ -85,10 +99,10 @@ it&amp;rsquo;s a small game, it shouldnt take that long to complete. Fingers cro
     
     <item>
       <title>Week47</title>
-      <link>https://madeso.github.io/devlog/week47/</link>
+      <link>https://madeso.github.io/devlog/2017-47/</link>
       <pubDate>Tue, 28 Nov 2017 19:45:47 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week47/</guid>
+      <guid>https://madeso.github.io/devlog/2017-47/</guid>
       <description>&lt;p&gt;This week I pretty much continued on star collector. It&amp;rsquo;s progressing
 nicely and I&amp;rsquo;m hoping that it will be done before or arount X-mas.&lt;/p&gt;
 </description>
@@ -96,10 +110,10 @@ nicely and I&amp;rsquo;m hoping that it will be done before or arount X-mas.&lt;
     
     <item>
       <title>Week46</title>
-      <link>https://madeso.github.io/devlog/week46/</link>
+      <link>https://madeso.github.io/devlog/2017-46/</link>
       <pubDate>Thu, 23 Nov 2017 07:32:50 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week46/</guid>
+      <guid>https://madeso.github.io/devlog/2017-46/</guid>
       <description>&lt;p&gt;This week I decided I should actually complete my older projects colelcting dust,
 so I took an old project of mine, starcollector, and started polishing it.
 I hope that I can actually complete it this time.&lt;/p&gt;
@@ -108,20 +122,20 @@ I hope that I can actually complete it this time.&lt;/p&gt;
     
     <item>
       <title>Week45</title>
-      <link>https://madeso.github.io/devlog/week45/</link>
+      <link>https://madeso.github.io/devlog/2017-45/</link>
       <pubDate>Sat, 18 Nov 2017 23:19:08 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week45/</guid>
+      <guid>https://madeso.github.io/devlog/2017-45/</guid>
       <description>&lt;p&gt;This week I didnt do much at all. I pretty much just watched random episodes of How I Met Your Mother.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week44</title>
-      <link>https://madeso.github.io/devlog/week44/</link>
+      <link>https://madeso.github.io/devlog/2017-44/</link>
       <pubDate>Thu, 09 Nov 2017 08:31:05 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week44/</guid>
+      <guid>https://madeso.github.io/devlog/2017-44/</guid>
       <description>&lt;p&gt;This week I implemented the ray-sphere collision, and tested it by highlightin
 all the intersections. I realized that a simple check such as this would be suitable
 for clicking on the closest object so I need to implement more acurate ray collisions.&lt;/p&gt;
@@ -130,10 +144,10 @@ for clicking on the closest object so I need to implement more acurate ray colli
     
     <item>
       <title>Week43</title>
-      <link>https://madeso.github.io/devlog/week43/</link>
+      <link>https://madeso.github.io/devlog/2017-43/</link>
       <pubDate>Sun, 29 Oct 2017 22:26:34 +0100</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week43/</guid>
+      <guid>https://madeso.github.io/devlog/2017-43/</guid>
       <description>&lt;p&gt;This week I finished implementing the aabb collison check, but realized that I probably
 need a sphere/ray intersection instead as that would work regardless of the rotation of the object.&lt;/p&gt;
 </description>
@@ -141,10 +155,10 @@ need a sphere/ray intersection instead as that would work regardless of the rota
     
     <item>
       <title>Week42</title>
-      <link>https://madeso.github.io/devlog/week42/</link>
+      <link>https://madeso.github.io/devlog/2017-42/</link>
       <pubDate>Sat, 28 Oct 2017 22:05:59 +0200</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week42/</guid>
+      <guid>https://madeso.github.io/devlog/2017-42/</guid>
       <description>&lt;p&gt;This week I completed the basic outline feature to each actor/mesh so I can highlight
 the current selected tile/actor in t3d. I also started work on getting a ray so I can actually select.&lt;/p&gt;
 </description>
@@ -152,10 +166,10 @@ the current selected tile/actor in t3d. I also started work on getting a ray so 
     
     <item>
       <title>Week41</title>
-      <link>https://madeso.github.io/devlog/week41/</link>
+      <link>https://madeso.github.io/devlog/2017-41/</link>
       <pubDate>Tue, 17 Oct 2017 08:58:16 +0200</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week41/</guid>
+      <guid>https://madeso.github.io/devlog/2017-41/</guid>
       <description>&lt;p&gt;This week I actually did a little work on t3d. I started on a tile library and
 fixed a problem with the mesh loader in euphoria. I loaded the ambient color and
 assimp defaulted to a black ambient, but since most models only specify diffuse
@@ -165,10 +179,10 @@ I added a option to assume the ambient color is the same as the diffuse color.&l
     
     <item>
       <title>Week40</title>
-      <link>https://madeso.github.io/devlog/week40/</link>
+      <link>https://madeso.github.io/devlog/2017-40/</link>
       <pubDate>Tue, 10 Oct 2017 08:46:15 +0200</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week40/</guid>
+      <guid>https://madeso.github.io/devlog/2017-40/</guid>
       <description>&lt;p&gt;This week I was lazy and didn&amp;rsquo;t do much. I rediscovered agents of shield and spent
 way to much time watching episodes I&amp;rsquo;ve already seen. Then I spent some time on t3d,
 but way way less than I wanted.&lt;/p&gt;
@@ -177,25 +191,15 @@ but way way less than I wanted.&lt;/p&gt;
     
     <item>
       <title>Week39</title>
-      <link>https://madeso.github.io/devlog/week39/</link>
+      <link>https://madeso.github.io/devlog/2017-39/</link>
       <pubDate>Mon, 02 Oct 2017 00:26:23 +0200</pubDate>
       
-      <guid>https://madeso.github.io/devlog/week39/</guid>
+      <guid>https://madeso.github.io/devlog/2017-39/</guid>
       <description>&lt;p&gt;This week I started on rewriting ride in rust. From the ground up. I have some
 really basic custom input control in the GTK build, but I&amp;rsquo;ll need to get a proper
 text rendering system up before I can continue. I also started working on a
 3d level editor that I need for any game. Not much progress as I just grabbed
 the demo application and started removing things from it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week38</title>
-      <link>https://madeso.github.io/devlog/week38/</link>
-      <pubDate>Mon, 25 Sep 2017 21:36:52 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/week38/</guid>
-      <description>&lt;p&gt;This week I continued on the continuous integration and fixed some image coordinate bugs.&lt;/p&gt;
 </description>
     </item>
     
