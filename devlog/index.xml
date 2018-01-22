@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week 3</title>
+      <link>https://madeso.github.io/devlog/2018-03/</link>
+      <pubDate>Mon, 22 Jan 2018 09:07:29 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-03/</guid>
+      <description>&lt;p&gt;This week I finished the spacetyper/euphoria font rendering rewrite and finally
+managed to add inlined icons in text when rendering. I also somehow managed to
+binge the entire first season of punisher.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 2</title>
       <link>https://madeso.github.io/devlog/2018-02/</link>
       <pubDate>Mon, 15 Jan 2018 08:33:14 +0100</pubDate>
@@ -186,18 +198,6 @@ the current selected tile/actor in t3d. I also started work on getting a ray so 
 fixed a problem with the mesh loader in euphoria. I loaded the ambient color and
 assimp defaulted to a black ambient, but since most models only specify diffuse
 I added a option to assume the ambient color is the same as the diffuse color.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week40</title>
-      <link>https://madeso.github.io/devlog/2017-40/</link>
-      <pubDate>Tue, 10 Oct 2017 08:46:15 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-40/</guid>
-      <description>&lt;p&gt;This week I was lazy and didn&amp;rsquo;t do much. I rediscovered agents of shield and spent
-way to much time watching episodes I&amp;rsquo;ve already seen. Then I spent some time on t3d,
-but way way less than I wanted.&lt;/p&gt;
 </description>
     </item>
     
