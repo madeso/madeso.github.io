@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week 4</title>
+      <link>https://madeso.github.io/devlog/2018-04/</link>
+      <pubDate>Wed, 31 Jan 2018 00:39:03 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-04/</guid>
+      <description>&lt;p&gt;This week I decided to up my rust game, so I started a pretty much completed a
+minor rust library called keyvalueextractor to extract data from a path. I ended
+the week with joining a game jam and creating the vr game &amp;ldquo;Inside sunshine&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 3</title>
       <link>https://madeso.github.io/devlog/2018-03/</link>
       <pubDate>Mon, 22 Jan 2018 09:07:29 +0100</pubDate>
@@ -185,19 +197,6 @@ need a sphere/ray intersection instead as that would work regardless of the rota
       <guid>https://madeso.github.io/devlog/2017-42/</guid>
       <description>&lt;p&gt;This week I completed the basic outline feature to each actor/mesh so I can highlight
 the current selected tile/actor in t3d. I also started work on getting a ray so I can actually select.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week41</title>
-      <link>https://madeso.github.io/devlog/2017-41/</link>
-      <pubDate>Tue, 17 Oct 2017 08:58:16 +0200</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-41/</guid>
-      <description>&lt;p&gt;This week I actually did a little work on t3d. I started on a tile library and
-fixed a problem with the mesh loader in euphoria. I loaded the ambient color and
-assimp defaulted to a black ambient, but since most models only specify diffuse
-I added a option to assume the ambient color is the same as the diffuse color.&lt;/p&gt;
 </description>
     </item>
     
