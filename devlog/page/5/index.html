@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="devlog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.35" /><link rel="canonical" href="https://madeso.github.io/devlog/"> 
+  <meta name="generator" content="Hugo 0.36" /><link rel="canonical" href="https://madeso.github.io/devlog/"> 
   <title>devlog</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700|Source+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://madeso.github.io/css/reset.css" />
@@ -63,6 +63,18 @@
 </div>
   <div id="pages">
     <div class="pagenumber"><span>Page 5 </span></div>
+      <div class="post">
+<div class="title">
+<a href="https://madeso.github.io/devlog/2017-18/"><div class="previewheader header">week18</div></a>
+<div class="shortdate right">8 May 2017</div>
+</div>
+<div class="markdown">
+<p>This week I continued working on this homepage, scaling images to fit in the design and it&rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&rsquo;s still in its infancy there arent any pretty pictures so I&rsquo;ll keep it here in the devlog for now.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
       <div class="post">
 <div class="title">
 <a href="https://madeso.github.io/devlog/2017-17/"><div class="previewheader header">week17</div></a>
@@ -173,18 +185,6 @@ header image size. There only one thing to do, and that&rsquo;s keep on working 
       <div class="to-top">
 <a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://madeso.github.io/devlog/2017-08/"><div class="previewheader header">week8</div></a>
-<div class="shortdate right">26 February 2017</div>
-</div>
-<div class="markdown">
-<p>This week I replaced the built-in assert with a custom one to get callstack information, and I&rsquo;ve also finally completed the rewrite of the new opengl buffer rendering.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://madeso.github.io/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -274,7 +274,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  5 ;
-  var totalPages =  5 ;
+  var totalPages =  6 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;
