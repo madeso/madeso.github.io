@@ -25,6 +25,16 @@
     
     
     <item>
+      <title>Week 7</title>
+      <link>https://madeso.github.io/devlog/2018-07/</link>
+      <pubDate>Sun, 18 Feb 2018 21:40:23 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-07/</guid>
+      <description>&lt;p&gt;This week I had a fever and pretty much only slept, ate and watched netflix.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 6</title>
       <link>https://madeso.github.io/devlog/2018-06/</link>
       <pubDate>Mon, 12 Feb 2018 00:46:05 +0100</pubDate>
@@ -188,18 +198,6 @@ I hope that I can actually complete it this time.&lt;/p&gt;
       
       <guid>https://madeso.github.io/devlog/2017-45/</guid>
       <description>&lt;p&gt;This week I didnt do much at all. I pretty much just watched random episodes of How I Met Your Mother.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week44</title>
-      <link>https://madeso.github.io/devlog/2017-44/</link>
-      <pubDate>Thu, 09 Nov 2017 08:31:05 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-44/</guid>
-      <description>&lt;p&gt;This week I implemented the ray-sphere collision, and tested it by highlightin
-all the intersections. I realized that a simple check such as this would be suitable
-for clicking on the closest object so I need to implement more acurate ray collisions.&lt;/p&gt;
 </description>
     </item>
     
