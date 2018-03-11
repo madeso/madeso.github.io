@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2018-10/</link>
+      <pubDate>Sun, 11 Mar 2018 23:41:24 +0100</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-10/</guid>
+      <description>&lt;p&gt;This week I fixed the javascript issue I was having. Still considering to write
+my own custom library, but that will have to wait. Now it&amp;rsquo;s 10 weeks until ludum
+dare so I have to get a move on if I want to use my framework for the game jam.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 9</title>
       <link>https://madeso.github.io/devlog/2018-09/</link>
       <pubDate>Sun, 04 Mar 2018 22:31:37 +0100</pubDate>
@@ -187,17 +199,6 @@ the week after that, before x-mas at least.&lt;/p&gt;
       <guid>https://madeso.github.io/devlog/2017-48/</guid>
       <description>&lt;p&gt;This week I found a few assets and started combining them in unity. Given that
 it&amp;rsquo;s a small game, it shouldnt take that long to complete. Fingers crossed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week47</title>
-      <link>https://madeso.github.io/devlog/2017-47/</link>
-      <pubDate>Tue, 28 Nov 2017 19:45:47 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-47/</guid>
-      <description>&lt;p&gt;This week I pretty much continued on star collector. It&amp;rsquo;s progressing
-nicely and I&amp;rsquo;m hoping that it will be done before or arount X-mas.&lt;/p&gt;
 </description>
     </item>
     
