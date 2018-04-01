@@ -25,6 +25,19 @@
     
     
     <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2018-13/</link>
+      <pubDate>Sun, 01 Apr 2018 20:59:35 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-13/</guid>
+      <description>&lt;p&gt;This week I added a crash display, so that the game enters a &amp;ldquo;blue screen&amp;rdquo; instead
+of crashing. At first I used my own built in debug print but then I replaced it with
+the much nicer dear imgui display. I also moved my duktape wrapper to core and
+started reasearching into replacing dukglue with a custom much simpler system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 12</title>
       <link>https://madeso.github.io/devlog/2018-12/</link>
       <pubDate>Mon, 26 Mar 2018 00:02:07 +0200</pubDate>
@@ -189,18 +202,6 @@ completed in the beginning of the next year.&lt;/p&gt;
 A basic chatbot. Given that I am leaving for xmas celebrations, the week isnt over,
 and I&amp;rsquo;m switching to my laptop I probably will continue working on fishhunt for
 the rest of the week. Stay tuned for next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week50</title>
-      <link>https://madeso.github.io/devlog/2017-50/</link>
-      <pubDate>Sun, 17 Dec 2017 22:24:23 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-50/</guid>
-      <description>&lt;p&gt;This week I mostly worked on upgrading spacetyper to the latest euphoria
-codebase. I really should have worked on completing fishhunt but I wanted to
-code some C++ for a change.&lt;/p&gt;
 </description>
     </item>
     
