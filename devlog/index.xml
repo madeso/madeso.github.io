@@ -25,6 +25,17 @@
     
     
     <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2018-14/</link>
+      <pubDate>Sun, 08 Apr 2018 22:35:45 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-14/</guid>
+      <description>&lt;p&gt;This week I started on replacing dukglue, my javascrip engine wrapper with a
+custom wrapper. While it is not completed yet, I got a good feeling about this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 13</title>
       <link>https://madeso.github.io/devlog/2018-13/</link>
       <pubDate>Sun, 01 Apr 2018 20:59:35 +0200</pubDate>
@@ -189,19 +200,6 @@ android project so releasing that is another project entirly. Until next week.&l
       <description>&lt;p&gt;This week I continued on the chatbot and updating the euphoria engine. In a
 few hours I&amp;rsquo;ll be leaving for new years celebration so fishhunt will have to be
 completed in the beginning of the next year.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week51</title>
-      <link>https://madeso.github.io/devlog/2017-51/</link>
-      <pubDate>Sat, 23 Dec 2017 14:50:24 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2017-51/</guid>
-      <description>&lt;p&gt;This week I continued working on spacetyper and started a semi new project.
-A basic chatbot. Given that I am leaving for xmas celebrations, the week isnt over,
-and I&amp;rsquo;m switching to my laptop I probably will continue working on fishhunt for
-the rest of the week. Stay tuned for next week.&lt;/p&gt;
 </description>
     </item>
     
