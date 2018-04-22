@@ -25,6 +25,18 @@
     
     
     <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2018-16/</link>
+      <pubDate>Sun, 22 Apr 2018 22:52:23 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-16/</guid>
+      <description>&lt;p&gt;This week I continued on writing the wrapper. It is pretty much almost done now.
+I know I said it was going to be done this week, but what can I say, things took
+longer than expected :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 15</title>
       <link>https://madeso.github.io/devlog/2018-15/</link>
       <pubDate>Sun, 15 Apr 2018 23:44:52 +0200</pubDate>
@@ -185,20 +197,6 @@ binge the entire first season of punisher.&lt;/p&gt;
       <description>&lt;p&gt;This week I spent most of my time on euphoria/spacetyper working on getting the
 coordinate system correct and fixing so that the padding/margin -top/bottom
 values werent mixed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 1</title>
-      <link>https://madeso.github.io/devlog/2018-01/</link>
-      <pubDate>Sun, 07 Jan 2018 22:15:55 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-01/</guid>
-      <description>&lt;p&gt;This week I mostly spend either watching netflix movies or coding on
-euphoria/spaceyper. One of my new year resolutions is to complete a few projects,
-including fish hunt, space typer and star collector. Of all the projects fish hunt
-is the one that is most completed. Star collector comes second but that is an
-android project so releasing that is another project entirly. Until next week.&lt;/p&gt;
 </description>
     </item>
     
