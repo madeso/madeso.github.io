@@ -95,7 +95,7 @@ h2.latestpostsheader {
 	margin-bottom: 80px;
 }
 
-.to-top, .socialbuttons {
+.to-top, .footerbuttons {
 	text-align: center;
 }
 
@@ -103,23 +103,23 @@ h2.latestpostsheader {
 	margin-bottom: 40px;
 }
 
-.socialbuttons {
+.footerbuttons {
 	padding-top: 50px;
 	font-size: 1.2em;
 }
 
-.socialbuttons a {
+.footerbuttons a {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	font-size: 1em;
 }
 
-.socialbuttons a .fa {
+.footerbuttons a .fa {
 	-webkit-transition: -webkit-transform .1s ease-out;
           transition:         transform .1s ease-out;
 }
 
-.socialbuttons a:hover .fa {
+.footerbuttons a:hover .fa {
 	-ms-transform: scale(2.3, 2.3); /* IE 9 */
   -webkit-transform: scale(2.3, 2.3); /* Safari */
   transform: scale(2.3, 2.3);
