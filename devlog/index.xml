@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2018-17/</link>
+      <pubDate>Tue, 01 May 2018 08:52:20 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-17/</guid>
+      <description>&lt;p&gt;This week I completed the scrip bind system replacement. Now I can finally focus on adding more features.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 16</title>
       <link>https://madeso.github.io/devlog/2018-16/</link>
       <pubDate>Sun, 22 Apr 2018 22:52:23 +0200</pubDate>
@@ -177,18 +187,6 @@ the week with joining a game jam and creating the vr game &amp;ldquo;Inside suns
       <description>&lt;p&gt;This week I finished the spacetyper/euphoria font rendering rewrite and finally
 managed to add inlined icons in text when rendering. I also somehow managed to
 binge the entire first season of punisher.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 2</title>
-      <link>https://madeso.github.io/devlog/2018-02/</link>
-      <pubDate>Mon, 15 Jan 2018 08:33:14 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-02/</guid>
-      <description>&lt;p&gt;This week I spent most of my time on euphoria/spacetyper working on getting the
-coordinate system correct and fixing so that the padding/margin -top/bottom
-values werent mixed.&lt;/p&gt;
 </description>
     </item>
     
