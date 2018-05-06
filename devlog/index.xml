@@ -17,6 +17,19 @@
     
     
     <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2018-18/</link>
+      <pubDate>Sun, 06 May 2018 23:14:33 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-18/</guid>
+      <description>&lt;p&gt;This week I started on creating objects dynamically but it seems that I need to
+replace my component/entity engine first. I was planning to do so anyway since I
+dont like how it integrates with script defined components, but I thought this
+was something to do later. I guess not.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 17</title>
       <link>https://madeso.github.io/devlog/2018-17/</link>
       <pubDate>Tue, 01 May 2018 08:52:20 +0200</pubDate>
@@ -175,18 +188,6 @@ embedding javascript/typescript through duktape as a scriping language.&lt;/p&gt
       <description>&lt;p&gt;This week I decided to up my rust game, so I started a pretty much completed a
 minor rust library called keyvalueextractor to extract data from a path. I ended
 the week with joining a game jam and creating the vr game &amp;ldquo;Inside sunshine&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 3</title>
-      <link>https://madeso.github.io/devlog/2018-03/</link>
-      <pubDate>Mon, 22 Jan 2018 09:07:29 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-03/</guid>
-      <description>&lt;p&gt;This week I finished the spacetyper/euphoria font rendering rewrite and finally
-managed to add inlined icons in text when rendering. I also somehow managed to
-binge the entire first season of punisher.&lt;/p&gt;
 </description>
     </item>
     
