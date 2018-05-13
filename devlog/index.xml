@@ -17,6 +17,19 @@
     
     
     <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2018-19/</link>
+      <pubDate>Sun, 13 May 2018 22:48:54 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-19/</guid>
+      <description>&lt;p&gt;This week I completed the component system, and added a way to both create
+and remove objects dynamically, though my current system for referencing script
+objects is lacking, so I need to fix that next week before things starts to get
+out of hand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 18</title>
       <link>https://madeso.github.io/devlog/2018-18/</link>
       <pubDate>Sun, 06 May 2018 23:14:33 +0200</pubDate>
@@ -176,18 +189,6 @@ will be a really basic version of tyrian.&lt;/p&gt;
 my own engine so I started planning out what needs to be done for that to happen.
 I ported my old unique id generator to euphoria and started to look into
 embedding javascript/typescript through duktape as a scriping language.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 4</title>
-      <link>https://madeso.github.io/devlog/2018-04/</link>
-      <pubDate>Wed, 31 Jan 2018 00:39:03 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-04/</guid>
-      <description>&lt;p&gt;This week I decided to up my rust game, so I started a pretty much completed a
-minor rust library called keyvalueextractor to extract data from a path. I ended
-the week with joining a game jam and creating the vr game &amp;ldquo;Inside sunshine&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     
