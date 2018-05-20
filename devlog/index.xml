@@ -17,6 +17,19 @@
     
     
     <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2018-20/</link>
+      <pubDate>Mon, 21 May 2018 01:14:28 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-20/</guid>
+      <description>&lt;p&gt;This week I basically just went through the entire list of errors that clang-tidy
+can detect and decided what to use, and what to ignore, and fixed several warnings.
+Then I continued workin on my protobuf replacement library, gaf, that I started ages ago.
+Hopefully within a week or two I can replace protobuf in euphoria soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 19</title>
       <link>https://madeso.github.io/devlog/2018-19/</link>
       <pubDate>Sun, 13 May 2018 22:48:54 +0200</pubDate>
@@ -176,19 +189,6 @@ Currently I&amp;rsquo;m considering discarding dukglue and writing my own simple
       <description>&lt;p&gt;This week I wrote several different ECS systems before I decided to integrate
 the entt instead of using a custom one. I also decided that the first game
 will be a really basic version of tyrian.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 5</title>
-      <link>https://madeso.github.io/devlog/2018-05/</link>
-      <pubDate>Mon, 05 Feb 2018 07:58:45 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-05/</guid>
-      <description>&lt;p&gt;This week I decieded that I am gonna try to enter the april ludum dare jam with
-my own engine so I started planning out what needs to be done for that to happen.
-I ported my old unique id generator to euphoria and started to look into
-embedding javascript/typescript through duktape as a scriping language.&lt;/p&gt;
 </description>
     </item>
     
