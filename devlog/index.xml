@@ -17,6 +17,18 @@
     
     
     <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2018-21/</link>
+      <pubDate>Sun, 27 May 2018 23:45:49 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-21/</guid>
+      <description>&lt;p&gt;This week I contintued the work on my protobuf replacement library, gaf, and
+actually started on replacing protobuf in euphoria. I hope that by the time of
+the next devlog I have finished the refactoring.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 20</title>
       <link>https://madeso.github.io/devlog/2018-20/</link>
       <pubDate>Mon, 21 May 2018 01:14:28 +0200</pubDate>
@@ -177,18 +189,6 @@ Currently I&amp;rsquo;m considering discarding dukglue and writing my own simple
       
       <guid>https://madeso.github.io/devlog/2018-07/</guid>
       <description>&lt;p&gt;This week I had a fever and pretty much only slept, ate and watched netflix.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 6</title>
-      <link>https://madeso.github.io/devlog/2018-06/</link>
-      <pubDate>Mon, 12 Feb 2018 00:46:05 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-06/</guid>
-      <description>&lt;p&gt;This week I wrote several different ECS systems before I decided to integrate
-the entt instead of using a custom one. I also decided that the first game
-will be a really basic version of tyrian.&lt;/p&gt;
 </description>
     </item>
     
