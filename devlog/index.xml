@@ -17,6 +17,19 @@
     
     
     <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2018-23/</link>
+      <pubDate>Sun, 10 Jun 2018 17:43:48 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-23/</guid>
+      <description>&lt;p&gt;This week I threw out the wx scimed/ninepatch editor and have now a improved
+dear imgui version of it. There still are some non imgui like parts from the ported
+code but things are looking better. I just started on the imgui extension for gaf,
+and after that is completed I can work on saving json so I can close this chapter.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 22</title>
       <link>https://madeso.github.io/devlog/2018-22/</link>
       <pubDate>Sun, 03 Jun 2018 21:47:40 +0200</pubDate>
@@ -181,16 +194,6 @@ dare so I have to get a move on if I want to use my framework for the game jam.&
       <description>&lt;p&gt;This week I still mostly recovered from the flue. When I actually managed to find
 the time to code, I fought the duktype/dukglue registration of custom classes.
 Currently I&amp;rsquo;m considering discarding dukglue and writing my own simpler version.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 8</title>
-      <link>https://madeso.github.io/devlog/2018-08/</link>
-      <pubDate>Tue, 27 Feb 2018 08:00:03 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-08/</guid>
-      <description>&lt;p&gt;This week I worked on the entity system integration. It still isn&amp;rsquo;t complete but it&amp;rsquo;s getting there.&lt;/p&gt;
 </description>
     </item>
     
