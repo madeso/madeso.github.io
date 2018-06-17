@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2018-24/</link>
+      <pubDate>Sun, 17 Jun 2018 23:04:24 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-24/</guid>
+      <description>&lt;p&gt;This week I continued work on the editor and gaf and it&amp;rsquo;s finally getting near completion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://madeso.github.io/devlog/2018-23/</link>
       <pubDate>Sun, 10 Jun 2018 17:43:48 +0200</pubDate>
@@ -182,18 +192,6 @@ virtual buttons on touch controls etc. etc, but so far the everything is data dr
       <description>&lt;p&gt;This week I fixed the javascript issue I was having. Still considering to write
 my own custom library, but that will have to wait. Now it&amp;rsquo;s 10 weeks until ludum
 dare so I have to get a move on if I want to use my framework for the game jam.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 9</title>
-      <link>https://madeso.github.io/devlog/2018-09/</link>
-      <pubDate>Sun, 04 Mar 2018 22:31:37 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-09/</guid>
-      <description>&lt;p&gt;This week I still mostly recovered from the flue. When I actually managed to find
-the time to code, I fought the duktype/dukglue registration of custom classes.
-Currently I&amp;rsquo;m considering discarding dukglue and writing my own simpler version.&lt;/p&gt;
 </description>
     </item>
     
