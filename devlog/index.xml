@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2018-25/</link>
+      <pubDate>Sun, 24 Jun 2018 23:49:06 +0200</pubDate>
+      
+      <guid>https://madeso.github.io/devlog/2018-25/</guid>
+      <description>&lt;p&gt;This week consisted mostly of real life stuff, but I managed to fix a few gaf related things. Next week should hopefulle be more productive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 24</title>
       <link>https://madeso.github.io/devlog/2018-24/</link>
       <pubDate>Sun, 17 Jun 2018 23:04:24 +0200</pubDate>
@@ -180,18 +190,6 @@ after two days of struggling on how to design the API I just went ahead and adde
 the bare minimum input handling: keyboard buttons. Sooner or later I have to figure
 out how I should handle joysticks, gamepads, touch controls, vr controls,
 virtual buttons on touch controls etc. etc, but so far the everything is data driven, so I guess that&amp;rsquo;s nice.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 10</title>
-      <link>https://madeso.github.io/devlog/2018-10/</link>
-      <pubDate>Sun, 11 Mar 2018 23:41:24 +0100</pubDate>
-      
-      <guid>https://madeso.github.io/devlog/2018-10/</guid>
-      <description>&lt;p&gt;This week I fixed the javascript issue I was having. Still considering to write
-my own custom library, but that will have to wait. Now it&amp;rsquo;s 10 weeks until ludum
-dare so I have to get a move on if I want to use my framework for the game jam.&lt;/p&gt;
 </description>
     </item>
     
