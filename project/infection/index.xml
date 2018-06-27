@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Infection </title>
-    <link>https://madeso.github.io/project/infection/</link>
+    <link>http://i.madeso.me/project/infection/</link>
     <description>&lt;p&gt;Infection is a unfinished FPS that I worked on between 2002-2004.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>

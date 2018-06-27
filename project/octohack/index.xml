@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Octohack </title>
-    <link>https://madeso.github.io/project/octohack/</link>
+    <link>http://i.madeso.me/project/octohack/</link>
     <description>&lt;p&gt;As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>

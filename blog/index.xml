@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons blog </title>
-    <link>https://madeso.github.io/blog/</link>
+    <link>http://i.madeso.me/blog/</link>
     <description>&lt;p&gt;This blog is me talking about my stuff, what I do and from time to time, in order to improve the state of the internet and promote better content and google hits for other people, I will also post solutions to various other problems I&amp;rsquo;ve found.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
@@ -20,10 +20,10 @@
     
     <item>
       <title>Restarting Alsa</title>
-      <link>https://madeso.github.io/blog/restart-alsa/</link>
+      <link>http://i.madeso.me/blog/restart-alsa/</link>
       <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/restart-alsa/</guid>
+      <guid>http://i.madeso.me/blog/restart-alsa/</guid>
       <description>&lt;p&gt;Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload
@@ -35,10 +35,10 @@
     
     <item>
       <title>A fix for spotify filling up the C: drive</title>
-      <link>https://madeso.github.io/blog/spotify-windows-ssd/</link>
+      <link>http://i.madeso.me/blog/spotify-windows-ssd/</link>
       <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/spotify-windows-ssd/</guid>
+      <guid>http://i.madeso.me/blog/spotify-windows-ssd/</guid>
       <description>&lt;p&gt;I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&lt;/p&gt;
 
 &lt;p&gt;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.&lt;/p&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>A better git log</title>
-      <link>https://madeso.github.io/blog/gitlog/</link>
+      <link>http://i.madeso.me/blog/gitlog/</link>
       <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
       
-      <guid>https://madeso.github.io/blog/gitlog/</guid>
+      <guid>http://i.madeso.me/blog/gitlog/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve just changed my git log command from the standard:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;old.jpg&#34; alt=&#34;old&#34; /&gt;&lt;/p&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>Shoelacing</title>
-      <link>https://madeso.github.io/blog/shoelacing/</link>
+      <link>http://i.madeso.me/blog/shoelacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/shoelacing/</guid>
+      <guid>http://i.madeso.me/blog/shoelacing/</guid>
       <description>&lt;p&gt;I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.fieggen.com/shoelace/&#34;&gt;http://www.fieggen.com/shoelace/&lt;/a&gt;&lt;/p&gt;
@@ -104,10 +104,10 @@
     
     <item>
       <title>Keep your ubuntu-gnome from waking up at random</title>
-      <link>https://madeso.github.io/blog/gnomewakeup/</link>
+      <link>http://i.madeso.me/blog/gnomewakeup/</link>
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/gnomewakeup/</guid>
+      <guid>http://i.madeso.me/blog/gnomewakeup/</guid>
       <description>&lt;p&gt;I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&lt;/p&gt;
 
 &lt;p&gt;It is really quite simple. First you need to install it, unless you already have it installed:&lt;/p&gt;
@@ -154,10 +154,10 @@
     
     <item>
       <title>Non recursive file searching in Nautilus</title>
-      <link>https://madeso.github.io/blog/nonerecursivesearch/</link>
+      <link>http://i.madeso.me/blog/nonerecursivesearch/</link>
       <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/nonerecursivesearch/</guid>
+      <guid>http://i.madeso.me/blog/nonerecursivesearch/</guid>
       <description>&lt;p&gt;Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&lt;/p&gt;
 
 &lt;p&gt;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&lt;/p&gt;
@@ -168,10 +168,10 @@
     
     <item>
       <title>Revert google&#43; to a standard blogger profile on blogger</title>
-      <link>https://madeso.github.io/blog/googleplusblogger/</link>
+      <link>http://i.madeso.me/blog/googleplusblogger/</link>
       <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/googleplusblogger/</guid>
+      <guid>http://i.madeso.me/blog/googleplusblogger/</guid>
       <description>&lt;p&gt;It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.blogger.com/revert-profile.g﻿&#34;&gt;http://www.blogger.com/revert-profile.g﻿&lt;/a&gt;&lt;/p&gt;
@@ -182,10 +182,10 @@
     
     <item>
       <title>Folders before files in ubuntu</title>
-      <link>https://madeso.github.io/blog/foldersbeforefiles/</link>
+      <link>http://i.madeso.me/blog/foldersbeforefiles/</link>
       <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/foldersbeforefiles/</guid>
+      <guid>http://i.madeso.me/blog/foldersbeforefiles/</guid>
       <description>&lt;p&gt;I like to view folders before my files with Files/Nautilus, and here is &lt;a href=&#34;http://gexperts.com/wp/gnome-3-12-filesnautilus-sort-folders-before-files-issues/&#34;&gt;how to enable it&lt;/a&gt;:&lt;/p&gt;
 
 &lt;p&gt;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set  sort-directories-first to true.&lt;/p&gt;
@@ -194,20 +194,20 @@
     
     <item>
       <title>Windows 10 wakes up from sleep at random</title>
-      <link>https://madeso.github.io/blog/win10wakeup/</link>
+      <link>http://i.madeso.me/blog/win10wakeup/</link>
       <pubDate>Fri, 26 Aug 2016 19:12:53 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/win10wakeup/</guid>
+      <guid>http://i.madeso.me/blog/win10wakeup/</guid>
       <description>&lt;p&gt;After upgrading to Windows 10, my computer started randomly waking up. &lt;a href=&#34;http://superuser.com/questions/973009/conclusively-stop-wake-timers-from-waking-windows-10-desktop&#34;&gt;This extensive guide&lt;/a&gt; on superuser has proven time and time again to be a perfect guide to keep windows from waking up.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Test markdown</title>
-      <link>https://madeso.github.io/blog/test/</link>
+      <link>http://i.madeso.me/blog/test/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://madeso.github.io/blog/test/</guid>
+      <guid>http://i.madeso.me/blog/test/</guid>
       <description>
 
 &lt;p&gt;Here&amp;rsquo;s a code chunk with syntax highlighting:&lt;/p&gt;
@@ -283,10 +283,10 @@ done!
     
     <item>
       <title>The road that follows</title>
-      <link>https://madeso.github.io/blog/sh-roadthatfollows/</link>
+      <link>http://i.madeso.me/blog/sh-roadthatfollows/</link>
       <pubDate>Fri, 25 Oct 2013 13:53:42 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/sh-roadthatfollows/</guid>
+      <guid>http://i.madeso.me/blog/sh-roadthatfollows/</guid>
       <description>&lt;p&gt;I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -301,10 +301,10 @@ done!
     
     <item>
       <title>Development stories</title>
-      <link>https://madeso.github.io/blog/sh-devstories/</link>
+      <link>http://i.madeso.me/blog/sh-devstories/</link>
       <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/sh-devstories/</guid>
+      <guid>http://i.madeso.me/blog/sh-devstories/</guid>
       <description>&lt;p&gt;It’s been a while since I posted, but I have been buried deep in rift and input
 development. Rift development is pretty much done and I have rift support. I
 have received my &lt;a href=&#34;http://en.wikipedia.org/wiki/Razer_Hydra&#34;&gt;razer hydra&lt;/a&gt; and backed the stem system and I’m hoping I’ll
@@ -314,10 +314,10 @@ receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-sys
     
     <item>
       <title>Oculus development</title>
-      <link>https://madeso.github.io/blog/sh-oculus/</link>
+      <link>http://i.madeso.me/blog/sh-oculus/</link>
       <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/sh-oculus/</guid>
+      <guid>http://i.madeso.me/blog/sh-oculus/</guid>
       <description>&lt;p&gt;I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34; /&gt;&lt;/p&gt;
@@ -326,10 +326,10 @@ receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-sys
     
     <item>
       <title>Ship designs</title>
-      <link>https://madeso.github.io/blog/sh-shipdesigns/</link>
+      <link>http://i.madeso.me/blog/sh-shipdesigns/</link>
       <pubDate>Sun, 01 Sep 2013 13:45:20 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/sh-shipdesigns/</guid>
+      <guid>http://i.madeso.me/blog/sh-shipdesigns/</guid>
       <description>&lt;p&gt;Bought myself a stylus and installed &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.adsk.sketchbookhdexpress&amp;amp;hl=en&#34;&gt;sketchbook express&lt;/a&gt;
 on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;
 
@@ -342,10 +342,10 @@ on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;
     
     <item>
       <title>Thoughts on the controls</title>
-      <link>https://madeso.github.io/blog/sh-controls/</link>
+      <link>http://i.madeso.me/blog/sh-controls/</link>
       <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
       
-      <guid>https://madeso.github.io/blog/sh-controls/</guid>
+      <guid>http://i.madeso.me/blog/sh-controls/</guid>
       <description>&lt;p&gt;I have started implementing the basic controls for both the keyboard and joysticks
 and to test everything out I added basic thrust and torque controls, and while this
 is really hard to control as each torque requires a counter torque from stopping

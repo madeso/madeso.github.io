@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons The Mondrian crash </title>
-    <link>https://madeso.github.io/project/mondrian/</link>
+    <link>http://i.madeso.me/project/mondrian/</link>
     <description>&lt;p&gt;Score points by building chains and destroying them with explosions.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>

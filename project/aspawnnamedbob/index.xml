@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons A spawn named bob </title>
-    <link>https://madeso.github.io/project/aspawnnamedbob/</link>
+    <link>http://i.madeso.me/project/aspawnnamedbob/</link>
     <description>&lt;p&gt;Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>
