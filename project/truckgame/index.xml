@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Truck game </title>
-    <link>http://i.madeso.me/project/truckgame/</link>
+    <link>https://i.madeso.me/project/truckgame/</link>
     <description>&lt;p&gt;Pseudo-3D game with a top-down view where 2 cats drive water supply trucks through the desert. Each player must try to destroy the other truck with weaponry, or by gaining a considerable lead.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>

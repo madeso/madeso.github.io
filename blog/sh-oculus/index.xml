@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Oculus development </title>
-    <link>http://i.madeso.me/blog/sh-oculus/</link>
+    <link>https://i.madeso.me/blog/sh-oculus/</link>
     <description>&lt;p&gt;I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34; /&gt;&lt;/p&gt;

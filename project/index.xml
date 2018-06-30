@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Projects </title>
-    <link>http://i.madeso.me/project/</link>
+    <link>https://i.madeso.me/project/</link>
     <description>&lt;p&gt;Here you can find various projects I&amp;rsquo;ve did either myself or with others.&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>
@@ -18,49 +18,49 @@
     
     <item>
       <title>Looking for love</title>
-      <link>http://i.madeso.me/project/looking-for-love/</link>
+      <link>https://i.madeso.me/project/looking-for-love/</link>
       <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/looking-for-love/</guid>
+      <guid>https://i.madeso.me/project/looking-for-love/</guid>
       <description>&lt;p&gt;In this experience you wait for a bus that never seems to come and can take out your phone and try to look for love.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ride</title>
-      <link>http://i.madeso.me/project/ride/</link>
+      <link>https://i.madeso.me/project/ride/</link>
       <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/ride/</guid>
+      <guid>https://i.madeso.me/project/ride/</guid>
       <description>&lt;p&gt;A somewhat work in progress of my Rust IDE, currently written in C++.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Wave Ohoy</title>
-      <link>http://i.madeso.me/project/waveohoy/</link>
+      <link>https://i.madeso.me/project/waveohoy/</link>
       <pubDate>Sun, 22 Jan 2017 01:03:26 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/waveohoy/</guid>
+      <guid>https://i.madeso.me/project/waveohoy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Truck game</title>
-      <link>http://i.madeso.me/project/truckgame/</link>
+      <link>https://i.madeso.me/project/truckgame/</link>
       <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/truckgame/</guid>
+      <guid>https://i.madeso.me/project/truckgame/</guid>
       <description>&lt;p&gt;Pseudo-3D game with a top-down view where 2 cats drive water supply trucks through the desert. Each player must try to destroy the other truck with weaponry, or by gaining a considerable lead.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Office rituals</title>
-      <link>http://i.madeso.me/project/officerituals/</link>
+      <link>https://i.madeso.me/project/officerituals/</link>
       <pubDate>Sun, 31 Jan 2016 00:58:29 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/officerituals/</guid>
+      <guid>https://i.madeso.me/project/officerituals/</guid>
       <description>&lt;p&gt;Just another day at the office. Drink loads of coffee. Smoke cigarettes. Take credit for your co workers accomplishments. Go to pointless meetings and avoid getting fired.&lt;/p&gt;
 
 &lt;p&gt;Drink coffee and smoke so that you can work efficiently. Everyone is working on the same project, but you win if you did most of the work ! You can steal each other&amp;rsquo;s work by working at someone else&amp;rsquo;s desk.&lt;/p&gt;
@@ -71,10 +71,10 @@
     
     <item>
       <title>Sloth Dictator</title>
-      <link>http://i.madeso.me/project/slothdictator/</link>
+      <link>https://i.madeso.me/project/slothdictator/</link>
       <pubDate>Sun, 19 Jul 2015 01:31:06 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/slothdictator/</guid>
+      <guid>https://i.madeso.me/project/slothdictator/</guid>
       <description>&lt;p&gt;The Sloth dictator and his sloth generals are overseeing the Slothlympics.&lt;/p&gt;
 
 &lt;p&gt;Compete in the role of one of four animals and mash that button to get first to the finish line, but be careful: the dictator wants you to go slowly, so if they see you going fast, you&amp;rsquo;ll be penalized!&lt;/p&gt;
@@ -85,67 +85,67 @@
     
     <item>
       <title>The Forrest Of Unconditional Love</title>
-      <link>http://i.madeso.me/project/forrest/</link>
+      <link>https://i.madeso.me/project/forrest/</link>
       <pubDate>Sun, 24 May 2015 01:40:41 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/forrest/</guid>
+      <guid>https://i.madeso.me/project/forrest/</guid>
       <description>&lt;p&gt;Experience the feeling of beeing a giant on a cabin in the woods looking at cute animals and enjoying life.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Roomy</title>
-      <link>http://i.madeso.me/project/roomy/</link>
+      <link>https://i.madeso.me/project/roomy/</link>
       <pubDate>Sun, 08 Feb 2015 01:05:09 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/roomy/</guid>
+      <guid>https://i.madeso.me/project/roomy/</guid>
       <description>&lt;p&gt;Get ouside the room. The most obvious is to use the key, but will that get you out?&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bad Dude</title>
-      <link>http://i.madeso.me/project/baddude/</link>
+      <link>https://i.madeso.me/project/baddude/</link>
       <pubDate>Thu, 28 Aug 2014 01:07:04 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/baddude/</guid>
+      <guid>https://i.madeso.me/project/baddude/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Musicgame</title>
-      <link>http://i.madeso.me/project/musicgame/</link>
+      <link>https://i.madeso.me/project/musicgame/</link>
       <pubDate>Mon, 28 Apr 2014 01:12:27 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/musicgame/</guid>
+      <guid>https://i.madeso.me/project/musicgame/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Untitled Lududm Dare 2014 Game</title>
-      <link>http://i.madeso.me/project/ld14/</link>
+      <link>https://i.madeso.me/project/ld14/</link>
       <pubDate>Mon, 28 Apr 2014 01:10:38 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/ld14/</guid>
+      <guid>https://i.madeso.me/project/ld14/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Mondrian crash</title>
-      <link>http://i.madeso.me/project/mondrian/</link>
+      <link>https://i.madeso.me/project/mondrian/</link>
       <pubDate>Tue, 23 Apr 2013 22:41:52 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/mondrian/</guid>
+      <guid>https://i.madeso.me/project/mondrian/</guid>
       <description>&lt;p&gt;Score points by building chains and destroying them with explosions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Furry Fours vs. Goatie the EVIL Goat</title>
-      <link>http://i.madeso.me/project/goatie/</link>
+      <link>https://i.madeso.me/project/goatie/</link>
       <pubDate>Fri, 21 Dec 2012 22:05:23 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/goatie/</guid>
+      <guid>https://i.madeso.me/project/goatie/</guid>
       <description>&lt;p&gt;Play as a the evil goat and kill innocent small rabbits and kill the heroes.&lt;/p&gt;
 
 &lt;p&gt;This ludum dare I spent most of the time on the transitions and never really had the time to make the gmaeplay interesting. It&amp;rsquo;s function but not much else. It&amp;rsquo;s unfortunate since I really like the graphics and transitions.&lt;/p&gt;
@@ -154,20 +154,20 @@
     
     <item>
       <title>A scientific experiment</title>
-      <link>http://i.madeso.me/project/ascientificexperiment/</link>
+      <link>https://i.madeso.me/project/ascientificexperiment/</link>
       <pubDate>Tue, 21 Aug 2012 22:04:50 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/ascientificexperiment/</guid>
+      <guid>https://i.madeso.me/project/ascientificexperiment/</guid>
       <description>&lt;p&gt;Play as a cat, a rat or a skunk , their children and their childrens children. Die, mate and evolve while killing squiggles.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Octohack</title>
-      <link>http://i.madeso.me/project/octohack/</link>
+      <link>https://i.madeso.me/project/octohack/</link>
       <pubDate>Sun, 12 Aug 2012 22:05:44 +0200</pubDate>
       
-      <guid>http://i.madeso.me/project/octohack/</guid>
+      <guid>https://i.madeso.me/project/octohack/</guid>
       <description>&lt;p&gt;As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.&lt;/p&gt;
 </description>
     </item>

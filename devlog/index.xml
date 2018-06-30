@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons devlog </title>
-    <link>http://i.madeso.me/devlog/</link>
+    <link>https://i.madeso.me/devlog/</link>
     <description>&lt;p&gt;This blog is a try to me keep motivates and a way to see my progress on my current projects. Let&amp;rsquo;s see how it goes!&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>
@@ -18,30 +18,30 @@
     
     <item>
       <title>Week 25</title>
-      <link>http://i.madeso.me/devlog/2018-25/</link>
+      <link>https://i.madeso.me/devlog/2018-25/</link>
       <pubDate>Sun, 24 Jun 2018 23:49:06 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-25/</guid>
+      <guid>https://i.madeso.me/devlog/2018-25/</guid>
       <description>&lt;p&gt;This week consisted mostly of real life stuff, but I managed to fix a few gaf related things. Next week should hopefulle be more productive.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 24</title>
-      <link>http://i.madeso.me/devlog/2018-24/</link>
+      <link>https://i.madeso.me/devlog/2018-24/</link>
       <pubDate>Sun, 17 Jun 2018 23:04:24 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-24/</guid>
+      <guid>https://i.madeso.me/devlog/2018-24/</guid>
       <description>&lt;p&gt;This week I continued work on the editor and gaf and it&amp;rsquo;s finally getting near completion.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 23</title>
-      <link>http://i.madeso.me/devlog/2018-23/</link>
+      <link>https://i.madeso.me/devlog/2018-23/</link>
       <pubDate>Sun, 10 Jun 2018 17:43:48 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-23/</guid>
+      <guid>https://i.madeso.me/devlog/2018-23/</guid>
       <description>&lt;p&gt;This week I threw out the wx scimed/ninepatch editor and have now a improved
 dear imgui version of it. There still are some non imgui like parts from the ported
 code but things are looking better. I just started on the imgui extension for gaf,
@@ -51,10 +51,10 @@ and after that is completed I can work on saving json so I can close this chapte
     
     <item>
       <title>Week 22</title>
-      <link>http://i.madeso.me/devlog/2018-22/</link>
+      <link>https://i.madeso.me/devlog/2018-22/</link>
       <pubDate>Sun, 03 Jun 2018 21:47:40 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-22/</guid>
+      <guid>https://i.madeso.me/devlog/2018-22/</guid>
       <description>&lt;p&gt;This week I mostly finished the move from protobuf to gaf. I still can&amp;rsquo;t save
 gaf files, but that will come after I throw out the current wxWidgets based
 editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.&lt;/p&gt;
@@ -63,10 +63,10 @@ editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.&lt;/p&gt;
     
     <item>
       <title>Week 21</title>
-      <link>http://i.madeso.me/devlog/2018-21/</link>
+      <link>https://i.madeso.me/devlog/2018-21/</link>
       <pubDate>Sun, 27 May 2018 23:45:49 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-21/</guid>
+      <guid>https://i.madeso.me/devlog/2018-21/</guid>
       <description>&lt;p&gt;This week I contintued the work on my protobuf replacement library, gaf, and
 actually started on replacing protobuf in euphoria. I hope that by the time of
 the next devlog I have finished the refactoring.&lt;/p&gt;
@@ -75,10 +75,10 @@ the next devlog I have finished the refactoring.&lt;/p&gt;
     
     <item>
       <title>Week 20</title>
-      <link>http://i.madeso.me/devlog/2018-20/</link>
+      <link>https://i.madeso.me/devlog/2018-20/</link>
       <pubDate>Mon, 21 May 2018 01:14:28 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-20/</guid>
+      <guid>https://i.madeso.me/devlog/2018-20/</guid>
       <description>&lt;p&gt;This week I basically just went through the entire list of errors that clang-tidy
 can detect and decided what to use, and what to ignore, and fixed several warnings.
 Then I continued workin on my protobuf replacement library, gaf, that I started ages ago.
@@ -88,10 +88,10 @@ Hopefully within a week or two I can replace protobuf in euphoria soon.&lt;/p&gt
     
     <item>
       <title>Week 19</title>
-      <link>http://i.madeso.me/devlog/2018-19/</link>
+      <link>https://i.madeso.me/devlog/2018-19/</link>
       <pubDate>Sun, 13 May 2018 22:48:54 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-19/</guid>
+      <guid>https://i.madeso.me/devlog/2018-19/</guid>
       <description>&lt;p&gt;This week I completed the component system, and added a way to both create
 and remove objects dynamically, though my current system for referencing script
 objects is lacking, so I need to fix that next week before things starts to get
@@ -101,10 +101,10 @@ out of hand.&lt;/p&gt;
     
     <item>
       <title>Week 18</title>
-      <link>http://i.madeso.me/devlog/2018-18/</link>
+      <link>https://i.madeso.me/devlog/2018-18/</link>
       <pubDate>Sun, 06 May 2018 23:14:33 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-18/</guid>
+      <guid>https://i.madeso.me/devlog/2018-18/</guid>
       <description>&lt;p&gt;This week I started on creating objects dynamically but it seems that I need to
 replace my component/entity engine first. I was planning to do so anyway since I
 dont like how it integrates with script defined components, but I thought this
@@ -114,20 +114,20 @@ was something to do later. I guess not.&lt;/p&gt;
     
     <item>
       <title>Week 17</title>
-      <link>http://i.madeso.me/devlog/2018-17/</link>
+      <link>https://i.madeso.me/devlog/2018-17/</link>
       <pubDate>Tue, 01 May 2018 08:52:20 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-17/</guid>
+      <guid>https://i.madeso.me/devlog/2018-17/</guid>
       <description>&lt;p&gt;This week I completed the scrip bind system replacement. Now I can finally focus on adding more features.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 16</title>
-      <link>http://i.madeso.me/devlog/2018-16/</link>
+      <link>https://i.madeso.me/devlog/2018-16/</link>
       <pubDate>Sun, 22 Apr 2018 22:52:23 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-16/</guid>
+      <guid>https://i.madeso.me/devlog/2018-16/</guid>
       <description>&lt;p&gt;This week I continued on writing the wrapper. It is pretty much almost done now.
 I know I said it was going to be done this week, but what can I say, things took
 longer than expected :)&lt;/p&gt;
@@ -136,10 +136,10 @@ longer than expected :)&lt;/p&gt;
     
     <item>
       <title>Week 15</title>
-      <link>http://i.madeso.me/devlog/2018-15/</link>
+      <link>https://i.madeso.me/devlog/2018-15/</link>
       <pubDate>Sun, 15 Apr 2018 23:44:52 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-15/</guid>
+      <guid>https://i.madeso.me/devlog/2018-15/</guid>
       <description>&lt;p&gt;This week I continued on writing a wrapper to replace dukglue. I fall goes well
 it should be completed next week.&lt;/p&gt;
 </description>
@@ -147,10 +147,10 @@ it should be completed next week.&lt;/p&gt;
     
     <item>
       <title>Week 14</title>
-      <link>http://i.madeso.me/devlog/2018-14/</link>
+      <link>https://i.madeso.me/devlog/2018-14/</link>
       <pubDate>Sun, 08 Apr 2018 22:35:45 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-14/</guid>
+      <guid>https://i.madeso.me/devlog/2018-14/</guid>
       <description>&lt;p&gt;This week I started on replacing dukglue, my javascrip engine wrapper with a
 custom wrapper. While it is not completed yet, I got a good feeling about this.&lt;/p&gt;
 </description>
@@ -158,10 +158,10 @@ custom wrapper. While it is not completed yet, I got a good feeling about this.&
     
     <item>
       <title>Week 13</title>
-      <link>http://i.madeso.me/devlog/2018-13/</link>
+      <link>https://i.madeso.me/devlog/2018-13/</link>
       <pubDate>Sun, 01 Apr 2018 20:59:35 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-13/</guid>
+      <guid>https://i.madeso.me/devlog/2018-13/</guid>
       <description>&lt;p&gt;This week I added a crash display, so that the game enters a &amp;ldquo;blue screen&amp;rdquo; instead
 of crashing. At first I used my own built in debug print but then I replaced it with
 the much nicer dear imgui display. I also moved my duktape wrapper to core and
@@ -171,20 +171,20 @@ started reasearching into replacing dukglue with a custom much simpler system.&l
     
     <item>
       <title>Week 12</title>
-      <link>http://i.madeso.me/devlog/2018-12/</link>
+      <link>https://i.madeso.me/devlog/2018-12/</link>
       <pubDate>Mon, 26 Mar 2018 00:02:07 +0200</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-12/</guid>
+      <guid>https://i.madeso.me/devlog/2018-12/</guid>
       <description>&lt;p&gt;This week I didnt do much since I started watching season 2 of Jessica Jones.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 11</title>
-      <link>http://i.madeso.me/devlog/2018-11/</link>
+      <link>https://i.madeso.me/devlog/2018-11/</link>
       <pubDate>Sun, 18 Mar 2018 21:05:31 +0100</pubDate>
       
-      <guid>http://i.madeso.me/devlog/2018-11/</guid>
+      <guid>https://i.madeso.me/devlog/2018-11/</guid>
       <description>&lt;p&gt;This week I finished up the basic javascript test that I wrote last week, and
 after two days of struggling on how to design the API I just went ahead and added
 the bare minimum input handling: keyboard buttons. Sooner or later I have to figure
