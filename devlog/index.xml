@@ -17,6 +17,18 @@
     
     
     <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2018-26/</link>
+      <pubDate>Sun, 01 Jul 2018 23:13:54 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-26/</guid>
+      <description>&lt;p&gt;This week I spent on watching luke cage season 2, adding enum support to imgui
+option for gaf, fixed the issue with not resusing ids and started on writing
+viewport handling. The latter is not quite finished yet, but it&amp;rsquo;s getting there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 25</title>
       <link>https://i.madeso.me/devlog/2018-25/</link>
       <pubDate>Sun, 24 Jun 2018 23:49:06 +0200</pubDate>
@@ -176,20 +188,6 @@ started reasearching into replacing dukglue with a custom much simpler system.&l
       
       <guid>https://i.madeso.me/devlog/2018-12/</guid>
       <description>&lt;p&gt;This week I didnt do much since I started watching season 2 of Jessica Jones.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 11</title>
-      <link>https://i.madeso.me/devlog/2018-11/</link>
-      <pubDate>Sun, 18 Mar 2018 21:05:31 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-11/</guid>
-      <description>&lt;p&gt;This week I finished up the basic javascript test that I wrote last week, and
-after two days of struggling on how to design the API I just went ahead and added
-the bare minimum input handling: keyboard buttons. Sooner or later I have to figure
-out how I should handle joysticks, gamepads, touch controls, vr controls,
-virtual buttons on touch controls etc. etc, but so far the everything is data driven, so I guess that&amp;rsquo;s nice.&lt;/p&gt;
 </description>
     </item>
     
