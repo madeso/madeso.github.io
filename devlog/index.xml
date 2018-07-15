@@ -17,6 +17,19 @@
     
     
     <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2018-28/</link>
+      <pubDate>Sun, 15 Jul 2018 22:49:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-28/</guid>
+      <description>&lt;p&gt;This week I merged the main.cc from all various applications in the euphoria
+framework, extracting all the copy-paste code into another utility file.
+I also finally came up with how to best handle how to check for when objects
+are outside the viewport, so that should be done soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 27</title>
       <link>https://i.madeso.me/devlog/2018-27/</link>
       <pubDate>Sun, 08 Jul 2018 22:23:10 +0200</pubDate>
@@ -175,19 +188,6 @@ it should be completed next week.&lt;/p&gt;
       <guid>https://i.madeso.me/devlog/2018-14/</guid>
       <description>&lt;p&gt;This week I started on replacing dukglue, my javascrip engine wrapper with a
 custom wrapper. While it is not completed yet, I got a good feeling about this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 13</title>
-      <link>https://i.madeso.me/devlog/2018-13/</link>
-      <pubDate>Sun, 01 Apr 2018 20:59:35 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-13/</guid>
-      <description>&lt;p&gt;This week I added a crash display, so that the game enters a &amp;ldquo;blue screen&amp;rdquo; instead
-of crashing. At first I used my own built in debug print but then I replaced it with
-the much nicer dear imgui display. I also moved my duktape wrapper to core and
-started reasearching into replacing dukglue with a custom much simpler system.&lt;/p&gt;
 </description>
     </item>
     
