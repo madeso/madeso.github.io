@@ -17,6 +17,17 @@
     
     
     <item>
+      <title>Week 29</title>
+      <link>https://i.madeso.me/devlog/2018-29/</link>
+      <pubDate>Sun, 22 Jul 2018 22:34:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-29/</guid>
+      <description>&lt;p&gt;This week I made it so that shots are destroyed when the have left the viewport.
+I also started laying the grounds for adding a init function for when creating entities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 28</title>
       <link>https://i.madeso.me/devlog/2018-28/</link>
       <pubDate>Sun, 15 Jul 2018 22:49:16 +0200</pubDate>
@@ -177,17 +188,6 @@ longer than expected :)&lt;/p&gt;
       <guid>https://i.madeso.me/devlog/2018-15/</guid>
       <description>&lt;p&gt;This week I continued on writing a wrapper to replace dukglue. I fall goes well
 it should be completed next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 14</title>
-      <link>https://i.madeso.me/devlog/2018-14/</link>
-      <pubDate>Sun, 08 Apr 2018 22:35:45 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-14/</guid>
-      <description>&lt;p&gt;This week I started on replacing dukglue, my javascrip engine wrapper with a
-custom wrapper. While it is not completed yet, I got a good feeling about this.&lt;/p&gt;
 </description>
     </item>
     
