@@ -17,6 +17,17 @@
     
     
     <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2018-30/</link>
+      <pubDate>Sun, 29 Jul 2018 22:20:31 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-30/</guid>
+      <description>&lt;p&gt;This week a heatwave struck, so I didn&amp;rsquo;t really do much. I started on the
+OnInit callback, but that&amp;rsquo;s pretty much it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 29</title>
       <link>https://i.madeso.me/devlog/2018-29/</link>
       <pubDate>Sun, 22 Jul 2018 22:34:47 +0200</pubDate>
@@ -177,17 +188,6 @@ was something to do later. I guess not.&lt;/p&gt;
       <description>&lt;p&gt;This week I continued on writing the wrapper. It is pretty much almost done now.
 I know I said it was going to be done this week, but what can I say, things took
 longer than expected :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 15</title>
-      <link>https://i.madeso.me/devlog/2018-15/</link>
-      <pubDate>Sun, 15 Apr 2018 23:44:52 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-15/</guid>
-      <description>&lt;p&gt;This week I continued on writing a wrapper to replace dukglue. I fall goes well
-it should be completed next week.&lt;/p&gt;
 </description>
     </item>
     
