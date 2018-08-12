@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2018-32/</link>
+      <pubDate>Mon, 13 Aug 2018 00:40:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-32/</guid>
+      <description>&lt;p&gt;This week I mostly spend relaxing and real life stuff. I made a few small games in godot and started on switching my main system from ubuntu to arch.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 31</title>
       <link>https://i.madeso.me/devlog/2018-31/</link>
       <pubDate>Sun, 05 Aug 2018 20:52:32 +0200</pubDate>
@@ -178,16 +188,6 @@ out of hand.&lt;/p&gt;
 replace my component/entity engine first. I was planning to do so anyway since I
 dont like how it integrates with script defined components, but I thought this
 was something to do later. I guess not.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 17</title>
-      <link>https://i.madeso.me/devlog/2018-17/</link>
-      <pubDate>Tue, 01 May 2018 08:52:20 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-17/</guid>
-      <description>&lt;p&gt;This week I completed the scrip bind system replacement. Now I can finally focus on adding more features.&lt;/p&gt;
 </description>
     </item>
     
