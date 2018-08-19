@@ -17,6 +17,18 @@
     
     
     <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2018-33/</link>
+      <pubDate>Sun, 19 Aug 2018 23:04:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-33/</guid>
+      <description>&lt;p&gt;This week I started on software synth, and participated in game jam but didn&amp;rsquo;t
+really finish it :( On the upside is I added a feature to the assimp library
+and terminal application that I soon hopefully will add via a pull request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 32</title>
       <link>https://i.madeso.me/devlog/2018-32/</link>
       <pubDate>Mon, 13 Aug 2018 00:40:44 +0200</pubDate>
@@ -175,19 +187,6 @@ Hopefully within a week or two I can replace protobuf in euphoria soon.&lt;/p&gt
 and remove objects dynamically, though my current system for referencing script
 objects is lacking, so I need to fix that next week before things starts to get
 out of hand.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 18</title>
-      <link>https://i.madeso.me/devlog/2018-18/</link>
-      <pubDate>Sun, 06 May 2018 23:14:33 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-18/</guid>
-      <description>&lt;p&gt;This week I started on creating objects dynamically but it seems that I need to
-replace my component/entity engine first. I was planning to do so anyway since I
-dont like how it integrates with script defined components, but I thought this
-was something to do later. I guess not.&lt;/p&gt;
 </description>
     </item>
     
