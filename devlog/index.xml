@@ -17,6 +17,21 @@
     
     
     <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2018-35/</link>
+      <pubDate>Mon, 03 Sep 2018 00:41:51 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-35/</guid>
+      <description>&lt;p&gt;This week I did some work on my synth project, starting to refactor the keyboard
+input from the actual sound synth so I can play with midi input some time in
+the future. I also made a skateboarding, mail delivery game for the gmtk2018 game
+jam called &lt;a href=&#34;https://itch.io/jam/gmtk-2018/rate/299793&#34;&gt;Skate and die&lt;/a&gt;.
+The name is obviously a nod to the classic &amp;ldquo;Skate or die&amp;rdquo; but what can you do
+when you get an idea that absolutly must be created?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 34</title>
       <link>https://i.madeso.me/devlog/2018-34/</link>
       <pubDate>Sun, 26 Aug 2018 23:39:26 +0200</pubDate>
@@ -171,19 +186,6 @@ editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.&lt;/p&gt;
       <description>&lt;p&gt;This week I contintued the work on my protobuf replacement library, gaf, and
 actually started on replacing protobuf in euphoria. I hope that by the time of
 the next devlog I have finished the refactoring.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 20</title>
-      <link>https://i.madeso.me/devlog/2018-20/</link>
-      <pubDate>Mon, 21 May 2018 01:14:28 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-20/</guid>
-      <description>&lt;p&gt;This week I basically just went through the entire list of errors that clang-tidy
-can detect and decided what to use, and what to ignore, and fixed several warnings.
-Then I continued workin on my protobuf replacement library, gaf, that I started ages ago.
-Hopefully within a week or two I can replace protobuf in euphoria soon.&lt;/p&gt;
 </description>
     </item>
     
