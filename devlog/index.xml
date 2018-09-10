@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 36</title>
+      <link>https://i.madeso.me/devlog/2018-36/</link>
+      <pubDate>Mon, 10 Sep 2018 07:19:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-36/</guid>
+      <description>&lt;p&gt;This week I was back on synth programming. I implemented polyphonics and a basic envelope.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 35</title>
       <link>https://i.madeso.me/devlog/2018-35/</link>
       <pubDate>Mon, 03 Sep 2018 00:41:51 +0200</pubDate>
@@ -174,18 +184,6 @@ and after that is completed I can work on saving json so I can close this chapte
       <description>&lt;p&gt;This week I mostly finished the move from protobuf to gaf. I still can&amp;rsquo;t save
 gaf files, but that will come after I throw out the current wxWidgets based
 editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 21</title>
-      <link>https://i.madeso.me/devlog/2018-21/</link>
-      <pubDate>Sun, 27 May 2018 23:45:49 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-21/</guid>
-      <description>&lt;p&gt;This week I contintued the work on my protobuf replacement library, gaf, and
-actually started on replacing protobuf in euphoria. I hope that by the time of
-the next devlog I have finished the refactoring.&lt;/p&gt;
 </description>
     </item>
     
