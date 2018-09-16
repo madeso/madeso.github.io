@@ -17,6 +17,18 @@
     
     
     <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2018-37/</link>
+      <pubDate>Sun, 16 Sep 2018 21:57:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-37/</guid>
+      <description>&lt;p&gt;This week I implemented a really basic arpegiator to my synth project, and spent
+the remainder catching a cold, catching up on my MCU and Season 2 of Iron Fist
+while getting and recovering from a fever and said cold.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 36</title>
       <link>https://i.madeso.me/devlog/2018-36/</link>
       <pubDate>Mon, 10 Sep 2018 07:19:50 +0200</pubDate>
@@ -172,18 +184,6 @@ viewport handling. The latter is not quite finished yet, but it&amp;rsquo;s gett
 dear imgui version of it. There still are some non imgui like parts from the ported
 code but things are looking better. I just started on the imgui extension for gaf,
 and after that is completed I can work on saving json so I can close this chapter.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 22</title>
-      <link>https://i.madeso.me/devlog/2018-22/</link>
-      <pubDate>Sun, 03 Jun 2018 21:47:40 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-22/</guid>
-      <description>&lt;p&gt;This week I mostly finished the move from protobuf to gaf. I still can&amp;rsquo;t save
-gaf files, but that will come after I throw out the current wxWidgets based
-editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.&lt;/p&gt;
 </description>
     </item>
     
