@@ -17,6 +17,17 @@
     
     
     <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2018-38/</link>
+      <pubDate>Sun, 23 Sep 2018 23:15:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-38/</guid>
+      <description>&lt;p&gt;This week I completed the second season of Iron Fist, and continued onto the first
+season of Merlin. I also bought a midi controller and added a basic hacky midi input to my synth project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 37</title>
       <link>https://i.madeso.me/devlog/2018-37/</link>
       <pubDate>Sun, 16 Sep 2018 21:57:10 +0200</pubDate>
@@ -171,19 +182,6 @@ viewport handling. The latter is not quite finished yet, but it&amp;rsquo;s gett
       
       <guid>https://i.madeso.me/devlog/2018-24/</guid>
       <description>&lt;p&gt;This week I continued work on the editor and gaf and it&amp;rsquo;s finally getting near completion.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 23</title>
-      <link>https://i.madeso.me/devlog/2018-23/</link>
-      <pubDate>Sun, 10 Jun 2018 17:43:48 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-23/</guid>
-      <description>&lt;p&gt;This week I threw out the wx scimed/ninepatch editor and have now a improved
-dear imgui version of it. There still are some non imgui like parts from the ported
-code but things are looking better. I just started on the imgui extension for gaf,
-and after that is completed I can work on saving json so I can close this chapter.&lt;/p&gt;
 </description>
     </item>
     
