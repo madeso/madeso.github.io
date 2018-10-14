@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2018-41/</link>
+      <pubDate>Sun, 14 Oct 2018 21:27:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-41/</guid>
+      <description>&lt;p&gt;This week I spent on refactoring my duktype binding library for euphoria. Much has been done, but there is also more to be done before I am finished.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 40</title>
       <link>https://i.madeso.me/devlog/2018-40/</link>
       <pubDate>Sun, 07 Oct 2018 23:42:52 +0200</pubDate>
@@ -170,18 +180,6 @@ are outside the viewport, so that should be done soon.&lt;/p&gt;
       
       <guid>https://i.madeso.me/devlog/2018-27/</guid>
       <description>&lt;p&gt;This week I finished the viewport logic, and started looking at how to handle objects getting outside of the view. Not uch but I also binged luke cage season 2, so pretty ok progress considering.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 26</title>
-      <link>https://i.madeso.me/devlog/2018-26/</link>
-      <pubDate>Sun, 01 Jul 2018 23:13:54 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-26/</guid>
-      <description>&lt;p&gt;This week I spent on watching luke cage season 2, adding enum support to imgui
-option for gaf, fixed the issue with not resusing ids and started on writing
-viewport handling. The latter is not quite finished yet, but it&amp;rsquo;s getting there.&lt;/p&gt;
 </description>
     </item>
     
