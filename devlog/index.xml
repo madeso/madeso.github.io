@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2018-42/</link>
+      <pubDate>Sun, 21 Oct 2018 22:09:31 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-42/</guid>
+      <description>&lt;p&gt;This week I did some cleanup but most of my time was spent on removing the RTTI requirement from euphoria.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 41</title>
       <link>https://i.madeso.me/devlog/2018-41/</link>
       <pubDate>Sun, 14 Oct 2018 21:27:57 +0200</pubDate>
@@ -170,16 +180,6 @@ I also started laying the grounds for adding a init function for when creating e
 framework, extracting all the copy-paste code into another utility file.
 I also finally came up with how to best handle how to check for when objects
 are outside the viewport, so that should be done soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 27</title>
-      <link>https://i.madeso.me/devlog/2018-27/</link>
-      <pubDate>Sun, 08 Jul 2018 22:23:10 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-27/</guid>
-      <description>&lt;p&gt;This week I finished the viewport logic, and started looking at how to handle objects getting outside of the view. Not uch but I also binged luke cage season 2, so pretty ok progress considering.&lt;/p&gt;
 </description>
     </item>
     
