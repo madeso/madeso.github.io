@@ -17,6 +17,18 @@
     
     
     <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2018-43/</link>
+      <pubDate>Sun, 28 Oct 2018 22:20:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-43/</guid>
+      <description>&lt;p&gt;This week I fixed and cleaned up the windows build, removed libraries that
+aren&amp;rsquo;t and shouldnt be used, I wrote a custom typeinfo code and made
+ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 42</title>
       <link>https://i.madeso.me/devlog/2018-42/</link>
       <pubDate>Sun, 21 Oct 2018 22:09:31 +0200</pubDate>
@@ -167,19 +179,6 @@ OnInit callback, but that&amp;rsquo;s pretty much it.&lt;/p&gt;
       <guid>https://i.madeso.me/devlog/2018-29/</guid>
       <description>&lt;p&gt;This week I made it so that shots are destroyed when the have left the viewport.
 I also started laying the grounds for adding a init function for when creating entities.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 28</title>
-      <link>https://i.madeso.me/devlog/2018-28/</link>
-      <pubDate>Sun, 15 Jul 2018 22:49:16 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-28/</guid>
-      <description>&lt;p&gt;This week I merged the main.cc from all various applications in the euphoria
-framework, extracting all the copy-paste code into another utility file.
-I also finally came up with how to best handle how to check for when objects
-are outside the viewport, so that should be done soon.&lt;/p&gt;
 </description>
     </item>
     
