@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2018-44/</link>
+      <pubDate>Sun, 04 Nov 2018 21:07:20 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-44/</guid>
+      <description>&lt;p&gt;This week I pretty much only fixed compile errors from the point/vector refactor/renaming from last week. It&amp;rsquo;s almost done, so Im hoping the comming week will be a bit more productive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 43</title>
       <link>https://i.madeso.me/devlog/2018-43/</link>
       <pubDate>Sun, 28 Oct 2018 22:20:32 +0100</pubDate>
@@ -168,17 +178,6 @@ started to play around with godot a bit and started on a smaller platformer test
       <guid>https://i.madeso.me/devlog/2018-30/</guid>
       <description>&lt;p&gt;This week a heatwave struck, so I didn&amp;rsquo;t really do much. I started on the
 OnInit callback, but that&amp;rsquo;s pretty much it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 29</title>
-      <link>https://i.madeso.me/devlog/2018-29/</link>
-      <pubDate>Sun, 22 Jul 2018 22:34:47 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-29/</guid>
-      <description>&lt;p&gt;This week I made it so that shots are destroyed when the have left the viewport.
-I also started laying the grounds for adding a init function for when creating entities.&lt;/p&gt;
 </description>
     </item>
     
