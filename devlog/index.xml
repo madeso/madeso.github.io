@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2018-45/</link>
+      <pubDate>Sun, 11 Nov 2018 23:17:22 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-45/</guid>
+      <description>&lt;p&gt;This week I really didn&amp;rsquo;t do much. Real life I suppose got in the way. I did a little prejam practice and kinda started on a platformer in love2d.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 44</title>
       <link>https://i.madeso.me/devlog/2018-44/</link>
       <pubDate>Sun, 04 Nov 2018 21:07:20 +0100</pubDate>
@@ -167,17 +177,6 @@ and terminal application that I soon hopefully will add via a pull request.&lt;/
       <description>&lt;p&gt;This week was my first vacation and I added a OnInit function and creation arguments
 to the the create function in euphoria. I also, in preperation of the upcomming gamejams,
 started to play around with godot a bit and started on a smaller platformer test/game thing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 30</title>
-      <link>https://i.madeso.me/devlog/2018-30/</link>
-      <pubDate>Sun, 29 Jul 2018 22:20:31 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-30/</guid>
-      <description>&lt;p&gt;This week a heatwave struck, so I didn&amp;rsquo;t really do much. I started on the
-OnInit callback, but that&amp;rsquo;s pretty much it.&lt;/p&gt;
 </description>
     </item>
     
