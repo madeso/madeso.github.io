@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2018-46/</link>
+      <pubDate>Sun, 18 Nov 2018 22:04:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-46/</guid>
+      <description>&lt;p&gt;This week I worked on my kodsnack gamejam entry. I mostly going well but I think I might have failed to estimate how much it will take to create a platformer in my free time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 45</title>
       <link>https://i.madeso.me/devlog/2018-45/</link>
       <pubDate>Sun, 11 Nov 2018 23:17:22 +0100</pubDate>
@@ -165,18 +175,6 @@ and terminal application that I soon hopefully will add via a pull request.&lt;/
       
       <guid>https://i.madeso.me/devlog/2018-32/</guid>
       <description>&lt;p&gt;This week I mostly spend relaxing and real life stuff. I made a few small games in godot and started on switching my main system from ubuntu to arch.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 31</title>
-      <link>https://i.madeso.me/devlog/2018-31/</link>
-      <pubDate>Sun, 05 Aug 2018 20:52:32 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-31/</guid>
-      <description>&lt;p&gt;This week was my first vacation and I added a OnInit function and creation arguments
-to the the create function in euphoria. I also, in preperation of the upcomming gamejams,
-started to play around with godot a bit and started on a smaller platformer test/game thing.&lt;/p&gt;
 </description>
     </item>
     
