@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>2018 47</title>
+      <link>https://i.madeso.me/devlog/2018-47/</link>
+      <pubDate>Mon, 26 Nov 2018 01:19:31 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-47/</guid>
+      <description>&lt;p&gt;This week I continued my participation in the kodsnack spelsylt gamejam. While I&amp;rsquo;m proud of what I have achieved I might continue on and actually complete the game. It feels pretty good to play and I like the style of the game.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 46</title>
       <link>https://i.madeso.me/devlog/2018-46/</link>
       <pubDate>Sun, 18 Nov 2018 22:04:34 +0100</pubDate>
@@ -165,16 +175,6 @@ when you get an idea that absolutly must be created?&lt;/p&gt;
       <description>&lt;p&gt;This week I started on software synth, and participated in game jam but didn&amp;rsquo;t
 really finish it :( On the upside is I added a feature to the assimp library
 and terminal application that I soon hopefully will add via a pull request.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 32</title>
-      <link>https://i.madeso.me/devlog/2018-32/</link>
-      <pubDate>Mon, 13 Aug 2018 00:40:44 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-32/</guid>
-      <description>&lt;p&gt;This week I mostly spend relaxing and real life stuff. I made a few small games in godot and started on switching my main system from ubuntu to arch.&lt;/p&gt;
 </description>
     </item>
     
