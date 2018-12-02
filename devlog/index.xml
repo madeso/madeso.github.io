@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2018-48/</link>
+      <pubDate>Sun, 02 Dec 2018 22:59:00 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-48/</guid>
+      <description>&lt;p&gt;This week I relaxed from the kodsnack spelsylt gamejam. Apprently I came third, so yay me. I also started on my own scripting language called fel. A mix between typescript and lua. I&amp;rsquo;m gonna try and apply the same commtiment I used for the kodsylt, that is lets see how much I can acchieve during 2 weeks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2018 47</title>
       <link>https://i.madeso.me/devlog/2018-47/</link>
       <pubDate>Mon, 26 Nov 2018 01:19:31 +0100</pubDate>
@@ -163,18 +173,6 @@ when you get an idea that absolutly must be created?&lt;/p&gt;
       
       <guid>https://i.madeso.me/devlog/2018-34/</guid>
       <description>&lt;p&gt;This week I started working again. I did a little work on my software synth and my dotfiles management util/script. In less than a week is the gmtk gamejam and I&amp;rsquo;m getting hyped.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 33</title>
-      <link>https://i.madeso.me/devlog/2018-33/</link>
-      <pubDate>Sun, 19 Aug 2018 23:04:16 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-33/</guid>
-      <description>&lt;p&gt;This week I started on software synth, and participated in game jam but didn&amp;rsquo;t
-really finish it :( On the upside is I added a feature to the assimp library
-and terminal application that I soon hopefully will add via a pull request.&lt;/p&gt;
 </description>
     </item>
     
