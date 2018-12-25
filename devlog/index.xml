@@ -17,6 +17,26 @@
     
     
     <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2018-51/</link>
+      <pubDate>Tue, 25 Dec 2018 21:41:40 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-51/</guid>
+      <description>&lt;p&gt;This week I really didn&amp;rsquo;t do much. I mostly did xmas things and a little bit of dot file tweakings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2018-50/</link>
+      <pubDate>Mon, 17 Dec 2018 00:22:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-50/</guid>
+      <description>&lt;p&gt;This week I mostly spent on configuring colors and vim. I continued on fel but no major contribution yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2018-49/</link>
       <pubDate>Sun, 09 Dec 2018 22:24:01 +0100</pubDate>
@@ -37,7 +57,7 @@
     </item>
     
     <item>
-      <title>2018 47</title>
+      <title>Week 47</title>
       <link>https://i.madeso.me/devlog/2018-47/</link>
       <pubDate>Mon, 26 Nov 2018 01:19:31 +0100</pubDate>
       
@@ -148,31 +168,6 @@ season of Merlin. I also bought a midi controller and added a basic hacky midi i
       <description>&lt;p&gt;This week I implemented a really basic arpegiator to my synth project, and spent
 the remainder catching a cold, catching up on my MCU and Season 2 of Iron Fist
 while getting and recovering from a fever and said cold.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 36</title>
-      <link>https://i.madeso.me/devlog/2018-36/</link>
-      <pubDate>Mon, 10 Sep 2018 07:19:50 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-36/</guid>
-      <description>&lt;p&gt;This week I was back on synth programming. I implemented polyphonics and a basic envelope.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 35</title>
-      <link>https://i.madeso.me/devlog/2018-35/</link>
-      <pubDate>Mon, 03 Sep 2018 00:41:51 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-35/</guid>
-      <description>&lt;p&gt;This week I did some work on my synth project, starting to refactor the keyboard
-input from the actual sound synth so I can play with midi input some time in
-the future. I also made a skateboarding, mail delivery game for the gmtk2018 game
-jam called &lt;a href=&#34;https://itch.io/jam/gmtk-2018/rate/299793&#34;&gt;Skate and die&lt;/a&gt;.
-The name is obviously a nod to the classic &amp;ldquo;Skate or die&amp;rdquo; but what can you do
-when you get an idea that absolutly must be created?&lt;/p&gt;
 </description>
     </item>
     
