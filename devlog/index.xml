@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2018-52/</link>
+      <pubDate>Sun, 30 Dec 2018 23:40:15 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-52/</guid>
+      <description>&lt;p&gt;This week I added color functions to euphoria, and continued my work on dotfiles and installing arch and i3 on my test machine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 51</title>
       <link>https://i.madeso.me/devlog/2018-51/</link>
       <pubDate>Tue, 25 Dec 2018 21:41:40 +0100</pubDate>
@@ -156,18 +166,6 @@ ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
       <guid>https://i.madeso.me/devlog/2018-38/</guid>
       <description>&lt;p&gt;This week I completed the second season of Iron Fist, and continued onto the first
 season of Merlin. I also bought a midi controller and added a basic hacky midi input to my synth project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 37</title>
-      <link>https://i.madeso.me/devlog/2018-37/</link>
-      <pubDate>Sun, 16 Sep 2018 21:57:10 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-37/</guid>
-      <description>&lt;p&gt;This week I implemented a really basic arpegiator to my synth project, and spent
-the remainder catching a cold, catching up on my MCU and Season 2 of Iron Fist
-while getting and recovering from a fever and said cold.&lt;/p&gt;
 </description>
     </item>
     
