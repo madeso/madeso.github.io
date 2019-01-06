@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 1</title>
+      <link>https://i.madeso.me/devlog/2019-1/</link>
+      <pubDate>Sun, 06 Jan 2019 22:50:28 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-1/</guid>
+      <description>&lt;p&gt;This week I watched a few netflix movies and continued on tweaking i3 and my arch installation, almost there but not quite yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 52</title>
       <link>https://i.madeso.me/devlog/2018-52/</link>
       <pubDate>Sun, 30 Dec 2018 23:40:15 +0100</pubDate>
@@ -155,17 +165,6 @@ ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
       
       <guid>https://i.madeso.me/devlog/2018-39/</guid>
       <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much. I read some code, thought about the future and what I wanted to do and spent some time updating my i3 installation. Hopefully next week will have been more productive.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 38</title>
-      <link>https://i.madeso.me/devlog/2018-38/</link>
-      <pubDate>Sun, 23 Sep 2018 23:15:04 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-38/</guid>
-      <description>&lt;p&gt;This week I completed the second season of Iron Fist, and continued onto the first
-season of Merlin. I also bought a midi controller and added a basic hacky midi input to my synth project.&lt;/p&gt;
 </description>
     </item>
     
