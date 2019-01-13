@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 2</title>
+      <link>https://i.madeso.me/devlog/2019-2/</link>
+      <pubDate>Sun, 13 Jan 2019 22:42:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-2/</guid>
+      <description>&lt;p&gt;This week I started working, so my time is less than it was before, though I started to port the bfxr tool from flash back to c++ so I can use it again without problems. Still a few things to do but it&amp;rsquo;s shaping up nicely.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 1</title>
       <link>https://i.madeso.me/devlog/2019-1/</link>
       <pubDate>Sun, 06 Jan 2019 22:50:28 +0100</pubDate>
@@ -155,16 +165,6 @@ ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
       
       <guid>https://i.madeso.me/devlog/2018-40/</guid>
       <description>&lt;p&gt;This week I didn&amp;rsquo;t do anything except celebrate my birthday. Huray for me.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 39</title>
-      <link>https://i.madeso.me/devlog/2018-39/</link>
-      <pubDate>Sun, 30 Sep 2018 20:33:21 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-39/</guid>
-      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much. I read some code, thought about the future and what I wanted to do and spent some time updating my i3 installation. Hopefully next week will have been more productive.&lt;/p&gt;
 </description>
     </item>
     
