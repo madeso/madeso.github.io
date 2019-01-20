@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 3</title>
+      <link>https://i.madeso.me/devlog/2019-3/</link>
+      <pubDate>Mon, 21 Jan 2019 00:38:07 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-3/</guid>
+      <description>&lt;p&gt;This week I went to the library to read Scientific American from 78 to learn how a pink noise algorithm worked. I also continued working on my bfxr port.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 2</title>
       <link>https://i.madeso.me/devlog/2019-2/</link>
       <pubDate>Sun, 13 Jan 2019 22:42:55 +0100</pubDate>
@@ -155,16 +165,6 @@ ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
       
       <guid>https://i.madeso.me/devlog/2018-41/</guid>
       <description>&lt;p&gt;This week I spent on refactoring my duktype binding library for euphoria. Much has been done, but there is also more to be done before I am finished.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 40</title>
-      <link>https://i.madeso.me/devlog/2018-40/</link>
-      <pubDate>Sun, 07 Oct 2018 23:42:52 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-40/</guid>
-      <description>&lt;p&gt;This week I didn&amp;rsquo;t do anything except celebrate my birthday. Huray for me.&lt;/p&gt;
 </description>
     </item>
     
