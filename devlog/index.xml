@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 6</title>
+      <link>https://i.madeso.me/devlog/2019-6/</link>
+      <pubDate>Sun, 10 Feb 2019 21:14:33 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-6/</guid>
+      <description>&lt;p&gt;This week I spent creating my custom scripting language fel. It&amp;rsquo;s currently only parsing, but it&amp;rsquo;s parses the whole specification written so far.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 5</title>
       <link>https://i.madeso.me/devlog/2019-5/</link>
       <pubDate>Sun, 03 Feb 2019 22:41:18 +0100</pubDate>
@@ -153,18 +163,6 @@
       
       <guid>https://i.madeso.me/devlog/2018-44/</guid>
       <description>&lt;p&gt;This week I pretty much only fixed compile errors from the point/vector refactor/renaming from last week. It&amp;rsquo;s almost done, so Im hoping the comming week will be a bit more productive.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 43</title>
-      <link>https://i.madeso.me/devlog/2018-43/</link>
-      <pubDate>Sun, 28 Oct 2018 22:20:32 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-43/</guid>
-      <description>&lt;p&gt;This week I fixed and cleaned up the windows build, removed libraries that
-aren&amp;rsquo;t and shouldnt be used, I wrote a custom typeinfo code and made
-ctti optional. Finally I started on a refactor of the vector classes.&lt;/p&gt;
 </description>
     </item>
     
