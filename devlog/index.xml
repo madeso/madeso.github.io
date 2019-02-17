@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 7</title>
+      <link>https://i.madeso.me/devlog/2019-7/</link>
+      <pubDate>Sun, 17 Feb 2019 21:58:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-7/</guid>
+      <description>&lt;p&gt;This week I took a fel break and mostly spent it on implementing a table print function. I also threw out most of the fel parser and started writing a AST and runner, currently it can only print strings but with this approach it can be extended instead of writing it all at once.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 6</title>
       <link>https://i.madeso.me/devlog/2019-6/</link>
       <pubDate>Sun, 10 Feb 2019 21:14:33 +0100</pubDate>
@@ -153,16 +163,6 @@
       
       <guid>https://i.madeso.me/devlog/2018-45/</guid>
       <description>&lt;p&gt;This week I really didn&amp;rsquo;t do much. Real life I suppose got in the way. I did a little prejam practice and kinda started on a platformer in love2d.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 44</title>
-      <link>https://i.madeso.me/devlog/2018-44/</link>
-      <pubDate>Sun, 04 Nov 2018 21:07:20 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-44/</guid>
-      <description>&lt;p&gt;This week I pretty much only fixed compile errors from the point/vector refactor/renaming from last week. It&amp;rsquo;s almost done, so Im hoping the comming week will be a bit more productive.&lt;/p&gt;
 </description>
     </item>
     
