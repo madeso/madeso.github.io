@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 8</title>
+      <link>https://i.madeso.me/devlog/2019-8/</link>
+      <pubDate>Sun, 24 Feb 2019 21:12:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-8/</guid>
+      <description>&lt;p&gt;This week I continued work on fel. I did a little bit of refactoring and started adding a bytecode. Rest of the week was spent on either rewatching the first season of battlestar galactica or getting up to speed on star trek discovery.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 7</title>
       <link>https://i.madeso.me/devlog/2019-7/</link>
       <pubDate>Sun, 17 Feb 2019 21:58:47 +0100</pubDate>
@@ -153,16 +163,6 @@
       
       <guid>https://i.madeso.me/devlog/2018-46/</guid>
       <description>&lt;p&gt;This week I worked on my kodsnack gamejam entry. I mostly going well but I think I might have failed to estimate how much it will take to create a platformer in my free time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 45</title>
-      <link>https://i.madeso.me/devlog/2018-45/</link>
-      <pubDate>Sun, 11 Nov 2018 23:17:22 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-45/</guid>
-      <description>&lt;p&gt;This week I really didn&amp;rsquo;t do much. Real life I suppose got in the way. I did a little prejam practice and kinda started on a platformer in love2d.&lt;/p&gt;
 </description>
     </item>
     
