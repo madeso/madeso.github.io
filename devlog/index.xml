@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2019-10/</link>
+      <pubDate>Sun, 10 Mar 2019 23:42:15 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-10/</guid>
+      <description>&lt;p&gt;This week I spent some more time on my aur tool. It&amp;rsquo;s not quite there just yet, but it&amp;rsquo;s getting there. I also resurected my tracery implementation and merged my tracery repo into euphoria.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 9</title>
       <link>https://i.madeso.me/devlog/2019-9/</link>
       <pubDate>Sun, 03 Mar 2019 23:24:49 +0100</pubDate>
@@ -153,16 +163,6 @@
       
       <guid>https://i.madeso.me/devlog/2018-48/</guid>
       <description>&lt;p&gt;This week I relaxed from the kodsnack spelsylt gamejam. Apprently I came third, so yay me. I also started on my own scripting language called fel. A mix between typescript and lua. I&amp;rsquo;m gonna try and apply the same commtiment I used for the kodsylt, that is lets see how much I can acchieve during 2 weeks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 47</title>
-      <link>https://i.madeso.me/devlog/2018-47/</link>
-      <pubDate>Mon, 26 Nov 2018 01:19:31 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-47/</guid>
-      <description>&lt;p&gt;This week I continued my participation in the kodsnack spelsylt gamejam. While I&amp;rsquo;m proud of what I have achieved I might continue on and actually complete the game. It feels pretty good to play and I like the style of the game.&lt;/p&gt;
 </description>
     </item>
     
