@@ -17,6 +17,16 @@
     
     
     <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2019-12/</link>
+      <pubDate>Sun, 24 Mar 2019 22:47:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-12/</guid>
+      <description>&lt;p&gt;This week I did a little on the json library but most of my time has either been spent on watch netflix and updating my arch installation. I switched over to dimming inactive windows and hiding the titlebar to get more screen estate and with the current compton settings, things actually look pretty.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 11</title>
       <link>https://i.madeso.me/devlog/2019-11/</link>
       <pubDate>Sun, 17 Mar 2019 21:23:12 +0100</pubDate>
@@ -153,16 +163,6 @@
       
       <guid>https://i.madeso.me/devlog/2018-50/</guid>
       <description>&lt;p&gt;This week I mostly spent on configuring colors and vim. I continued on fel but no major contribution yet.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 49</title>
-      <link>https://i.madeso.me/devlog/2018-49/</link>
-      <pubDate>Sun, 09 Dec 2018 22:24:01 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-49/</guid>
-      <description>&lt;p&gt;This week I continued work on my tiny scriping engine, but most of my time was spent on either netflix or tweaking colors in my terminals/dotfiles.&lt;/p&gt;
 </description>
     </item>
     
