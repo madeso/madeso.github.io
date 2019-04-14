@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons blog </title>
@@ -9,7 +8,7 @@
 </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 22:08:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jul 2017 14:31:24 +0200</lastBuildDate>
     <atom:link href="/blog/" rel="self" type="application/rss+xml" />
 
     
@@ -54,39 +53,6 @@
 &lt;p&gt;This command creates a Data Folder under Appdata\Local\Spotify which will be redirected to the target Path (here as example: E:\Spotify\Data&amp;rdquo;)&lt;/p&gt;
 
 &lt;p&gt;Nice! Now my SSD has plenty of space again.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A better git log</title>
-      <link>https://i.madeso.me/blog/gitlog/</link>
-      <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/blog/gitlog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just changed my git log command from the standard:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;old.jpg&#34; alt=&#34;old&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;to the more compact and colorful:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s simple to get this log. Just type in:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git log --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --abbrev-commit
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I guess that&amp;rsquo;s a bit too long, eh? Let&amp;rsquo;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git config --global alias.lg &amp;quot;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --abbrev-commit&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git lg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Everything here is shamelessly copied from this article: &lt;a href=&#34;https://coderwall.com/p/euwpig/a-better-git-log&#34;&gt;https://coderwall.com/p/euwpig/a-better-git-log&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -313,34 +279,6 @@ receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-sys
     </item>
     
     <item>
-      <title>Oculus development</title>
-      <link>https://i.madeso.me/blog/sh-oculus/</link>
-      <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/blog/sh-oculus/</guid>
-      <description>&lt;p&gt;I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ship designs</title>
-      <link>https://i.madeso.me/blog/sh-shipdesigns/</link>
-      <pubDate>Sun, 01 Sep 2013 13:45:20 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/blog/sh-shipdesigns/</guid>
-      <description>&lt;p&gt;Bought myself a stylus and installed &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.adsk.sketchbookhdexpress&amp;amp;hl=en&#34;&gt;sketchbook express&lt;/a&gt;
-on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;s1.png&#34; alt=&#34;sketch 1&#34; /&gt;
-&lt;img src=&#34;s2.png&#34; alt=&#34;sketch 2&#34; /&gt;
-&lt;img src=&#34;s3.png&#34; alt=&#34;sketch 3&#34; /&gt;
-&lt;img src=&#34;s4.png&#34; alt=&#34;sketch 4&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Thoughts on the controls</title>
       <link>https://i.madeso.me/blog/sh-controls/</link>
       <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
@@ -355,6 +293,58 @@ and let a AI controls the torque thrusts. This is a much easier control scheme a
 have to compensate for the rotational adjustments.&lt;/p&gt;
 
 &lt;p&gt;Going a step further one could add another AI layer to control the main thruster and let the player use a fps-like control to control the lander. With this control system a couple of issues arise on how the camera, the input display and, most important, the aiming should work, and I’m thinking time and testing will only tell if this is a feasible input system, I believe it’s a good way to testing the AI that will be controlling the enemy landers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The music</title>
+      <link>https://i.madeso.me/blog/sh-music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-music/</guid>
+      <description>&lt;p&gt;Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/8jzlJeKZ4w0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Or some some ambient &lt;a href=&#34;http://opengameart.org/content/through-space&#34;&gt;80’s style electro music like this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Distribution</title>
+      <link>https://i.madeso.me/blog/sh-distribution/</link>
+      <pubDate>Thu, 20 Jun 2013 13:36:13 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-distribution/</guid>
+      <description>&lt;p&gt;This week instead of talking just design I thought I would be nice to share some development ideas that I’ve been brewing for a while, and it has to do with distribution of the game. The obvious choice is steam, and probably the equivalent to the appstore on ubuntu(if that still exists and is flourishing), but a part of me wants to sell the game to all linux distributions and I can’t test that at all.&lt;/p&gt;
+
+&lt;p&gt;The obvious solution for me is to let the others port the game for free, and by game I mean the engine running all the game specific scripts and reading the game specific data as I plan to actually only sell the content, the game/engine running the content is open source. While I haven’t decided on a license, though I’m thinking LGPL, GPL or something close, it’s pretty early on in development, and nothing game like can be seen it is &lt;a href=&#34;https://github.com/sirGustav/euphoria&#34;&gt;available over at github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Name of the game</title>
+      <link>https://i.madeso.me/blog/sh-name/</link>
+      <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-name/</guid>
+      <description>&lt;p&gt;I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.&lt;/p&gt;
+
+&lt;p&gt;First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.&lt;/p&gt;
+
+&lt;p&gt;Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.&lt;/p&gt;
+
+&lt;p&gt;I wanted to name the blog UARC as that is the working title of the crafts (Urban Assault Recon Craft) but that blog is already taken by the actual UARC (&lt;a href=&#34;http://en.wikipedia.org/wiki/University_Affiliated_Research_Center&#34;&gt;University Affiliated Research Center&lt;/a&gt;) and space hustler was a name early on that didn’t fit but stuck nonetheless.&lt;/p&gt;
+
+&lt;p&gt;But anyway, space hustler is a working title. What will the final game be named? I don’t know.&lt;/p&gt;
+
+&lt;p&gt;Any ideas?&lt;/p&gt;
 </description>
     </item>
     

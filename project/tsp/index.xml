@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons Traveling salesman problem </title>
@@ -7,7 +6,6 @@
 </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Apr 2010 22:05:56 +0200</lastBuildDate>
     <atom:link href="/project/tsp/" rel="self" type="application/rss+xml" />
 
     

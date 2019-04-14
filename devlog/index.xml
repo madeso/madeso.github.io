@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustav Janssons devlog </title>
@@ -7,7 +6,7 @@
 </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 22:22:26 +0200</lastBuildDate>
     <atom:link href="/devlog/" rel="self" type="application/rss+xml" />
 
     
@@ -15,6 +14,16 @@
     
 
     
+    
+    <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2019-15/</link>
+      <pubDate>Sun, 14 Apr 2019 22:22:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-15/</guid>
+      <description>&lt;p&gt;This week I mostly spent on watching love, death and robots. I managed to write some on my arch/i3 setup but nothing much&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 14</title>
@@ -153,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-1/</guid>
       <description>&lt;p&gt;This week I watched a few netflix movies and continued on tweaking i3 and my arch installation, almost there but not quite yet.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 52</title>
-      <link>https://i.madeso.me/devlog/2018-52/</link>
-      <pubDate>Sun, 30 Dec 2018 23:40:15 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2018-52/</guid>
-      <description>&lt;p&gt;This week I added color functions to euphoria, and continued my work on dotfiles and installing arch and i3 on my test machine.&lt;/p&gt;
 </description>
     </item>
     
