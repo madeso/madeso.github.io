@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="blog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.55.1" /><link rel="canonical" href="https://i.madeso.me/blog/"> 
+  <meta name="generator" content="Hugo 0.55.3" /><link rel="canonical" href="https://i.madeso.me/blog/"> 
   <title>blog</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -94,6 +94,26 @@ It turns out the &ldquo;cached location&rdquo; is only the saved playlists, and 
     &nbsp;<a class="tag" href="/tags/spotify">#spotify</a>
     &nbsp;<a class="tag" href="/tags/windows">#windows</a>
     &nbsp;<a class="tag" href="/tags/ssd">#ssd</a>
+  or <a class="tag" href="/tags/">(all)</a>
+  </div>
+</div>
+      <div class="to-top">
+<a href="https://i.madeso.me/blog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
+      <div class="post">
+<div class="title">
+<a href="https://i.madeso.me/blog/gitlog/"><div class="previewheader header">A better git log</div></a>
+<div class="shortdate right">22 February 2017</div>
+</div>
+<p>I&rsquo;ve just changed my git log command from the standard:
+to the more compact and colorful:
+It&rsquo;s simple to get this log. Just type in:
+$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit  I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:
+$ git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit&quot;  And every time you need to see your log, just type in</p>
+<p><a href="https://i.madeso.me/blog/gitlog/">Read the rest...</a></p>
+  <div class="taglist">
+    &nbsp;<a class="tag" href="/tags/git">#git</a>
+    &nbsp;<a class="tag" href="/tags/code">#code</a>
   or <a class="tag" href="/tags/">(all)</a>
   </div>
 </div>
@@ -226,22 +246,6 @@ var foo = function(x) { return(x + 5); } foo(3)  $ echo $EDITOR vim $ git checko
     &nbsp;<a class="tag" href="/tags/example">#example</a>
     &nbsp;<a class="tag" href="/tags/markdown">#markdown</a>
     &nbsp;<a class="tag" href="/tags/code">#code</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
-</div>
-      <div class="to-top">
-<a href="https://i.madeso.me/blog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
-      <div class="post">
-<div class="title">
-<a href="https://i.madeso.me/blog/sh-roadthatfollows/"><div class="previewheader header">The road that follows</div></a>
-<div class="shortdate right">25 October 2013</div>
-</div>
-<p>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
- Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</p>
-<p><a href="https://i.madeso.me/blog/sh-roadthatfollows/">Read the rest...</a></p>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spacehustler">#spacehustler</a>
   or <a class="tag" href="/tags/">(all)</a>
   </div>
 </div>

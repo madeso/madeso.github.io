@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://i.madeso.me/devlog/2019-15/</loc>
-    <lastmod>2019-04-14T22:22:26+02:00</lastmod>
+    <loc>https://i.madeso.me/devlog/2019-16/</loc>
+    <lastmod>2019-04-21T22:42:44+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/devlog/</loc>
+    <loc>https://i.madeso.me/devlog/2019-15/</loc>
     <lastmod>2019-04-14T22:22:26+02:00</lastmod>
   </url>
   
@@ -474,11 +474,6 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/blog/</loc>
-    <lastmod>2017-07-23T14:31:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/tags/linux/</loc>
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
     <priority>0</priority>
@@ -519,6 +514,11 @@
     <loc>https://i.madeso.me/categories/</loc>
     <lastmod>2017-06-13T08:43:52+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/looking-for-love/</loc>
+    <lastmod>2017-06-13T08:43:52+02:00</lastmod>
   </url>
   
   <url>
@@ -613,6 +613,16 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/devlog/</loc>
+    <lastmod>2017-04-21T23:40:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/ride/</loc>
+    <lastmod>2017-04-21T22:30:49+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/categories/apps/</loc>
     <lastmod>2017-04-21T22:30:49+02:00</lastmod>
     <priority>0</priority>
@@ -622,6 +632,16 @@
     <loc>https://i.madeso.me/categories/free-time/</loc>
     <lastmod>2017-04-21T22:30:49+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/</loc>
+    <lastmod>2017-04-21T22:08:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/</loc>
+    <lastmod>2017-04-21T22:04:16+02:00</lastmod>
   </url>
   
   <url>
@@ -665,6 +685,11 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/blog/gitlog/</loc>
+    <lastmod>2017-02-22T08:38:53+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/tags/code/</loc>
     <lastmod>2017-02-22T08:38:53+01:00</lastmod>
     <priority>0</priority>
@@ -674,6 +699,11 @@
     <loc>https://i.madeso.me/tags/git/</loc>
     <lastmod>2017-02-22T08:38:53+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/waveohoy/</loc>
+    <lastmod>2017-01-22T01:03:26+02:00</lastmod>
   </url>
   
   <url>
@@ -755,9 +785,29 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/project/truckgame/</loc>
+    <lastmod>2016-04-10T01:01:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/categories/ngj/</loc>
     <lastmod>2016-04-10T01:01:32+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/officerituals/</loc>
+    <lastmod>2016-01-31T00:58:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/slothdictator/</loc>
+    <lastmod>2015-07-19T01:31:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/forrest/</loc>
+    <lastmod>2015-05-24T01:40:41+02:00</lastmod>
   </url>
   
   <url>
@@ -781,6 +831,26 @@
     <loc>https://i.madeso.me/tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/roomy/</loc>
+    <lastmod>2015-02-08T01:05:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/baddude/</loc>
+    <lastmod>2014-08-28T01:07:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/musicgame/</loc>
+    <lastmod>2014-04-28T01:12:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/ld14/</loc>
+    <lastmod>2014-04-28T01:10:38+02:00</lastmod>
   </url>
   
   <url>
@@ -812,9 +882,19 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/blog/sh-oculus/</loc>
+    <lastmod>2013-09-07T13:48:53+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/tags/fail/</loc>
     <lastmod>2013-09-07T13:48:53+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/sh-shipdesigns/</loc>
+    <lastmod>2013-09-01T13:45:20+02:00</lastmod>
   </url>
   
   <url>
@@ -832,6 +912,11 @@
     <loc>https://i.madeso.me/tags/input/</loc>
     <lastmod>2013-08-22T13:42:58+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/sh-workinghard/</loc>
+    <lastmod>2013-08-07T13:40:53+02:00</lastmod>
   </url>
   
   <url>
@@ -856,6 +941,21 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/blog/sh-cockpit/</loc>
+    <lastmod>2013-06-08T13:31:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/sh-missiontypes/</loc>
+    <lastmod>2013-06-01T13:25:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/sh-artstyle/</loc>
+    <lastmod>2013-05-25T13:20:12+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/sh-flowstorm/</loc>
     <lastmod>2013-05-23T13:18:10+02:00</lastmod>
   </url>
@@ -869,6 +969,61 @@
   <url>
     <loc>https://i.madeso.me/blog/sh-begins/</loc>
     <lastmod>2013-05-21T13:15:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/mondrian/</loc>
+    <lastmod>2013-04-23T22:41:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/goatie/</loc>
+    <lastmod>2012-12-21T22:05:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/ascientificexperiment/</loc>
+    <lastmod>2012-08-21T22:04:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/octohack/</loc>
+    <lastmod>2012-08-12T22:05:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/alone/</loc>
+    <lastmod>2011-12-21T22:03:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/escapethecolors/</loc>
+    <lastmod>2011-08-21T22:04:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/guru/</loc>
+    <lastmod>2011-08-07T22:04:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/aspawnnamedbob/</loc>
+    <lastmod>2011-04-21T22:03:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/epictreasurehunt/</loc>
+    <lastmod>2010-12-21T22:04:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/chucknorris/</loc>
+    <lastmod>2010-08-21T22:25:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/dudidadala/</loc>
+    <lastmod>2010-08-21T22:03:59+02:00</lastmod>
   </url>
   
   <url>
@@ -889,6 +1044,16 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/project/tsp/</loc>
+    <lastmod>2010-04-11T22:05:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/xplorer/</loc>
+    <lastmod>2009-12-11T22:06:06+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/wp-busy/</loc>
     <lastmod>2009-11-01T12:16:30+02:00</lastmod>
   </url>
@@ -899,8 +1064,18 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/project/letsgocaveburrowing/</loc>
+    <lastmod>2009-08-21T22:05:36+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/wp-epicfail/</loc>
     <lastmod>2009-07-29T11:26:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/wp-nicebike/</loc>
+    <lastmod>2009-07-14T11:22:52+02:00</lastmod>
   </url>
   
   <url>
@@ -974,14 +1149,29 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/blog/wp-turtlebones/</loc>
+    <lastmod>2009-03-02T10:50:25+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/wp-osnotfound/</loc>
     <lastmod>2009-02-24T10:47:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/wp-fear/</loc>
+    <lastmod>2009-02-12T10:45:14+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/review/</loc>
     <lastmod>2009-02-12T10:45:14+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/wp-silverlight/</loc>
+    <lastmod>2009-02-03T10:42:29+02:00</lastmod>
   </url>
   
   <url>
@@ -995,181 +1185,39 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/project/4thdimension/</loc>
+    <lastmod>2007-11-21T22:24:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/wed/</loc>
+    <lastmod>2007-04-21T22:29:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/survivors/</loc>
+    <lastmod>2007-04-21T22:28:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/project/lolball/</loc>
+    <lastmod>2007-03-21T22:03:12+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/categories/4e/</loc>
     <lastmod>2006-06-21T22:06:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/project/4thdimension/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/gitlog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-cockpit/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/ascientificexperiment/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/aspawnnamedbob/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/alone/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/baddude/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/chucknorris/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/epictreasurehunt/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/wp-fear/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/guru/</loc>
+    <loc>https://i.madeso.me/project/www/</loc>
+    <lastmod>2006-06-21T22:06:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://i.madeso.me/project/infection/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/letsgocaveburrowing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/lolball/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/looking-for-love/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/musicgame/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/octohack/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-oculus/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/officerituals/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/ride/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/roomy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/wp-nicebike/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-shipdesigns/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/wp-silverlight/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/slothdictator/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/survivors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/forrest/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/goatie/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/mondrian/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/wp-turtlebones/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-missiontypes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-artstyle/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/tsp/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/truckgame/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/ld14/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/waveohoy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/sh-workinghard/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/wed/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/www/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/xplorer/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/escapethecolors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/project/dudidadala/</loc>
+    <lastmod>2004-01-21T22:03:32+02:00</lastmod>
   </url>
   
 </urlset>

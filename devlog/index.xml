@@ -6,7 +6,7 @@
 </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2019 22:22:26 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
     <atom:link href="/devlog/" rel="self" type="application/rss+xml" />
 
     
@@ -14,6 +14,16 @@
     
 
     
+    
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2019-16/</link>
+      <pubDate>Sun, 21 Apr 2019 22:42:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-16/</guid>
+      <description>&lt;p&gt;This week I mostly spend on maze generation. I implemnted 2 maze generation algorithms and one cave generator.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 15</title>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-2/</guid>
       <description>&lt;p&gt;This week I started working, so my time is less than it was before, though I started to port the bfxr tool from flash back to c++ so I can use it again without problems. Still a few things to do but it&amp;rsquo;s shaping up nicely.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 1</title>
-      <link>https://i.madeso.me/devlog/2019-1/</link>
-      <pubDate>Sun, 06 Jan 2019 22:50:28 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-1/</guid>
-      <description>&lt;p&gt;This week I watched a few netflix movies and continued on tweaking i3 and my arch installation, almost there but not quite yet.&lt;/p&gt;
 </description>
     </item>
     
