@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2019-17/</link>
+      <pubDate>Mon, 29 Apr 2019 08:09:11 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-17/</guid>
+      <description>&lt;p&gt;This week I spent on improving my command line argument parser, though I noticed at the end of the week I might be able to replace my code with a library.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 16</title>
       <link>https://i.madeso.me/devlog/2019-16/</link>
       <pubDate>Sun, 21 Apr 2019 22:42:44 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-3/</guid>
       <description>&lt;p&gt;This week I went to the library to read Scientific American from 78 to learn how a pink noise algorithm worked. I also continued working on my bfxr port.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 2</title>
-      <link>https://i.madeso.me/devlog/2019-2/</link>
-      <pubDate>Sun, 13 Jan 2019 22:42:55 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-2/</guid>
-      <description>&lt;p&gt;This week I started working, so my time is less than it was before, though I started to port the bfxr tool from flash back to c++ so I can use it again without problems. Still a few things to do but it&amp;rsquo;s shaping up nicely.&lt;/p&gt;
 </description>
     </item>
     
