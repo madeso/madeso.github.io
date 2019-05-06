@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2019-18/</link>
+      <pubDate>Mon, 06 May 2019 22:26:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-18/</guid>
+      <description>&lt;p&gt;This week I continued on my json library, making it ready for the 1.0 release in a few weeks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 17</title>
       <link>https://i.madeso.me/devlog/2019-17/</link>
       <pubDate>Mon, 29 Apr 2019 08:09:11 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-4/</guid>
       <description>&lt;p&gt;This week I started working on the installer and continous integration for bfxr. I finished the weekend by entering the global game jam and made a game about running.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 3</title>
-      <link>https://i.madeso.me/devlog/2019-3/</link>
-      <pubDate>Mon, 21 Jan 2019 00:38:07 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-3/</guid>
-      <description>&lt;p&gt;This week I went to the library to read Scientific American from 78 to learn how a pink noise algorithm worked. I also continued working on my bfxr port.&lt;/p&gt;
 </description>
     </item>
     
