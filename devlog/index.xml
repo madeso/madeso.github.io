@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2019-19/</link>
+      <pubDate>Sun, 12 May 2019 21:53:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-19/</guid>
+      <description>&lt;p&gt;This week I continued cleaning up the json library, writing tests and stuff. At the end I started refactoring/moving code around in euphoria.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 18</title>
       <link>https://i.madeso.me/devlog/2019-18/</link>
       <pubDate>Mon, 06 May 2019 22:26:58 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-5/</guid>
       <description>&lt;p&gt;This week I completed the bfxr installations so that the build generates a installer and uploads it so people can use it, unfortunatly it looks like it doesn&amp;rsquo;t work so I have to investigate why. I also spent some time on euphoria making the vector/point refactor compile and I started a test if lua is a better scripting engine than js. So far I am not convinced.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 4</title>
-      <link>https://i.madeso.me/devlog/2019-4/</link>
-      <pubDate>Sun, 27 Jan 2019 23:43:27 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-4/</guid>
-      <description>&lt;p&gt;This week I started working on the installer and continous integration for bfxr. I finished the weekend by entering the global game jam and made a game about running.&lt;/p&gt;
 </description>
     </item>
     
