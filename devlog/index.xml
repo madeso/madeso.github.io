@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2019-20/</link>
+      <pubDate>Sun, 19 May 2019 22:55:05 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-20/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t work on the json reader as I was supposed to. Instead I worked on my bezier editor. Ideally I want the json reader complete before the end on may and a stable API a week before, so by the end of next week&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 19</title>
       <link>https://i.madeso.me/devlog/2019-19/</link>
       <pubDate>Sun, 12 May 2019 21:53:18 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-6/</guid>
       <description>&lt;p&gt;This week I spent creating my custom scripting language fel. It&amp;rsquo;s currently only parsing, but it&amp;rsquo;s parses the whole specification written so far.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 5</title>
-      <link>https://i.madeso.me/devlog/2019-5/</link>
-      <pubDate>Sun, 03 Feb 2019 22:41:18 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-5/</guid>
-      <description>&lt;p&gt;This week I completed the bfxr installations so that the build generates a installer and uploads it so people can use it, unfortunatly it looks like it doesn&amp;rsquo;t work so I have to investigate why. I also spent some time on euphoria making the vector/point refactor compile and I started a test if lua is a better scripting engine than js. So far I am not convinced.&lt;/p&gt;
 </description>
     </item>
     
