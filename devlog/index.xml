@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2019-21/</link>
+      <pubDate>Sun, 26 May 2019 22:34:46 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-21/</guid>
+      <description>&lt;p&gt;This week I added some more tests, and added coverage. Turns out that even if you think you have 100% you dont&amp;rsquo;t.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 20</title>
       <link>https://i.madeso.me/devlog/2019-20/</link>
       <pubDate>Sun, 19 May 2019 22:55:05 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-7/</guid>
       <description>&lt;p&gt;This week I took a fel break and mostly spent it on implementing a table print function. I also threw out most of the fel parser and started writing a AST and runner, currently it can only print strings but with this approach it can be extended instead of writing it all at once.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 6</title>
-      <link>https://i.madeso.me/devlog/2019-6/</link>
-      <pubDate>Sun, 10 Feb 2019 21:14:33 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-6/</guid>
-      <description>&lt;p&gt;This week I spent creating my custom scripting language fel. It&amp;rsquo;s currently only parsing, but it&amp;rsquo;s parses the whole specification written so far.&lt;/p&gt;
 </description>
     </item>
     
