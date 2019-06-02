@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2019-22/</link>
+      <pubDate>Mon, 03 Jun 2019 00:06:15 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-22/</guid>
+      <description>&lt;p&gt;This week I released jsonh and started watching the first four fast and furious.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 21</title>
       <link>https://i.madeso.me/devlog/2019-21/</link>
       <pubDate>Sun, 26 May 2019 22:34:46 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-8/</guid>
       <description>&lt;p&gt;This week I continued work on fel. I did a little bit of refactoring and started adding a bytecode. Rest of the week was spent on either rewatching the first season of battlestar galactica or getting up to speed on star trek discovery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 7</title>
-      <link>https://i.madeso.me/devlog/2019-7/</link>
-      <pubDate>Sun, 17 Feb 2019 21:58:47 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-7/</guid>
-      <description>&lt;p&gt;This week I took a fel break and mostly spent it on implementing a table print function. I also threw out most of the fel parser and started writing a AST and runner, currently it can only print strings but with this approach it can be extended instead of writing it all at once.&lt;/p&gt;
 </description>
     </item>
     
