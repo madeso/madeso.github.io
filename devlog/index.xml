@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2019-24/</link>
+      <pubDate>Sun, 16 Jun 2019 22:33:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-24/</guid>
+      <description>&lt;p&gt;This week I mostly watched netflix again. I really need to finish the extended json part of my json reader so I can use it in my own projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://i.madeso.me/devlog/2019-23/</link>
       <pubDate>Mon, 10 Jun 2019 07:05:06 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-10/</guid>
       <description>&lt;p&gt;This week I spent some more time on my aur tool. It&amp;rsquo;s not quite there just yet, but it&amp;rsquo;s getting there. I also resurected my tracery implementation and merged my tracery repo into euphoria.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 9</title>
-      <link>https://i.madeso.me/devlog/2019-9/</link>
-      <pubDate>Sun, 03 Mar 2019 23:24:49 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-9/</guid>
-      <description>&lt;p&gt;This week I started watching Umbrella Academy, and I&amp;rsquo;m liking it so far. I also added return values to fel, continued playing around with ncurses and started working on my aur tool for arch linux.&lt;/p&gt;
 </description>
     </item>
     
