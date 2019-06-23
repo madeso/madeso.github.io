@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2019-25/</link>
+      <pubDate>Sun, 23 Jun 2019 22:57:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-25/</guid>
+      <description>&lt;p&gt;This week I celebrated midsumer with friends. Nothing really happened codewise.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 24</title>
       <link>https://i.madeso.me/devlog/2019-24/</link>
       <pubDate>Sun, 16 Jun 2019 22:33:42 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-11/</guid>
       <description>&lt;p&gt;This week I started writing a json parser. I spent a little time on my AUR script, and wrote a script to randomly select a background. THere is still a few things to fix on my arch/i3 config before I can actually switch to it, on oh boy I am longing for the switch.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 10</title>
-      <link>https://i.madeso.me/devlog/2019-10/</link>
-      <pubDate>Sun, 10 Mar 2019 23:42:15 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-10/</guid>
-      <description>&lt;p&gt;This week I spent some more time on my aur tool. It&amp;rsquo;s not quite there just yet, but it&amp;rsquo;s getting there. I also resurected my tracery implementation and merged my tracery repo into euphoria.&lt;/p&gt;
 </description>
     </item>
     
