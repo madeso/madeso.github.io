@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2019-26/</link>
+      <pubDate>Mon, 01 Jul 2019 07:42:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-26/</guid>
+      <description>&lt;p&gt;This week I mostly spent researching raspberry pi and 3d printing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 25</title>
       <link>https://i.madeso.me/devlog/2019-25/</link>
       <pubDate>Sun, 23 Jun 2019 22:57:21 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-12/</guid>
       <description>&lt;p&gt;This week I did a little on the json library but most of my time has either been spent on watch netflix and updating my arch installation. I switched over to dimming inactive windows and hiding the titlebar to get more screen estate and with the current compton settings, things actually look pretty.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 11</title>
-      <link>https://i.madeso.me/devlog/2019-11/</link>
-      <pubDate>Sun, 17 Mar 2019 21:23:12 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-11/</guid>
-      <description>&lt;p&gt;This week I started writing a json parser. I spent a little time on my AUR script, and wrote a script to randomly select a background. THere is still a few things to fix on my arch/i3 config before I can actually switch to it, on oh boy I am longing for the switch.&lt;/p&gt;
 </description>
     </item>
     
