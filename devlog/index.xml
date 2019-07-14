@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2019-28/</link>
+      <pubDate>Sun, 14 Jul 2019 21:16:54 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-28/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much either but I just started a 3 week vacation, and I&amp;rsquo;m expecting at least some coding to be done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 27</title>
       <link>https://i.madeso.me/devlog/2019-27/</link>
       <pubDate>Sun, 07 Jul 2019 23:06:10 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-14/</guid>
       <description>&lt;p&gt;This work I mostly watched netflix, but I did manage to update my aur script a little bit more.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 13</title>
-      <link>https://i.madeso.me/devlog/2019-13/</link>
-      <pubDate>Sun, 31 Mar 2019 22:45:14 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-13/</guid>
-      <description>&lt;p&gt;This week I continued on my arch config quest. I updated my aur tool to be able to write updated dependencies per install instead of globally. It now also can tell the git commits between when you last wrote and the latest. I started writing a tool to create a new localized mirrors file based on the official one. Finally I started writing on a simple script to extract pngs at various resolutions from a svg file.&lt;/p&gt;
 </description>
     </item>
     
