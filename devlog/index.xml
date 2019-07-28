@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2019-30/</link>
+      <pubDate>Sun, 28 Jul 2019 20:12:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-30/</guid>
+      <description>&lt;p&gt;This week was spent on configuring arch and irl stuff. Not much fel work I&amp;rsquo;m afraid :(&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 29</title>
       <link>https://i.madeso.me/devlog/2019-29/</link>
       <pubDate>Mon, 22 Jul 2019 21:55:42 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-16/</guid>
       <description>&lt;p&gt;This week I mostly spend on maze generation. I implemnted 2 maze generation algorithms and one cave generator.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 15</title>
-      <link>https://i.madeso.me/devlog/2019-15/</link>
-      <pubDate>Sun, 14 Apr 2019 22:22:26 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-15/</guid>
-      <description>&lt;p&gt;This week I mostly spent on watching love, death and robots. I managed to write some on my arch/i3 setup but nothing much&lt;/p&gt;
 </description>
     </item>
     
