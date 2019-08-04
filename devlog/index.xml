@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2019-31/</link>
+      <pubDate>Sun, 04 Aug 2019 21:49:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-31/</guid>
+      <description>&lt;p&gt;This week I mostly did i3 configs. I only have monitor testing to do, before I consider the system to be useable and move on to the next phase that is fixing the dotfiles install script to install on a empty machine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 30</title>
       <link>https://i.madeso.me/devlog/2019-30/</link>
       <pubDate>Sun, 28 Jul 2019 20:12:16 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-17/</guid>
       <description>&lt;p&gt;This week I spent on improving my command line argument parser, though I noticed at the end of the week I might be able to replace my code with a library.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 16</title>
-      <link>https://i.madeso.me/devlog/2019-16/</link>
-      <pubDate>Sun, 21 Apr 2019 22:42:44 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-16/</guid>
-      <description>&lt;p&gt;This week I mostly spend on maze generation. I implemnted 2 maze generation algorithms and one cave generator.&lt;/p&gt;
 </description>
     </item>
     
