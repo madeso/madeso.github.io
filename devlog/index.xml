@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2019-32/</link>
+      <pubDate>Sun, 11 Aug 2019 22:58:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-32/</guid>
+      <description>&lt;p&gt;This week I was back at work, and the weekend was spent on real life stuff and working on a entry for the Kenney game jam. While I did work on the entry I ran out of time before I could finish the game. Since it was based on a previous project of mine I have inteded to finish but didn&amp;rsquo;t for various reasons I&amp;rsquo;m gonna consider this a start for actually finishing that game.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 31</title>
       <link>https://i.madeso.me/devlog/2019-31/</link>
       <pubDate>Sun, 04 Aug 2019 21:49:33 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-18/</guid>
       <description>&lt;p&gt;This week I continued on my json library, making it ready for the 1.0 release in a few weeks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 17</title>
-      <link>https://i.madeso.me/devlog/2019-17/</link>
-      <pubDate>Mon, 29 Apr 2019 08:09:11 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-17/</guid>
-      <description>&lt;p&gt;This week I spent on improving my command line argument parser, though I noticed at the end of the week I might be able to replace my code with a library.&lt;/p&gt;
 </description>
     </item>
     
