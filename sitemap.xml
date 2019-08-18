@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://i.madeso.me/devlog/2019-33/</loc>
+    <lastmod>2019-08-18T22:30:06+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/devlog/2019-32/</loc>
     <lastmod>2019-08-11T22:58:21+02:00</lastmod>
   </url>
@@ -543,6 +548,11 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/tags/linux/</loc>
+    <lastmod>2017-07-23T14:31:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/restart-alsa/</loc>
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
   </url>
@@ -550,19 +560,11 @@
   <url>
     <loc>https://i.madeso.me/tags/</loc>
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/tags/linux/</loc>
-    <lastmod>2017-07-23T14:31:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/ubuntu/</loc>
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -591,32 +593,8 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/</loc>
-    <lastmod>2017-06-13T08:43:52+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/project/looking-for-love/</loc>
     <lastmod>2017-06-13T08:43:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/categories/games/</loc>
-    <lastmod>2017-06-13T08:43:52+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/categories/in-48-hours/</loc>
-    <lastmod>2017-06-13T08:43:52+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/categories/no-more-sweden/</loc>
-    <lastmod>2017-06-13T08:43:52+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -647,19 +625,16 @@
   <url>
     <loc>https://i.madeso.me/tags/spotify/</loc>
     <lastmod>2017-05-18T07:28:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/ssd/</loc>
     <lastmod>2017-05-18T07:28:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/windows/</loc>
     <lastmod>2017-05-18T07:28:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -700,18 +675,6 @@
   <url>
     <loc>https://i.madeso.me/project/ride/</loc>
     <lastmod>2017-04-21T22:30:49+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/categories/apps/</loc>
-    <lastmod>2017-04-21T22:30:49+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/categories/free-time/</loc>
-    <lastmod>2017-04-21T22:30:49+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -770,26 +733,18 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/code/</loc>
-    <lastmod>2017-02-22T08:38:53+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/tags/git/</loc>
-    <lastmod>2017-02-22T08:38:53+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/project/waveohoy/</loc>
     <lastmod>2017-01-22T01:03:26+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/ggj/</loc>
-    <lastmod>2017-01-22T01:03:26+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://i.madeso.me/tags/lacing/</loc>
+    <lastmod>2016-09-18T14:39:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/tags/lifestyle/</loc>
+    <lastmod>2016-09-18T14:39:04+02:00</lastmod>
   </url>
   
   <url>
@@ -798,21 +753,18 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/lacing/</loc>
-    <lastmod>2016-09-18T14:39:04+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/tags/lifestyle/</loc>
-    <lastmod>2016-09-18T14:39:04+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/tags/shoes/</loc>
     <lastmod>2016-09-18T14:39:04+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/tags/code/</loc>
+    <lastmod>2016-09-18T14:34:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/tags/hibernate/</loc>
+    <lastmod>2016-09-18T14:34:04+02:00</lastmod>
   </url>
   
   <url>
@@ -821,9 +773,8 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/hibernate/</loc>
-    <lastmod>2016-09-18T14:34:04+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://i.madeso.me/tags/nautilus/</loc>
+    <lastmod>2016-08-27T13:07:39+02:00</lastmod>
   </url>
   
   <url>
@@ -832,26 +783,18 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/nautilus/</loc>
-    <lastmod>2016-08-27T13:07:39+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/googleplusblogger/</loc>
-    <lastmod>2016-08-26T19:29:53+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/tags/blogger/</loc>
     <lastmod>2016-08-26T19:29:53+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/google&#43;/</loc>
     <lastmod>2016-08-26T19:29:53+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/googleplusblogger/</loc>
+    <lastmod>2016-08-26T19:29:53+02:00</lastmod>
   </url>
   
   <url>
@@ -870,12 +813,6 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/ngj/</loc>
-    <lastmod>2016-04-10T01:01:32+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/project/officerituals/</loc>
     <lastmod>2016-01-31T00:58:29+02:00</lastmod>
   </url>
@@ -891,26 +828,18 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/shayla/</loc>
-    <lastmod>2015-05-24T01:40:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/test/</loc>
-    <lastmod>2015-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/tags/example/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/test/</loc>
+    <lastmod>2015-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -934,20 +863,13 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/ludumdare/</loc>
-    <lastmod>2014-04-28T01:10:38+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://i.madeso.me/tags/spacehustler/</loc>
+    <lastmod>2013-10-25T13:53:42+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://i.madeso.me/blog/sh-roadthatfollows/</loc>
     <lastmod>2013-10-25T13:53:42+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/tags/spacehustler/</loc>
-    <lastmod>2013-10-25T13:53:42+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -958,7 +880,6 @@
   <url>
     <loc>https://i.madeso.me/tags/vr/</loc>
     <lastmod>2013-10-13T13:52:20+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -967,20 +888,13 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/fail/</loc>
-    <lastmod>2013-09-07T13:48:53+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/blog/sh-shipdesigns/</loc>
     <lastmod>2013-09-01T13:45:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/sketchbook/</loc>
-    <lastmod>2013-09-01T13:45:20+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://i.madeso.me/tags/input/</loc>
+    <lastmod>2013-08-22T13:42:58+02:00</lastmod>
   </url>
   
   <url>
@@ -989,25 +903,18 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/input/</loc>
-    <lastmod>2013-08-22T13:42:58+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/blog/sh-workinghard/</loc>
     <lastmod>2013-08-07T13:40:53+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/blog/sh-music/</loc>
+    <loc>https://i.madeso.me/tags/music/</loc>
     <lastmod>2013-07-02T13:28:26+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/music/</loc>
+    <loc>https://i.madeso.me/blog/sh-music/</loc>
     <lastmod>2013-07-02T13:28:26+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1043,7 +950,6 @@
   <url>
     <loc>https://i.madeso.me/tags/other-games/</loc>
     <lastmod>2013-05-23T13:18:10+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1107,20 +1013,18 @@
   </url>
   
   <url>
+    <loc>https://i.madeso.me/tags/from-wordpress/</loc>
+    <lastmod>2010-05-04T12:19:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://i.madeso.me/blog/wp-notdead/</loc>
     <lastmod>2010-05-04T12:19:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/from-wordpress/</loc>
-    <lastmod>2010-05-04T12:19:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/tags/jamtime/</loc>
     <lastmod>2010-05-04T12:19:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1164,14 +1068,13 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/blog/wp-yofrankie/</loc>
+    <loc>https://i.madeso.me/tags/assets/</loc>
     <lastmod>2009-07-06T11:18:56+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/assets/</loc>
+    <loc>https://i.madeso.me/blog/wp-yofrankie/</loc>
     <lastmod>2009-07-06T11:18:56+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1182,18 +1085,16 @@
   <url>
     <loc>https://i.madeso.me/tags/ui/</loc>
     <lastmod>2009-06-25T11:08:13+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/blog/wp-tetris-sacked/</loc>
-    <lastmod>2009-06-07T11:06:13+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://i.madeso.me/tags/tetris/</loc>
     <lastmod>2009-06-07T11:06:13+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/blog/wp-tetris-sacked/</loc>
+    <lastmod>2009-06-07T11:06:13+02:00</lastmod>
   </url>
   
   <url>
@@ -1207,14 +1108,13 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/blog/wp-foobar/</loc>
+    <loc>https://i.madeso.me/tags/foobar/</loc>
     <lastmod>2009-05-13T10:55:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://i.madeso.me/tags/foobar/</loc>
+    <loc>https://i.madeso.me/blog/wp-foobar/</loc>
     <lastmod>2009-05-13T10:55:57+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1225,7 +1125,6 @@
   <url>
     <loc>https://i.madeso.me/tags/skeleton/</loc>
     <lastmod>2009-03-23T10:54:15+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1241,12 +1140,6 @@
   <url>
     <loc>https://i.madeso.me/blog/wp-fear/</loc>
     <lastmod>2009-02-12T10:45:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://i.madeso.me/tags/review/</loc>
-    <lastmod>2009-02-12T10:45:14+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1285,12 +1178,6 @@
   </url>
   
   <url>
-    <loc>https://i.madeso.me/categories/4e/</loc>
-    <lastmod>2006-06-21T22:06:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://i.madeso.me/project/www/</loc>
     <lastmod>2006-06-21T22:06:00+02:00</lastmod>
   </url>
@@ -1298,6 +1185,10 @@
   <url>
     <loc>https://i.madeso.me/project/infection/</loc>
     <lastmod>2004-01-21T22:03:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i.madeso.me/categories/</loc>
   </url>
   
 </urlset>

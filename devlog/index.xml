@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2019-33/</link>
+      <pubDate>Sun, 18 Aug 2019 22:30:06 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-33/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much dev. I went to a C++ talk and while it wasn&amp;rsquo;t as interesting as I hoped, it got me thinking. Why am I using C++14? I based my decision on that I want to port my engine to android and I discovered that they have now moved to C++17! So in the near future I will update my whole library to use 17. Yay!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 32</title>
       <link>https://i.madeso.me/devlog/2019-32/</link>
       <pubDate>Sun, 11 Aug 2019 22:58:21 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-19/</guid>
       <description>&lt;p&gt;This week I continued cleaning up the json library, writing tests and stuff. At the end I started refactoring/moving code around in euphoria.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 18</title>
-      <link>https://i.madeso.me/devlog/2019-18/</link>
-      <pubDate>Mon, 06 May 2019 22:26:58 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-18/</guid>
-      <description>&lt;p&gt;This week I continued on my json library, making it ready for the 1.0 release in a few weeks.&lt;/p&gt;
 </description>
     </item>
     
