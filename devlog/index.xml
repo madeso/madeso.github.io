@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>2019 34</title>
+      <link>https://i.madeso.me/devlog/2019-34/</link>
+      <pubDate>Sun, 25 Aug 2019 22:19:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-34/</guid>
+      <description>&lt;p&gt;This week I discovered that the secondary computer I installed arch on only has bios support, so I need to find another test machine to install on before I install arch on my main system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 33</title>
       <link>https://i.madeso.me/devlog/2019-33/</link>
       <pubDate>Sun, 18 Aug 2019 22:30:06 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-20/</guid>
       <description>&lt;p&gt;This week I didn&amp;rsquo;t work on the json reader as I was supposed to. Instead I worked on my bezier editor. Ideally I want the json reader complete before the end on may and a stable API a week before, so by the end of next week&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 19</title>
-      <link>https://i.madeso.me/devlog/2019-19/</link>
-      <pubDate>Sun, 12 May 2019 21:53:18 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-19/</guid>
-      <description>&lt;p&gt;This week I continued cleaning up the json library, writing tests and stuff. At the end I started refactoring/moving code around in euphoria.&lt;/p&gt;
 </description>
     </item>
     

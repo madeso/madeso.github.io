@@ -64,6 +64,18 @@
     <div class="pagenumber"><span>Page 11 </span></div>
       <div class="post">
 <div class="title">
+<a href="https://i.madeso.me/devlog/2017-38/"><div class="previewheader header">Week38</div></a>
+<div class="shortdate right">25 September 2017</div>
+</div>
+<div class="markdown">
+<p>This week I continued on the continuous integration and fixed some image coordinate bugs.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
+      <div class="post">
+<div class="title">
 <a href="https://i.madeso.me/devlog/2017-37/"><div class="previewheader header">Week37</div></a>
 <div class="shortdate right">18 September 2017</div>
 </div>
@@ -180,18 +192,6 @@ for my next game jam, so I spent a significant part of the weekend on this engin
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2017-28/"><div class="previewheader header">Week28</div></a>
-<div class="shortdate right">16 July 2017</div>
-</div>
-<div class="markdown">
-<p>This week I mostly watched season 4 of &ldquo;Agents of Shield&rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -279,7 +279,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  11 ;
-  var totalPages =  13 ;
+  var totalPages =  14 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;
