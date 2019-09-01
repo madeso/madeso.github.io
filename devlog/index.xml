@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2019-35/</link>
+      <pubDate>Sun, 01 Sep 2019 22:37:09 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-35/</guid>
+      <description>&lt;p&gt;This week I continued to config arch. I switched from urxvt to termite and so far I love it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2019 34</title>
       <link>https://i.madeso.me/devlog/2019-34/</link>
       <pubDate>Sun, 25 Aug 2019 22:19:44 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-21/</guid>
       <description>&lt;p&gt;This week I added some more tests, and added coverage. Turns out that even if you think you have 100% you dont&amp;rsquo;t.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 20</title>
-      <link>https://i.madeso.me/devlog/2019-20/</link>
-      <pubDate>Sun, 19 May 2019 22:55:05 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-20/</guid>
-      <description>&lt;p&gt;This week I didn&amp;rsquo;t work on the json reader as I was supposed to. Instead I worked on my bezier editor. Ideally I want the json reader complete before the end on may and a stable API a week before, so by the end of next week&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
