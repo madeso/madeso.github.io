@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 36</title>
+      <link>https://i.madeso.me/devlog/2019-36/</link>
+      <pubDate>Sun, 08 Sep 2019 23:22:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-36/</guid>
+      <description>&lt;p&gt;This week I continued on arch tweaks&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 35</title>
       <link>https://i.madeso.me/devlog/2019-35/</link>
       <pubDate>Sun, 01 Sep 2019 22:37:09 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-22/</guid>
       <description>&lt;p&gt;This week I released jsonh and started watching the first four fast and furious.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 21</title>
-      <link>https://i.madeso.me/devlog/2019-21/</link>
-      <pubDate>Sun, 26 May 2019 22:34:46 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-21/</guid>
-      <description>&lt;p&gt;This week I added some more tests, and added coverage. Turns out that even if you think you have 100% you dont&amp;rsquo;t.&lt;/p&gt;
 </description>
     </item>
     
