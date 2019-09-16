@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2019-37/</link>
+      <pubDate>Mon, 16 Sep 2019 08:58:25 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-37/</guid>
+      <description>&lt;p&gt;This week I spend a little bit on everything. A little arch config, a little raspberry pi configs but most the kodsnack gamejam.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 36</title>
       <link>https://i.madeso.me/devlog/2019-36/</link>
       <pubDate>Sun, 08 Sep 2019 23:22:45 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-23/</guid>
       <description>&lt;p&gt;This week I added some cases on github for my json parser, but most of my time was spent on irl stuff.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 22</title>
-      <link>https://i.madeso.me/devlog/2019-22/</link>
-      <pubDate>Mon, 03 Jun 2019 00:06:15 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-22/</guid>
-      <description>&lt;p&gt;This week I released jsonh and started watching the first four fast and furious.&lt;/p&gt;
 </description>
     </item>
     
