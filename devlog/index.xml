@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2019-39/</link>
+      <pubDate>Sun, 29 Sep 2019 22:44:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-39/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much. Only minor scrip editing and code writing&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 38</title>
       <link>https://i.madeso.me/devlog/2019-38/</link>
       <pubDate>Sun, 22 Sep 2019 23:11:58 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-25/</guid>
       <description>&lt;p&gt;This week I celebrated midsumer with friends. Nothing really happened codewise.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 24</title>
-      <link>https://i.madeso.me/devlog/2019-24/</link>
-      <pubDate>Sun, 16 Jun 2019 22:33:42 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-24/</guid>
-      <description>&lt;p&gt;This week I mostly watched netflix again. I really need to finish the extended json part of my json reader so I can use it in my own projects.&lt;/p&gt;
 </description>
     </item>
     
