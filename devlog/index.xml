@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2019-40/</link>
+      <pubDate>Sun, 06 Oct 2019 23:54:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-40/</guid>
+      <description>&lt;p&gt;This week I added namespace and moved clang-format from the cmake build system to a python script&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 39</title>
       <link>https://i.madeso.me/devlog/2019-39/</link>
       <pubDate>Sun, 29 Sep 2019 22:44:45 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-26/</guid>
       <description>&lt;p&gt;This week I mostly spent researching raspberry pi and 3d printing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 25</title>
-      <link>https://i.madeso.me/devlog/2019-25/</link>
-      <pubDate>Sun, 23 Jun 2019 22:57:21 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-25/</guid>
-      <description>&lt;p&gt;This week I celebrated midsumer with friends. Nothing really happened codewise.&lt;/p&gt;
 </description>
     </item>
     
