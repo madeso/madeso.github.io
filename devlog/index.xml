@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2019-44/</link>
+      <pubDate>Sun, 03 Nov 2019 22:47:57 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-44/</guid>
+      <description>&lt;p&gt;This week I found a cool piece of code that can display a tree in the terminal, and since it was MIT licensed I&amp;rsquo;ve been working on integrating it and making the API nice to use.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 43</title>
       <link>https://i.madeso.me/devlog/2019-43/</link>
       <pubDate>Sun, 27 Oct 2019 20:56:21 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-30/</guid>
       <description>&lt;p&gt;This week was spent on configuring arch and irl stuff. Not much fel work I&amp;rsquo;m afraid :(&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 29</title>
-      <link>https://i.madeso.me/devlog/2019-29/</link>
-      <pubDate>Mon, 22 Jul 2019 21:55:42 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-29/</guid>
-      <description>&lt;p&gt;This week I started/restarted my scripting language from scratch.&lt;/p&gt;
 </description>
     </item>
     
