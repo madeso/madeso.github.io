@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2019-45/</link>
+      <pubDate>Sun, 10 Nov 2019 23:20:16 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-45/</guid>
+      <description>&lt;p&gt;This week I added basic cp437 functions to euph and refactored the current font to use the utf8 character encoding instead of some unspecified encoding that looked like ascii. I moved some part of the rendering to core and replaced the rendering text on image with the &amp;ldquo;new&amp;rdquo; core font instead of just the single built in font. With the increased intrest in text rendering/drawing with text and cp437 I looked into implementing part of the figlet specification, so that might happen. Finnaly I deceded to start pushing some fel code, even though it&amp;rsquo;s not working. I&amp;rsquo;m working on it and I still hope to have a fully working parser and vm before the start of december. I think that&amp;rsquo;s about it for now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 44</title>
       <link>https://i.madeso.me/devlog/2019-44/</link>
       <pubDate>Sun, 03 Nov 2019 22:47:57 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-31/</guid>
       <description>&lt;p&gt;This week I mostly did i3 configs. I only have monitor testing to do, before I consider the system to be useable and move on to the next phase that is fixing the dotfiles install script to install on a empty machine.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 30</title>
-      <link>https://i.madeso.me/devlog/2019-30/</link>
-      <pubDate>Sun, 28 Jul 2019 20:12:16 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-30/</guid>
-      <description>&lt;p&gt;This week was spent on configuring arch and irl stuff. Not much fel work I&amp;rsquo;m afraid :(&lt;/p&gt;
 </description>
     </item>
     
