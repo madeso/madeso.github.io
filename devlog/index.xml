@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2019-47/</link>
+      <pubDate>Sun, 24 Nov 2019 23:41:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-47/</guid>
+      <description>&lt;p&gt;This week I worked on fel. The basic parser and ast tree is now working, and it&amp;rsquo;s time to implement the bytecode generation and vm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 46</title>
       <link>https://i.madeso.me/devlog/2019-46/</link>
       <pubDate>Sun, 17 Nov 2019 23:16:18 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-33/</guid>
       <description>&lt;p&gt;This week I didn&amp;rsquo;t do much dev. I went to a C++ talk and while it wasn&amp;rsquo;t as interesting as I hoped, it got me thinking. Why am I using C++14? I based my decision on that I want to port my engine to android and I discovered that they have now moved to C++17! So in the near future I will update my whole library to use 17. Yay!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 32</title>
-      <link>https://i.madeso.me/devlog/2019-32/</link>
-      <pubDate>Sun, 11 Aug 2019 22:58:21 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-32/</guid>
-      <description>&lt;p&gt;This week I was back at work, and the weekend was spent on real life stuff and working on a entry for the Kenney game jam. While I did work on the entry I ran out of time before I could finish the game. Since it was based on a previous project of mine I have inteded to finish but didn&amp;rsquo;t for various reasons I&amp;rsquo;m gonna consider this a start for actually finishing that game.&lt;/p&gt;
 </description>
     </item>
     
