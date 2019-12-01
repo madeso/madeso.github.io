@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="A better git log">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.59.1" /><link rel="canonical" href="https://i.madeso.me/blog/gitlog/"> 
+  <meta name="generator" content="Hugo 0.60.1" /><link rel="canonical" href="https://i.madeso.me/blog/gitlog/"> 
   <title>A better git log</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -52,20 +52,17 @@
   <a href="https://i.madeso.me/blog/gitlog/"><h1>A better git log</h1></a>
   <p>Wednesday, 22 February 2017 at 08:38</p>
 <div class="markdown">
-<p>I&rsquo;ve just changed my git log command from the standard:</p>
-<p><a href="https://i.madeso.me/blog/gitlog/old.jpg" data-lightbox="blog-A better git log"><img src="https://i.madeso.me/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://i.madeso.me/blog/gitlog/old.jpg" width="1168" height="428" style="width: 1168px; height: 428px;"  alt=/></p ></a>
+<p>I've just changed my git log command from the standard:</p>
+<p><img src="old.jpg" alt="old"></p>
 <p>to the more compact and colorful:</p>
-<p><a href="https://i.madeso.me/blog/gitlog/new.jpg" data-lightbox="blog-A better git log"><img src="https://i.madeso.me/img/spin.gif" class="progressive__img progressive--not-loaded" data-progressive="https://i.madeso.me/blog/gitlog/new.jpg" width="1168" height="428" style="width: 1168px; height: 428px;"  alt=/></p ></a>
-<p>It&rsquo;s simple to get this log. Just type in:</p>
-<div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit
-</code></pre></section></div>
-<p>I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:</p>
-<div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit&quot;
-</code></pre></section></div>
-<p>And every time you need to see your log, just type in</p>
-<div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ git lg
-</code></pre></section></div>
-<p>Everything here is shamelessly copied from this article: <a href="https://coderwall.com/p/euwpig/a-better-git-log">https://coderwall.com/p/euwpig/a-better-git-log <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<p><img src="new.jpg" alt="new"></p>
+<p>It's simple to get this log. Just type in:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git log --graph --pretty<span style="color:#f92672">=</span>format:<span style="color:#e6db74">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span> --abbrev-commit
+</code></pre></div><p>I guess that's a bit too long, eh? Let's just make an alias. Copy and paste the line below on your terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git config --global alias.lg <span style="color:#e6db74">&#34;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&#34;</span>
+</code></pre></div><p>And every time you need to see your log, just type in</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git lg
+</code></pre></div><p>Everything here is shamelessly copied from this article: <a href="https://coderwall.com/p/euwpig/a-better-git-log">https://coderwall.com/p/euwpig/a-better-git-log <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/git">#git</a>

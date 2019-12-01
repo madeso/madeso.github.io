@@ -2,8 +2,7 @@
   <channel>
     <title>Gustav Janssons blog </title>
     <link>https://i.madeso.me/blog/</link>
-    <description>&lt;p&gt;This blog is me talking about my stuff, what I do and from time to time, in order to improve the state of the internet and promote better content and google hits for other people, I will also post solutions to various other problems I&amp;rsquo;ve found.&lt;/p&gt;
-
+    <description>&lt;p&gt;This blog is me talking about my stuff, what I do and from time to time, in order to improve the state of the internet and promote better content and google hits for other people, I will also post solutions to various other problems I&#39;ve found.&lt;/p&gt;
 &lt;p&gt;Enjoy!&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>
@@ -24,11 +23,8 @@
       
       <guid>https://i.madeso.me/blog/restart-alsa/</guid>
       <description>&lt;p&gt;Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Found on &lt;a href=&#34;https://askubuntu.com/a/230893&#34;&gt;Stack overflow&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ pulseaudio -k &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo alsa force-reload
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Found on &lt;a href=&#34;https://askubuntu.com/a/230893&#34;&gt;Stack overflow&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -39,19 +35,14 @@
       
       <guid>https://i.madeso.me/blog/spotify-windows-ssd/</guid>
       <description>&lt;p&gt;I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&lt;/p&gt;
-
 &lt;p&gt;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.&lt;/p&gt;
-
 &lt;p&gt;MSchnyder from the &lt;a href=&#34;https://community.spotify.com/t5/forums/v3_1/forumtopicpage/board-id/001/thread-id/9733/page/2&#34;&gt;spotify forums&lt;/a&gt; found this solutuion:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Close spotify&lt;/li&gt;
 &lt;li&gt;Delete the &amp;ldquo;data&amp;rdquo; Folder under &amp;hellip;AppData\Local\Spotify&amp;hellip;.&lt;/li&gt;
-&lt;li&gt;Start CMD as Admin and type: Mklink &amp;ldquo;C:\Users\%USERNAME%\AppData\Local\Spotify\Data&amp;rdquo; &amp;ldquo;E:\Spotify\Data&amp;rdquo; /D where E:\Spotify\Data is the new Spotify Data folder.&lt;/li&gt;
+&lt;li&gt;Start CMD as Admin and type: Mklink &amp;ldquo;C:\Users%USERNAME%\AppData\Local\Spotify\Data&amp;rdquo; &amp;ldquo;E:\Spotify\Data&amp;rdquo; /D where E:\Spotify\Data is the new Spotify Data folder.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;This command creates a Data Folder under Appdata\Local\Spotify which will be redirected to the target Path (here as example: E:\Spotify\Data&amp;rdquo;)&lt;/p&gt;
-
 &lt;p&gt;Nice! Now my SSD has plenty of space again.&lt;/p&gt;
 </description>
     </item>
@@ -62,30 +53,17 @@
       <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
       
       <guid>https://i.madeso.me/blog/gitlog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just changed my git log command from the standard:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;old.jpg&#34; alt=&#34;old&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;I&#39;ve just changed my git log command from the standard:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;old.jpg&#34; alt=&#34;old&#34;&gt;&lt;/p&gt;
 &lt;p&gt;to the more compact and colorful:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s simple to get this log. Just type in:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git log --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --abbrev-commit
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I guess that&amp;rsquo;s a bit too long, eh? Let&amp;rsquo;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git config --global alias.lg &amp;quot;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --abbrev-commit&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git lg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Everything here is shamelessly copied from this article: &lt;a href=&#34;https://coderwall.com/p/euwpig/a-better-git-log&#34;&gt;https://coderwall.com/p/euwpig/a-better-git-log&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s simple to get this log. Just type in:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git log --graph --pretty&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;format:&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I guess that&#39;s a bit too long, eh? Let&#39;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git lg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Everything here is shamelessly copied from this article: &lt;a href=&#34;https://coderwall.com/p/euwpig/a-better-git-log&#34;&gt;https://coderwall.com/p/euwpig/a-better-git-log&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -95,8 +73,7 @@
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
       
       <guid>https://i.madeso.me/blog/shoelacing/</guid>
-      <description>&lt;p&gt;I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!&lt;/p&gt;
-
+      <description>&lt;p&gt;I recently bought new shoes and needed to lace them, hence it&#39;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&#39;ve been visiting it for what it seems like an eternity. I don&#39;t know much about the competition, but I can&#39;t find anything missing from it. It&#39;s the best!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.fieggen.com/shoelace/&#34;&gt;http://www.fieggen.com/shoelace/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -107,21 +84,13 @@
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       
       <guid>https://i.madeso.me/blog/gnomewakeup/</guid>
-      <description>&lt;p&gt;I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&lt;/p&gt;
-
+      <description>&lt;p&gt;I have tried using /proc/acpi/wakeup and I&#39;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&lt;/p&gt;
 &lt;p&gt;It is really quite simple. First you need to install it, unless you already have it installed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ sudo apt-get install acpitool
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ acpitool --help
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you can list all your devices (small w)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ acpitool -w
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt-get install acpitool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once it&#39;s installed you can list what you can do with it, and to make it works.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool --help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you can list all your devices (small w)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool -w
    Device    S-state      Status   Sysfs node
   ---------------------------------------
   1. SBAZ      S4    *disabled  pci:0000:00:14.2
@@ -138,16 +107,10 @@
   26. USB3      S4    *enabled   pci:0000:00:13.0
   27. USB5      S4    *enabled   pci:0000:00:16.0
   28. PWRB      S4    *enabled   platform:PNP0C0C:00
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then it&amp;rsquo;s just a matter of disable all the devices you don&amp;rsquo;t want to wake up the computer (large W).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ sudo acpitool -W 6
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Don&amp;rsquo;t disable everything, then you can&amp;rsquo;t wake the computer again :)&lt;/p&gt;
-
-&lt;p&gt;I keep the power button enabled. And have configured the computer to hibernate when it&amp;rsquo;s pressed, giving me a nice symmetry.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then it&#39;s just a matter of disable all the devices you don&#39;t want to wake up the computer (large W).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo acpitool -W &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Don&#39;t disable everything, then you can&#39;t wake the computer again :)&lt;/p&gt;
+&lt;p&gt;I keep the power button enabled. And have configured the computer to hibernate when it&#39;s pressed, giving me a nice symmetry.&lt;/p&gt;
 </description>
     </item>
     
@@ -158,9 +121,7 @@
       
       <guid>https://i.madeso.me/blog/nonerecursivesearch/</guid>
       <description>&lt;p&gt;Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&lt;/p&gt;
-
-&lt;p&gt;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&lt;/p&gt;
-
+&lt;p&gt;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&#39;d like to use.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html&#34;&gt;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -171,10 +132,8 @@
       <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
       
       <guid>https://i.madeso.me/blog/googleplusblogger/</guid>
-      <description>&lt;p&gt;It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.blogger.com/revert-profile.g﻿&#34;&gt;http://www.blogger.com/revert-profile.g﻿&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;It turns out google has removed it from various links, so I don&#39;t know how long this link will last, but here it goes:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.blogger.com/revert-profile.g&#34;&gt;http://www.blogger.com/revert-profile.g&lt;/a&gt;﻿&lt;/p&gt;
 &lt;p&gt;Pretty simple but it took far too long to find it.&lt;/p&gt;
 </description>
     </item>
@@ -186,7 +145,6 @@
       
       <guid>https://i.madeso.me/blog/foldersbeforefiles/</guid>
       <description>&lt;p&gt;I like to view folders before my files with Files/Nautilus, and here is &lt;a href=&#34;http://gexperts.com/wp/gnome-3-12-filesnautilus-sort-folders-before-files-issues/&#34;&gt;how to enable it&lt;/a&gt;:&lt;/p&gt;
-
 &lt;p&gt;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set  sort-directories-first to true.&lt;/p&gt;
 </description>
     </item>
@@ -207,37 +165,26 @@
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://i.madeso.me/blog/test/</guid>
-      <description>
-
-&lt;p&gt;Here&amp;rsquo;s a code chunk with syntax highlighting:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var foo = function(x) {
-  return(x + 5);
+      <description>&lt;p&gt;Here&#39;s a code chunk with syntax highlighting:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;) {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;);
 }
-foo(3)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ echo $EDITOR
+&lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ echo $EDITOR
 vim
 $ git checkout master
-Switched to branch &#39;master&#39;
-Your branch is up-to-date with &#39;origin/master&#39;.
+Switched to branch &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;master&amp;#39;&lt;/span&gt;
+Your branch is up-to-date with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;origin/master&amp;#39;&lt;/span&gt;.
 $ git push
 Everything up-to-date
-$ echo &#39;All
-&amp;gt; done!&#39;
+$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;All
+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;gt; done!&amp;#39;&lt;/span&gt;
 All
-done!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can write regular &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;markdown&lt;/a&gt; here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;take 5 minutes to learn how to write in markdown&lt;/a&gt; - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.&lt;/p&gt;
-
+&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can write regular &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;markdown&lt;/a&gt; here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;take 5 minutes to learn how to write in markdown&lt;/a&gt; - it&#39;ll teach you how to transform regular text into bold/italics/headings/tables/etc.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Here is some bold text&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;here-is-a-secondary-heading&#34;&gt;Here is a secondary heading&lt;/h2&gt;
-
-&lt;p&gt;Here&amp;rsquo;s a useless table:&lt;/p&gt;
-
+&lt;p&gt;Here&#39;s a useless table:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -246,26 +193,22 @@ done!
 &lt;th align=&#34;left&#34;&gt;Previous number&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;Five&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Six&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Four&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;Ten&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Eleven&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Nine&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;Seven&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Eight&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Six&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;Two&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Three&lt;/td&gt;
@@ -273,10 +216,8 @@ done!
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;How about a yummy crepe?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg&#34; alt=&#34;Crepe&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg&#34; alt=&#34;Crepe&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -287,7 +228,6 @@ done!
       
       <guid>https://i.madeso.me/blog/sh-roadthatfollows/</guid>
       <description>&lt;p&gt;I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Redesign the hardcoded input system, I’m working on this now&lt;/li&gt;
 &lt;li&gt;Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion&lt;/li&gt;
@@ -318,8 +258,7 @@ receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-sys
       
       <guid>https://i.madeso.me/blog/sh-oculus/</guid>
       <description>&lt;p&gt;I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -331,11 +270,10 @@ receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-sys
       <guid>https://i.madeso.me/blog/sh-shipdesigns/</guid>
       <description>&lt;p&gt;Bought myself a stylus and installed &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.adsk.sketchbookhdexpress&amp;amp;hl=en&#34;&gt;sketchbook express&lt;/a&gt;
 on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;s1.png&#34; alt=&#34;sketch 1&#34; /&gt;
-&lt;img src=&#34;s2.png&#34; alt=&#34;sketch 2&#34; /&gt;
-&lt;img src=&#34;s3.png&#34; alt=&#34;sketch 3&#34; /&gt;
-&lt;img src=&#34;s4.png&#34; alt=&#34;sketch 4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;s1.png&#34; alt=&#34;sketch 1&#34;&gt;
+&lt;img src=&#34;s2.png&#34; alt=&#34;sketch 2&#34;&gt;
+&lt;img src=&#34;s3.png&#34; alt=&#34;sketch 3&#34;&gt;
+&lt;img src=&#34;s4.png&#34; alt=&#34;sketch 4&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -352,7 +290,6 @@ to spinning I started thinking. The &lt;a href=&#34;http://lanael.free.fr/webgl/
 (I still can’t get it to play on my win7 system) let’s you enter the desired orientation
 and let a AI controls the torque thrusts. This is a much easier control scheme as you don’t
 have to compensate for the rotational adjustments.&lt;/p&gt;
-
 &lt;p&gt;Going a step further one could add another AI layer to control the main thruster and let the player use a fps-like control to control the lander. With this control system a couple of issues arise on how the camera, the input display and, most important, the aiming should work, and I’m thinking time and testing will only tell if this is a feasible input system, I believe it’s a good way to testing the AI that will be controlling the enemy landers.&lt;/p&gt;
 </description>
     </item>

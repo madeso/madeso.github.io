@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="Restarting Alsa">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.59.1" /><link rel="canonical" href="https://i.madeso.me/blog/restart-alsa/"> 
+  <meta name="generator" content="Hugo 0.60.1" /><link rel="canonical" href="https://i.madeso.me/blog/restart-alsa/"> 
   <title>Restarting Alsa</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -52,9 +52,8 @@
   <p>Sunday, 23 July 2017 at 14:31</p>
 <div class="markdown">
 <p>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:</p>
-<div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ pulseaudio -k &amp;&amp; sudo alsa force-reload
-</code></pre></section></div>
-<p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span style="color:#f92672">&amp;&amp;</span> sudo alsa force-reload
+</code></pre></div><p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/linux">#linux</a>

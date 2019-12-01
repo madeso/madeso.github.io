@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="home">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.59.1" /><link rel="canonical" href="https://i.madeso.me/"> 
+  <meta name="generator" content="Hugo 0.60.1" /><link rel="canonical" href="https://i.madeso.me/"> 
   <title>home</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -67,11 +67,20 @@
         <h2 class="latestpostsheader">Latest devlogs</h2>
             <div class="post">
 <div class="title">
+<a href="https://i.madeso.me/devlog/2019-48/"><div class="previewheader header">Week 48</div></a>
+<div class="shortdate right">1 December 2019</div>
+</div>
+<div class="markdown">
+<p>This week I started working on bytecode and a vm for fel and I added a simple svg debug renderer to euphoria. Next week I really hope I can run bytecode in vm and compile fel code to bytecode.</p>
+</div>
+</div>
+            <div class="post">
+<div class="title">
 <a href="https://i.madeso.me/devlog/2019-47/"><div class="previewheader header">Week 47</div></a>
 <div class="shortdate right">24 November 2019</div>
 </div>
 <div class="markdown">
-<p>This week I worked on fel. The basic parser and ast tree is now working, and it&rsquo;s time to implement the bytecode generation and vm.</p>
+<p>This week I worked on fel. The basic parser and ast tree is now working, and it's time to implement the bytecode generation and vm.</p>
 </div>
 </div>
             <div class="post">
@@ -82,14 +91,6 @@
 <div class="markdown">
 <p>This week I wrote AST generation for fel and then I went back to cleaning up the tree generation for euphoria hoping that I can quickly move it to fel for debugging purposes.</p>
 </div>
-</div>
-            <div class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2019-45/"><div class="previewheader header">Week 45</div></a>
-<div class="shortdate right">10 November 2019</div>
-</div>
-<p>This week I added basic cp437 functions to euph and refactored the current font to use the utf8 character encoding instead of some unspecified encoding that looked like ascii. I moved some part of the rendering to core and replaced the rendering text on image with the &ldquo;new&rdquo; core font instead of just the single built in font. With the increased intrest in text rendering/drawing with text and cp437 I looked into implementing part of the figlet specification, so that might happen.</p>
-<p><a href="https://i.madeso.me/devlog/2019-45/">Read the rest...</a></p>
 </div>
             <a href="./devlog/" class="see-more">See more devlogs...</a>
     </div>
@@ -102,9 +103,8 @@
 </div>
 <div class="markdown">
 <p>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:</p>
-<div class="terminal-window"><header><div class="button green"></div><div class="button yellow"></div><div class="button red"></div></header><dection><pre><code class="language-shell">$ pulseaudio -k &amp;&amp; sudo alsa force-reload
-</code></pre></section></div>
-<p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span style="color:#f92672">&amp;&amp;</span> sudo alsa force-reload
+</code></pre></div><p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/linux">#linux</a>
@@ -132,11 +132,11 @@ It turns out the &ldquo;cached location&rdquo; is only the saved playlists, and 
 <a href="https://i.madeso.me/blog/gitlog/"><div class="previewheader header">A better git log</div></a>
 <div class="shortdate right">22 February 2017</div>
 </div>
-<p>I&rsquo;ve just changed my git log command from the standard:
+<p>I've just changed my git log command from the standard:
 to the more compact and colorful:
-It&rsquo;s simple to get this log. Just type in:
-$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit  I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:
-$ git config --global alias.lg &quot;log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit&quot;  And every time you need to see your log, just type in</p>
+It's simple to get this log. Just type in:
+$ git log --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit I guess that's a bit too long, eh? Let's just make an alias. Copy and paste the line below on your terminal:
+$ git config --global alias.lg &#34;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&#34; And every time you need to see your log, just type in</p>
 <p><a href="https://i.madeso.me/blog/gitlog/">Read the rest...</a></p>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/git">#git</a>
