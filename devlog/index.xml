@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2019-49/</link>
+      <pubDate>Sun, 08 Dec 2019 23:38:36 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-49/</guid>
+      <description>&lt;p&gt;This week I forgot my plan and bought some 3d assets on a black-friday sale so I&#39;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&#39;ve fixed so that it loads the tile meshes and I&#39;m currently adding collision detecion so I can add selection and interaction. Until next time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 48</title>
       <link>https://i.madeso.me/devlog/2019-48/</link>
       <pubDate>Sun, 01 Dec 2019 23:27:28 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-35/</guid>
       <description>&lt;p&gt;This week I continued to config arch. I switched from urxvt to termite and so far I love it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2019 34</title>
-      <link>https://i.madeso.me/devlog/2019-34/</link>
-      <pubDate>Sun, 25 Aug 2019 22:19:44 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-34/</guid>
-      <description>&lt;p&gt;This week I discovered that the secondary computer I installed arch on only has bios support, so I need to find another test machine to install on before I install arch on my main system.&lt;/p&gt;
 </description>
     </item>
     
