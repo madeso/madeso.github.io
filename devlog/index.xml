@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2019-50/</link>
+      <pubDate>Sun, 15 Dec 2019 22:24:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-50/</guid>
+      <description>&lt;p&gt;This week I continued the work on t3d and can now place items on a grid. Hopefully next week I can get back to working on fel for a bit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2019-49/</link>
       <pubDate>Sun, 08 Dec 2019 23:38:36 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-36/</guid>
       <description>&lt;p&gt;This week I continued on arch tweaks&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 35</title>
-      <link>https://i.madeso.me/devlog/2019-35/</link>
-      <pubDate>Sun, 01 Sep 2019 22:37:09 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-35/</guid>
-      <description>&lt;p&gt;This week I continued to config arch. I switched from urxvt to termite and so far I love it.&lt;/p&gt;
 </description>
     </item>
     
