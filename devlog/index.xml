@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2019-51/</link>
+      <pubDate>Sun, 22 Dec 2019 21:45:01 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-51/</guid>
+      <description>&lt;p&gt;This week I added grid snapping, simple object movement and selection to t3d.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 50</title>
       <link>https://i.madeso.me/devlog/2019-50/</link>
       <pubDate>Sun, 15 Dec 2019 22:24:23 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-37/</guid>
       <description>&lt;p&gt;This week I spend a little bit on everything. A little arch config, a little raspberry pi configs but most the kodsnack gamejam.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 36</title>
-      <link>https://i.madeso.me/devlog/2019-36/</link>
-      <pubDate>Sun, 08 Sep 2019 23:22:45 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-36/</guid>
-      <description>&lt;p&gt;This week I continued on arch tweaks&lt;/p&gt;
 </description>
     </item>
     
