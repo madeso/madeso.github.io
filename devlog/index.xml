@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2019-52/</link>
+      <pubDate>Sun, 29 Dec 2019 22:19:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-52/</guid>
+      <description>&lt;p&gt;This is the last devlog of the year and unfortunatley I haven&#39;t done much on either euphoria or fel this week as I&#39;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 51</title>
       <link>https://i.madeso.me/devlog/2019-51/</link>
       <pubDate>Sun, 22 Dec 2019 21:45:01 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-38/</guid>
       <description>&lt;p&gt;This week I finished the kodsnack gamejam. I also bought a nerf distruptor. Not really related to development but I bought it as a stress reliever and it&#39;s suprisingly fun to shoot at targets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 37</title>
-      <link>https://i.madeso.me/devlog/2019-37/</link>
-      <pubDate>Mon, 16 Sep 2019 08:58:25 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-37/</guid>
-      <description>&lt;p&gt;This week I spend a little bit on everything. A little arch config, a little raspberry pi configs but most the kodsnack gamejam.&lt;/p&gt;
 </description>
     </item>
     
