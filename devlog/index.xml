@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 1</title>
+      <link>https://i.madeso.me/devlog/2020-01/</link>
+      <pubDate>Sun, 05 Jan 2020 23:04:13 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-01/</guid>
+      <description>&lt;p&gt;First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&#39;s coming along&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 52</title>
       <link>https://i.madeso.me/devlog/2019-52/</link>
       <pubDate>Sun, 29 Dec 2019 22:19:34 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-39/</guid>
       <description>&lt;p&gt;This week I didn&#39;t do much. Only minor scrip editing and code writing&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 38</title>
-      <link>https://i.madeso.me/devlog/2019-38/</link>
-      <pubDate>Sun, 22 Sep 2019 23:11:58 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-38/</guid>
-      <description>&lt;p&gt;This week I finished the kodsnack gamejam. I also bought a nerf distruptor. Not really related to development but I bought it as a stress reliever and it&#39;s suprisingly fun to shoot at targets.&lt;/p&gt;
 </description>
     </item>
     
