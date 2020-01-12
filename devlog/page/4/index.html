@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="devlog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.62.0" /><link rel="canonical" href="https://i.madeso.me/devlog/"> 
+  <meta name="generator" content="Hugo 0.62.2" /><link rel="canonical" href="https://i.madeso.me/devlog/"> 
   <title>devlog</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -63,6 +63,18 @@
 </div>
   <div id="pages">
     <div class="pagenumber"><span>Page 4 </span></div>
+      <div class="post">
+<div class="title">
+<a href="https://i.madeso.me/devlog/2019-24/"><div class="previewheader header">Week 24</div></a>
+<div class="shortdate right">16 June 2019</div>
+</div>
+<div class="markdown">
+<p>This week I mostly watched netflix again. I really need to finish the extended json part of my json reader so I can use it in my own projects.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
       <div class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2019-23/"><div class="previewheader header">Week 23</div></a>
@@ -171,18 +183,6 @@
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2019-14/"><div class="previewheader header">Week 14</div></a>
-<div class="shortdate right">7 April 2019</div>
-</div>
-<div class="markdown">
-<p>This work I mostly watched netflix, but I did manage to update my aur script a little bit more.</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -268,7 +268,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  4 ;
-  var totalPages =  15 ;
+  var totalPages =  16 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;

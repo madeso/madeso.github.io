@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2020-02/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-02/</guid>
+      <description>&lt;p&gt;This week I been mostly handling real-world stuff and only manage to a little bit of work on euphoria, mainly fixing the travis build. Better luck next week I guess.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 1</title>
       <link>https://i.madeso.me/devlog/2020-01/</link>
       <pubDate>Sun, 05 Jan 2020 23:04:13 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-40/</guid>
       <description>&lt;p&gt;This week I added namespace and moved clang-format from the cmake build system to a python script&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 39</title>
-      <link>https://i.madeso.me/devlog/2019-39/</link>
-      <pubDate>Sun, 29 Sep 2019 22:44:45 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-39/</guid>
-      <description>&lt;p&gt;This week I didn&#39;t do much. Only minor scrip editing and code writing&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
