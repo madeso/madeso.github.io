@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 03</title>
+      <link>https://i.madeso.me/devlog/2020-03/</link>
+      <pubDate>Sun, 19 Jan 2020 21:16:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-03/</guid>
+      <description>&lt;p&gt;There weren&#39;t lot of dev time this week either. I&#39;ve been looking at the bytecode and a basic assembler and disassembler for it. I&#39;ve also commited a few rouge files found in the euphoria repo, but nothing major.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 02</title>
       <link>https://i.madeso.me/devlog/2020-02/</link>
       <pubDate>Sun, 12 Jan 2020 22:00:23 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-41/</guid>
       <description>&lt;p&gt;This week I continued my work on euphoria, fixing various style issues.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 40</title>
-      <link>https://i.madeso.me/devlog/2019-40/</link>
-      <pubDate>Sun, 06 Oct 2019 23:54:48 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-40/</guid>
-      <description>&lt;p&gt;This week I added namespace and moved clang-format from the cmake build system to a python script&lt;/p&gt;
 </description>
     </item>
     
