@@ -2,7 +2,7 @@
   <channel>
     <title>Gustav Janssons devlog </title>
     <link>https://i.madeso.me/devlog/</link>
-    <description>&lt;p&gt;This blog is a try to me keep motivates and a way to see my progress on my current projects. Let&#39;s see how it goes!&lt;/p&gt;
+    <description>&lt;p&gt;This blog is a try to me keep motivates and a way to see my progress on my current projects. Let&amp;rsquo;s see how it goes!&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -16,12 +16,22 @@
     
     
     <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2020-04/</link>
+      <pubDate>Sun, 26 Jan 2020 20:01:06 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-04/</guid>
+      <description>&lt;p&gt;Most of my time this week have been spent either on reading or watching things. I really should just sit down and program for 5 minutes instead of watching random youtube clips. Next weeking is the global game jam, so I will atleast do some game things then :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 03</title>
       <link>https://i.madeso.me/devlog/2020-03/</link>
       <pubDate>Sun, 19 Jan 2020 21:16:56 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2020-03/</guid>
-      <description>&lt;p&gt;There weren&#39;t lot of dev time this week either. I&#39;ve been looking at the bytecode and a basic assembler and disassembler for it. I&#39;ve also commited a few rouge files found in the euphoria repo, but nothing major.&lt;/p&gt;
+      <description>&lt;p&gt;There weren&amp;rsquo;t lot of dev time this week either. I&amp;rsquo;ve been looking at the bytecode and a basic assembler and disassembler for it. I&amp;rsquo;ve also commited a few rouge files found in the euphoria repo, but nothing major.&lt;/p&gt;
 </description>
     </item>
     
@@ -41,7 +51,7 @@
       <pubDate>Sun, 05 Jan 2020 23:04:13 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2020-01/</guid>
-      <description>&lt;p&gt;First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&#39;s coming along&lt;/p&gt;
+      <description>&lt;p&gt;First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&amp;rsquo;s coming along&lt;/p&gt;
 </description>
     </item>
     
@@ -51,7 +61,7 @@
       <pubDate>Sun, 29 Dec 2019 22:19:34 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-52/</guid>
-      <description>&lt;p&gt;This is the last devlog of the year and unfortunatley I haven&#39;t done much on either euphoria or fel this week as I&#39;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)&lt;/p&gt;
+      <description>&lt;p&gt;This is the last devlog of the year and unfortunatley I haven&amp;rsquo;t done much on either euphoria or fel this week as I&amp;rsquo;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)&lt;/p&gt;
 </description>
     </item>
     
@@ -81,7 +91,7 @@
       <pubDate>Sun, 08 Dec 2019 23:38:36 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-49/</guid>
-      <description>&lt;p&gt;This week I forgot my plan and bought some 3d assets on a black-friday sale so I&#39;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&#39;ve fixed so that it loads the tile meshes and I&#39;m currently adding collision detecion so I can add selection and interaction. Until next time.&lt;/p&gt;
+      <description>&lt;p&gt;This week I forgot my plan and bought some 3d assets on a black-friday sale so I&amp;rsquo;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&amp;rsquo;ve fixed so that it loads the tile meshes and I&amp;rsquo;m currently adding collision detecion so I can add selection and interaction. Until next time.&lt;/p&gt;
 </description>
     </item>
     
@@ -101,7 +111,7 @@
       <pubDate>Sun, 24 Nov 2019 23:41:37 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-47/</guid>
-      <description>&lt;p&gt;This week I worked on fel. The basic parser and ast tree is now working, and it&#39;s time to implement the bytecode generation and vm.&lt;/p&gt;
+      <description>&lt;p&gt;This week I worked on fel. The basic parser and ast tree is now working, and it&amp;rsquo;s time to implement the bytecode generation and vm.&lt;/p&gt;
 </description>
     </item>
     
@@ -121,7 +131,7 @@
       <pubDate>Sun, 10 Nov 2019 23:20:16 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-45/</guid>
-      <description>&lt;p&gt;This week I added basic cp437 functions to euph and refactored the current font to use the utf8 character encoding instead of some unspecified encoding that looked like ascii. I moved some part of the rendering to core and replaced the rendering text on image with the &amp;ldquo;new&amp;rdquo; core font instead of just the single built in font. With the increased intrest in text rendering/drawing with text and cp437 I looked into implementing part of the figlet specification, so that might happen. Finnaly I deceded to start pushing some fel code, even though it&#39;s not working. I&#39;m working on it and I still hope to have a fully working parser and vm before the start of december. I think that&#39;s about it for now.&lt;/p&gt;
+      <description>&lt;p&gt;This week I added basic cp437 functions to euph and refactored the current font to use the utf8 character encoding instead of some unspecified encoding that looked like ascii. I moved some part of the rendering to core and replaced the rendering text on image with the &amp;ldquo;new&amp;rdquo; core font instead of just the single built in font. With the increased intrest in text rendering/drawing with text and cp437 I looked into implementing part of the figlet specification, so that might happen. Finnaly I deceded to start pushing some fel code, even though it&amp;rsquo;s not working. I&amp;rsquo;m working on it and I still hope to have a fully working parser and vm before the start of december. I think that&amp;rsquo;s about it for now.&lt;/p&gt;
 </description>
     </item>
     
@@ -131,7 +141,7 @@
       <pubDate>Sun, 03 Nov 2019 22:47:57 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-44/</guid>
-      <description>&lt;p&gt;This week I found a cool piece of code that can display a tree in the terminal, and since it was MIT licensed I&#39;ve been working on integrating it and making the API nice to use.&lt;/p&gt;
+      <description>&lt;p&gt;This week I found a cool piece of code that can display a tree in the terminal, and since it was MIT licensed I&amp;rsquo;ve been working on integrating it and making the API nice to use.&lt;/p&gt;
 </description>
     </item>
     
@@ -141,7 +151,7 @@
       <pubDate>Sun, 27 Oct 2019 20:56:21 +0100</pubDate>
       
       <guid>https://i.madeso.me/devlog/2019-43/</guid>
-      <description>&lt;p&gt;This week I picked up and slightly restarted my scriping language fel. A part of me want&#39;s to get it ready for december so I atleast can solve the first problems in it. Fingers crossed.&lt;/p&gt;
+      <description>&lt;p&gt;This week I picked up and slightly restarted my scriping language fel. A part of me want&amp;rsquo;s to get it ready for december so I atleast can solve the first problems in it. Fingers crossed.&lt;/p&gt;
 </description>
     </item>
     
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-42/</guid>
       <description>&lt;p&gt;This week I fixed bugs introduced by moving musikmaskin to euphoria and refactored other parts of euphoria.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 41</title>
-      <link>https://i.madeso.me/devlog/2019-41/</link>
-      <pubDate>Sun, 13 Oct 2019 23:02:19 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-41/</guid>
-      <description>&lt;p&gt;This week I continued my work on euphoria, fixing various style issues.&lt;/p&gt;
 </description>
     </item>
     

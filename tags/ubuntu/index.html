@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="ubuntu">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.62.2" /><link rel="canonical" href="https://i.madeso.me/tags/ubuntu/"> 
+  <meta name="generator" content="Hugo 0.63.1" /><link rel="canonical" href="https://i.madeso.me/tags/ubuntu/"> 
   <title>ubuntu</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -71,7 +71,7 @@
   <p>Saturday, 27 August 2016 at 13:07</p>
 <div class="markdown">
 <p>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).</p>
-<p>This is easy to change, but not very obvious. In dconf-editor navigate to org &gt; gnome &gt; nautilus &gt; preferences and set the enable-interactive-search value to what you'd like to use.</p>
+<p>This is easy to change, but not very obvious. In dconf-editor navigate to org &gt; gnome &gt; nautilus &gt; preferences and set the enable-interactive-search value to what you&rsquo;d like to use.</p>
 <p><a href="http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html">http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">
@@ -85,10 +85,10 @@
   <a href="https://i.madeso.me/blog/gnomewakeup/"><h1>Keep your ubuntu-gnome from waking up at random</h1></a>
   <p>Sunday, 18 September 2016 at 14:34</p>
 <div class="markdown">
-<p>I have tried using /proc/acpi/wakeup and I've tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.</p>
+<p>I have tried using /proc/acpi/wakeup and I&rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.</p>
 <p>It is really quite simple. First you need to install it, unless you already have it installed:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo apt-get install acpitool
-</code></pre></div><p>Once it's installed you can list what you can do with it, and to make it works.</p>
+</code></pre></div><p>Once it&rsquo;s installed you can list what you can do with it, and to make it works.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ acpitool --help
 </code></pre></div><p>Then you can list all your devices (small w)</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ acpitool -w
@@ -108,10 +108,10 @@
   26. USB3      S4    *enabled   pci:0000:00:13.0
   27. USB5      S4    *enabled   pci:0000:00:16.0
   28. PWRB      S4    *enabled   platform:PNP0C0C:00
-</code></pre></div><p>Then it's just a matter of disable all the devices you don't want to wake up the computer (large W).</p>
+</code></pre></div><p>Then it&rsquo;s just a matter of disable all the devices you don&rsquo;t want to wake up the computer (large W).</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo acpitool -W <span style="color:#ae81ff">6</span>
-</code></pre></div><p>Don't disable everything, then you can't wake the computer again :)</p>
-<p>I keep the power button enabled. And have configured the computer to hibernate when it's pressed, giving me a nice symmetry.</p>
+</code></pre></div><p>Don&rsquo;t disable everything, then you can&rsquo;t wake the computer again :)</p>
+<p>I keep the power button enabled. And have configured the computer to hibernate when it&rsquo;s pressed, giving me a nice symmetry.</p>
 </div>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/hibernate">#hibernate</a>
