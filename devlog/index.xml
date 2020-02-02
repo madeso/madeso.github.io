@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2020-05/</link>
+      <pubDate>Sun, 02 Feb 2020 22:42:24 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-05/</guid>
+      <description>&lt;p&gt;This week I spent mostly on arch installations, switching from my custom script to getting confortable with yay and trying to recover more computers that I can install arch on, but so far no luck. The weekend was spent on creating a entry for global game jam, and I expect it will appear under projects here soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 04</title>
       <link>https://i.madeso.me/devlog/2020-04/</link>
       <pubDate>Sun, 26 Jan 2020 20:01:06 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-43/</guid>
       <description>&lt;p&gt;This week I picked up and slightly restarted my scriping language fel. A part of me want&amp;rsquo;s to get it ready for december so I atleast can solve the first problems in it. Fingers crossed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 42</title>
-      <link>https://i.madeso.me/devlog/2019-42/</link>
-      <pubDate>Sun, 20 Oct 2019 21:54:03 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-42/</guid>
-      <description>&lt;p&gt;This week I fixed bugs introduced by moving musikmaskin to euphoria and refactored other parts of euphoria.&lt;/p&gt;
 </description>
     </item>
     
