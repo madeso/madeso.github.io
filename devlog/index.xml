@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2020-06/</link>
+      <pubDate>Sun, 09 Feb 2020 21:19:53 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-06/</guid>
+      <description>&lt;p&gt;This week I bought a windows laptop that I can use for gamejams and to help me better support windows as a platform for my games.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 05</title>
       <link>https://i.madeso.me/devlog/2020-05/</link>
       <pubDate>Sun, 02 Feb 2020 22:42:24 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-44/</guid>
       <description>&lt;p&gt;This week I found a cool piece of code that can display a tree in the terminal, and since it was MIT licensed I&amp;rsquo;ve been working on integrating it and making the API nice to use.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 43</title>
-      <link>https://i.madeso.me/devlog/2019-43/</link>
-      <pubDate>Sun, 27 Oct 2019 20:56:21 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-43/</guid>
-      <description>&lt;p&gt;This week I picked up and slightly restarted my scriping language fel. A part of me want&amp;rsquo;s to get it ready for december so I atleast can solve the first problems in it. Fingers crossed.&lt;/p&gt;
 </description>
     </item>
     
