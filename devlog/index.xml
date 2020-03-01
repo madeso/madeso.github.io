@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2020-09/</link>
+      <pubDate>Sun, 01 Mar 2020 20:10:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-09/</guid>
+      <description>&lt;p&gt;This week I continued on the raytracer, spent time on my arch install scripts since I&amp;rsquo;m preparing on installing arch on a new computer, but most of the weekend was spent on watching netflix since I just managed to update chrome on my main machine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 08</title>
       <link>https://i.madeso.me/devlog/2020-08/</link>
       <pubDate>Sun, 23 Feb 2020 22:35:55 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-47/</guid>
       <description>&lt;p&gt;This week I worked on fel. The basic parser and ast tree is now working, and it&amp;rsquo;s time to implement the bytecode generation and vm.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 46</title>
-      <link>https://i.madeso.me/devlog/2019-46/</link>
-      <pubDate>Sun, 17 Nov 2019 23:16:18 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-46/</guid>
-      <description>&lt;p&gt;This week I wrote AST generation for fel and then I went back to cleaning up the tree generation for euphoria hoping that I can quickly move it to fel for debugging purposes.&lt;/p&gt;
 </description>
     </item>
     
