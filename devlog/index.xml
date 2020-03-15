@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2020-11/</link>
+      <pubDate>Sun, 15 Mar 2020 20:14:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-11/</guid>
+      <description>&lt;p&gt;This week I worked on new argparse module, some cellular automata/procedural content generation and another identicon image generator.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 10</title>
       <link>https://i.madeso.me/devlog/2020-10/</link>
       <pubDate>Sun, 08 Mar 2020 22:45:40 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-49/</guid>
       <description>&lt;p&gt;This week I forgot my plan and bought some 3d assets on a black-friday sale so I&amp;rsquo;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&amp;rsquo;ve fixed so that it loads the tile meshes and I&amp;rsquo;m currently adding collision detecion so I can add selection and interaction. Until next time.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 48</title>
-      <link>https://i.madeso.me/devlog/2019-48/</link>
-      <pubDate>Sun, 01 Dec 2019 23:27:28 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-48/</guid>
-      <description>&lt;p&gt;This week I started working on bytecode and a vm for fel and I added a simple svg debug renderer to euphoria. Next week I really hope I can run bytecode in vm and compile fel code to bytecode.&lt;/p&gt;
 </description>
     </item>
     
