@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2020-12/</link>
+      <pubDate>Sun, 22 Mar 2020 22:56:04 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-12/</guid>
+      <description>&lt;p&gt;This week, due to covid-19, I worked from home. I implemented the drunken bishop algorithm and continued working on the argparse module. Hopefully I will get done with the argparse soon so I get get back to working on the cellular automata, sprator and my scripting language.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 11</title>
       <link>https://i.madeso.me/devlog/2020-11/</link>
       <pubDate>Sun, 15 Mar 2020 20:14:55 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-50/</guid>
       <description>&lt;p&gt;This week I continued the work on t3d and can now place items on a grid. Hopefully next week I can get back to working on fel for a bit.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 49</title>
-      <link>https://i.madeso.me/devlog/2019-49/</link>
-      <pubDate>Sun, 08 Dec 2019 23:38:36 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-49/</guid>
-      <description>&lt;p&gt;This week I forgot my plan and bought some 3d assets on a black-friday sale so I&amp;rsquo;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&amp;rsquo;ve fixed so that it loads the tile meshes and I&amp;rsquo;m currently adding collision detecion so I can add selection and interaction. Until next time.&lt;/p&gt;
 </description>
     </item>
     

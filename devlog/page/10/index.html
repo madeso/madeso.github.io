@@ -11,7 +11,7 @@
   <meta property="twitter:title" content="devlog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.67.0" /><link rel="canonical" href="https://i.madeso.me/devlog/"> 
+  <meta name="generator" content="Hugo 0.68.0" /><link rel="canonical" href="https://i.madeso.me/devlog/"> 
   <title>devlog</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -63,6 +63,20 @@
 </div>
   <div id="pages">
     <div class="pagenumber"><span>Page 10 </span></div>
+      <div class="post">
+<div class="title">
+<a href="https://i.madeso.me/devlog/2018-26/"><div class="previewheader header">Week 26</div></a>
+<div class="shortdate right">1 July 2018</div>
+</div>
+<div class="markdown">
+<p>This week I spent on watching luke cage season 2, adding enum support to imgui
+option for gaf, fixed the issue with not resusing ids and started on writing
+viewport handling. The latter is not quite finished yet, but it&rsquo;s getting there.</p>
+</div>
+</div>
+      <div class="to-top">
+<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
+</div>
       <div class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-25/"><div class="previewheader header">Week 25</div></a>
@@ -187,20 +201,6 @@ was something to do later. I guess not.</p>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2018-16/"><div class="previewheader header">Week 16</div></a>
-<div class="shortdate right">22 April 2018</div>
-</div>
-<div class="markdown">
-<p>This week I continued on writing the wrapper. It is pretty much almost done now.
-I know I said it was going to be done this week, but what can I say, things took
-longer than expected :)</p>
-</div>
-</div>
-      <div class="to-top">
-<a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
-</div>
   </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -286,7 +286,7 @@ progressively.init();
 (function () {
   $('#spinner').hide();
   var loadPage =  10 ;
-  var totalPages =  16 ;
+  var totalPages =  17 ;
   $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       loadPage = loadPage + 1;
