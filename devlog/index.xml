@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2020-13/</link>
+      <pubDate>Sun, 29 Mar 2020 21:47:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-13/</guid>
+      <description>&lt;p&gt;This week I continued on euphoria argparser, adding a custom parser for non-standard elements. I started on running clang-tidy and clang-format on all the code, but it&amp;rsquo;s not done yet. I may end up adding a few options to clang-format so it can work with my code style, we&amp;rsquo;ll see. I also manage to uncover a old codestat project. A project intended to run on your codebase and gather statistics over time. It&amp;rsquo;s still in the early days, so let&amp;rsquo;s see how that goes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 12</title>
       <link>https://i.madeso.me/devlog/2020-12/</link>
       <pubDate>Sun, 22 Mar 2020 22:56:04 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-51/</guid>
       <description>&lt;p&gt;This week I added grid snapping, simple object movement and selection to t3d.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 50</title>
-      <link>https://i.madeso.me/devlog/2019-50/</link>
-      <pubDate>Sun, 15 Dec 2019 22:24:23 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-50/</guid>
-      <description>&lt;p&gt;This week I continued the work on t3d and can now place items on a grid. Hopefully next week I can get back to working on fel for a bit.&lt;/p&gt;
 </description>
     </item>
     
