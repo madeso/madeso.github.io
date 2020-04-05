@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2020-14/</link>
+      <pubDate>Sun, 05 Apr 2020 22:12:36 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-14/</guid>
+      <description>&lt;p&gt;This week I styled the doxygen output, added argparse tests and merged the new-argparse branch into master. I also started on integrating warnings from cpp-best-practices and it&amp;rsquo;s going to take some time to fix all of them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 13</title>
       <link>https://i.madeso.me/devlog/2020-13/</link>
       <pubDate>Sun, 29 Mar 2020 21:47:03 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2019-52/</guid>
       <description>&lt;p&gt;This is the last devlog of the year and unfortunatley I haven&amp;rsquo;t done much on either euphoria or fel this week as I&amp;rsquo;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 51</title>
-      <link>https://i.madeso.me/devlog/2019-51/</link>
-      <pubDate>Sun, 22 Dec 2019 21:45:01 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-51/</guid>
-      <description>&lt;p&gt;This week I added grid snapping, simple object movement and selection to t3d.&lt;/p&gt;
 </description>
     </item>
     
