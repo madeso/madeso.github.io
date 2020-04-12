@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2020-15/</link>
+      <pubDate>Sun, 12 Apr 2020 21:24:00 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-15/</guid>
+      <description>&lt;p&gt;This week I created a collage tool and a palette extract tool. Neither are super fancy but something that I missed from my toolbag.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 14</title>
       <link>https://i.madeso.me/devlog/2020-14/</link>
       <pubDate>Sun, 05 Apr 2020 22:12:36 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-01/</guid>
       <description>&lt;p&gt;First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&amp;rsquo;s coming along&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 52</title>
-      <link>https://i.madeso.me/devlog/2019-52/</link>
-      <pubDate>Sun, 29 Dec 2019 22:19:34 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2019-52/</guid>
-      <description>&lt;p&gt;This is the last devlog of the year and unfortunatley I haven&amp;rsquo;t done much on either euphoria or fel this week as I&amp;rsquo;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)&lt;/p&gt;
 </description>
     </item>
     
