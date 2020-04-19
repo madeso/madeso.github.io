@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2020-16/</link>
+      <pubDate>Sun, 19 Apr 2020 22:44:41 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-16/</guid>
+      <description>&lt;p&gt;This week I completed my cellular automata code generation. Up next should either be implementing a tetomino layout algorithm or fianlly completing the sprator algorithm. Decisions decisions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 15</title>
       <link>https://i.madeso.me/devlog/2020-15/</link>
       <pubDate>Sun, 12 Apr 2020 21:24:00 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-02/</guid>
       <description>&lt;p&gt;This week I been mostly handling real-world stuff and only manage to a little bit of work on euphoria, mainly fixing the travis build. Better luck next week I guess.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 1</title>
-      <link>https://i.madeso.me/devlog/2020-01/</link>
-      <pubDate>Sun, 05 Jan 2020 23:04:13 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-01/</guid>
-      <description>&lt;p&gt;First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&amp;rsquo;s coming along&lt;/p&gt;
 </description>
     </item>
     
