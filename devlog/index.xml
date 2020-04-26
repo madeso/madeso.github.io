@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2020-17/</link>
+      <pubDate>Sun, 26 Apr 2020 21:44:17 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-17/</guid>
+      <description>&lt;p&gt;This week I implemented the sprator algorithm. Next weeek I will probably add a test for the gui code. It has been missing a sample/test project a for a while now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 16</title>
       <link>https://i.madeso.me/devlog/2020-16/</link>
       <pubDate>Sun, 19 Apr 2020 22:44:41 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-03/</guid>
       <description>&lt;p&gt;There weren&amp;rsquo;t lot of dev time this week either. I&amp;rsquo;ve been looking at the bytecode and a basic assembler and disassembler for it. I&amp;rsquo;ve also commited a few rouge files found in the euphoria repo, but nothing major.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 02</title>
-      <link>https://i.madeso.me/devlog/2020-02/</link>
-      <pubDate>Sun, 12 Jan 2020 22:00:23 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-02/</guid>
-      <description>&lt;p&gt;This week I been mostly handling real-world stuff and only manage to a little bit of work on euphoria, mainly fixing the travis build. Better luck next week I guess.&lt;/p&gt;
 </description>
     </item>
     
