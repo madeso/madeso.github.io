@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2020-18/</link>
+      <pubDate>Mon, 04 May 2020 07:15:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-18/</guid>
+      <description>&lt;p&gt;This week I worked on getting a gui sample up and running. Due to issues I also ended up creating a 2d sample. There are only a few issues left before I can continue on adding features to the ui&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 17</title>
       <link>https://i.madeso.me/devlog/2020-17/</link>
       <pubDate>Sun, 26 Apr 2020 21:44:17 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-04/</guid>
       <description>&lt;p&gt;Most of my time this week have been spent either on reading or watching things. I really should just sit down and program for 5 minutes instead of watching random youtube clips. Next weeking is the global game jam, so I will atleast do some game things then :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 03</title>
-      <link>https://i.madeso.me/devlog/2020-03/</link>
-      <pubDate>Sun, 19 Jan 2020 21:16:56 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-03/</guid>
-      <description>&lt;p&gt;There weren&amp;rsquo;t lot of dev time this week either. I&amp;rsquo;ve been looking at the bytecode and a basic assembler and disassembler for it. I&amp;rsquo;ve also commited a few rouge files found in the euphoria repo, but nothing major.&lt;/p&gt;
 </description>
     </item>
     
