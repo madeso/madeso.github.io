@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2020-19/</link>
+      <pubDate>Sun, 10 May 2020 22:38:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-19/</guid>
+      <description>&lt;p&gt;This week I continued my work on fel scripting language. I added a coverage report and started on the vscode extension for editing fel code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 18</title>
       <link>https://i.madeso.me/devlog/2020-18/</link>
       <pubDate>Mon, 04 May 2020 07:15:26 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-05/</guid>
       <description>&lt;p&gt;This week I spent mostly on arch installations, switching from my custom script to getting confortable with yay and trying to recover more computers that I can install arch on, but so far no luck. The weekend was spent on creating a entry for global game jam, and I expect it will appear under projects here soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 04</title>
-      <link>https://i.madeso.me/devlog/2020-04/</link>
-      <pubDate>Sun, 26 Jan 2020 20:01:06 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-04/</guid>
-      <description>&lt;p&gt;Most of my time this week have been spent either on reading or watching things. I really should just sit down and program for 5 minutes instead of watching random youtube clips. Next weeking is the global game jam, so I will atleast do some game things then :)&lt;/p&gt;
 </description>
     </item>
     
