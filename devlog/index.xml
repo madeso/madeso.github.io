@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2020-20/</link>
+      <pubDate>Sun, 17 May 2020 22:12:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-20/</guid>
+      <description>&lt;p&gt;This week I started on a lsp interface for fel.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 19</title>
       <link>https://i.madeso.me/devlog/2020-19/</link>
       <pubDate>Sun, 10 May 2020 22:38:33 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-06/</guid>
       <description>&lt;p&gt;This week I bought a windows laptop that I can use for gamejams and to help me better support windows as a platform for my games.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 05</title>
-      <link>https://i.madeso.me/devlog/2020-05/</link>
-      <pubDate>Sun, 02 Feb 2020 22:42:24 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-05/</guid>
-      <description>&lt;p&gt;This week I spent mostly on arch installations, switching from my custom script to getting confortable with yay and trying to recover more computers that I can install arch on, but so far no luck. The weekend was spent on creating a entry for global game jam, and I expect it will appear under projects here soon.&lt;/p&gt;
 </description>
     </item>
     
