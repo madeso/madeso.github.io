@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2020-22/</link>
+      <pubDate>Sun, 31 May 2020 23:40:08 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-22/</guid>
+      <description>&lt;p&gt;This week I completed my kodsnack gamejam, and started on porting one of my filemover programs from c#+winforms to python+curses&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 21</title>
       <link>https://i.madeso.me/devlog/2020-21/</link>
       <pubDate>Sun, 24 May 2020 23:55:38 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-08/</guid>
       <description>&lt;p&gt;This week I continued on the raytracer. It&amp;rsquo;s going slower than I want, but there is progress atleast :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 07</title>
-      <link>https://i.madeso.me/devlog/2020-07/</link>
-      <pubDate>Sun, 16 Feb 2020 19:54:17 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-07/</guid>
-      <description>&lt;p&gt;This week I started work on the &amp;ldquo;Raytracer in a weekend&amp;rdquo; project in preperation for playing with Open MP and a upcomming CUDA talk I&amp;rsquo;m attending.&lt;/p&gt;
 </description>
     </item>
     
