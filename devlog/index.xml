@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 23</title>
+      <link>https://i.madeso.me/devlog/2020-23/</link>
+      <pubDate>Sun, 07 Jun 2020 20:45:00 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-23/</guid>
+      <description>&lt;p&gt;This week I started refactoring bbcalc so it could in the future handle generating truth tables, and I physically moved things around so I now use arch as my main computer. It will probably be a week or two until I install it on my main machine, but not too long since this hardware isn&amp;rsquo;t really health&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 22</title>
       <link>https://i.madeso.me/devlog/2020-22/</link>
       <pubDate>Sun, 31 May 2020 23:40:08 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-09/</guid>
       <description>&lt;p&gt;This week I continued on the raytracer, spent time on my arch install scripts since I&amp;rsquo;m preparing on installing arch on a new computer, but most of the weekend was spent on watching netflix since I just managed to update chrome on my main machine.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 08</title>
-      <link>https://i.madeso.me/devlog/2020-08/</link>
-      <pubDate>Sun, 23 Feb 2020 22:35:55 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-08/</guid>
-      <description>&lt;p&gt;This week I continued on the raytracer. It&amp;rsquo;s going slower than I want, but there is progress atleast :)&lt;/p&gt;
 </description>
     </item>
     

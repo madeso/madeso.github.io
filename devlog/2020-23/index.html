@@ -8,11 +8,11 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
   <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
-  <meta property="twitter:title" content="A fix for spotify filling up the C: drive">
+  <meta property="twitter:title" content="Week 23">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.72.0" /><link rel="canonical" href="https://i.madeso.me/blog/spotify-windows-ssd/"> 
-  <title>A fix for spotify filling up the C: drive</title>
+  <meta name="generator" content="Hugo 0.72.0" /><link rel="canonical" href="https://i.madeso.me/devlog/2020-23/"> 
+  <title>Week 23</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
   <link rel="stylesheet" href="https://i.madeso.me/css/style.css" />
@@ -49,26 +49,11 @@
   </div>
 </div>
 <div class="post">
-  <a href="https://i.madeso.me/blog/spotify-windows-ssd/"><h1>A fix for spotify filling up the C: drive</h1></a>
-  <p>Thursday, 18 May 2017 at 07:28</p>
+  <a href="https://i.madeso.me/devlog/2020-23/"><h1>Week 23</h1></a>
+  <p>Sunday, 7 June 2020 at 20:45</p>
 <div class="markdown">
-<p>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.</p>
-<p>It turns out the &ldquo;cached location&rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</p>
-<p>MSchnyder from the <a href="https://community.spotify.com/t5/forums/v3_1/forumtopicpage/board-id/001/thread-id/9733/page/2">spotify forums <i class="fa fa-external-link" aria-hidden="true"></i></a> found this solutuion:</p>
-<ol>
-<li>Close spotify</li>
-<li>Delete the &ldquo;data&rdquo; Folder under &hellip;AppData\Local\Spotify&hellip;.</li>
-<li>Start CMD as Admin and type: Mklink &ldquo;C:\Users%USERNAME%\AppData\Local\Spotify\Data&rdquo; &ldquo;E:\Spotify\Data&rdquo; /D where E:\Spotify\Data is the new Spotify Data folder.</li>
-</ol>
-<p>This command creates a Data Folder under Appdata\Local\Spotify which will be redirected to the target Path (here as example: E:\Spotify\Data&rdquo;)</p>
-<p>Nice! Now my SSD has plenty of space again.</p>
+<p>This week I started refactoring bbcalc so it could in the future handle generating truth tables, and I physically moved things around so I now use arch as my main computer. It will probably be a week or two until I install it on my main machine, but not too long since this hardware isn&rsquo;t really health&hellip;</p>
 </div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/spotify">#spotify</a>
-    &nbsp;<a class="tag" href="/tags/windows">#windows</a>
-    &nbsp;<a class="tag" href="/tags/ssd">#ssd</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
 </div>
 <div id="spinner">
 <div class="lds-css ng-scope">
@@ -135,7 +120,7 @@
 </div>
 </div> 
 <script>
-$('*').on('click', 'a[href^="https:\/\/i.madeso.me\/blog\/spotify-windows-ssd\/#"]', function(e) {
+$('*').on('click', 'a[href^="https:\/\/i.madeso.me\/devlog\/2020-23\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
