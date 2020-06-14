@@ -7,11 +7,11 @@
 &lt;p&gt;to the more compact and colorful:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s simple to get this log. Just type in:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git log --graph --pretty&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;format:&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git log --graph --pretty&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;format:&lt;span class=&#34;s1&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I guess that&amp;rsquo;s a bit too long, eh? Let&amp;rsquo;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git config --global alias.lg &lt;span class=&#34;s2&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git lg
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git lg
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Everything here is shamelessly copied from this article: &lt;a href=&#34;https://coderwall.com/p/euwpig/a-better-git-log&#34;&gt;https://coderwall.com/p/euwpig/a-better-git-log&lt;/a&gt;&lt;/p&gt;
 </description>
     <generator>Hugo -- gohugo.io</generator>

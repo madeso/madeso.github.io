@@ -23,7 +23,7 @@
       
       <guid>https://i.madeso.me/blog/restart-alsa/</guid>
       <description>&lt;p&gt;Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ pulseaudio -k &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo alsa force-reload
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ pulseaudio -k &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo alsa force-reload
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Found on &lt;a href=&#34;https://askubuntu.com/a/230893&#34;&gt;Stack overflow&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -58,11 +58,11 @@
 &lt;p&gt;to the more compact and colorful:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s simple to get this log. Just type in:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git log --graph --pretty&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;format:&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git log --graph --pretty&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;format:&lt;span class=&#34;s1&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I guess that&amp;rsquo;s a bit too long, eh? Let&amp;rsquo;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git config --global alias.lg &lt;span class=&#34;s2&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git lg
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ git lg
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Everything here is shamelessly copied from this article: &lt;a href=&#34;https://coderwall.com/p/euwpig/a-better-git-log&#34;&gt;https://coderwall.com/p/euwpig/a-better-git-log&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -86,11 +86,11 @@
       <guid>https://i.madeso.me/blog/gnomewakeup/</guid>
       <description>&lt;p&gt;I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&lt;/p&gt;
 &lt;p&gt;It is really quite simple. First you need to install it, unless you already have it installed:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt-get install acpitool
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt-get install acpitool
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool --help
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool --help
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you can list all your devices (small w)&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool -w
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ acpitool -w
    Device    S-state      Status   Sysfs node
   ---------------------------------------
   1. SBAZ      S4    *disabled  pci:0000:00:14.2
@@ -108,7 +108,7 @@
   27. USB5      S4    *enabled   pci:0000:00:16.0
   28. PWRB      S4    *enabled   platform:PNP0C0C:00
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then it&amp;rsquo;s just a matter of disable all the devices you don&amp;rsquo;t want to wake up the computer (large W).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo acpitool -W &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo acpitool -W &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Don&amp;rsquo;t disable everything, then you can&amp;rsquo;t wake the computer again :)&lt;/p&gt;
 &lt;p&gt;I keep the power button enabled. And have configured the computer to hibernate when it&amp;rsquo;s pressed, giving me a nice symmetry.&lt;/p&gt;
 </description>
@@ -166,21 +166,21 @@
       
       <guid>https://i.madeso.me/blog/test/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s a code chunk with syntax highlighting:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;) {
-  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;);
-}
-&lt;span style=&#34;color:#a6e22e&#34;&gt;foo&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ echo $EDITOR
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$EDITOR&lt;/span&gt;
 vim
 $ git checkout master
-Switched to branch &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;master&amp;#39;&lt;/span&gt;
-Your branch is up-to-date with &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;origin/master&amp;#39;&lt;/span&gt;.
+Switched to branch &lt;span class=&#34;s1&#34;&gt;&amp;#39;master&amp;#39;&lt;/span&gt;
+Your branch is up-to-date with &lt;span class=&#34;s1&#34;&gt;&amp;#39;origin/master&amp;#39;&lt;/span&gt;.
 $ git push
 Everything up-to-date
-$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;All
-&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;gt; done!&amp;#39;&lt;/span&gt;
+$ &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;All
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;gt; done!&amp;#39;&lt;/span&gt;
 All
-&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;!
+&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;!
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can write regular &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;markdown&lt;/a&gt; here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to &lt;a href=&#34;http://markdowntutorial.com/&#34;&gt;take 5 minutes to learn how to write in markdown&lt;/a&gt; - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Here is some bold text&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;here-is-a-secondary-heading&#34;&gt;Here is a secondary heading&lt;/h2&gt;
