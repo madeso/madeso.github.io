@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2020-24/</link>
+      <pubDate>Sun, 14 Jun 2020 21:24:49 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-24/</guid>
+      <description>&lt;p&gt;This week I ported a old anagram application from c# to python, I published and updated old &amp;ldquo;engines&amp;rdquo;, one called hmtest and one called pwn-engine, so I could run them, but it turns out that none of them was that advanced. I also installed arch on my main, so either this week or the next my transition to arch will be complete&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://i.madeso.me/devlog/2020-23/</link>
       <pubDate>Sun, 07 Jun 2020 20:45:00 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-10/</guid>
       <description>&lt;p&gt;This week I restructured the cmakes for euphoria, and finished the refactoring of the arch install commands, then I got stuck in netflix land and watched both  witcher and season 2 of altered carbon. Hopefully net week the netflix craze has left me again so I can get back to being productive :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 09</title>
-      <link>https://i.madeso.me/devlog/2020-09/</link>
-      <pubDate>Sun, 01 Mar 2020 20:10:32 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-09/</guid>
-      <description>&lt;p&gt;This week I continued on the raytracer, spent time on my arch install scripts since I&amp;rsquo;m preparing on installing arch on a new computer, but most of the weekend was spent on watching netflix since I just managed to update chrome on my main machine.&lt;/p&gt;
 </description>
     </item>
     
