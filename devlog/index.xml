@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2020-25/</link>
+      <pubDate>Sun, 21 Jun 2020 22:32:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-25/</guid>
+      <description>&lt;p&gt;This week I changed to my main computer, started transfering my old PrettyGood.net from google code to github, and finally started working on euphoria again. This time I started working on a custom pixel editing program. It&amp;rsquo;s far from finished but I hope that it can be useful in a few weeks time for the GMTK game jam.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 24</title>
       <link>https://i.madeso.me/devlog/2020-24/</link>
       <pubDate>Sun, 14 Jun 2020 21:24:49 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-11/</guid>
       <description>&lt;p&gt;This week I worked on new argparse module, some cellular automata/procedural content generation and another identicon image generator.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 10</title>
-      <link>https://i.madeso.me/devlog/2020-10/</link>
-      <pubDate>Sun, 08 Mar 2020 22:45:40 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-10/</guid>
-      <description>&lt;p&gt;This week I restructured the cmakes for euphoria, and finished the refactoring of the arch install commands, then I got stuck in netflix land and watched both  witcher and season 2 of altered carbon. Hopefully net week the netflix craze has left me again so I can get back to being productive :)&lt;/p&gt;
 </description>
     </item>
     
