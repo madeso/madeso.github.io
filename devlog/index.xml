@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2020-26/</link>
+      <pubDate>Sun, 28 Jun 2020 21:54:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-26/</guid>
+      <description>&lt;p&gt;This week I mostly watched netfix and such but I did manage to implement a simple fill tool for the pixel image editor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 25</title>
       <link>https://i.madeso.me/devlog/2020-25/</link>
       <pubDate>Sun, 21 Jun 2020 22:32:58 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-12/</guid>
       <description>&lt;p&gt;This week, due to covid-19, I worked from home. I implemented the drunken bishop algorithm and continued working on the argparse module. Hopefully I will get done with the argparse soon so I get get back to working on the cellular automata, sprator and my scripting language.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 11</title>
-      <link>https://i.madeso.me/devlog/2020-11/</link>
-      <pubDate>Sun, 15 Mar 2020 20:14:55 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-11/</guid>
-      <description>&lt;p&gt;This week I worked on new argparse module, some cellular automata/procedural content generation and another identicon image generator.&lt;/p&gt;
 </description>
     </item>
     
