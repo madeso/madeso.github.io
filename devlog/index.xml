@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2020-31/</link>
+      <pubDate>Sun, 02 Aug 2020 19:51:22 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-31/</guid>
+      <description>&lt;p&gt;Theese past weeks I spent in the hospital and recovering from said experience. Nothing major was done really mostly config/dotfiles changes. Hopefully I will get back to euphoria I netflix will stop interfering :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 26</title>
       <link>https://i.madeso.me/devlog/2020-26/</link>
       <pubDate>Sun, 28 Jun 2020 21:54:40 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-13/</guid>
       <description>&lt;p&gt;This week I continued on euphoria argparser, adding a custom parser for non-standard elements. I started on running clang-tidy and clang-format on all the code, but it&amp;rsquo;s not done yet. I may end up adding a few options to clang-format so it can work with my code style, we&amp;rsquo;ll see. I also manage to uncover a old codestat project. A project intended to run on your codebase and gather statistics over time. It&amp;rsquo;s still in the early days, so let&amp;rsquo;s see how that goes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 12</title>
-      <link>https://i.madeso.me/devlog/2020-12/</link>
-      <pubDate>Sun, 22 Mar 2020 22:56:04 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-12/</guid>
-      <description>&lt;p&gt;This week, due to covid-19, I worked from home. I implemented the drunken bishop algorithm and continued working on the argparse module. Hopefully I will get done with the argparse soon so I get get back to working on the cellular automata, sprator and my scripting language.&lt;/p&gt;
 </description>
     </item>
     
