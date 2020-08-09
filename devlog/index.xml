@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2020-32/</link>
+      <pubDate>Sun, 09 Aug 2020 22:09:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-32/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much, but after much consideration I moved all the euphoria source to a src folder so that the project root is a bit cleaner.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 31</title>
       <link>https://i.madeso.me/devlog/2020-31/</link>
       <pubDate>Sun, 02 Aug 2020 19:51:22 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-14/</guid>
       <description>&lt;p&gt;This week I styled the doxygen output, added argparse tests and merged the new-argparse branch into master. I also started on integrating warnings from cpp-best-practices and it&amp;rsquo;s going to take some time to fix all of them.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 13</title>
-      <link>https://i.madeso.me/devlog/2020-13/</link>
-      <pubDate>Sun, 29 Mar 2020 21:47:03 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-13/</guid>
-      <description>&lt;p&gt;This week I continued on euphoria argparser, adding a custom parser for non-standard elements. I started on running clang-tidy and clang-format on all the code, but it&amp;rsquo;s not done yet. I may end up adding a few options to clang-format so it can work with my code style, we&amp;rsquo;ll see. I also manage to uncover a old codestat project. A project intended to run on your codebase and gather statistics over time. It&amp;rsquo;s still in the early days, so let&amp;rsquo;s see how that goes.&lt;/p&gt;
 </description>
     </item>
     
