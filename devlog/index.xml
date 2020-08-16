@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2020-33/</link>
+      <pubDate>Sun, 16 Aug 2020 22:06:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-33/</guid>
+      <description>&lt;p&gt;This week I started working on tred, my temporary 3d engine. Nothing much got done since it&amp;rsquo;s currently superhot and I&amp;rsquo;m sitting behind a fan, and I&amp;rsquo;ve decided that for next year I&amp;rsquo;m getting myself an AC for the appartment cause this is unbearable. Until next time&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 32</title>
       <link>https://i.madeso.me/devlog/2020-32/</link>
       <pubDate>Sun, 09 Aug 2020 22:09:26 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-15/</guid>
       <description>&lt;p&gt;This week I created a collage tool and a palette extract tool. Neither are super fancy but something that I missed from my toolbag.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 14</title>
-      <link>https://i.madeso.me/devlog/2020-14/</link>
-      <pubDate>Sun, 05 Apr 2020 22:12:36 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-14/</guid>
-      <description>&lt;p&gt;This week I styled the doxygen output, added argparse tests and merged the new-argparse branch into master. I also started on integrating warnings from cpp-best-practices and it&amp;rsquo;s going to take some time to fix all of them.&lt;/p&gt;
 </description>
     </item>
     
