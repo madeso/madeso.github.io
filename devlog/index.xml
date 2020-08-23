@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 34</title>
+      <link>https://i.madeso.me/devlog/2020-34/</link>
+      <pubDate>Sun, 23 Aug 2020 21:34:41 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-34/</guid>
+      <description>&lt;p&gt;Less heat this week. I continued on tred, added uniforms and attributes to the shader and I finally think I got a good design going. I&amp;rsquo;m currently working on getting uniform textures working fully. The plan is to work in tred for a month or two and then integrate it into euphoria. We&amp;rsquo;ll see how it goes&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 33</title>
       <link>https://i.madeso.me/devlog/2020-33/</link>
       <pubDate>Sun, 16 Aug 2020 22:06:53 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-16/</guid>
       <description>&lt;p&gt;This week I completed my cellular automata code generation. Up next should either be implementing a tetomino layout algorithm or fianlly completing the sprator algorithm. Decisions decisions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 15</title>
-      <link>https://i.madeso.me/devlog/2020-15/</link>
-      <pubDate>Sun, 12 Apr 2020 21:24:00 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-15/</guid>
-      <description>&lt;p&gt;This week I created a collage tool and a palette extract tool. Neither are super fancy but something that I missed from my toolbag.&lt;/p&gt;
 </description>
     </item>
     
