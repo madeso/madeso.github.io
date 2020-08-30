@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2020-35/</link>
+      <pubDate>Sun, 30 Aug 2020 21:04:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-35/</guid>
+      <description>&lt;p&gt;This week I continued work on tred, almost got basic lighting done now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 34</title>
       <link>https://i.madeso.me/devlog/2020-34/</link>
       <pubDate>Sun, 23 Aug 2020 21:34:41 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-17/</guid>
       <description>&lt;p&gt;This week I implemented the sprator algorithm. Next weeek I will probably add a test for the gui code. It has been missing a sample/test project a for a while now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 16</title>
-      <link>https://i.madeso.me/devlog/2020-16/</link>
-      <pubDate>Sun, 19 Apr 2020 22:44:41 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-16/</guid>
-      <description>&lt;p&gt;This week I completed my cellular automata code generation. Up next should either be implementing a tetomino layout algorithm or fianlly completing the sprator algorithm. Decisions decisions.&lt;/p&gt;
 </description>
     </item>
     
