@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2020-37/</link>
+      <pubDate>Sun, 13 Sep 2020 21:41:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-37/</guid>
+      <description>&lt;p&gt;This week I mostly spent watching netflix. Lazy I know but I atleast structure the todo list and think on how the tred api will be layed out&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 36</title>
       <link>https://i.madeso.me/devlog/2020-36/</link>
       <pubDate>Sun, 06 Sep 2020 21:22:23 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-19/</guid>
       <description>&lt;p&gt;This week I continued my work on fel scripting language. I added a coverage report and started on the vscode extension for editing fel code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 18</title>
-      <link>https://i.madeso.me/devlog/2020-18/</link>
-      <pubDate>Mon, 04 May 2020 07:15:26 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-18/</guid>
-      <description>&lt;p&gt;This week I worked on getting a gui sample up and running. Due to issues I also ended up creating a 2d sample. There are only a few issues left before I can continue on adding features to the ui&lt;/p&gt;
 </description>
     </item>
     
