@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2020-38/</link>
+      <pubDate>Sun, 20 Sep 2020 21:35:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-38/</guid>
+      <description>&lt;p&gt;This week I copied the script used to create the &amp;lsquo;game programming patterns&amp;rsquo; book and rewrote most of it to be generic instead of tied to a specific book. Apperently it didn&amp;rsquo;t support ebook generation so I&amp;rsquo;ll probably add that eventually. The rest of the week was spent on reading up on engine design and some refactoring of tred so no new major features.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 37</title>
       <link>https://i.madeso.me/devlog/2020-37/</link>
       <pubDate>Sun, 13 Sep 2020 21:41:48 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-20/</guid>
       <description>&lt;p&gt;This week I started on a lsp interface for fel.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 19</title>
-      <link>https://i.madeso.me/devlog/2020-19/</link>
-      <pubDate>Sun, 10 May 2020 22:38:33 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-19/</guid>
-      <description>&lt;p&gt;This week I continued my work on fel scripting language. I added a coverage report and started on the vscode extension for editing fel code.&lt;/p&gt;
 </description>
     </item>
     
