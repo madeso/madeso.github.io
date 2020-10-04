@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2020-40/</link>
+      <pubDate>Sun, 04 Oct 2020 23:31:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-40/</guid>
+      <description>&lt;p&gt;This week I started working on basic profiler for tred, I picked up euphoria and started cleaning up the cmake setup and continued work on gaf so that it&amp;rsquo;s more streamlined faster testing and contains the features that I want in euphoria&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 39</title>
       <link>https://i.madeso.me/devlog/2020-39/</link>
       <pubDate>Sun, 27 Sep 2020 22:46:43 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-22/</guid>
       <description>&lt;p&gt;This week I completed my kodsnack gamejam, and started on porting one of my filemover programs from c#+winforms to python+curses&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 21</title>
-      <link>https://i.madeso.me/devlog/2020-21/</link>
-      <pubDate>Sun, 24 May 2020 23:55:38 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-21/</guid>
-      <description>&lt;p&gt;This week I installed arch on a desktop and started working on my entry for the 2 week kodsnack spelsylt gamejam&lt;/p&gt;
 </description>
     </item>
     
