@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2020-41/</link>
+      <pubDate>Sun, 11 Oct 2020 19:30:23 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-41/</guid>
+      <description>&lt;p&gt;This week I continued work on fel, since I realized that it would be great if I could have the interpreter run scripts and functions this year and let the &amp;ldquo;fast&amp;rdquo; of the language come later but keeping the api the same.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 40</title>
       <link>https://i.madeso.me/devlog/2020-40/</link>
       <pubDate>Sun, 04 Oct 2020 23:31:12 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-23/</guid>
       <description>&lt;p&gt;This week I started refactoring bbcalc so it could in the future handle generating truth tables, and I physically moved things around so I now use arch as my main computer. It will probably be a week or two until I install it on my main machine, but not too long since this hardware isn&amp;rsquo;t really health&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 22</title>
-      <link>https://i.madeso.me/devlog/2020-22/</link>
-      <pubDate>Sun, 31 May 2020 23:40:08 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-22/</guid>
-      <description>&lt;p&gt;This week I completed my kodsnack gamejam, and started on porting one of my filemover programs from c#+winforms to python+curses&lt;/p&gt;
 </description>
     </item>
     
