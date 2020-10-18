@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2020-42/</link>
+      <pubDate>Sun, 18 Oct 2020 22:44:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-42/</guid>
+      <description>&lt;p&gt;This week I started work on the inerpreter part of the fel language/implementation and a little bit of constexpr for the euphoria engine. Most of the week however has been planning for the new appartment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 41</title>
       <link>https://i.madeso.me/devlog/2020-41/</link>
       <pubDate>Sun, 11 Oct 2020 19:30:23 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-24/</guid>
       <description>&lt;p&gt;This week I ported a old anagram application from c# to python, I published and updated old &amp;ldquo;engines&amp;rdquo;, one called hmtest and one called pwn-engine, so I could run them, but it turns out that none of them was that advanced. I also installed arch on my main, so either this week or the next my transition to arch will be complete&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 23</title>
-      <link>https://i.madeso.me/devlog/2020-23/</link>
-      <pubDate>Sun, 07 Jun 2020 20:45:00 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-23/</guid>
-      <description>&lt;p&gt;This week I started refactoring bbcalc so it could in the future handle generating truth tables, and I physically moved things around so I now use arch as my main computer. It will probably be a week or two until I install it on my main machine, but not too long since this hardware isn&amp;rsquo;t really health&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
