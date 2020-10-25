@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2020-43/</link>
+      <pubDate>Sun, 25 Oct 2020 22:13:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-43/</guid>
+      <description>&lt;p&gt;This week I resurected ride and started implementing it more or less from scratch. Well, less wx and more custom so not from scratch, hopefully by the end of next week I can soon integrate most of the old code that still is relevant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 42</title>
       <link>https://i.madeso.me/devlog/2020-42/</link>
       <pubDate>Sun, 18 Oct 2020 22:44:40 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-25/</guid>
       <description>&lt;p&gt;This week I changed to my main computer, started transfering my old PrettyGood.net from google code to github, and finally started working on euphoria again. This time I started working on a custom pixel editing program. It&amp;rsquo;s far from finished but I hope that it can be useful in a few weeks time for the GMTK game jam.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 24</title>
-      <link>https://i.madeso.me/devlog/2020-24/</link>
-      <pubDate>Sun, 14 Jun 2020 21:24:49 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-24/</guid>
-      <description>&lt;p&gt;This week I ported a old anagram application from c# to python, I published and updated old &amp;ldquo;engines&amp;rdquo;, one called hmtest and one called pwn-engine, so I could run them, but it turns out that none of them was that advanced. I also installed arch on my main, so either this week or the next my transition to arch will be complete&lt;/p&gt;
 </description>
     </item>
     
