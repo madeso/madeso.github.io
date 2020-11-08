@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2020-45/</link>
+      <pubDate>Sun, 08 Nov 2020 22:20:21 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-45/</guid>
+      <description>&lt;p&gt;This week I refactored the scrolling code and started work on the command palette.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 44</title>
       <link>https://i.madeso.me/devlog/2020-44/</link>
       <pubDate>Sun, 01 Nov 2020 21:48:59 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-31/</guid>
       <description>&lt;p&gt;Theese past weeks I spent in the hospital and recovering from said experience. Nothing major was done really mostly config/dotfiles changes. Hopefully I will get back to euphoria I netflix will stop interfering :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 26</title>
-      <link>https://i.madeso.me/devlog/2020-26/</link>
-      <pubDate>Sun, 28 Jun 2020 21:54:40 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-26/</guid>
-      <description>&lt;p&gt;This week I mostly watched netfix and such but I did manage to implement a simple fill tool for the pixel image editor.&lt;/p&gt;
 </description>
     </item>
     
