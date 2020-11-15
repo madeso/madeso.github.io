@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2020-46/</link>
+      <pubDate>Sun, 15 Nov 2020 22:50:51 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-46/</guid>
+      <description>&lt;p&gt;This week I added cmdlet to new ride and converted euphoria to the pitchfork layout&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 45</title>
       <link>https://i.madeso.me/devlog/2020-45/</link>
       <pubDate>Sun, 08 Nov 2020 22:20:21 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-32/</guid>
       <description>&lt;p&gt;This week I didn&amp;rsquo;t do much, but after much consideration I moved all the euphoria source to a src folder so that the project root is a bit cleaner.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 31</title>
-      <link>https://i.madeso.me/devlog/2020-31/</link>
-      <pubDate>Sun, 02 Aug 2020 19:51:22 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-31/</guid>
-      <description>&lt;p&gt;Theese past weeks I spent in the hospital and recovering from said experience. Nothing major was done really mostly config/dotfiles changes. Hopefully I will get back to euphoria I netflix will stop interfering :)&lt;/p&gt;
 </description>
     </item>
     
