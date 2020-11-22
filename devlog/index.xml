@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2020-47/</link>
+      <pubDate>Sun, 22 Nov 2020 22:21:41 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-47/</guid>
+      <description>&lt;p&gt;This week I worked both a little on ride(scrolling in fileview and expanding folders) and a little bit on tred(refactored profiling and added a plane mesh). Hopefully next week I make some decent progress on tred as I want to get it to a usefule state before the end of the year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 46</title>
       <link>https://i.madeso.me/devlog/2020-46/</link>
       <pubDate>Sun, 15 Nov 2020 22:50:51 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-33/</guid>
       <description>&lt;p&gt;This week I started working on tred, my temporary 3d engine. Nothing much got done since it&amp;rsquo;s currently superhot and I&amp;rsquo;m sitting behind a fan, and I&amp;rsquo;ve decided that for next year I&amp;rsquo;m getting myself an AC for the appartment cause this is unbearable. Until next time&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 32</title>
-      <link>https://i.madeso.me/devlog/2020-32/</link>
-      <pubDate>Sun, 09 Aug 2020 22:09:26 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-32/</guid>
-      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much, but after much consideration I moved all the euphoria source to a src folder so that the project root is a bit cleaner.&lt;/p&gt;
 </description>
     </item>
     
