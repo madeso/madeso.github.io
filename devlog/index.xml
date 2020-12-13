@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2020-51/</link>
+      <pubDate>Mon, 14 Dec 2020 00:15:48 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-51/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much. I created a simple script to backup my git repos and read up on animation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2020-49/</link>
       <pubDate>Sun, 06 Dec 2020 23:29:03 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-36/</guid>
       <description>&lt;p&gt;This week I continued to work on the 3d rendering in tred. We got some basic lighting now :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 35</title>
-      <link>https://i.madeso.me/devlog/2020-35/</link>
-      <pubDate>Sun, 30 Aug 2020 21:04:03 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-35/</guid>
-      <description>&lt;p&gt;This week I continued work on tred, almost got basic lighting done now.&lt;/p&gt;
 </description>
     </item>
     
