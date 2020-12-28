@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Wekk 52</title>
+      <link>https://i.madeso.me/devlog/2020-52/</link>
+      <pubDate>Mon, 28 Dec 2020 01:49:43 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-52/</guid>
+      <description>&lt;p&gt;This week I restored the input system from an old project and started integrating it into tred&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 51</title>
       <link>https://i.madeso.me/devlog/2020-51/</link>
       <pubDate>Sun, 20 Dec 2020 22:25:05 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-38/</guid>
       <description>&lt;p&gt;This week I copied the script used to create the &amp;lsquo;game programming patterns&amp;rsquo; book and rewrote most of it to be generic instead of tied to a specific book. Apperently it didn&amp;rsquo;t support ebook generation so I&amp;rsquo;ll probably add that eventually. The rest of the week was spent on reading up on engine design and some refactoring of tred so no new major features.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 37</title>
-      <link>https://i.madeso.me/devlog/2020-37/</link>
-      <pubDate>Sun, 13 Sep 2020 21:41:48 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-37/</guid>
-      <description>&lt;p&gt;This week I mostly spent watching netflix. Lazy I know but I atleast structure the todo list and think on how the tred api will be layed out&lt;/p&gt;
 </description>
     </item>
     
