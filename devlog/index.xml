@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 53</title>
+      <link>https://i.madeso.me/devlog/2020-53/</link>
+      <pubDate>Tue, 05 Jan 2021 23:00:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-53/</guid>
+      <description>&lt;p&gt;This week I continued on working on the input system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wekk 52</title>
       <link>https://i.madeso.me/devlog/2020-52/</link>
       <pubDate>Mon, 28 Dec 2020 01:49:43 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-39/</guid>
       <description>&lt;p&gt;This week I fixed so that the euphoria tracery could handle extended json and added some more design notes for tred. I actually also started on a new project textgen where you generate textures by drawing graphs or writing lua code. Nothing to show yet but I only worked on it for 30 minutes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 38</title>
-      <link>https://i.madeso.me/devlog/2020-38/</link>
-      <pubDate>Sun, 20 Sep 2020 21:35:40 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-38/</guid>
-      <description>&lt;p&gt;This week I copied the script used to create the &amp;lsquo;game programming patterns&amp;rsquo; book and rewrote most of it to be generic instead of tied to a specific book. Apperently it didn&amp;rsquo;t support ebook generation so I&amp;rsquo;ll probably add that eventually. The rest of the week was spent on reading up on engine design and some refactoring of tred so no new major features.&lt;/p&gt;
 </description>
     </item>
     
