@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 01</title>
+      <link>https://i.madeso.me/devlog/2021-01/</link>
+      <pubDate>Sun, 10 Jan 2021 23:26:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-01/</guid>
+      <description>&lt;p&gt;This week I continued on working on the input system. Getting closer now, hopefully it will be &amp;ldquo;done&amp;rdquo; next week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 53</title>
       <link>https://i.madeso.me/devlog/2020-53/</link>
       <pubDate>Tue, 05 Jan 2021 23:00:18 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-40/</guid>
       <description>&lt;p&gt;This week I started working on basic profiler for tred, I picked up euphoria and started cleaning up the cmake setup and continued work on gaf so that it&amp;rsquo;s more streamlined faster testing and contains the features that I want in euphoria&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 39</title>
-      <link>https://i.madeso.me/devlog/2020-39/</link>
-      <pubDate>Sun, 27 Sep 2020 22:46:43 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-39/</guid>
-      <description>&lt;p&gt;This week I fixed so that the euphoria tracery could handle extended json and added some more design notes for tred. I actually also started on a new project textgen where you generate textures by drawing graphs or writing lua code. Nothing to show yet but I only worked on it for 30 minutes.&lt;/p&gt;
 </description>
     </item>
     
