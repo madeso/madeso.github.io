@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2021-02/</link>
+      <pubDate>Sun, 17 Jan 2021 23:03:36 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-02/</guid>
+      <description>&lt;p&gt;This week I continued on the Input System. Another refactoring but I think it&amp;rsquo;s finally the beginning of the end now&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 01</title>
       <link>https://i.madeso.me/devlog/2021-01/</link>
       <pubDate>Sun, 10 Jan 2021 23:26:39 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-41/</guid>
       <description>&lt;p&gt;This week I continued work on fel, since I realized that it would be great if I could have the interpreter run scripts and functions this year and let the &amp;ldquo;fast&amp;rdquo; of the language come later but keeping the api the same.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 40</title>
-      <link>https://i.madeso.me/devlog/2020-40/</link>
-      <pubDate>Sun, 04 Oct 2020 23:31:12 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-40/</guid>
-      <description>&lt;p&gt;This week I started working on basic profiler for tred, I picked up euphoria and started cleaning up the cmake setup and continued work on gaf so that it&amp;rsquo;s more streamlined faster testing and contains the features that I want in euphoria&lt;/p&gt;
 </description>
     </item>
     
