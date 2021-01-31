@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2021-04/</link>
+      <pubDate>Sun, 31 Jan 2021 22:40:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-04/</guid>
+      <description>&lt;p&gt;This week I continued working on the input system. Better error handling and working fallback when a connected joystick is lost. Next up is gamepad, rumble and finally 3d rendering again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 03</title>
       <link>https://i.madeso.me/devlog/2021-03/</link>
       <pubDate>Mon, 25 Jan 2021 00:28:02 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-43/</guid>
       <description>&lt;p&gt;This week I resurected ride and started implementing it more or less from scratch. Well, less wx and more custom so not from scratch, hopefully by the end of next week I can soon integrate most of the old code that still is relevant.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 42</title>
-      <link>https://i.madeso.me/devlog/2020-42/</link>
-      <pubDate>Sun, 18 Oct 2020 22:44:40 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-42/</guid>
-      <description>&lt;p&gt;This week I started work on the inerpreter part of the fel language/implementation and a little bit of constexpr for the euphoria engine. Most of the week however has been planning for the new appartment.&lt;/p&gt;
 </description>
     </item>
     
