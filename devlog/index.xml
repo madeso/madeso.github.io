@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2021-05/</link>
+      <pubDate>Sun, 07 Feb 2021 23:20:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-05/</guid>
+      <description>&lt;p&gt;This week I have been working on game controller implementation. First I wrote most of one implementation and then removed that in favor of a more-code but less complex solution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 04</title>
       <link>https://i.madeso.me/devlog/2021-04/</link>
       <pubDate>Sun, 31 Jan 2021 22:40:23 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-44/</guid>
       <description>&lt;p&gt;This week I continued working on ride&amp;hellip; and not much else happened :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 43</title>
-      <link>https://i.madeso.me/devlog/2020-43/</link>
-      <pubDate>Sun, 25 Oct 2020 22:13:56 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-43/</guid>
-      <description>&lt;p&gt;This week I resurected ride and started implementing it more or less from scratch. Well, less wx and more custom so not from scratch, hopefully by the end of next week I can soon integrate most of the old code that still is relevant.&lt;/p&gt;
 </description>
     </item>
     
