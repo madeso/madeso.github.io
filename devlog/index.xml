@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Wekk 07</title>
+      <link>https://i.madeso.me/devlog/2021-07/</link>
+      <pubDate>Sun, 21 Feb 2021 23:27:52 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-07/</guid>
+      <description>&lt;p&gt;This week I started porting my c# engine &amp;lsquo;simple engine&amp;rsquo; from 2009 to c++.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 06</title>
       <link>https://i.madeso.me/devlog/2021-06/</link>
       <pubDate>Sun, 14 Feb 2021 21:43:12 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-46/</guid>
       <description>&lt;p&gt;This week I added cmdlet to new ride and converted euphoria to the pitchfork layout&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 45</title>
-      <link>https://i.madeso.me/devlog/2020-45/</link>
-      <pubDate>Sun, 08 Nov 2020 22:20:21 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-45/</guid>
-      <description>&lt;p&gt;This week I refactored the scrolling code and started work on the command palette.&lt;/p&gt;
 </description>
     </item>
     
