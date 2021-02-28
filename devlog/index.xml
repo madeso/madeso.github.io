@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 08</title>
+      <link>https://i.madeso.me/devlog/2021-08/</link>
+      <pubDate>Sun, 28 Feb 2021 23:42:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-08/</guid>
+      <description>&lt;p&gt;This week I completed my c# port and continued on input for tred. A few things left before it&amp;rsquo;s done for this round but soon I can continue working on the rendering again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wekk 07</title>
       <link>https://i.madeso.me/devlog/2021-07/</link>
       <pubDate>Sun, 21 Feb 2021 23:27:52 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-47/</guid>
       <description>&lt;p&gt;This week I worked both a little on ride(scrolling in fileview and expanding folders) and a little bit on tred(refactored profiling and added a plane mesh). Hopefully next week I make some decent progress on tred as I want to get it to a usefule state before the end of the year.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 46</title>
-      <link>https://i.madeso.me/devlog/2020-46/</link>
-      <pubDate>Sun, 15 Nov 2020 22:50:51 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-46/</guid>
-      <description>&lt;p&gt;This week I added cmdlet to new ride and converted euphoria to the pitchfork layout&lt;/p&gt;
 </description>
     </item>
     
