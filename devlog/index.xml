@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2021-09/</link>
+      <pubDate>Sun, 07 Mar 2021 23:16:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-09/</guid>
+      <description>&lt;p&gt;Haha. No rendering work this week. Instead I updated my infofile to more modern parsing without flex/bison and started updating my book.py script for creating e-books. That is also mostly done so I can get back to working on rendering in tred&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 08</title>
       <link>https://i.madeso.me/devlog/2021-08/</link>
       <pubDate>Sun, 28 Feb 2021 23:42:39 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-48/</guid>
       <description>&lt;p&gt;This week I looked into the markov-chains parts of euphoria (again), refactored a bit and expanded with a &amp;ldquo;line&amp;rdquo; test, a bit of fun really. I also thought about how I want to lay out the vertex attributes in tred. It currently is 100% dynamic butit will be easier if it&amp;rsquo;s static. A few days I ago I was sure I wanted a 50/50 approach but since I have to deal with all the dynamic issues anyway I might as well benefit from the potential space spacing and use 100% dynamic attributes. Time will tell what I&amp;rsquo;ll decide.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 47</title>
-      <link>https://i.madeso.me/devlog/2020-47/</link>
-      <pubDate>Sun, 22 Nov 2020 22:21:41 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-47/</guid>
-      <description>&lt;p&gt;This week I worked both a little on ride(scrolling in fileview and expanding folders) and a little bit on tred(refactored profiling and added a plane mesh). Hopefully next week I make some decent progress on tred as I want to get it to a usefule state before the end of the year.&lt;/p&gt;
 </description>
     </item>
     
