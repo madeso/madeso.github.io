@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2021-10/</link>
+      <pubDate>Sun, 14 Mar 2021 22:33:33 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-10/</guid>
+      <description>&lt;p&gt;This week I continued to work on the book script. It&amp;rsquo;s actually getting close to completion now. A few smaller things left but the only major is only generating a ebook file from the source&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 09</title>
       <link>https://i.madeso.me/devlog/2021-09/</link>
       <pubDate>Sun, 07 Mar 2021 23:16:56 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2020-49/</guid>
       <description>&lt;p&gt;This week I switched tred to pitchfork layout and refactored it. I also spent most of my time on the &amp;lsquo;kittens game&amp;rsquo;, what a time waster.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 48</title>
-      <link>https://i.madeso.me/devlog/2020-48/</link>
-      <pubDate>Sun, 29 Nov 2020 22:24:33 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-48/</guid>
-      <description>&lt;p&gt;This week I looked into the markov-chains parts of euphoria (again), refactored a bit and expanded with a &amp;ldquo;line&amp;rdquo; test, a bit of fun really. I also thought about how I want to lay out the vertex attributes in tred. It currently is 100% dynamic butit will be easier if it&amp;rsquo;s static. A few days I ago I was sure I wanted a 50/50 approach but since I have to deal with all the dynamic issues anyway I might as well benefit from the potential space spacing and use 100% dynamic attributes. Time will tell what I&amp;rsquo;ll decide.&lt;/p&gt;
 </description>
     </item>
     
