@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2021-15/</link>
+      <pubDate>Sun, 18 Apr 2021 22:42:38 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-15/</guid>
+      <description>&lt;p&gt;This week I i removed the last of javascript references merged the lua branch of euphoria into master. Still a few places to clean up but I can move forward now with a better scriping engine. I am actually tempted to put all my efforts into a vertical slice of the engine so we&amp;rsquo;ll see in a week if I took action or continued cleaning up the code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 14</title>
       <link>https://i.madeso.me/devlog/2021-14/</link>
       <pubDate>Sun, 11 Apr 2021 23:22:20 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-01/</guid>
       <description>&lt;p&gt;This week I continued on working on the input system. Getting closer now, hopefully it will be &amp;ldquo;done&amp;rdquo; next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 53</title>
-      <link>https://i.madeso.me/devlog/2020-53/</link>
-      <pubDate>Tue, 05 Jan 2021 23:00:18 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2020-53/</guid>
-      <description>&lt;p&gt;This week I continued on working on the input system.&lt;/p&gt;
 </description>
     </item>
     
