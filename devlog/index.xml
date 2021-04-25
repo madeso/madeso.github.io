@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2021-16/</link>
+      <pubDate>Sun, 25 Apr 2021 22:32:29 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-16/</guid>
+      <description>&lt;p&gt;This week I started refactoring euphoria from CamelCase to snake_case. I also started work on batching sprite rendering for tred&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 15</title>
       <link>https://i.madeso.me/devlog/2021-15/</link>
       <pubDate>Sun, 18 Apr 2021 22:42:38 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-02/</guid>
       <description>&lt;p&gt;This week I continued on the Input System. Another refactoring but I think it&amp;rsquo;s finally the beginning of the end now&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 01</title>
-      <link>https://i.madeso.me/devlog/2021-01/</link>
-      <pubDate>Sun, 10 Jan 2021 23:26:39 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-01/</guid>
-      <description>&lt;p&gt;This week I continued on working on the input system. Getting closer now, hopefully it will be &amp;ldquo;done&amp;rdquo; next week.&lt;/p&gt;
 </description>
     </item>
     
