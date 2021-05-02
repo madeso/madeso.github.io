@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2021-17/</link>
+      <pubDate>Sun, 02 May 2021 23:43:51 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-17/</guid>
+      <description>&lt;p&gt;This week I added both a brand new minesweeper clone and a old four-in-a-row in 3d clone that I made in 07. There is still some minor work to be done on both, but there are 2 game examples for fyro/tred now, hurray.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 16</title>
       <link>https://i.madeso.me/devlog/2021-16/</link>
       <pubDate>Sun, 25 Apr 2021 22:32:29 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-03/</guid>
       <description>&lt;p&gt;This week more or less nothing was implemented but I watched many GDC presentations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 02</title>
-      <link>https://i.madeso.me/devlog/2021-02/</link>
-      <pubDate>Sun, 17 Jan 2021 23:03:36 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-02/</guid>
-      <description>&lt;p&gt;This week I continued on the Input System. Another refactoring but I think it&amp;rsquo;s finally the beginning of the end now&lt;/p&gt;
 </description>
     </item>
     
