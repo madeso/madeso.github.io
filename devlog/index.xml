@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2021-18/</link>
+      <pubDate>Sun, 09 May 2021 22:22:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-18/</guid>
+      <description>&lt;p&gt;This week I continued refactoring euph to the new code style. The core library is almost complete now :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 17</title>
       <link>https://i.madeso.me/devlog/2021-17/</link>
       <pubDate>Sun, 02 May 2021 23:43:51 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-04/</guid>
       <description>&lt;p&gt;This week I continued working on the input system. Better error handling and working fallback when a connected joystick is lost. Next up is gamepad, rumble and finally 3d rendering again.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 03</title>
-      <link>https://i.madeso.me/devlog/2021-03/</link>
-      <pubDate>Mon, 25 Jan 2021 00:28:02 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-03/</guid>
-      <description>&lt;p&gt;This week more or less nothing was implemented but I watched many GDC presentations.&lt;/p&gt;
 </description>
     </item>
     
