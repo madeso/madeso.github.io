@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>2021 22</title>
+      <link>https://i.madeso.me/devlog/2021-22/</link>
+      <pubDate>Sun, 06 Jun 2021 23:58:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-22/</guid>
+      <description>&lt;p&gt;This week I replaced travis with github actions for euphoria. In the process I also updated imgui, replaced freetype with stb.truetype and continued cleaning up the source&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 21</title>
       <link>https://i.madeso.me/devlog/2021-21/</link>
       <pubDate>Sun, 30 May 2021 22:59:32 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-06/</guid>
       <description>&lt;p&gt;This week I found a opensource tracer so I started porting it to c++. I then realized I need to load js like json files and started to update my json loader.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 05</title>
-      <link>https://i.madeso.me/devlog/2021-05/</link>
-      <pubDate>Sun, 07 Feb 2021 23:20:37 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-05/</guid>
-      <description>&lt;p&gt;This week I have been working on game controller implementation. First I wrote most of one implementation and then removed that in favor of a more-code but less complex solution.&lt;/p&gt;
 </description>
     </item>
     
