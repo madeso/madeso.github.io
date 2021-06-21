@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2021-24/</link>
+      <pubDate>Mon, 21 Jun 2021 23:26:02 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-24/</guid>
+      <description>&lt;p&gt;This week I continued on refactoring and code health for euphoria. Still got a few errors and warnings to take care of :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://i.madeso.me/devlog/2021-23/</link>
       <pubDate>Sun, 13 Jun 2021 23:32:43 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-08/</guid>
       <description>&lt;p&gt;This week I completed my c# port and continued on input for tred. A few things left before it&amp;rsquo;s done for this round but soon I can continue working on the rendering again.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wekk 07</title>
-      <link>https://i.madeso.me/devlog/2021-07/</link>
-      <pubDate>Sun, 21 Feb 2021 23:27:52 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-07/</guid>
-      <description>&lt;p&gt;This week I started porting my c# engine &amp;lsquo;simple engine&amp;rsquo; from 2009 to c++.&lt;/p&gt;
 </description>
     </item>
     
