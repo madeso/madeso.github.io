@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2021-26/</link>
+      <pubDate>Sun, 04 Jul 2021 23:25:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-26/</guid>
+      <description>&lt;p&gt;This week I worked on cleaning up git commits and using better commit messages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 25</title>
       <link>https://i.madeso.me/devlog/2021-25/</link>
       <pubDate>Sun, 27 Jun 2021 23:40:59 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-10/</guid>
       <description>&lt;p&gt;This week I continued to work on the book script. It&amp;rsquo;s actually getting close to completion now. A few smaller things left but the only major is only generating a ebook file from the source&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 09</title>
-      <link>https://i.madeso.me/devlog/2021-09/</link>
-      <pubDate>Sun, 07 Mar 2021 23:16:56 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-09/</guid>
-      <description>&lt;p&gt;Haha. No rendering work this week. Instead I updated my infofile to more modern parsing without flex/bison and started updating my book.py script for creating e-books. That is also mostly done so I can get back to working on rendering in tred&lt;/p&gt;
 </description>
     </item>
     
