@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 27</title>
+      <link>https://i.madeso.me/devlog/2021-27/</link>
+      <pubDate>Sun, 11 Jul 2021 22:38:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-27/</guid>
+      <description>&lt;p&gt;This week I moved all of my todos for euphoria from trello to the github issues, now people can see the current plan. I also continued on the next version of my json library. Hopefully it won&amp;rsquo;t take long to complete and I can start using it in my engine&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 26</title>
       <link>https://i.madeso.me/devlog/2021-26/</link>
       <pubDate>Sun, 04 Jul 2021 23:25:30 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-11/</guid>
       <description>&lt;p&gt;This week I mostly been watching netflix but I did started to clean up my bookscript&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 10</title>
-      <link>https://i.madeso.me/devlog/2021-10/</link>
-      <pubDate>Sun, 14 Mar 2021 22:33:33 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-10/</guid>
-      <description>&lt;p&gt;This week I continued to work on the book script. It&amp;rsquo;s actually getting close to completion now. A few smaller things left but the only major is only generating a ebook file from the source&lt;/p&gt;
 </description>
     </item>
     
