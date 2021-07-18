@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2021-28/</link>
+      <pubDate>Mon, 19 Jul 2021 00:36:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-28/</guid>
+      <description>&lt;p&gt;This week I continued work on my json library and updated the gaf compiler to c++&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 27</title>
       <link>https://i.madeso.me/devlog/2021-27/</link>
       <pubDate>Sun, 11 Jul 2021 22:38:39 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-12/</guid>
       <description>&lt;p&gt;This week I started on clang-tidying euphoria. I probably should complete the tred before gettting back to euphoria&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 11</title>
-      <link>https://i.madeso.me/devlog/2021-11/</link>
-      <pubDate>Sun, 21 Mar 2021 21:27:34 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-11/</guid>
-      <description>&lt;p&gt;This week I mostly been watching netflix but I did started to clean up my bookscript&lt;/p&gt;
 </description>
     </item>
     
