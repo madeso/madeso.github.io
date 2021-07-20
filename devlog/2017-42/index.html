@@ -7,7 +7,6 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
-  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="Week42">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -34,7 +33,7 @@
   gtag('config', 'UA-113385922-1');
 </script>
 <div id="content">
-<div id="header">
+<header id="header">
   <img id="mainlogo" alt="the main logo" src="https://i.madeso.me/logo.png">
   <h1>Gustav Jansson</h1>
   <div id="toplinks">
@@ -45,78 +44,23 @@
     <a href="https://i.madeso.me/cv/">[CV]</a>
     <a href="https://i.madeso.me/about/">[about]</a>
   </div>
-</div>
-<div class="post">
+</header>
+<article class="post">
   <a href="https://i.madeso.me/devlog/2017-42/"><h1>Week42</h1></a>
   <p>Saturday, 28 October 2017 at 22:05</p>
 <div class="markdown">
 <p>This week I completed the basic outline feature to each actor/mesh so I can highlight
 the current selected tile/actor in t3d. I also started work on getting a ray so I can actually select.</p>
 </div>
-</div>
-<div id="spinner">
-<div class="lds-css ng-scope">
-  <div style="width:100%;height:100%" class="lds-rolling">
-    <div></div>
-  </div>
-<style>@keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-@-webkit-keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.lds-rolling {
-  position: relative;
-}
-.lds-rolling div,
-.lds-rolling div:after {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border: 20px solid #888888;
-  border-top-color: transparent;
-  border-radius: 50%;
-}
-.lds-rolling div {
-  -webkit-animation: lds-rolling 1s linear infinite;
-  animation: lds-rolling 1s linear infinite;
-  top: 100px;
-  left: 100px;
-}
-.lds-rolling div:after {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-.lds-rolling {
-  width: 50px !important;
-  height: 50px !important;
-  -webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-  transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-}
-</style></div>
-</div>
-<div id="footer" class="me-footer">
+  </article>
+<footer id="footer" class="me-footer">
 <div class="footerbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
  <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
  <a href="https://github.com/madeso/"><i class="fa fa-github"></i></a> 
  <a href="https://keybase.io/madeso"><i class="fa fa-key"></i></a> 
 </div>
-</div>
+</footer>
 </div> 
 <script>
 $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/devlog\/2017-42\/#"]', function(e) {
@@ -130,9 +74,5 @@ $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/devlog\/2017-42\/#"]', funct
 </script>
 <script src="https://i.madeso.me/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://i.madeso.me/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
-<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
-<script>
-progressively.init();
-</script>
 </body>
 </html>

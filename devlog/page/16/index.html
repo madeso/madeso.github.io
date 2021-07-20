@@ -7,7 +7,6 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
-  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="devlog">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -35,7 +34,7 @@
   gtag('config', 'UA-113385922-1');
 </script>
 <div id="content">
-<div id="header">
+<header id="header">
   <img id="mainlogo" alt="the main logo" src="https://i.madeso.me/logo.png">
   <h1>Gustav Jansson</h1>
   <div id="toplinks">
@@ -46,9 +45,9 @@
     <a href="https://i.madeso.me/cv/">[CV]</a>
     <a href="https://i.madeso.me/about/">[about]</a>
   </div>
-</div>
+</header>
 <div class="firstcontent">
-<div class="post">
+<article class="post">
   <div class="title">
   <div class="main header">devlog</div>
     <a class="right" href="https://i.madeso.me/devlog/index.xml" type="application/rss+xml"><i class="fa fa-rss"></i></a>
@@ -57,11 +56,10 @@
 <div class="markdown">
 <p>This blog is a try to me keep motivates and a way to see my progress on my current projects. Let&rsquo;s see how it goes!</p>
 </div>
-</div>
+  </article>
 </div>
   <div id="pages">
-    <div class="pagenumber"><span>Page 16 </span></div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-29/"><div class="previewheader header">Week 29</div></a>
 <div class="shortdate right">22 July 2018</div>
@@ -70,11 +68,11 @@
 <p>This week I made it so that shots are destroyed when the have left the viewport.
 I also started laying the grounds for adding a init function for when creating entities.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-28/"><div class="previewheader header">Week 28</div></a>
 <div class="shortdate right">15 July 2018</div>
@@ -85,11 +83,11 @@ framework, extracting all the copy-paste code into another utility file.
 I also finally came up with how to best handle how to check for when objects
 are outside the viewport, so that should be done soon.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-27/"><div class="previewheader header">Week 27</div></a>
 <div class="shortdate right">8 July 2018</div>
@@ -97,11 +95,11 @@ are outside the viewport, so that should be done soon.</p>
 <div class="markdown">
 <p>This week I finished the viewport logic, and started looking at how to handle objects getting outside of the view. Not uch but I also binged luke cage season 2, so pretty ok progress considering.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-26/"><div class="previewheader header">Week 26</div></a>
 <div class="shortdate right">1 July 2018</div>
@@ -111,11 +109,11 @@ are outside the viewport, so that should be done soon.</p>
 option for gaf, fixed the issue with not resusing ids and started on writing
 viewport handling. The latter is not quite finished yet, but it&rsquo;s getting there.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-25/"><div class="previewheader header">Week 25</div></a>
 <div class="shortdate right">24 June 2018</div>
@@ -123,11 +121,11 @@ viewport handling. The latter is not quite finished yet, but it&rsquo;s getting 
 <div class="markdown">
 <p>This week consisted mostly of real life stuff, but I managed to fix a few gaf related things. Next week should hopefulle be more productive.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-24/"><div class="previewheader header">Week 24</div></a>
 <div class="shortdate right">17 June 2018</div>
@@ -135,11 +133,11 @@ viewport handling. The latter is not quite finished yet, but it&rsquo;s getting 
 <div class="markdown">
 <p>This week I continued work on the editor and gaf and it&rsquo;s finally getting near completion.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-23/"><div class="previewheader header">Week 23</div></a>
 <div class="shortdate right">10 June 2018</div>
@@ -150,11 +148,11 @@ dear imgui version of it. There still are some non imgui like parts from the por
 code but things are looking better. I just started on the imgui extension for gaf,
 and after that is completed I can work on saving json so I can close this chapter.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-22/"><div class="previewheader header">Week 22</div></a>
 <div class="shortdate right">3 June 2018</div>
@@ -164,11 +162,11 @@ and after that is completed I can work on saving json so I can close this chapte
 gaf files, but that will come after I throw out the current wxWidgets based
 editor, and that&rsquo;s what I&rsquo;m working on now.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-21/"><div class="previewheader header">Week 21</div></a>
 <div class="shortdate right">27 May 2018</div>
@@ -178,11 +176,11 @@ editor, and that&rsquo;s what I&rsquo;m working on now.</p>
 actually started on replacing protobuf in euphoria. I hope that by the time of
 the next devlog I have finished the refactoring.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
-      <div class="post">
+      <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2018-20/"><div class="previewheader header">Week 20</div></a>
 <div class="shortdate right">21 May 2018</div>
@@ -193,74 +191,48 @@ can detect and decided what to use, and what to ignore, and fixed several warnin
 Then I continued workin on my protobuf replacement library, gaf, that I started ages ago.
 Hopefully within a week or two I can replace protobuf in euphoria soon.</p>
 </div>
-</div>
+  </article>
       <div class="to-top">
 <a href="https://i.madeso.me/devlog/#top"><i class="fa fa-arrow-up"></i> To top</a>
 </div>
   </div>
-<div id="spinner">
-<div class="lds-css ng-scope">
-  <div style="width:100%;height:100%" class="lds-rolling">
-    <div></div>
-  </div>
-<style>@keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-@-webkit-keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.lds-rolling {
-  position: relative;
-}
-.lds-rolling div,
-.lds-rolling div:after {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border: 20px solid #888888;
-  border-top-color: transparent;
-  border-radius: 50%;
-}
-.lds-rolling div {
-  -webkit-animation: lds-rolling 1s linear infinite;
-  animation: lds-rolling 1s linear infinite;
-  top: 100px;
-  left: 100px;
-}
-.lds-rolling div:after {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-.lds-rolling {
-  width: 50px !important;
-  height: 50px !important;
-  -webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-  transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-}
-</style></div>
-</div>
-<div id="footer" class="me-footer">
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/devlog/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/15/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/14/" aria-label="Page 14" class="page-link" role="button">14</a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/15/" aria-label="Page 15" class="page-link" role="button">15</a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 16" class="page-link" role="button">16</a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/17/" aria-label="Page 17" class="page-link" role="button">17</a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/18/" aria-label="Page 18" class="page-link" role="button">18</a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/17/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/devlog/page/23/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+<footer id="footer" class="me-footer">
 <div class="footerbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
  <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
  <a href="https://github.com/madeso/"><i class="fa fa-github"></i></a> 
  <a href="https://keybase.io/madeso"><i class="fa fa-key"></i></a> 
 </div>
-</div>
+</footer>
 </div> 
 <script>
 $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/devlog\/#"]', function(e) {
@@ -274,32 +246,5 @@ $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/devlog\/#"]', function(e) {
 </script>
 <script src="https://i.madeso.me/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://i.madeso.me/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
-<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
-<script>
-progressively.init();
-</script>
-<script>
-(function () {
-  $('#spinner').hide();
-  var loadPage =  16 ;
-  var totalPages =  23 ;
-  $('#footer').on('inview', function (event, visible, topOrBottomOrBoth) {
-    if (visible == true) {
-      loadPage = loadPage + 1;
-      if (loadPage > totalPages) {
-        $('#footer').off('inview');
-        return;
-      }
-      $('#spinner').show();
-      url = 'https:\/\/i.madeso.me\/devlog\/page/' + loadPage + '/'
-      console.log("Loading next page: " + url);
-      $.get(url, function (result) {
-        $('#pages').append($(result).find('#pages'));
-        $('#spinner').hide();
-      })
-    }
-  });
-})();
-</script>
 </body>
 </html>

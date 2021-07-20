@@ -7,7 +7,6 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
-  <link rel="stylesheet" href="https://unpkg.com/progressively/dist/progressively.min.css">
   <meta property="twitter:title" content="home">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
@@ -34,7 +33,7 @@
   gtag('config', 'UA-113385922-1');
 </script>
 <div id="content">
-<div id="header">
+<header id="header">
   <img id="mainlogo" alt="the main logo" src="https://i.madeso.me/logo.png">
   <h1>Gustav Jansson</h1>
   <div id="toplinks">
@@ -45,7 +44,7 @@
     <a href="https://i.madeso.me/cv/">[CV]</a>
     <a href="https://i.madeso.me/about/">[about]</a>
   </div>
-</div>
+</header>
 <div id="intro">
   <div class="markdown">
 <p>Welcome to my lair.</p>
@@ -64,7 +63,7 @@
 </div>
     <div id="latestdevlog" class="featured">
         <h2 class="latestpostsheader">Latest devlogs</h2>
-            <div class="post">
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2021-28/"><div class="previewheader header">Week 28</div></a>
 <div class="shortdate right">19 July 2021</div>
@@ -72,8 +71,8 @@
 <div class="markdown">
 <p>This week I continued work on my json library and updated the gaf compiler to c++</p>
 </div>
-</div>
-            <div class="post">
+  </article>
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2021-27/"><div class="previewheader header">Week 27</div></a>
 <div class="shortdate right">11 July 2021</div>
@@ -81,8 +80,8 @@
 <div class="markdown">
 <p>This week I moved all of my todos for euphoria from trello to the github issues, now people can see the current plan. I also continued on the next version of my json library. Hopefully it won&rsquo;t take long to complete and I can start using it in my engine</p>
 </div>
-</div>
-            <div class="post">
+  </article>
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/devlog/2021-26/"><div class="previewheader header">Week 26</div></a>
 <div class="shortdate right">4 July 2021</div>
@@ -90,12 +89,12 @@
 <div class="markdown">
 <p>This week I worked on cleaning up git commits and using better commit messages.</p>
 </div>
-</div>
+  </article>
             <a href="./devlog/" class="see-more">See more devlogs...</a>
     </div>
     <div id="latestblog" class="featured">
         <h2 class="latestpostsheader">Latest blog posts</h2>
-            <div class="post">
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/blog/restart-alsa/"><div class="previewheader header">Restarting Alsa</div></a>
 <div class="shortdate right">23 July 2017</div>
@@ -110,8 +109,8 @@
     &nbsp;<a class="tag" href="/tags/ubuntu">#ubuntu</a>
   or <a class="tag" href="/tags/">(all)</a>
   </div>
-</div>
-            <div class="post">
+  </article>
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/blog/spotify-windows-ssd/"><div class="previewheader header">A fix for spotify filling up the C: drive</div></a>
 <div class="shortdate right">18 May 2017</div>
@@ -125,8 +124,8 @@ It turns out the &ldquo;cached location&rdquo; is only the saved playlists, and 
     &nbsp;<a class="tag" href="/tags/ssd">#ssd</a>
   or <a class="tag" href="/tags/">(all)</a>
   </div>
-</div>
-            <div class="post">
+  </article>
+            <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/blog/gitlog/"><div class="previewheader header">A better git log</div></a>
 <div class="shortdate right">22 February 2017</div>
@@ -142,72 +141,17 @@ $ git config --global alias.lg &#34;log --color --graph --pretty=format:&#39;%Cr
     &nbsp;<a class="tag" href="/tags/code">#code</a>
   or <a class="tag" href="/tags/">(all)</a>
   </div>
-</div>
+  </article>
             <a href="./blog/" class="see-more">See more blog posts...</a>
     </div>
-<div id="spinner">
-<div class="lds-css ng-scope">
-  <div style="width:100%;height:100%" class="lds-rolling">
-    <div></div>
-  </div>
-<style>@keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-@-webkit-keyframes lds-rolling {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-.lds-rolling {
-  position: relative;
-}
-.lds-rolling div,
-.lds-rolling div:after {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border: 20px solid #888888;
-  border-top-color: transparent;
-  border-radius: 50%;
-}
-.lds-rolling div {
-  -webkit-animation: lds-rolling 1s linear infinite;
-  animation: lds-rolling 1s linear infinite;
-  top: 100px;
-  left: 100px;
-}
-.lds-rolling div:after {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-.lds-rolling {
-  width: 50px !important;
-  height: 50px !important;
-  -webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-  transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
-}
-</style></div>
-</div>
-<div id="footer" class="me-footer">
+<footer id="footer" class="me-footer">
 <div class="footerbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
  <a href="http://www.reddit.com/user/sirGustav/"><i class="fa fa-reddit"></i></a> 
  <a href="https://github.com/madeso/"><i class="fa fa-github"></i></a> 
  <a href="https://keybase.io/madeso"><i class="fa fa-key"></i></a> 
 </div>
-</div>
+</footer>
 </div> 
 <script>
 $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/#"]', function(e) {
@@ -221,9 +165,5 @@ $('*').on('click', 'a[href^="https:\/\/i.madeso.me\/#"]', function(e) {
 </script>
 <script src="https://i.madeso.me/external/lightbox/js/lightbox.min.js"></script>
 <script src="https://i.madeso.me/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
-<script src="https://unpkg.com/progressively/dist/progressively.min.js"></script>
-<script>
-progressively.init();
-</script>
 </body>
 </html>
