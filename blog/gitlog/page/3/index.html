@@ -10,7 +10,7 @@
   <meta property="twitter:title" content="A better git log">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.85.0" /><link rel="canonical" href="https://i.madeso.me/blog/gitlog/"> 
+  <meta name="generator" content="Hugo 0.86.0" /><link rel="canonical" href="https://i.madeso.me/blog/gitlog/"> 
   <title>A better git log</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -55,11 +55,11 @@
 <p>to the more compact and colorful:</p>
 <p><img src="new.jpg" alt="new"></p>
 <p>It&rsquo;s simple to get this log. Just type in:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git log --graph --pretty<span class="o">=</span>format:<span class="s1">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span> --abbrev-commit
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ git log --graph --pretty<span class="o">=</span>format:<span class="s1">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span> --abbrev-commit
 </code></pre></div><p>I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git config --global alias.lg <span class="s2">&#34;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ git config --global alias.lg <span class="s2">&#34;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&#34;</span>
 </code></pre></div><p>And every time you need to see your log, just type in</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git lg
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ git lg
 </code></pre></div><p>Everything here is shamelessly copied from this article: <a href="https://coderwall.com/p/euwpig/a-better-git-log">https://coderwall.com/p/euwpig/a-better-git-log <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">

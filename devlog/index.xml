@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 29</title>
+      <link>https://i.madeso.me/devlog/2021-29/</link>
+      <pubDate>Sun, 25 Jul 2021 22:40:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-29/</guid>
+      <description>&lt;p&gt;This week I continued the work on jsonh and gaf. Jsonh almost seems ready for a 2.0 version, but I might also deprecated it and replace it with a xml loader instead as xml both provide xpath and xsd that will aid when writing files.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 28</title>
       <link>https://i.madeso.me/devlog/2021-28/</link>
       <pubDate>Mon, 19 Jul 2021 00:36:24 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-13/</guid>
       <description>&lt;p&gt;This week I started updating my script-test since I have recently found myself in need of a better scripting language. I also took the plunge and started making a small textbased game in typescript and react.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 12</title>
-      <link>https://i.madeso.me/devlog/2021-12/</link>
-      <pubDate>Sun, 28 Mar 2021 23:17:45 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-12/</guid>
-      <description>&lt;p&gt;This week I started on clang-tidying euphoria. I probably should complete the tred before gettting back to euphoria&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

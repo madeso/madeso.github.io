@@ -10,7 +10,7 @@
   <meta property="twitter:title" content="linux">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.85.0" /><link rel="canonical" href="https://i.madeso.me/tags/linux/"> 
+  <meta name="generator" content="Hugo 0.86.0" /><link rel="canonical" href="https://i.madeso.me/tags/linux/"> 
   <title>linux</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -84,11 +84,11 @@
 <div class="markdown">
 <p>I have tried using /proc/acpi/wakeup and I&rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.</p>
 <p>It is really quite simple. First you need to install it, unless you already have it installed:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ sudo apt-get install acpitool
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ sudo apt-get install acpitool
 </code></pre></div><p>Once it&rsquo;s installed you can list what you can do with it, and to make it works.</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ acpitool --help
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ acpitool --help
 </code></pre></div><p>Then you can list all your devices (small w)</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ acpitool -w
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ acpitool -w
    Device    S-state      Status   Sysfs node
   ---------------------------------------
   1. SBAZ      S4    *disabled  pci:0000:00:14.2
@@ -106,7 +106,7 @@
   27. USB5      S4    *enabled   pci:0000:00:16.0
   28. PWRB      S4    *enabled   platform:PNP0C0C:00
 </code></pre></div><p>Then it&rsquo;s just a matter of disable all the devices you don&rsquo;t want to wake up the computer (large W).</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ sudo acpitool -W <span class="m">6</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ sudo acpitool -W <span class="m">6</span>
 </code></pre></div><p>Don&rsquo;t disable everything, then you can&rsquo;t wake the computer again :)</p>
 <p>I keep the power button enabled. And have configured the computer to hibernate when it&rsquo;s pressed, giving me a nice symmetry.</p>
 </div>
@@ -123,7 +123,7 @@
   <p>Sunday, 23 July 2017 at 14:31</p>
 <div class="markdown">
 <p>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span class="o">&amp;&amp;</span> sudo alsa force-reload
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span class="o">&amp;&amp;</span> sudo alsa force-reload
 </code></pre></div><p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">

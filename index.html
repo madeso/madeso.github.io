@@ -10,7 +10,7 @@
   <meta property="twitter:title" content="home">
       <meta property="twitter:card" content="summary">
   <meta property="twitter:description" content="">
-  <meta name="generator" content="Hugo 0.85.0" /><link rel="canonical" href="https://i.madeso.me/"> 
+  <meta name="generator" content="Hugo 0.86.0" /><link rel="canonical" href="https://i.madeso.me/"> 
   <title>home</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://i.madeso.me/css/reset.css" />
@@ -65,6 +65,15 @@
         <h2 class="latestpostsheader">Latest devlogs</h2>
             <article class="post">
 <div class="title">
+<a href="https://i.madeso.me/devlog/2021-29/"><div class="previewheader header">Week 29</div></a>
+<div class="shortdate right">25 July 2021</div>
+</div>
+<div class="markdown">
+<p>This week I continued the work on jsonh and gaf. Jsonh almost seems ready for a 2.0 version, but I might also deprecated it and replace it with a xml loader instead as xml both provide xpath and xsd that will aid when writing files.</p>
+</div>
+  </article>
+            <article class="post">
+<div class="title">
 <a href="https://i.madeso.me/devlog/2021-28/"><div class="previewheader header">Week 28</div></a>
 <div class="shortdate right">19 July 2021</div>
 </div>
@@ -81,15 +90,6 @@
 <p>This week I moved all of my todos for euphoria from trello to the github issues, now people can see the current plan. I also continued on the next version of my json library. Hopefully it won&rsquo;t take long to complete and I can start using it in my engine</p>
 </div>
   </article>
-            <article class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2021-26/"><div class="previewheader header">Week 26</div></a>
-<div class="shortdate right">4 July 2021</div>
-</div>
-<div class="markdown">
-<p>This week I worked on cleaning up git commits and using better commit messages.</p>
-</div>
-  </article>
             <a href="./devlog/" class="see-more">See more devlogs...</a>
     </div>
     <div id="latestblog" class="featured">
@@ -101,7 +101,7 @@
 </div>
 <div class="markdown">
 <p>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span class="o">&amp;&amp;</span> sudo alsa force-reload
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ pulseaudio -k <span class="o">&amp;&amp;</span> sudo alsa force-reload
 </code></pre></div><p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 </div>
   <div class="taglist">
