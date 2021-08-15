@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2021-32/</link>
+      <pubDate>Mon, 16 Aug 2021 00:01:34 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-32/</guid>
+      <description>&lt;p&gt;This week I continued working on ride and started porting lite to C++ so I can get a better handle on how I want to structure ride.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 31</title>
       <link>https://i.madeso.me/devlog/2021-31/</link>
       <pubDate>Sun, 08 Aug 2021 21:42:55 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-16/</guid>
       <description>&lt;p&gt;This week I started refactoring euphoria from CamelCase to snake_case. I also started work on batching sprite rendering for tred&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 15</title>
-      <link>https://i.madeso.me/devlog/2021-15/</link>
-      <pubDate>Sun, 18 Apr 2021 22:42:38 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-15/</guid>
-      <description>&lt;p&gt;This week I i removed the last of javascript references merged the lua branch of euphoria into master. Still a few places to clean up but I can move forward now with a better scriping engine. I am actually tempted to put all my efforts into a vertical slice of the engine so we&amp;rsquo;ll see in a week if I took action or continued cleaning up the code.&lt;/p&gt;
 </description>
     </item>
     
