@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2021-37/</link>
+      <pubDate>Sun, 19 Sep 2021 23:42:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-37/</guid>
+      <description>&lt;p&gt;Theese past few weeks I have been moving to a new apparment and I&amp;rsquo;m finally getting back to coding again. This past week I&amp;rsquo;ve been gettng back into ride from scratch and finally have some progress. I can render text and scroll!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 32</title>
       <link>https://i.madeso.me/devlog/2021-32/</link>
       <pubDate>Mon, 16 Aug 2021 00:01:34 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-17/</guid>
       <description>&lt;p&gt;This week I added both a brand new minesweeper clone and a old four-in-a-row in 3d clone that I made in 07. There is still some minor work to be done on both, but there are 2 game examples for fyro/tred now, hurray.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 16</title>
-      <link>https://i.madeso.me/devlog/2021-16/</link>
-      <pubDate>Sun, 25 Apr 2021 22:32:29 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-16/</guid>
-      <description>&lt;p&gt;This week I started refactoring euphoria from CamelCase to snake_case. I also started work on batching sprite rendering for tred&lt;/p&gt;
 </description>
     </item>
     
