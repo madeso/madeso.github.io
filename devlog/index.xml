@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2021-38/</link>
+      <pubDate>Sun, 26 Sep 2021 23:44:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-38/</guid>
+      <description>&lt;p&gt;This week I continued working on ride.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 37</title>
       <link>https://i.madeso.me/devlog/2021-37/</link>
       <pubDate>Sun, 19 Sep 2021 23:42:47 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-18/</guid>
       <description>&lt;p&gt;This week I continued refactoring euph to the new code style. The core library is almost complete now :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 17</title>
-      <link>https://i.madeso.me/devlog/2021-17/</link>
-      <pubDate>Sun, 02 May 2021 23:43:51 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-17/</guid>
-      <description>&lt;p&gt;This week I added both a brand new minesweeper clone and a old four-in-a-row in 3d clone that I made in 07. There is still some minor work to be done on both, but there are 2 game examples for fyro/tred now, hurray.&lt;/p&gt;
 </description>
     </item>
     
