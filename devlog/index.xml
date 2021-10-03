@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2021-39/</link>
+      <pubDate>Sun, 03 Oct 2021 23:06:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-39/</guid>
+      <description>&lt;p&gt;This week I continued working on ride. Most of the selection is done and I&amp;rsquo;ve just started on text input.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 38</title>
       <link>https://i.madeso.me/devlog/2021-38/</link>
       <pubDate>Sun, 26 Sep 2021 23:44:20 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-21/</guid>
       <description>&lt;p&gt;This week I finally finished the refactoring and started the process of moving from travis and appveyor to github actions for the ci.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 18</title>
-      <link>https://i.madeso.me/devlog/2021-18/</link>
-      <pubDate>Sun, 09 May 2021 22:22:40 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-18/</guid>
-      <description>&lt;p&gt;This week I continued refactoring euph to the new code style. The core library is almost complete now :)&lt;/p&gt;
 </description>
     </item>
     
