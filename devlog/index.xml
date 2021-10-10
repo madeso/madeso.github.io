@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2021-40/</link>
+      <pubDate>Mon, 11 Oct 2021 01:42:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-40/</guid>
+      <description>&lt;p&gt;This week I continued work on ride, adding input and started on unit tests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 39</title>
       <link>https://i.madeso.me/devlog/2021-39/</link>
       <pubDate>Sun, 03 Oct 2021 23:06:57 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-22/</guid>
       <description>&lt;p&gt;This week I replaced travis with github actions for euphoria. In the process I also updated imgui, replaced freetype with stb.truetype and continued cleaning up the source&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 21</title>
-      <link>https://i.madeso.me/devlog/2021-21/</link>
-      <pubDate>Sun, 30 May 2021 22:59:32 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-21/</guid>
-      <description>&lt;p&gt;This week I finally finished the refactoring and started the process of moving from travis and appveyor to github actions for the ci.&lt;/p&gt;
 </description>
     </item>
     
