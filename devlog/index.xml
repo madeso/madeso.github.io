@@ -16,6 +16,26 @@
     
     
     <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2021-42/</link>
+      <pubDate>Sun, 24 Oct 2021 23:54:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-42/</guid>
+      <description>&lt;p&gt;This week I completed my entry for the spelsylt gamejam.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2021-41/</link>
+      <pubDate>Mon, 18 Oct 2021 00:05:28 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-41/</guid>
+      <description>&lt;p&gt;This week I worked on the kodsnack spelsylt gamejam. Another week unti it finishes and the progress is pretty great.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 40</title>
       <link>https://i.madeso.me/devlog/2021-40/</link>
       <pubDate>Mon, 11 Oct 2021 01:42:50 +0200</pubDate>
@@ -142,26 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-24/</guid>
       <description>&lt;p&gt;This week I continued on refactoring and code health for euphoria. Still got a few errors and warnings to take care of :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 23</title>
-      <link>https://i.madeso.me/devlog/2021-23/</link>
-      <pubDate>Sun, 13 Jun 2021 23:32:43 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-23/</guid>
-      <description>&lt;p&gt;This week I converted the color palettes to constexpr and focused on fixing code style issues&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 22</title>
-      <link>https://i.madeso.me/devlog/2021-22/</link>
-      <pubDate>Sun, 06 Jun 2021 23:58:18 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-22/</guid>
-      <description>&lt;p&gt;This week I replaced travis with github actions for euphoria. In the process I also updated imgui, replaced freetype with stb.truetype and continued cleaning up the source&lt;/p&gt;
 </description>
     </item>
     
