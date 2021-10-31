@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2021-43/</link>
+      <pubDate>Mon, 01 Nov 2021 00:26:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-43/</guid>
+      <description>&lt;p&gt;This week I continued work on tred, cleaning up the code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 42</title>
       <link>https://i.madeso.me/devlog/2021-42/</link>
       <pubDate>Sun, 24 Oct 2021 23:54:47 +0200</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-25/</guid>
       <description>&lt;p&gt;This week I continued on cleaning up euphoria&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 24</title>
-      <link>https://i.madeso.me/devlog/2021-24/</link>
-      <pubDate>Mon, 21 Jun 2021 23:26:02 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-24/</guid>
-      <description>&lt;p&gt;This week I continued on refactoring and code health for euphoria. Still got a few errors and warnings to take care of :)&lt;/p&gt;
 </description>
     </item>
     
