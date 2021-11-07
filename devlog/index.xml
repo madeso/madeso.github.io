@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2021-44/</link>
+      <pubDate>Sun, 07 Nov 2021 23:16:50 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-44/</guid>
+      <description>&lt;p&gt;This week I continued working on tred. Cleaning up and mostly working on boring non-visible stuff. I started combining the 2d and 3d rendering and I think I have a pretty good API but it currently isn&amp;rsquo;t working. Have to look into why next week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 43</title>
       <link>https://i.madeso.me/devlog/2021-43/</link>
       <pubDate>Mon, 01 Nov 2021 00:26:18 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-26/</guid>
       <description>&lt;p&gt;This week I worked on cleaning up git commits and using better commit messages.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 25</title>
-      <link>https://i.madeso.me/devlog/2021-25/</link>
-      <pubDate>Sun, 27 Jun 2021 23:40:59 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-25/</guid>
-      <description>&lt;p&gt;This week I continued on cleaning up euphoria&lt;/p&gt;
 </description>
     </item>
     
