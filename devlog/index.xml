@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2021-48/</link>
+      <pubDate>Sun, 05 Dec 2021 23:52:30 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-48/</guid>
+      <description>&lt;p&gt;This week I mostly thought about rendering design, trying to come up with a flexible structure for 3d shader, mesh layout and API design.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 47</title>
       <link>https://i.madeso.me/devlog/2021-47/</link>
       <pubDate>Sun, 28 Nov 2021 23:51:25 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-30/</guid>
       <description>&lt;p&gt;This week I continued working on gaf, the new xml loading is almost complete&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 29</title>
-      <link>https://i.madeso.me/devlog/2021-29/</link>
-      <pubDate>Sun, 25 Jul 2021 22:40:04 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-29/</guid>
-      <description>&lt;p&gt;This week I continued the work on jsonh and gaf. Jsonh almost seems ready for a 2.0 version, but I might also deprecated it and replace it with a xml loader instead as xml both provide xpath and xsd that will aid when writing files.&lt;/p&gt;
 </description>
     </item>
     
