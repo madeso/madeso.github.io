@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2021-49/</link>
+      <pubDate>Sun, 12 Dec 2021 23:30:04 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-49/</guid>
+      <description>&lt;p&gt;This week I started refactoring euph to CamelCase and I expect it will take a while for it to be complete. I thought I was done with core but running clang-tidy checks on it it seems I&amp;rsquo;ve still missed a few spots&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 48</title>
       <link>https://i.madeso.me/devlog/2021-48/</link>
       <pubDate>Sun, 05 Dec 2021 23:52:30 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-31/</guid>
       <description>&lt;p&gt;This week I worked on xml loading and error handling in gaf and integrating it in euphoria. Still missing XSD generation and more testing needs to be done but for now it seems to be working, allowing me to continue working on tred.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 30</title>
-      <link>https://i.madeso.me/devlog/2021-30/</link>
-      <pubDate>Sun, 01 Aug 2021 23:23:12 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-30/</guid>
-      <description>&lt;p&gt;This week I continued working on gaf, the new xml loading is almost complete&lt;/p&gt;
 </description>
     </item>
     
