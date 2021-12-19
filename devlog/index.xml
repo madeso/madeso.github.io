@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2021-50/</link>
+      <pubDate>Sun, 19 Dec 2021 23:53:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-50/</guid>
+      <description>&lt;p&gt;This week I spent on cleaning up and refactoring euphoria code. Getting real close to zero warnings in clang-tidy&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2021-49/</link>
       <pubDate>Sun, 12 Dec 2021 23:30:04 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-32/</guid>
       <description>&lt;p&gt;This week I continued working on ride and started porting lite to C++ so I can get a better handle on how I want to structure ride.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 31</title>
-      <link>https://i.madeso.me/devlog/2021-31/</link>
-      <pubDate>Sun, 08 Aug 2021 21:42:55 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-31/</guid>
-      <description>&lt;p&gt;This week I worked on xml loading and error handling in gaf and integrating it in euphoria. Still missing XSD generation and more testing needs to be done but for now it seems to be working, allowing me to continue working on tred.&lt;/p&gt;
 </description>
     </item>
     
