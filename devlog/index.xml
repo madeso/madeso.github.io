@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2021-51/</link>
+      <pubDate>Sun, 26 Dec 2021 23:33:26 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-51/</guid>
+      <description>&lt;p&gt;This week I started porting the build scripts from python to rust.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 50</title>
       <link>https://i.madeso.me/devlog/2021-50/</link>
       <pubDate>Sun, 19 Dec 2021 23:53:32 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-37/</guid>
       <description>&lt;p&gt;Theese past few weeks I have been moving to a new apparment and I&amp;rsquo;m finally getting back to coding again. This past week I&amp;rsquo;ve been gettng back into ride from scratch and finally have some progress. I can render text and scroll!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 32</title>
-      <link>https://i.madeso.me/devlog/2021-32/</link>
-      <pubDate>Mon, 16 Aug 2021 00:01:34 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-32/</guid>
-      <description>&lt;p&gt;This week I continued working on ride and started porting lite to C++ so I can get a better handle on how I want to structure ride.&lt;/p&gt;
 </description>
     </item>
     
