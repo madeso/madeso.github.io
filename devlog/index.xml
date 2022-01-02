@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2021-52/</link>
+      <pubDate>Mon, 03 Jan 2022 00:46:48 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-52/</guid>
+      <description>&lt;p&gt;This week I watched alot of netflix, relaxed and continued porting the python scripts to rust.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 51</title>
       <link>https://i.madeso.me/devlog/2021-51/</link>
       <pubDate>Sun, 26 Dec 2021 23:33:26 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-38/</guid>
       <description>&lt;p&gt;This week I continued working on ride.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 37</title>
-      <link>https://i.madeso.me/devlog/2021-37/</link>
-      <pubDate>Sun, 19 Sep 2021 23:42:47 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-37/</guid>
-      <description>&lt;p&gt;Theese past few weeks I have been moving to a new apparment and I&amp;rsquo;m finally getting back to coding again. This past week I&amp;rsquo;ve been gettng back into ride from scratch and finally have some progress. I can render text and scroll!&lt;/p&gt;
 </description>
     </item>
     
