@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2022-02/</link>
+      <pubDate>Sun, 16 Jan 2022 23:58:27 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-02/</guid>
+      <description>&lt;p&gt;This week I started working on reducing the ammount of warnings euphoria generated. Thees things sometimes feels like whac-a-mole squishing warnings in clang and then find some new in msvc but it&amp;rsquo;s moving along.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 01</title>
       <link>https://i.madeso.me/devlog/2022-01/</link>
       <pubDate>Mon, 10 Jan 2022 01:00:47 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-40/</guid>
       <description>&lt;p&gt;This week I continued work on ride, adding input and started on unit tests.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 39</title>
-      <link>https://i.madeso.me/devlog/2021-39/</link>
-      <pubDate>Sun, 03 Oct 2021 23:06:57 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-39/</guid>
-      <description>&lt;p&gt;This week I continued working on ride. Most of the selection is done and I&amp;rsquo;ve just started on text input.&lt;/p&gt;
 </description>
     </item>
     
