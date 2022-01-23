@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 03</title>
+      <link>https://i.madeso.me/devlog/2022-03/</link>
+      <pubDate>Sun, 23 Jan 2022 22:17:57 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-03/</guid>
+      <description>&lt;p&gt;This week I fixed the last of the compiler warnings. Now euphoria builds without warnings on w4/Wall+extra. Next up to complete would proabably be to port the last of the build scripts and fix any warnings in euphoria that they will find.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 02</title>
       <link>https://i.madeso.me/devlog/2022-02/</link>
       <pubDate>Sun, 16 Jan 2022 23:58:27 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-41/</guid>
       <description>&lt;p&gt;This week I worked on the kodsnack spelsylt gamejam. Another week unti it finishes and the progress is pretty great.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 40</title>
-      <link>https://i.madeso.me/devlog/2021-40/</link>
-      <pubDate>Mon, 11 Oct 2021 01:42:50 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-40/</guid>
-      <description>&lt;p&gt;This week I continued work on ride, adding input and started on unit tests.&lt;/p&gt;
 </description>
     </item>
     
