@@ -20,10 +20,7 @@ a:link, a:visited
     text-decoration: none;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
-}
+a { text-decoration: none; }
 
 div#content
 {
@@ -139,6 +136,15 @@ h2.latestpostsheader {
     display: inline-block;
 }
 
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.5em; color: #ff7f27; }
+h3 { font-size: 1.4em; }
+
+a i.fa-external-link {
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
 #header #toplinks {
     display: block;
 }
@@ -148,7 +154,7 @@ h2.latestpostsheader {
     display: inline-block;
 }
 
-pre code {
+code {
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -261,6 +267,7 @@ pre.chroma
 {
     border: 0;
     padding-left: 20px;
+    line-height: 100%;
 }
 
 .emoticon {

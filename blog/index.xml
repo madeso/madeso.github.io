@@ -17,6 +17,312 @@
     
     
     <item>
+      <title>Clean Code - Chapter 2</title>
+      <link>https://i.madeso.me/blog/clean-code-chapter-2/</link>
+      <pubDate>Sun, 23 Jan 2022 22:25:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/blog/clean-code-chapter-2/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Clean Code, mostly authored by &lt;a href=&#34;https://www.getrevue.co/profile/tech-bullshit/issues/tech-bullshit-explained-uncle-bob-830918&#34;&gt;Robert C. Martin, aka Uncle Bob&lt;/a&gt;, has come up lately in discussions and apparently it is still being read. I haven&amp;rsquo;t read it and only read the responses about &lt;a href=&#34;https://qntm.org/clean&#34;&gt;how bad it is&lt;/a&gt; and I&amp;rsquo;ve read that it&amp;rsquo;s pretty popular to hate on it and who am I to miss a trend. Join me as I read chapter to chapter and express my feelings and thoughts about each chapter.  This journey might take a while, I&amp;rsquo;m a slow reader.&lt;/p&gt;
+&lt;p&gt;I will call the authors Bob, because it&amp;rsquo;s short, &amp;ldquo;uncle&amp;rdquo; is weird and &amp;ldquo;Robert C. Martin and coauthors&amp;rdquo; is a bit long. The book is also in the &amp;ldquo;Robert C. Martin Series&amp;rdquo; and it says &amp;ldquo;Robert C. Martin&amp;rdquo; on the cover so why not let Robert name the &amp;ldquo;group&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The first chapter is pretty much just interviews with other programmers on their thoughts about what clean code is, in general, so let&amp;rsquo;s jump straight into chapter 2 and my feedback/review.&lt;/p&gt;
+&lt;h2 id=&#34;rule-1-use-intention-revealing-names&#34;&gt;Rule 1: Use intention-revealing names.&lt;/h2&gt;
+&lt;p&gt;The first rule is about giving variables names after their intent and that is pretty good. &lt;code&gt;v&lt;/code&gt; and &lt;code&gt;theList&lt;/code&gt; are bad names, that I agree with, but &lt;code&gt;v&lt;/code&gt; might be preferable to a longer name if the intent is clear.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;set_major_version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Version&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new_major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;old&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;major&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new_major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;old&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;set_major_version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Version&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new_major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;old&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;major&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;new_major&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;old&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Would you really say that the first version is less clean?&lt;/p&gt;
+&lt;p&gt;There is also considering code where &amp;lsquo;v&amp;rsquo; might be &lt;a href=&#34;https://en.wikipedia.org/wiki/UV_mapping&#34;&gt;the standard name&lt;/a&gt; for a certain property:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;TextureCoordinate&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;float&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;float&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;rule-2-avoid-disinformation&#34;&gt;Rule 2: Avoid disinformation&lt;/h2&gt;
+&lt;p&gt;I don&amp;rsquo;t agree with this rule at all. &lt;code&gt;hp&lt;/code&gt;, &lt;code&gt;aix&lt;/code&gt; and &lt;code&gt;sco&lt;/code&gt; are bad names, that is true, not because of association with &amp;ldquo;UNIX platforms or variants&amp;rdquo; as Bob suggests, but because they are not intention-revealing.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hp&lt;/code&gt; however could could be a good name if you are programming a game, for example, where &lt;code&gt;hp&lt;/code&gt; has a &lt;a href=&#34;https://en.wikipedia.org/wiki/Health_(game_terminology)&#34;&gt;commonly understood meaning&lt;/a&gt;.
+Following the &amp;ldquo;Bob&amp;rdquo; logic, a list of &lt;code&gt;Window&lt;/code&gt; shouldn&amp;rsquo;t be called windows as it could be confused with the operating system from Microsoft, a solar system simulation can&amp;rsquo;t contain the Sun and no more Apple in our nutrition software.&lt;/p&gt;
+&lt;p&gt;Insanity!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll even go as far to claim that NFT is a good name if you are using &lt;a href=&#34;https://twitter.com/MegaMileyMakes/status/1452619509601292288&#34;&gt;Neural Fourier Transforms&lt;/a&gt; a lot. Just be careful about shortenings and &amp;ldquo;local&amp;rdquo; names when speaking to people outside the project.&lt;/p&gt;
+&lt;h2 id=&#34;rule-4-use-pronounceable-names&#34;&gt;Rule 4: Use pronounceable names&lt;/h2&gt;
+&lt;p&gt;Bob thinks we should avoid shortenings and all names should be pronounceable, and I both agree and disagree with this. The shortening of identification to id is commonly understood and this is pronounced I D. Same with CD-ROM. If a phrase or word is used commonly, I don&amp;rsquo;t have a problem with this and if it&amp;rsquo;s used commonly &lt;em&gt;not&lt;/em&gt; using the shortening is a best noise and at worst confusing for the reader.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For example&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;EnableTransmissionControlProgramInternetProtocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// ...
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;DownloadMotionPictureExpertGroupOneOrTwoAudioLayerThree&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// ...
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sure they are readable but can you even guess what they do?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;EnableTcpIp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// ...
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;DownloadMp3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// ...
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which do you prefer? Which names do you think is cleaner? The pronounceable?&lt;/p&gt;
+&lt;p&gt;This rule is also the first rule to provide a example that breaks other rules. A case could be made that this and all the &amp;ldquo;fixed&amp;rdquo; code example only shows this specific rule, but&amp;hellip;&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re writing a book about clean code and rules and presumably want programmers to adopt them, then why provide code that breaks rules in a &amp;ldquo;fixed&amp;rdquo; sample. Shouldn&amp;rsquo;t all samples be 100% clean code?&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;fixed&amp;rdquo; sample provided is the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Customer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Date&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;generationTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Date&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;modificationTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;recordId&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;102&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;cm&#34;&gt;/* ... */&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;(That&amp;rsquo;s not a typo on my part, Bob actually has 2 semicolons on one of the rows)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Using &lt;code&gt;timestamp&lt;/code&gt; here in a &lt;code&gt;Date&lt;/code&gt; variable seems to be breaking 2 of the other rules:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How is timestamp different from &lt;code&gt;Date&lt;/code&gt; type &lt;em&gt;(Rule 12: Don&amp;rsquo;t pun)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Why add the type to the name? &lt;em&gt;(Rule 6: Avoid encodings)&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;rule-6-avoid-encodings&#34;&gt;Rule 6: Avoid encodings.&lt;/h2&gt;
+&lt;p&gt;Hurrah. Only 23 pages in and this is the first rule contradiction. I realize this critique might be a little bit weak but I&amp;rsquo;ve written it and now you get to read it (or skip it).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Adding type or scope information into names simply adds an extra burden of information&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Earlier:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not that there is nothing wrong with using prefix conventions like &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;the&lt;/code&gt; so long as they make meaningful distinction. For example you might use &lt;code&gt;a&lt;/code&gt; for all local variables &lt;code&gt;and&lt;/code&gt; the for all function arguments (footnote: Uncle Bob has stopped doing this in C++)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I general I agree with this but it also depends on the compiler level and language. I recently enabled &lt;code&gt;Wshadow&lt;/code&gt;, to catch bugs in my code. With this warning enabled a variable isn&amp;rsquo;t allowed to shadow another.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;set_foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// warning: foo shadows this.foo
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;foo&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can try to come up with a new meaningful name for a variable that isn&amp;rsquo;t tied to the scope but naming is hard.&lt;/p&gt;
+&lt;p&gt;You can for example add a prefix. Let&amp;rsquo;s use &lt;code&gt;the_&lt;/code&gt; to distinguish it and fix that warning. We use &lt;code&gt;the_&lt;/code&gt; here instead of &lt;code&gt;a_&lt;/code&gt; as we don&amp;rsquo;t want to prefix variables with &amp;ldquo;argument scope&amp;rdquo;. The obvious question after a while then becomes: Why do some variables have prefixes and not others? I don&amp;rsquo;t consider this code to be clean.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;foobar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;baz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&amp;hellip;so you add the prefix to both&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;foobar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_bar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;baz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;the_bar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and now you have scope information called &lt;code&gt;the_&lt;/code&gt; that tries to hide that is scope information. How is this clean?&lt;/p&gt;
+&lt;h3 id=&#34;rule-6a-hungarian-notation&#34;&gt;Rule 6a: Hungarian notation&lt;/h3&gt;
+&lt;p&gt;In this sub chapter Bob only talks about system hungarian, not &lt;a href=&#34;https://en.wikipedia.org/wiki/Hungarian_notation#Systems_Hungarian_vs._Apps_Hungarian&#34;&gt;apps hungarian&lt;/a&gt;. Some argue apps still has meaning, others argue the type system should handle this. The argument against system hungarian is that the compiler should catch it but in a untyped language there isn&amp;rsquo;t any compiler to catch it.&lt;/p&gt;
+&lt;p&gt;I think it depends on the case (and language) and I think the type system could handle some of it but not all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Story time:&lt;/em&gt; In math land there exists points and &lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_vector&#34;&gt;vectors&lt;/a&gt;. A point is essentially a vector and vector is usually used to represent it, but the point has a more restricted operation set, you can add two vectors and get a new vector, for example, but you can&amp;rsquo;t add two points and get a new point. Last time I tried to separate points and vectors from in my math library I realized such a system was more complicated than the errors it could mitigate but it couldn&amp;rsquo;t handle everything and the required workarounds could easily sidestep any type safety(a point &lt;code&gt;P&lt;/code&gt; can also be represented by a vector &lt;code&gt;V&lt;/code&gt; from origin to &lt;code&gt;P&lt;/code&gt; and vice versa), so I reverted and added &lt;a href=&#34;https://github.com/madeso/euphoria/tree/master/libs/core#warning-about-points-and-vector-classes&#34;&gt;a note to myself&lt;/a&gt; if I ever try it again.&lt;/p&gt;
+&lt;p&gt;That being said there probably aren&amp;rsquo;t many cases where Microsoft hungarian notation could be applied and Bob seems to be in the mindset that this is the only hungarian notation.&lt;/p&gt;
+&lt;h3 id=&#34;rule-6b-member-prefixes&#34;&gt;Rule 6b: Member prefixes&lt;/h3&gt;
+&lt;p&gt;Here Bob makes the argument that classes should be small and so there shouldn&amp;rsquo;t be needed to prefix members variables with &amp;rsquo;m_&#39; as the IDE will color and/or highlight them to make them distinct.
+I agree with the rule but the argument presented against prefixing is not a good one. If you view a diff without a IDE, in a terminal for example, on GitHub or on a different computer you can&amp;rsquo;t rely on your specific IDE settings and his reasoning falls apart.&lt;/p&gt;
+&lt;p&gt;I think the argument should be closer to something like &amp;ldquo;the source of a variable should be obvious based on usage, if not, you can prefix with &lt;code&gt;this.&lt;/code&gt; to make it clear&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;rule-6c-interfaces-and-implementations&#34;&gt;Rule 6c: Interfaces and implementations.&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;You should use I for interface or C for class prefixes, or the Impl post fix.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hurrah. Another contradiction. Apparently all rules have exceptions and here Bob argues that the &lt;code&gt;I&lt;/code&gt; prefix is good for interfaces or the &lt;code&gt;Impl&lt;/code&gt; post fix is good for classes implementing a &lt;code&gt;I&lt;/code&gt;-less interface. This one break the &amp;ldquo;Use pronounceable names&amp;rdquo; rule.&lt;/p&gt;
+&lt;p&gt;Surprise surprise, I also disagree with this one. In short: Come up with better names! A trick I use is to consider a interface a property and the class something concrete. In practice this usually just ends up to add &amp;lsquo;able&amp;rsquo; to the end: Instead of &lt;code&gt;IWalk&lt;/code&gt; use &lt;code&gt;Walkable&lt;/code&gt; or (something that)&lt;code&gt;CanWalk&lt;/code&gt; and for one of the implementations &lt;code&gt;WalkableWater&lt;/code&gt; or &lt;code&gt;WalkingChest&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;rule-9-method-names&#34;&gt;Rule 9: Method names&lt;/h2&gt;
+&lt;p&gt;Bob makes the argument that a method should have a verb or a &amp;ldquo;verb-phrase&amp;rdquo;. I agree with this, but the authors brushes over a important thing about &amp;ldquo;getters&amp;rdquo; and &amp;ldquo;setters&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;IDEs tend to have buttons to &lt;a href=&#34;https://www.jetbrains.com/help/idea/generating-code.html#generate-getters-setters&#34;&gt;automatically&lt;/a&gt; &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=afmicc.GetterAndSetterGenerator&#34;&gt;adding&lt;/a&gt; &lt;a href=&#34;https://docs.wholetomato.com/default.asp?W258&#34;&gt;these&lt;/a&gt; and for some it&amp;rsquo;s a &lt;a href=&#34;https://en.wikipedia.org/wiki/Unique_selling_proposition&#34;&gt;USP&lt;/a&gt;. In general, however, I think automatically adding one or both are bad practice and one has to consider what the implications are. They effectively exposes internal state to the users and now that state, or part of it, is public.&lt;/p&gt;
+&lt;p&gt;For example: What&amp;rsquo;s the difference in encapsulation between these 2 statements?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setBar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getBar&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;bar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My suggestion is to keep the public interface to a minimum and only add getters/setters where and if they are needed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_xLgr6Ng4qQ&#34;&gt;Casey Muratori has a great rant&lt;/a&gt; about this and he mentions that you should only do it if they do more than getting/setting the property. I think the rant is worth checking out, especially if you, just like I once did, think that making things &lt;code&gt;private&lt;/code&gt; automatically meant it is encapsulated.&lt;/p&gt;
+&lt;h2 id=&#34;rule-12-dont-pun&#34;&gt;Rule 12: Don&amp;rsquo;t pun&lt;/h2&gt;
+&lt;p&gt;Bob says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using the same name for 2 different items is essentially a pun.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That is, don&amp;rsquo;t use both &lt;code&gt;feline&lt;/code&gt; and &lt;code&gt;cat&lt;/code&gt; in the code base if they refer to the same thing. I 100% agree but disagree on the rule title. Apparently they don&amp;rsquo;t follow their own &amp;ldquo;good name&amp;rdquo; rules for the rule titles either. This title breaks their first rule: &amp;ldquo;Use intention-revealing&amp;rdquo; names.&lt;/p&gt;
+&lt;h2 id=&#34;rule-15-add-meaningful-context&#34;&gt;Rule 15: Add meaningful context&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m saving the best (or worst) for last. Bob has this to say about context.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are few names which are meaningful in and of themselves - most are not. Instead you need to place names in context for your reader by enclosing them in well-named classes, functions or namespaces.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I agree with this but the code example presented and its implications are&amp;hellip; oh boy&amp;hellip;&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s start with the &amp;ldquo;ugly code&amp;rdquo;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;printGuessStatistics&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;is&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Integer&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#34;There %s %s %s%s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Bob has this to say:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do the variables need a more meaningful context? The function names provides only part of the context; the algorithm provides the rest. Once you read through the function you see that the three variables are part of the &amp;ldquo;guess statistics&amp;rdquo; message. Unfortunately, the context must be inferred. When you first look at the method, the meaning of the variables are opaque.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Personally I think this code is fine. The &amp;ldquo;context&amp;rdquo; for &amp;lsquo;number&amp;rsquo;, &amp;lsquo;verb&amp;rsquo; and &amp;lsquo;pluralModifier&amp;rsquo; is &amp;lsquo;printGuessStatistics&amp;rsquo; so I guess they have to do with printing the guess statistics. Bob disagrees and has this to say:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The function  is a bit too long and the variables are used throughout. To split the function into smaller pieces we need to create a &lt;code&gt;GuessStatisticsMessage&lt;/code&gt; class and make the three variables fields of this class. This provides a clear context for the three variables. They are definitely part of the &lt;code&gt;GuessStatisticsMessage&lt;/code&gt;. The improvement of context also allows the algorithm to be made much cleaner by breaking it into many smaller functions.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip; so they clean the code up, following all the rules and provide us with the following monstrosity:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;GuessStatisticsMessage&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;make&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;createPluralDependentMessageParts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+            &lt;span class=&#34;s&#34;&gt;&amp;#34;There %s %s %s%s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;createPluralDependentMessageParts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;thereAreNoLetters&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+        &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;thereIsOneLetter&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+        &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;thereAreManyLetters&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;thereAreManyLetters&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Integer&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;thereIsOneLetter&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;is&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;thereAreNoLetters&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cool. The function that was &lt;em&gt;too long&lt;/em&gt; had 22 lines and is now converted into a class at 40 lines. Notice any changes?&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s right. The improved code removed the print function, to actually print we need a few more lines, Bob neither mentions of provide it. I guess it&amp;rsquo;s a exercise left to the reader.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;printGuessStatistics&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guessMessageMaker&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guessMessageMaker&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;make&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, when taking into account what the function &lt;code&gt;printGuessStatistics&lt;/code&gt; does and where a bug might be, one has to now consider twice as many lines.&lt;/p&gt;
+&lt;p&gt;Oh wait&amp;hellip; did I say twice&amp;hellip;? Notice that the previously hidden code is now a class that is public. There could be more users of the class. I guess we have to search the code base if we want to make a change to the API of this class. If this class is part of a library, one of the other users could now be external, both within the company and out in the wild. It could accidentally have become a part of the public API and that could be impossible to change. Do you stay true to &amp;ldquo;clean code&amp;rdquo; and break both binary and API compatibility or do you make a copy &lt;code&gt;ImprovedGuessStatisticsMessage&lt;/code&gt;, refactor all of the usage and possibly add a deprecation warning? Tough call and neither option is what I would consider clean.&lt;/p&gt;
+&lt;p&gt;Compare all of that to how hard it would be to make a change inside a private static function.&lt;/p&gt;
+&lt;p&gt;Why did the authors even make such a big change. Oh, that&amp;rsquo;s right the context of the variables.&lt;/p&gt;
+&lt;p&gt;As stated earlier, my stand is that the context for the variables was pretty clear to begin with and moving all local variables to class with a similar name doesn&amp;rsquo;t improve that very much. It might be just me but a function called &lt;code&gt;printGuessStatistics&lt;/code&gt;  that ends with &lt;code&gt;print(guessMessage)&lt;/code&gt; is &lt;em&gt;probably&lt;/em&gt; spending the other part of its body building that message.&lt;/p&gt;
+&lt;p&gt;But for the sake of the argument, let&amp;rsquo;s assume the context isn&amp;rsquo;t clear enough and see if we can make the context clearer by &lt;em&gt;not&lt;/em&gt; drastically changing the code.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;printGuessStatistics&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// message parts
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;c1&#34;&gt;// set message parts
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;is&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Integer&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;c1&#34;&gt;// print the message
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+        &lt;span class=&#34;cm&#34;&gt;/* Example:
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;         There are 5 Xs */&lt;/span&gt;
+        &lt;span class=&#34;s&#34;&gt;&amp;#34;There %s %s %s%s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;guessMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;4 comments and 3 newlines and the function is suddenly a lot cleaner and has 0 mental impact on the rest of the code.&lt;/p&gt;
+&lt;p&gt;The impact is really something that I think is worth considering as it is another point in favor of the single function solution. Bob and his co-author advocates that the function is too long and a class is needed. Setting aside that the class is public, for a newcomer that starts to use a semi-large code base where this rule has been practiced where does one start? What classes are the &amp;ldquo;main&amp;rdquo; ones and what classes are just used once in a private function? Are all the classes for &lt;code&gt;Foobar&lt;/code&gt; neatly hidden away in a &lt;code&gt;FoobarUtil&lt;/code&gt; namespace/package? The call stack now is  at least twice as long as most functions only forward to a class that does the &amp;ldquo;heavy&amp;rdquo; lifting.
+This certainly is manageable but is it really clean code?&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t care about the downsides, I want a class!&lt;/p&gt;
+&lt;h2 id=&#34;small-change-big-consequence&#34;&gt;Small change, big consequence&lt;/h2&gt;
+&lt;p&gt;Before we go there, let&amp;rsquo;s consider how much a change in requirements will affect the code. For the sake of the argument we&amp;rsquo;re going to investigate what changes will need to occur if the customer wants to print a sad smiley if there are no letters for A.&lt;/p&gt;
+&lt;p&gt;First, &lt;code&gt;thereAreNoLetters&lt;/code&gt; needs to be aware of the current letter. Let&amp;rsquo;s make it easy and specify in the requirements that we only need a add a sad smiley after &amp;ldquo;no&amp;rdquo;. The message parts are &lt;code&gt;createPluralDependentMessageParts&lt;/code&gt;is no longer just dependent on plural but on the character as well, so the function name needs to change.&lt;/p&gt;
+&lt;p&gt;I said that functions should &amp;ldquo;be aware&amp;rdquo; of the candidate and that is kinda hand-wavy. Personally I would add a argument but we will see in the following chapters that Bob likes to add yet another member variable and expose &amp;ldquo;the argument&amp;rdquo; to the whole class. Arguments and return values are great, they let us know what a function expects as input and &lt;em&gt;returns&lt;/em&gt; as result.&lt;/p&gt;
+&lt;p&gt;Speaking of return values: Note that the &lt;code&gt;createPluralDependentMessageParts&lt;/code&gt; function actually doesn&amp;rsquo;t return what it &amp;ldquo;creates&amp;rdquo; it just sets some member variables. I don&amp;rsquo;t know about you but a function that is called &lt;code&gt;createSomething&lt;/code&gt; probably should create and return &lt;code&gt;Something&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Take note that a earlier rule in this chapter said that &amp;ldquo;Method names should have verb or verb phrase names&amp;rdquo; but the authors choose &lt;code&gt;thereAreManyLetters&lt;/code&gt;, &lt;code&gt;thereIsOneLetter&lt;/code&gt; and &lt;code&gt;thereAreNoLetters&lt;/code&gt;. Better names would perhaps be &lt;code&gt;setupPartsForManyLetters&lt;/code&gt;, &lt;code&gt;setupPartsForOneLetter&lt;/code&gt; and &lt;code&gt;setupPartsForNoLetters&lt;/code&gt;. Using &lt;code&gt;setup&lt;/code&gt; instead of create here also sets the expectation that they don&amp;rsquo;t return anything.&lt;/p&gt;
+&lt;p&gt;But these functions are only called once so why are they functions, doesn&amp;rsquo;t that just complicate things?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the &lt;code&gt;make&lt;/code&gt; function and how to use it, the part that Bob conveniently left out. To use the class one has to create a instance and call make to get the message string that then can be &lt;code&gt;print&lt;/code&gt;ed out. Why is make a member function? Does it make any sense to create a object and keep it around for future use?
+The answer is no because &lt;code&gt;make&lt;/code&gt; sets all the member variables. Re using it could potentially lead to thread issues as the function isn&amp;rsquo;t thread safe.&lt;/p&gt;
+&lt;h2 id=&#34;making-clean-code-clean-again&#34;&gt;Making &amp;ldquo;clean&amp;rdquo; code clean again&lt;/h2&gt;
+&lt;p&gt;OK&amp;hellip; with that out of the way, how could a improved class look?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;GuessStatisticsMessage&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessge&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;createMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;
+            &lt;span class=&#34;s&#34;&gt;&amp;#34;There %s %s %s%s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;candidate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;));&lt;/span&gt;
+        
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;createMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//                             There are no Xs
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//                             There is 1 X
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;is&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//                            There are 5 Xs
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GuessStatisticsMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;are&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Integer&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+        &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;GuessStatisticsMessage&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;verb&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;pluralModifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;verb&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;number&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pluralModifier&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;30 lines.&lt;/p&gt;
+&lt;p&gt;Change is still harder than the single function, but not by much since all extra functions we introduced are private, even the constructor is private (unlike earlier). The class isn&amp;rsquo;t exposed as it&amp;rsquo;s private static (lives inside another class) and completely replaces the original private static function. The only change we have introduced is all &lt;code&gt;printGuessStatistics(foo, bar)&lt;/code&gt; needs to be replaced with &lt;code&gt;GuessStatisticsMessage.print(foo, bar)&lt;/code&gt; and considering they are private static the only user is the current class so no extra files or public classes to browse.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Create&lt;/code&gt; function now takes advantage over that there is a class that holds data and all the weird &lt;code&gt;setup&lt;/code&gt; calls are now just a simple one line constructor call. The mutability of all the variables are now gone. The flow is now much more functional and all &amp;ldquo;variables&amp;rdquo; can now all be declared as constants that I guess in Java is called &lt;code&gt;final&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Since that class also handles printing there is no need to expose a &lt;code&gt;make&lt;/code&gt; function, if there ever was a need. In the future if we for some reason need it we can expose it then.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So, that is the end of chapter 2. Contrary to what it might appear I actually agree with most of the rules but if I had to type up everything I agree with this would be longer and less interesting to read. Most of the rules so far in the book are common sense, but some are wrong and the examples given are sometimes pretty bonkers.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;and so far one could summarize it as &amp;ldquo;do as I say, not as I do&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Restarting Alsa</title>
       <link>https://i.madeso.me/blog/restart-alsa/</link>
       <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
@@ -274,23 +580,6 @@ on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;
 &lt;img src=&#34;s2.png&#34; alt=&#34;sketch 2&#34;&gt;
 &lt;img src=&#34;s3.png&#34; alt=&#34;sketch 3&#34;&gt;
 &lt;img src=&#34;s4.png&#34; alt=&#34;sketch 4&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Thoughts on the controls</title>
-      <link>https://i.madeso.me/blog/sh-controls/</link>
-      <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/blog/sh-controls/</guid>
-      <description>&lt;p&gt;I have started implementing the basic controls for both the keyboard and joysticks
-and to test everything out I added basic thrust and torque controls, and while this
-is really hard to control as each torque requires a counter torque from stopping
-to spinning I started thinking. The &lt;a href=&#34;http://lanael.free.fr/webgl/hopper.html&#34;&gt;WebGL version of lander&lt;/a&gt; and I recall the original
-(I still can’t get it to play on my win7 system) let’s you enter the desired orientation
-and let a AI controls the torque thrusts. This is a much easier control scheme as you don’t
-have to compensate for the rotational adjustments.&lt;/p&gt;
-&lt;p&gt;Going a step further one could add another AI layer to control the main thruster and let the player use a fps-like control to control the lander. With this control system a couple of issues arise on how the camera, the input display and, most important, the aiming should work, and I’m thinking time and testing will only tell if this is a feasible input system, I believe it’s a good way to testing the AI that will be controlling the enemy landers.&lt;/p&gt;
 </description>
     </item>
     
