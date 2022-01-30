@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2022-04/</link>
+      <pubDate>Sun, 30 Jan 2022 23:52:25 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-04/</guid>
+      <description>&lt;p&gt;This week I mostly wrote a blog post about Clean Code Chapter 2. I found a project called Header Hero that I might incorporate into my own header tool and started to refactor euphoria core library so I can get a better flow/structure and in preparation of the introduction of PCHs. Hopefully all will get the compilation times down to some form manageable levels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 03</title>
       <link>https://i.madeso.me/devlog/2022-03/</link>
       <pubDate>Sun, 23 Jan 2022 22:17:57 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-42/</guid>
       <description>&lt;p&gt;This week I completed my entry for the spelsylt gamejam.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 41</title>
-      <link>https://i.madeso.me/devlog/2021-41/</link>
-      <pubDate>Mon, 18 Oct 2021 00:05:28 +0200</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-41/</guid>
-      <description>&lt;p&gt;This week I worked on the kodsnack spelsylt gamejam. Another week unti it finishes and the progress is pretty great.&lt;/p&gt;
 </description>
     </item>
     
