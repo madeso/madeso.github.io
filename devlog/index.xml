@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2022-06/</link>
+      <pubDate>Sun, 13 Feb 2022 23:43:25 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-06/</guid>
+      <description>&lt;p&gt;This week I continued working on the header hero port for workbench and actually started using it for small refactorings in euphoria. All that work is finally starting to pay off :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 05</title>
       <link>https://i.madeso.me/devlog/2022-05/</link>
       <pubDate>Sun, 06 Feb 2022 22:55:38 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-44/</guid>
       <description>&lt;p&gt;This week I continued working on tred. Cleaning up and mostly working on boring non-visible stuff. I started combining the 2d and 3d rendering and I think I have a pretty good API but it currently isn&amp;rsquo;t working. Have to look into why next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 43</title>
-      <link>https://i.madeso.me/devlog/2021-43/</link>
-      <pubDate>Mon, 01 Nov 2021 00:26:18 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-43/</guid>
-      <description>&lt;p&gt;This week I continued work on tred, cleaning up the code.&lt;/p&gt;
 </description>
     </item>
     
