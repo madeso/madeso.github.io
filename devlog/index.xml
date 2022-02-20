@@ -16,6 +16,16 @@
     
     
     <item>
+      <title>Week 07</title>
+      <link>https://i.madeso.me/devlog/2022-07/</link>
+      <pubDate>Sun, 20 Feb 2022 22:39:19 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-07/</guid>
+      <description>&lt;p&gt;This week I started writing on the blog post that will become the second chapter of &amp;ldquo;clean code&amp;rdquo;. Should be up sometimes next week. I spent most of the weekend with running clang-tidy and porting my clang-tidy script to workbench, mostly because I wanted a html report now that I&amp;rsquo;ve seen how pretty the header hero report looks :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 06</title>
       <link>https://i.madeso.me/devlog/2022-06/</link>
       <pubDate>Sun, 13 Feb 2022 23:43:25 +0100</pubDate>
@@ -152,16 +162,6 @@
       
       <guid>https://i.madeso.me/devlog/2021-45/</guid>
       <description>&lt;p&gt;This week I continued working on tred, refactoring, adding featuers and fixing issues.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 44</title>
-      <link>https://i.madeso.me/devlog/2021-44/</link>
-      <pubDate>Sun, 07 Nov 2021 23:16:50 +0100</pubDate>
-      
-      <guid>https://i.madeso.me/devlog/2021-44/</guid>
-      <description>&lt;p&gt;This week I continued working on tred. Cleaning up and mostly working on boring non-visible stuff. I started combining the 2d and 3d rendering and I think I have a pretty good API but it currently isn&amp;rsquo;t working. Have to look into why next week.&lt;/p&gt;
 </description>
     </item>
     
