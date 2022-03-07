@@ -1,15 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons music </title>
+    <title>music on Gustav Jansson</title>
     <link>https://i.madeso.me/tags/music/</link>
-    <description></description>
+    <description>Recent content in music on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2013 13:28:26 +0200</lastBuildDate>
-    <atom:link href="/tags/music/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Tue, 02 Jul 2013 13:28:26 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The music</title>
+      <link>https://i.madeso.me/blog/sh-music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-music/</guid>
+      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
+  Or some some ambient 80’s style electro music like this.
+Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
+    </item>
     
+    <item>
+      <title>Stairway to heaven</title>
+      <link>https://i.madeso.me/blog/wp-stairway/</link>
+      <pubDate>Sat, 23 May 2009 11:01:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-stairway/</guid>
+      <description>I recently discovered, not only do the local library have CD’s full of modern music, with my chemical romance-blood among others(despite what you think of chemical romance, blood really is different), they also have a complete collection of sound fx CD’s. I guess I dont have to spend some of my hard earned money on thoose sorts of CD’s when I can borrow 🙂</description>
+    </item>
     
+    <item>
+      <title>Foobar sorting</title>
+      <link>https://i.madeso.me/blog/wp-foobar/</link>
+      <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-foobar/</guid>
+      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
+Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+    </item>
     
   </channel>
 </rss>

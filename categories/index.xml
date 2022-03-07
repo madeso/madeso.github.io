@@ -1,19 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons Categories </title>
+    <title>Categories on Gustav Jansson</title>
     <link>https://i.madeso.me/categories/</link>
-    <description></description>
+    <description>Recent content in Categories on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
-    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
-
-    
-    
+    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate><atom:link href="https://i.madeso.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>games</title>
       <link>https://i.madeso.me/categories/games/</link>
@@ -103,7 +96,6 @@
       <guid>https://i.madeso.me/categories/4e/</guid>
       <description></description>
     </item>
-    
     
   </channel>
 </rss>

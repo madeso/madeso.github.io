@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons Ride </title>
+    <title>Ride on Gustav Jansson</title>
     <link>https://i.madeso.me/project/ride/</link>
-    <description>&lt;p&gt;A somewhat work in progress of my Rust IDE, currently written in C++.&lt;/p&gt;
-</description>
+    <description>Recent content in Ride on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate>
-    <atom:link href="/project/ride/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate><atom:link href="https://i.madeso.me/project/ride/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

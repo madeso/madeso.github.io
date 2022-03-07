@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons Lolball </title>
+    <title>Lolball on Gustav Jansson</title>
     <link>https://i.madeso.me/project/lolball/</link>
-    <description>&lt;p&gt;Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.&lt;/p&gt;
-</description>
+    <description>Recent content in Lolball on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Mar 2007 22:03:12 +0200</lastBuildDate>
-    <atom:link href="/project/lolball/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Wed, 21 Mar 2007 22:03:12 +0200</lastBuildDate><atom:link href="https://i.madeso.me/project/lolball/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

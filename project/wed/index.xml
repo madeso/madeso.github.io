@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons World editor </title>
+    <title>World editor on Gustav Jansson</title>
     <link>https://i.madeso.me/project/wed/</link>
-    <description>&lt;p&gt;A basic world editor inspired by sketchup.&lt;/p&gt;
-</description>
+    <description>Recent content in World editor on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Apr 2007 22:29:03 +0200</lastBuildDate>
-    <atom:link href="/project/wed/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Sat, 21 Apr 2007 22:29:03 +0200</lastBuildDate><atom:link href="https://i.madeso.me/project/wed/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

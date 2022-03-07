@@ -1,21 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons Fear the consoles </title>
+    <title>Fear the consoles on Gustav Jansson</title>
     <link>https://i.madeso.me/blog/wp-fear/</link>
-    <description>&lt;p&gt;I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;boxart.jpg&#34; alt=&#34;f.e.a.r box art&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The first miss is a huge sin, input problems. I cant seem to bind my X1 &amp;amp; X2 (aka forward and backward) buttons to grenades and reload, something I could in the first game. Another input related miss seems to be that I can’t unbind bindings in the option menu while running the game, however I can unbind in the main option menu.  Similarly I can bind the delete key while playing the game but not in the main option menu. Also, the notes that you find, and can read with your pda cant be scrolled with the mouse-wheel.&lt;/p&gt;
-&lt;p&gt;Another thing that bothered me was that the hud. The hud is designed to look like a helm-display, much like the hud in star wars republic commando, however unlike in republic commando I couldn’t find a option to remove parts of the hud to make it less helm-like. The aspect ratio has probably been fixed to a 16:9 or something similar since I had those black bars you get when you watch a wide screen on a none wide display. I have toyed with similar since creating art for both wide and none-wide monitors is cumbersome, however seeing it in a working product I actually felt that it was blocking my view.&lt;/p&gt;
-&lt;p&gt;Overall though I enjoyed it though. It featured good looking menus, blood, nice explosions okeyish scare effects and feel-good mech joyrides.&lt;/p&gt;
-&lt;p&gt;The soundtrack of this post has been &lt;a href=&#34;http://www.youtube.com/watch?v=N9ji7t8zM7w&#34;&gt;Link Wray – Batman theme&lt;/a&gt;&lt;/p&gt;
-</description>
+    <description>Recent content in Fear the consoles on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2009 10:45:14 +0200</lastBuildDate>
-    <atom:link href="/blog/wp-fear/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Thu, 12 Feb 2009 10:45:14 +0200</lastBuildDate><atom:link href="https://i.madeso.me/blog/wp-fear/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

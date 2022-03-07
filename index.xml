@@ -1,16 +1,2645 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons home </title>
+    <title>home on Gustav Jansson</title>
     <link>https://i.madeso.me/</link>
-    <description>&lt;p&gt;Welcome to my lair.&lt;/p&gt;
-</description>
+    <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2022-09/</link>
+      <pubDate>Sun, 06 Mar 2022 22:01:44 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-09/</guid>
+      <description>This week I added the doxygen documentation and some examples for euphoria to a simple gh-pages page. I also switched back from xml to json for all data files.</description>
+    </item>
     
+    <item>
+      <title>Week 08</title>
+      <link>https://i.madeso.me/devlog/2022-08/</link>
+      <pubDate>Sun, 27 Feb 2022 23:52:41 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-08/</guid>
+      <description>This week I mostly continued working on the clang.rs port from clang.py. I got a html output now but there are still things left to do. I also made some small fixes to actual euphoria code but nothing much.</description>
+    </item>
     
+    <item>
+      <title>Week 07</title>
+      <link>https://i.madeso.me/devlog/2022-07/</link>
+      <pubDate>Sun, 20 Feb 2022 22:39:19 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-07/</guid>
+      <description>This week I started writing on the blog post that will become the second chapter of &amp;ldquo;clean code&amp;rdquo;. Should be up sometimes next week. I spent most of the weekend with running clang-tidy and porting my clang-tidy script to workbench, mostly because I wanted a html report now that I&amp;rsquo;ve seen how pretty the header hero report looks :)</description>
+    </item>
+    
+    <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2022-06/</link>
+      <pubDate>Sun, 13 Feb 2022 23:43:25 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-06/</guid>
+      <description>This week I continued working on the header hero port for workbench and actually started using it for small refactorings in euphoria. All that work is finally starting to pay off :)</description>
+    </item>
+    
+    <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2022-05/</link>
+      <pubDate>Sun, 06 Feb 2022 22:55:38 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-05/</guid>
+      <description>This week I completed the checkincludes part of workbench. Now I can pickup where I left with the other header command, or perhaps integrate header hero. Decisions&amp;hellip; decisions.</description>
+    </item>
+    
+    <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2022-04/</link>
+      <pubDate>Sun, 30 Jan 2022 23:52:25 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-04/</guid>
+      <description>This week I mostly wrote a blog post about Clean Code Chapter 2. I found a project called Header Hero that I might incorporate into my own header tool and started to refactor euphoria core library so I can get a better flow/structure and in preparation of the introduction of PCHs. Hopefully all will get the compilation times down to some form manageable levels.</description>
+    </item>
+    
+    <item>
+      <title>Clean Code - Chapter 2</title>
+      <link>https://i.madeso.me/blog/clean-code-chapter-2/</link>
+      <pubDate>Sun, 23 Jan 2022 22:25:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/blog/clean-code-chapter-2/</guid>
+      <description>Introduction Clean Code, mostly authored by Robert C. Martin, aka Uncle Bob, has come up lately in discussions and apparently it is still being read. I haven&amp;rsquo;t read it and only read the responses about how bad it is and I&amp;rsquo;ve read that it&amp;rsquo;s pretty popular to hate on it and who am I to miss a trend. Join me as I read chapter to chapter and express my feelings and thoughts about each chapter.</description>
+    </item>
+    
+    <item>
+      <title>Week 03</title>
+      <link>https://i.madeso.me/devlog/2022-03/</link>
+      <pubDate>Sun, 23 Jan 2022 22:17:57 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-03/</guid>
+      <description>This week I fixed the last of the compiler warnings. Now euphoria builds without warnings on w4/Wall+extra. Next up to complete would proabably be to port the last of the build scripts and fix any warnings in euphoria that they will find.</description>
+    </item>
+    
+    <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2022-02/</link>
+      <pubDate>Sun, 16 Jan 2022 23:58:27 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-02/</guid>
+      <description>This week I started working on reducing the ammount of warnings euphoria generated. Thees things sometimes feels like whac-a-mole squishing warnings in clang and then find some new in msvc but it&amp;rsquo;s moving along.</description>
+    </item>
+    
+    <item>
+      <title>Week 01</title>
+      <link>https://i.madeso.me/devlog/2022-01/</link>
+      <pubDate>Mon, 10 Jan 2022 01:00:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-01/</guid>
+      <description>This week I continued working on my port of python code and I&amp;rsquo;m currently working on the &amp;ldquo;most common headers for a c++ file&amp;rdquo; tool, useful for determining what files to add to a pch</description>
+    </item>
+    
+    <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2021-52/</link>
+      <pubDate>Mon, 03 Jan 2022 00:46:48 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-52/</guid>
+      <description>This week I watched alot of netflix, relaxed and continued porting the python scripts to rust.</description>
+    </item>
+    
+    <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2021-51/</link>
+      <pubDate>Sun, 26 Dec 2021 23:33:26 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-51/</guid>
+      <description>This week I started porting the build scripts from python to rust.</description>
+    </item>
+    
+    <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2021-50/</link>
+      <pubDate>Sun, 19 Dec 2021 23:53:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-50/</guid>
+      <description>This week I spent on cleaning up and refactoring euphoria code. Getting real close to zero warnings in clang-tidy</description>
+    </item>
+    
+    <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2021-49/</link>
+      <pubDate>Sun, 12 Dec 2021 23:30:04 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-49/</guid>
+      <description>This week I started refactoring euph to CamelCase and I expect it will take a while for it to be complete. I thought I was done with core but running clang-tidy checks on it it seems I&amp;rsquo;ve still missed a few spots</description>
+    </item>
+    
+    <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2021-48/</link>
+      <pubDate>Sun, 05 Dec 2021 23:52:30 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-48/</guid>
+      <description>This week I mostly thought about rendering design, trying to come up with a flexible structure for 3d shader, mesh layout and API design.</description>
+    </item>
+    
+    <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2021-47/</link>
+      <pubDate>Sun, 28 Nov 2021 23:51:25 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-47/</guid>
+      <description>This week I continued working on tred, adding test for vertex_layout, adding a custom assert library and continued working on the API design</description>
+    </item>
+    
+    <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2021-46/</link>
+      <pubDate>Sun, 21 Nov 2021 23:59:38 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-46/</guid>
+      <description>This week I continued working on tred and finally got multi window rendering working.</description>
+    </item>
+    
+    <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2021-45/</link>
+      <pubDate>Sun, 14 Nov 2021 23:39:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-45/</guid>
+      <description>This week I continued working on tred, refactoring, adding featuers and fixing issues.</description>
+    </item>
+    
+    <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2021-44/</link>
+      <pubDate>Sun, 07 Nov 2021 23:16:50 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-44/</guid>
+      <description>This week I continued working on tred. Cleaning up and mostly working on boring non-visible stuff. I started combining the 2d and 3d rendering and I think I have a pretty good API but it currently isn&amp;rsquo;t working. Have to look into why next week.</description>
+    </item>
+    
+    <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2021-43/</link>
+      <pubDate>Mon, 01 Nov 2021 00:26:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-43/</guid>
+      <description>This week I continued work on tred, cleaning up the code.</description>
+    </item>
+    
+    <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2021-42/</link>
+      <pubDate>Sun, 24 Oct 2021 23:54:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-42/</guid>
+      <description>This week I completed my entry for the spelsylt gamejam.</description>
+    </item>
+    
+    <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2021-41/</link>
+      <pubDate>Mon, 18 Oct 2021 00:05:28 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-41/</guid>
+      <description>This week I worked on the kodsnack spelsylt gamejam. Another week unti it finishes and the progress is pretty great.</description>
+    </item>
+    
+    <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2021-40/</link>
+      <pubDate>Mon, 11 Oct 2021 01:42:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-40/</guid>
+      <description>This week I continued work on ride, adding input and started on unit tests.</description>
+    </item>
+    
+    <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2021-39/</link>
+      <pubDate>Sun, 03 Oct 2021 23:06:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-39/</guid>
+      <description>This week I continued working on ride. Most of the selection is done and I&amp;rsquo;ve just started on text input.</description>
+    </item>
+    
+    <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2021-38/</link>
+      <pubDate>Sun, 26 Sep 2021 23:44:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-38/</guid>
+      <description>This week I continued working on ride.</description>
+    </item>
+    
+    <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2021-37/</link>
+      <pubDate>Sun, 19 Sep 2021 23:42:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-37/</guid>
+      <description>Theese past few weeks I have been moving to a new apparment and I&amp;rsquo;m finally getting back to coding again. This past week I&amp;rsquo;ve been gettng back into ride from scratch and finally have some progress. I can render text and scroll!</description>
+    </item>
+    
+    <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2021-32/</link>
+      <pubDate>Mon, 16 Aug 2021 00:01:34 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-32/</guid>
+      <description>This week I continued working on ride and started porting lite to C++ so I can get a better handle on how I want to structure ride.</description>
+    </item>
+    
+    <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2021-31/</link>
+      <pubDate>Sun, 08 Aug 2021 21:42:55 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-31/</guid>
+      <description>This week I worked on xml loading and error handling in gaf and integrating it in euphoria. Still missing XSD generation and more testing needs to be done but for now it seems to be working, allowing me to continue working on tred.</description>
+    </item>
+    
+    <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2021-30/</link>
+      <pubDate>Sun, 01 Aug 2021 23:23:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-30/</guid>
+      <description>This week I continued working on gaf, the new xml loading is almost complete</description>
+    </item>
+    
+    <item>
+      <title>Week 29</title>
+      <link>https://i.madeso.me/devlog/2021-29/</link>
+      <pubDate>Sun, 25 Jul 2021 22:40:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-29/</guid>
+      <description>This week I continued the work on jsonh and gaf. Jsonh almost seems ready for a 2.0 version, but I might also deprecated it and replace it with a xml loader instead as xml both provide xpath and xsd that will aid when writing files.</description>
+    </item>
+    
+    <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2021-28/</link>
+      <pubDate>Mon, 19 Jul 2021 00:36:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-28/</guid>
+      <description>This week I continued work on my json library and updated the gaf compiler to c++</description>
+    </item>
+    
+    <item>
+      <title>Week 27</title>
+      <link>https://i.madeso.me/devlog/2021-27/</link>
+      <pubDate>Sun, 11 Jul 2021 22:38:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-27/</guid>
+      <description>This week I moved all of my todos for euphoria from trello to the github issues, now people can see the current plan. I also continued on the next version of my json library. Hopefully it won&amp;rsquo;t take long to complete and I can start using it in my engine</description>
+    </item>
+    
+    <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2021-26/</link>
+      <pubDate>Sun, 04 Jul 2021 23:25:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-26/</guid>
+      <description>This week I worked on cleaning up git commits and using better commit messages.</description>
+    </item>
+    
+    <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2021-25/</link>
+      <pubDate>Sun, 27 Jun 2021 23:40:59 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-25/</guid>
+      <description>This week I continued on cleaning up euphoria</description>
+    </item>
+    
+    <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2021-24/</link>
+      <pubDate>Mon, 21 Jun 2021 23:26:02 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-24/</guid>
+      <description>This week I continued on refactoring and code health for euphoria. Still got a few errors and warnings to take care of :)</description>
+    </item>
+    
+    <item>
+      <title>Week 23</title>
+      <link>https://i.madeso.me/devlog/2021-23/</link>
+      <pubDate>Sun, 13 Jun 2021 23:32:43 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-23/</guid>
+      <description>This week I converted the color palettes to constexpr and focused on fixing code style issues</description>
+    </item>
+    
+    <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2021-22/</link>
+      <pubDate>Sun, 06 Jun 2021 23:58:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-22/</guid>
+      <description>This week I replaced travis with github actions for euphoria. In the process I also updated imgui, replaced freetype with stb.truetype and continued cleaning up the source</description>
+    </item>
+    
+    <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2021-21/</link>
+      <pubDate>Sun, 30 May 2021 22:59:32 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-21/</guid>
+      <description>This week I finally finished the refactoring and started the process of moving from travis and appveyor to github actions for the ci.</description>
+    </item>
+    
+    <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2021-19/</link>
+      <pubDate>Sun, 16 May 2021 21:50:14 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-19/</guid>
+      <description>This week I continued the reactoring and the core is almost done now, only a few compilation errors with gcc that&amp;rsquo;s left. Next up is rendering.</description>
+    </item>
+    
+    <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2021-18/</link>
+      <pubDate>Sun, 09 May 2021 22:22:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-18/</guid>
+      <description>This week I continued refactoring euph to the new code style. The core library is almost complete now :)</description>
+    </item>
+    
+    <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2021-17/</link>
+      <pubDate>Sun, 02 May 2021 23:43:51 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-17/</guid>
+      <description>This week I added both a brand new minesweeper clone and a old four-in-a-row in 3d clone that I made in 07. There is still some minor work to be done on both, but there are 2 game examples for fyro/tred now, hurray.</description>
+    </item>
+    
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2021-16/</link>
+      <pubDate>Sun, 25 Apr 2021 22:32:29 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-16/</guid>
+      <description>This week I started refactoring euphoria from CamelCase to snake_case. I also started work on batching sprite rendering for tred</description>
+    </item>
+    
+    <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2021-15/</link>
+      <pubDate>Sun, 18 Apr 2021 22:42:38 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-15/</guid>
+      <description>This week I i removed the last of javascript references merged the lua branch of euphoria into master. Still a few places to clean up but I can move forward now with a better scriping engine. I am actually tempted to put all my efforts into a vertical slice of the engine so we&amp;rsquo;ll see in a week if I took action or continued cleaning up the code.</description>
+    </item>
+    
+    <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2021-14/</link>
+      <pubDate>Sun, 11 Apr 2021 23:22:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-14/</guid>
+      <description>This week I realized that lua perhaps could be a good candidate for scripting language, so I updated the lua fork to the lastest master.</description>
+    </item>
+    
+    <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2021-13/</link>
+      <pubDate>Mon, 05 Apr 2021 08:31:09 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-13/</guid>
+      <description>This week I started updating my script-test since I have recently found myself in need of a better scripting language. I also took the plunge and started making a small textbased game in typescript and react.</description>
+    </item>
+    
+    <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2021-12/</link>
+      <pubDate>Sun, 28 Mar 2021 23:17:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-12/</guid>
+      <description>This week I started on clang-tidying euphoria. I probably should complete the tred before gettting back to euphoria&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2021-11/</link>
+      <pubDate>Sun, 21 Mar 2021 21:27:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-11/</guid>
+      <description>This week I mostly been watching netflix but I did started to clean up my bookscript</description>
+    </item>
+    
+    <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2021-10/</link>
+      <pubDate>Sun, 14 Mar 2021 22:33:33 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-10/</guid>
+      <description>This week I continued to work on the book script. It&amp;rsquo;s actually getting close to completion now. A few smaller things left but the only major is only generating a ebook file from the source</description>
+    </item>
+    
+    <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2021-09/</link>
+      <pubDate>Sun, 07 Mar 2021 23:16:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-09/</guid>
+      <description>Haha. No rendering work this week. Instead I updated my infofile to more modern parsing without flex/bison and started updating my book.py script for creating e-books. That is also mostly done so I can get back to working on rendering in tred</description>
+    </item>
+    
+    <item>
+      <title>Week 08</title>
+      <link>https://i.madeso.me/devlog/2021-08/</link>
+      <pubDate>Sun, 28 Feb 2021 23:42:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-08/</guid>
+      <description>This week I completed my c# port and continued on input for tred. A few things left before it&amp;rsquo;s done for this round but soon I can continue working on the rendering again.</description>
+    </item>
+    
+    <item>
+      <title>Wekk 07</title>
+      <link>https://i.madeso.me/devlog/2021-07/</link>
+      <pubDate>Sun, 21 Feb 2021 23:27:52 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-07/</guid>
+      <description>This week I started porting my c# engine &amp;lsquo;simple engine&amp;rsquo; from 2009 to c++.</description>
+    </item>
+    
+    <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2021-06/</link>
+      <pubDate>Sun, 14 Feb 2021 21:43:12 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-06/</guid>
+      <description>This week I found a opensource tracer so I started porting it to c++. I then realized I need to load js like json files and started to update my json loader.</description>
+    </item>
+    
+    <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2021-05/</link>
+      <pubDate>Sun, 07 Feb 2021 23:20:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-05/</guid>
+      <description>This week I have been working on game controller implementation. First I wrote most of one implementation and then removed that in favor of a more-code but less complex solution.</description>
+    </item>
+    
+    <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2021-04/</link>
+      <pubDate>Sun, 31 Jan 2021 22:40:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-04/</guid>
+      <description>This week I continued working on the input system. Better error handling and working fallback when a connected joystick is lost. Next up is gamepad, rumble and finally 3d rendering again.</description>
+    </item>
+    
+    <item>
+      <title>Week 03</title>
+      <link>https://i.madeso.me/devlog/2021-03/</link>
+      <pubDate>Mon, 25 Jan 2021 00:28:02 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-03/</guid>
+      <description>This week more or less nothing was implemented but I watched many GDC presentations.</description>
+    </item>
+    
+    <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2021-02/</link>
+      <pubDate>Sun, 17 Jan 2021 23:03:36 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-02/</guid>
+      <description>This week I continued on the Input System. Another refactoring but I think it&amp;rsquo;s finally the beginning of the end now</description>
+    </item>
+    
+    <item>
+      <title>Week 01</title>
+      <link>https://i.madeso.me/devlog/2021-01/</link>
+      <pubDate>Sun, 10 Jan 2021 23:26:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2021-01/</guid>
+      <description>This week I continued on working on the input system. Getting closer now, hopefully it will be &amp;ldquo;done&amp;rdquo; next week.</description>
+    </item>
+    
+    <item>
+      <title>Week 53</title>
+      <link>https://i.madeso.me/devlog/2020-53/</link>
+      <pubDate>Tue, 05 Jan 2021 23:00:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-53/</guid>
+      <description>This week I continued on working on the input system.</description>
+    </item>
+    
+    <item>
+      <title>Wekk 52</title>
+      <link>https://i.madeso.me/devlog/2020-52/</link>
+      <pubDate>Mon, 28 Dec 2020 01:49:43 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-52/</guid>
+      <description>This week I restored the input system from an old project and started integrating it into tred</description>
+    </item>
+    
+    <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2020-51/</link>
+      <pubDate>Sun, 20 Dec 2020 22:25:05 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-51/</guid>
+      <description>This week I got back into 3d rendering. I added basic face culling, simplified the mesh generation a bit and cleaned up the resource embed module. Not much but also not bad :)</description>
+    </item>
+    
+    <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2020-50/</link>
+      <pubDate>Mon, 14 Dec 2020 00:15:48 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-50/</guid>
+      <description>This week I didn&amp;rsquo;t do much. I created a simple script to backup my git repos and read up on animation.</description>
+    </item>
+    
+    <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2020-49/</link>
+      <pubDate>Sun, 06 Dec 2020 23:29:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-49/</guid>
+      <description>This week I switched tred to pitchfork layout and refactored it. I also spent most of my time on the &amp;lsquo;kittens game&amp;rsquo;, what a time waster.</description>
+    </item>
+    
+    <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2020-48/</link>
+      <pubDate>Sun, 29 Nov 2020 22:24:33 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-48/</guid>
+      <description>This week I looked into the markov-chains parts of euphoria (again), refactored a bit and expanded with a &amp;ldquo;line&amp;rdquo; test, a bit of fun really. I also thought about how I want to lay out the vertex attributes in tred. It currently is 100% dynamic butit will be easier if it&amp;rsquo;s static. A few days I ago I was sure I wanted a 50/50 approach but since I have to deal with all the dynamic issues anyway I might as well benefit from the potential space spacing and use 100% dynamic attributes.</description>
+    </item>
+    
+    <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2020-47/</link>
+      <pubDate>Sun, 22 Nov 2020 22:21:41 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-47/</guid>
+      <description>This week I worked both a little on ride(scrolling in fileview and expanding folders) and a little bit on tred(refactored profiling and added a plane mesh). Hopefully next week I make some decent progress on tred as I want to get it to a usefule state before the end of the year.</description>
+    </item>
+    
+    <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2020-46/</link>
+      <pubDate>Sun, 15 Nov 2020 22:50:51 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-46/</guid>
+      <description>This week I added cmdlet to new ride and converted euphoria to the pitchfork layout</description>
+    </item>
+    
+    <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2020-45/</link>
+      <pubDate>Sun, 08 Nov 2020 22:20:21 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-45/</guid>
+      <description>This week I refactored the scrolling code and started work on the command palette.</description>
+    </item>
+    
+    <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2020-44/</link>
+      <pubDate>Sun, 01 Nov 2020 21:48:59 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-44/</guid>
+      <description>This week I continued working on ride&amp;hellip; and not much else happened :)</description>
+    </item>
+    
+    <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2020-43/</link>
+      <pubDate>Sun, 25 Oct 2020 22:13:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-43/</guid>
+      <description>This week I resurected ride and started implementing it more or less from scratch. Well, less wx and more custom so not from scratch, hopefully by the end of next week I can soon integrate most of the old code that still is relevant.</description>
+    </item>
+    
+    <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2020-42/</link>
+      <pubDate>Sun, 18 Oct 2020 22:44:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-42/</guid>
+      <description>This week I started work on the inerpreter part of the fel language/implementation and a little bit of constexpr for the euphoria engine. Most of the week however has been planning for the new appartment.</description>
+    </item>
+    
+    <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2020-41/</link>
+      <pubDate>Sun, 11 Oct 2020 19:30:23 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-41/</guid>
+      <description>This week I continued work on fel, since I realized that it would be great if I could have the interpreter run scripts and functions this year and let the &amp;ldquo;fast&amp;rdquo; of the language come later but keeping the api the same.</description>
+    </item>
+    
+    <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2020-40/</link>
+      <pubDate>Sun, 04 Oct 2020 23:31:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-40/</guid>
+      <description>This week I started working on basic profiler for tred, I picked up euphoria and started cleaning up the cmake setup and continued work on gaf so that it&amp;rsquo;s more streamlined faster testing and contains the features that I want in euphoria</description>
+    </item>
+    
+    <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2020-39/</link>
+      <pubDate>Sun, 27 Sep 2020 22:46:43 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-39/</guid>
+      <description>This week I fixed so that the euphoria tracery could handle extended json and added some more design notes for tred. I actually also started on a new project textgen where you generate textures by drawing graphs or writing lua code. Nothing to show yet but I only worked on it for 30 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2020-38/</link>
+      <pubDate>Sun, 20 Sep 2020 21:35:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-38/</guid>
+      <description>This week I copied the script used to create the &amp;lsquo;game programming patterns&amp;rsquo; book and rewrote most of it to be generic instead of tied to a specific book. Apperently it didn&amp;rsquo;t support ebook generation so I&amp;rsquo;ll probably add that eventually. The rest of the week was spent on reading up on engine design and some refactoring of tred so no new major features.</description>
+    </item>
+    
+    <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2020-37/</link>
+      <pubDate>Sun, 13 Sep 2020 21:41:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-37/</guid>
+      <description>This week I mostly spent watching netflix. Lazy I know but I atleast structure the todo list and think on how the tred api will be layed out</description>
+    </item>
+    
+    <item>
+      <title>Week 36</title>
+      <link>https://i.madeso.me/devlog/2020-36/</link>
+      <pubDate>Sun, 06 Sep 2020 21:22:23 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-36/</guid>
+      <description>This week I continued to work on the 3d rendering in tred. We got some basic lighting now :)</description>
+    </item>
+    
+    <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2020-35/</link>
+      <pubDate>Sun, 30 Aug 2020 21:04:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-35/</guid>
+      <description>This week I continued work on tred, almost got basic lighting done now.</description>
+    </item>
+    
+    <item>
+      <title>Week 34</title>
+      <link>https://i.madeso.me/devlog/2020-34/</link>
+      <pubDate>Sun, 23 Aug 2020 21:34:41 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-34/</guid>
+      <description>Less heat this week. I continued on tred, added uniforms and attributes to the shader and I finally think I got a good design going. I&amp;rsquo;m currently working on getting uniform textures working fully. The plan is to work in tred for a month or two and then integrate it into euphoria. We&amp;rsquo;ll see how it goes&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2020-33/</link>
+      <pubDate>Sun, 16 Aug 2020 22:06:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-33/</guid>
+      <description>This week I started working on tred, my temporary 3d engine. Nothing much got done since it&amp;rsquo;s currently superhot and I&amp;rsquo;m sitting behind a fan, and I&amp;rsquo;ve decided that for next year I&amp;rsquo;m getting myself an AC for the appartment cause this is unbearable. Until next time&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2020-32/</link>
+      <pubDate>Sun, 09 Aug 2020 22:09:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-32/</guid>
+      <description>This week I didn&amp;rsquo;t do much, but after much consideration I moved all the euphoria source to a src folder so that the project root is a bit cleaner.</description>
+    </item>
+    
+    <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2020-31/</link>
+      <pubDate>Sun, 02 Aug 2020 19:51:22 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-31/</guid>
+      <description>Theese past weeks I spent in the hospital and recovering from said experience. Nothing major was done really mostly config/dotfiles changes. Hopefully I will get back to euphoria I netflix will stop interfering :)</description>
+    </item>
+    
+    <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2020-26/</link>
+      <pubDate>Sun, 28 Jun 2020 21:54:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-26/</guid>
+      <description>This week I mostly watched netfix and such but I did manage to implement a simple fill tool for the pixel image editor.</description>
+    </item>
+    
+    <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2020-25/</link>
+      <pubDate>Sun, 21 Jun 2020 22:32:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-25/</guid>
+      <description>This week I changed to my main computer, started transfering my old PrettyGood.net from google code to github, and finally started working on euphoria again. This time I started working on a custom pixel editing program. It&amp;rsquo;s far from finished but I hope that it can be useful in a few weeks time for the GMTK game jam.</description>
+    </item>
+    
+    <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2020-24/</link>
+      <pubDate>Sun, 14 Jun 2020 21:24:49 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-24/</guid>
+      <description>This week I ported a old anagram application from c# to python, I published and updated old &amp;ldquo;engines&amp;rdquo;, one called hmtest and one called pwn-engine, so I could run them, but it turns out that none of them was that advanced. I also installed arch on my main, so either this week or the next my transition to arch will be complete</description>
+    </item>
+    
+    <item>
+      <title>Week 23</title>
+      <link>https://i.madeso.me/devlog/2020-23/</link>
+      <pubDate>Sun, 07 Jun 2020 20:45:00 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-23/</guid>
+      <description>This week I started refactoring bbcalc so it could in the future handle generating truth tables, and I physically moved things around so I now use arch as my main computer. It will probably be a week or two until I install it on my main machine, but not too long since this hardware isn&amp;rsquo;t really health&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2020-22/</link>
+      <pubDate>Sun, 31 May 2020 23:40:08 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-22/</guid>
+      <description>This week I completed my kodsnack gamejam, and started on porting one of my filemover programs from c#+winforms to python+curses</description>
+    </item>
+    
+    <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2020-21/</link>
+      <pubDate>Sun, 24 May 2020 23:55:38 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-21/</guid>
+      <description>This week I installed arch on a desktop and started working on my entry for the 2 week kodsnack spelsylt gamejam</description>
+    </item>
+    
+    <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2020-20/</link>
+      <pubDate>Sun, 17 May 2020 22:12:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-20/</guid>
+      <description>This week I started on a lsp interface for fel.</description>
+    </item>
+    
+    <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2020-19/</link>
+      <pubDate>Sun, 10 May 2020 22:38:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-19/</guid>
+      <description>This week I continued my work on fel scripting language. I added a coverage report and started on the vscode extension for editing fel code.</description>
+    </item>
+    
+    <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2020-18/</link>
+      <pubDate>Mon, 04 May 2020 07:15:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-18/</guid>
+      <description>This week I worked on getting a gui sample up and running. Due to issues I also ended up creating a 2d sample. There are only a few issues left before I can continue on adding features to the ui</description>
+    </item>
+    
+    <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2020-17/</link>
+      <pubDate>Sun, 26 Apr 2020 21:44:17 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-17/</guid>
+      <description>This week I implemented the sprator algorithm. Next weeek I will probably add a test for the gui code. It has been missing a sample/test project a for a while now.</description>
+    </item>
+    
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2020-16/</link>
+      <pubDate>Sun, 19 Apr 2020 22:44:41 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-16/</guid>
+      <description>This week I completed my cellular automata code generation. Up next should either be implementing a tetomino layout algorithm or fianlly completing the sprator algorithm. Decisions decisions.</description>
+    </item>
+    
+    <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2020-15/</link>
+      <pubDate>Sun, 12 Apr 2020 21:24:00 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-15/</guid>
+      <description>This week I created a collage tool and a palette extract tool. Neither are super fancy but something that I missed from my toolbag.</description>
+    </item>
+    
+    <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2020-14/</link>
+      <pubDate>Sun, 05 Apr 2020 22:12:36 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-14/</guid>
+      <description>This week I styled the doxygen output, added argparse tests and merged the new-argparse branch into master. I also started on integrating warnings from cpp-best-practices and it&amp;rsquo;s going to take some time to fix all of them.</description>
+    </item>
+    
+    <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2020-13/</link>
+      <pubDate>Sun, 29 Mar 2020 21:47:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-13/</guid>
+      <description>This week I continued on euphoria argparser, adding a custom parser for non-standard elements. I started on running clang-tidy and clang-format on all the code, but it&amp;rsquo;s not done yet. I may end up adding a few options to clang-format so it can work with my code style, we&amp;rsquo;ll see. I also manage to uncover a old codestat project. A project intended to run on your codebase and gather statistics over time.</description>
+    </item>
+    
+    <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2020-12/</link>
+      <pubDate>Sun, 22 Mar 2020 22:56:04 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-12/</guid>
+      <description>This week, due to covid-19, I worked from home. I implemented the drunken bishop algorithm and continued working on the argparse module. Hopefully I will get done with the argparse soon so I get get back to working on the cellular automata, sprator and my scripting language.</description>
+    </item>
+    
+    <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2020-11/</link>
+      <pubDate>Sun, 15 Mar 2020 20:14:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-11/</guid>
+      <description>This week I worked on new argparse module, some cellular automata/procedural content generation and another identicon image generator.</description>
+    </item>
+    
+    <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2020-10/</link>
+      <pubDate>Sun, 08 Mar 2020 22:45:40 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-10/</guid>
+      <description>This week I restructured the cmakes for euphoria, and finished the refactoring of the arch install commands, then I got stuck in netflix land and watched both witcher and season 2 of altered carbon. Hopefully net week the netflix craze has left me again so I can get back to being productive :)</description>
+    </item>
+    
+    <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2020-09/</link>
+      <pubDate>Sun, 01 Mar 2020 20:10:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-09/</guid>
+      <description>This week I continued on the raytracer, spent time on my arch install scripts since I&amp;rsquo;m preparing on installing arch on a new computer, but most of the weekend was spent on watching netflix since I just managed to update chrome on my main machine.</description>
+    </item>
+    
+    <item>
+      <title>Week 08</title>
+      <link>https://i.madeso.me/devlog/2020-08/</link>
+      <pubDate>Sun, 23 Feb 2020 22:35:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-08/</guid>
+      <description>This week I continued on the raytracer. It&amp;rsquo;s going slower than I want, but there is progress atleast :)</description>
+    </item>
+    
+    <item>
+      <title>Week 07</title>
+      <link>https://i.madeso.me/devlog/2020-07/</link>
+      <pubDate>Sun, 16 Feb 2020 19:54:17 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-07/</guid>
+      <description>This week I started work on the &amp;ldquo;Raytracer in a weekend&amp;rdquo; project in preperation for playing with Open MP and a upcomming CUDA talk I&amp;rsquo;m attending.</description>
+    </item>
+    
+    <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2020-06/</link>
+      <pubDate>Sun, 09 Feb 2020 21:19:53 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-06/</guid>
+      <description>This week I bought a windows laptop that I can use for gamejams and to help me better support windows as a platform for my games.</description>
+    </item>
+    
+    <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2020-05/</link>
+      <pubDate>Sun, 02 Feb 2020 22:42:24 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-05/</guid>
+      <description>This week I spent mostly on arch installations, switching from my custom script to getting confortable with yay and trying to recover more computers that I can install arch on, but so far no luck. The weekend was spent on creating a entry for global game jam, and I expect it will appear under projects here soon.</description>
+    </item>
+    
+    <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2020-04/</link>
+      <pubDate>Sun, 26 Jan 2020 20:01:06 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-04/</guid>
+      <description>Most of my time this week have been spent either on reading or watching things. I really should just sit down and program for 5 minutes instead of watching random youtube clips. Next weeking is the global game jam, so I will atleast do some game things then :)</description>
+    </item>
+    
+    <item>
+      <title>Week 03</title>
+      <link>https://i.madeso.me/devlog/2020-03/</link>
+      <pubDate>Sun, 19 Jan 2020 21:16:56 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-03/</guid>
+      <description>There weren&amp;rsquo;t lot of dev time this week either. I&amp;rsquo;ve been looking at the bytecode and a basic assembler and disassembler for it. I&amp;rsquo;ve also commited a few rouge files found in the euphoria repo, but nothing major.</description>
+    </item>
+    
+    <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2020-02/</link>
+      <pubDate>Sun, 12 Jan 2020 22:00:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-02/</guid>
+      <description>This week I been mostly handling real-world stuff and only manage to a little bit of work on euphoria, mainly fixing the travis build. Better luck next week I guess.</description>
+    </item>
+    
+    <item>
+      <title>Week 1</title>
+      <link>https://i.madeso.me/devlog/2020-01/</link>
+      <pubDate>Sun, 05 Jan 2020 23:04:13 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2020-01/</guid>
+      <description>First week of the new year. I started replacing my cutom log with spdlog and updating paths from strings to a dir/file path struct and continued the work on parsing the synty assets that I bought during black friday. There is still some work before euphoria can load and render it correctly but it&amp;rsquo;s coming along</description>
+    </item>
+    
+    <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2019-52/</link>
+      <pubDate>Sun, 29 Dec 2019 22:19:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-52/</guid>
+      <description>This is the last devlog of the year and unfortunatley I haven&amp;rsquo;t done much on either euphoria or fel this week as I&amp;rsquo;ve spended most of it with friends and family. However I started replacing the custom log with spdlog so that is atleast something&amp;hellip; :)</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://i.madeso.me/cv/</link>
+      <pubDate>Sun, 22 Dec 2019 21:47:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/cv/</guid>
+      <description>Experience Software developer (Sep 2007 - Present) StruSoft
+Computer lab instructor (Sep 2007 - Oct 2007) Malmö University
+For about 8 hours a week I assisted a group of students with their java assignments.
+Extern tutor (Aug 2004 - Jun 2005) Malmö University and Malmö Museer
+For about 8 hours a week I gueded 2 students in their final project at the local upper secondary school
+Education B.Sc, Computer Science (2001 - 2007) Malmö University</description>
+    </item>
+    
+    <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2019-51/</link>
+      <pubDate>Sun, 22 Dec 2019 21:45:01 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-51/</guid>
+      <description>This week I added grid snapping, simple object movement and selection to t3d.</description>
+    </item>
+    
+    <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2019-50/</link>
+      <pubDate>Sun, 15 Dec 2019 22:24:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-50/</guid>
+      <description>This week I continued the work on t3d and can now place items on a grid. Hopefully next week I can get back to working on fel for a bit.</description>
+    </item>
+    
+    <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2019-49/</link>
+      <pubDate>Sun, 08 Dec 2019 23:38:36 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-49/</guid>
+      <description>This week I forgot my plan and bought some 3d assets on a black-friday sale so I&amp;rsquo;ve spent most, if not all, of my time integrating my level editor t3d into euphoria and trying to make it usable. I&amp;rsquo;ve fixed so that it loads the tile meshes and I&amp;rsquo;m currently adding collision detecion so I can add selection and interaction. Until next time.</description>
+    </item>
+    
+    <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2019-48/</link>
+      <pubDate>Sun, 01 Dec 2019 23:27:28 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-48/</guid>
+      <description>This week I started working on bytecode and a vm for fel and I added a simple svg debug renderer to euphoria. Next week I really hope I can run bytecode in vm and compile fel code to bytecode.</description>
+    </item>
+    
+    <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2019-47/</link>
+      <pubDate>Sun, 24 Nov 2019 23:41:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-47/</guid>
+      <description>This week I worked on fel. The basic parser and ast tree is now working, and it&amp;rsquo;s time to implement the bytecode generation and vm.</description>
+    </item>
+    
+    <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2019-46/</link>
+      <pubDate>Sun, 17 Nov 2019 23:16:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-46/</guid>
+      <description>This week I wrote AST generation for fel and then I went back to cleaning up the tree generation for euphoria hoping that I can quickly move it to fel for debugging purposes.</description>
+    </item>
+    
+    <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2019-45/</link>
+      <pubDate>Sun, 10 Nov 2019 23:20:16 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-45/</guid>
+      <description>This week I added basic cp437 functions to euph and refactored the current font to use the utf8 character encoding instead of some unspecified encoding that looked like ascii. I moved some part of the rendering to core and replaced the rendering text on image with the &amp;ldquo;new&amp;rdquo; core font instead of just the single built in font. With the increased intrest in text rendering/drawing with text and cp437 I looked into implementing part of the figlet specification, so that might happen.</description>
+    </item>
+    
+    <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2019-44/</link>
+      <pubDate>Sun, 03 Nov 2019 22:47:57 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-44/</guid>
+      <description>This week I found a cool piece of code that can display a tree in the terminal, and since it was MIT licensed I&amp;rsquo;ve been working on integrating it and making the API nice to use.</description>
+    </item>
+    
+    <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2019-43/</link>
+      <pubDate>Sun, 27 Oct 2019 20:56:21 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-43/</guid>
+      <description>This week I picked up and slightly restarted my scriping language fel. A part of me want&amp;rsquo;s to get it ready for december so I atleast can solve the first problems in it. Fingers crossed.</description>
+    </item>
+    
+    <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2019-42/</link>
+      <pubDate>Sun, 20 Oct 2019 21:54:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-42/</guid>
+      <description>This week I fixed bugs introduced by moving musikmaskin to euphoria and refactored other parts of euphoria.</description>
+    </item>
+    
+    <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2019-41/</link>
+      <pubDate>Sun, 13 Oct 2019 23:02:19 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-41/</guid>
+      <description>This week I continued my work on euphoria, fixing various style issues.</description>
+    </item>
+    
+    <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2019-40/</link>
+      <pubDate>Sun, 06 Oct 2019 23:54:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-40/</guid>
+      <description>This week I added namespace and moved clang-format from the cmake build system to a python script</description>
+    </item>
+    
+    <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2019-39/</link>
+      <pubDate>Sun, 29 Sep 2019 22:44:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-39/</guid>
+      <description>This week I didn&amp;rsquo;t do much. Only minor scrip editing and code writing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2019-38/</link>
+      <pubDate>Sun, 22 Sep 2019 23:11:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-38/</guid>
+      <description>This week I finished the kodsnack gamejam. I also bought a nerf distruptor. Not really related to development but I bought it as a stress reliever and it&amp;rsquo;s suprisingly fun to shoot at targets.</description>
+    </item>
+    
+    <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2019-37/</link>
+      <pubDate>Mon, 16 Sep 2019 08:58:25 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-37/</guid>
+      <description>This week I spend a little bit on everything. A little arch config, a little raspberry pi configs but most the kodsnack gamejam.</description>
+    </item>
+    
+    <item>
+      <title>Week 36</title>
+      <link>https://i.madeso.me/devlog/2019-36/</link>
+      <pubDate>Sun, 08 Sep 2019 23:22:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-36/</guid>
+      <description>This week I continued on arch tweaks</description>
+    </item>
+    
+    <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2019-35/</link>
+      <pubDate>Sun, 01 Sep 2019 22:37:09 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-35/</guid>
+      <description>This week I continued to config arch. I switched from urxvt to termite and so far I love it.</description>
+    </item>
+    
+    <item>
+      <title>2019 34</title>
+      <link>https://i.madeso.me/devlog/2019-34/</link>
+      <pubDate>Sun, 25 Aug 2019 22:19:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-34/</guid>
+      <description>This week I discovered that the secondary computer I installed arch on only has bios support, so I need to find another test machine to install on before I install arch on my main system.</description>
+    </item>
+    
+    <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2019-33/</link>
+      <pubDate>Sun, 18 Aug 2019 22:30:06 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-33/</guid>
+      <description>This week I didn&amp;rsquo;t do much dev. I went to a C++ talk and while it wasn&amp;rsquo;t as interesting as I hoped, it got me thinking. Why am I using C++14? I based my decision on that I want to port my engine to android and I discovered that they have now moved to C++17! So in the near future I will update my whole library to use 17. Yay!</description>
+    </item>
+    
+    <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2019-32/</link>
+      <pubDate>Sun, 11 Aug 2019 22:58:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-32/</guid>
+      <description>This week I was back at work, and the weekend was spent on real life stuff and working on a entry for the Kenney game jam. While I did work on the entry I ran out of time before I could finish the game. Since it was based on a previous project of mine I have inteded to finish but didn&amp;rsquo;t for various reasons I&amp;rsquo;m gonna consider this a start for actually finishing that game.</description>
+    </item>
+    
+    <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2019-31/</link>
+      <pubDate>Sun, 04 Aug 2019 21:49:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-31/</guid>
+      <description>This week I mostly did i3 configs. I only have monitor testing to do, before I consider the system to be useable and move on to the next phase that is fixing the dotfiles install script to install on a empty machine.</description>
+    </item>
+    
+    <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2019-30/</link>
+      <pubDate>Sun, 28 Jul 2019 20:12:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-30/</guid>
+      <description>This week was spent on configuring arch and irl stuff. Not much fel work I&amp;rsquo;m afraid :(</description>
+    </item>
+    
+    <item>
+      <title>Week 29</title>
+      <link>https://i.madeso.me/devlog/2019-29/</link>
+      <pubDate>Mon, 22 Jul 2019 21:55:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-29/</guid>
+      <description>This week I started/restarted my scripting language from scratch.</description>
+    </item>
+    
+    <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2019-28/</link>
+      <pubDate>Sun, 14 Jul 2019 21:16:54 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-28/</guid>
+      <description>This week I didn&amp;rsquo;t do much either but I just started a 3 week vacation, and I&amp;rsquo;m expecting at least some coding to be done.</description>
+    </item>
+    
+    <item>
+      <title>Week 27</title>
+      <link>https://i.madeso.me/devlog/2019-27/</link>
+      <pubDate>Sun, 07 Jul 2019 23:06:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-27/</guid>
+      <description>I didn&amp;rsquo;t do much this week either. Shame on me. Added a issue detailing strings over multiple rows.</description>
+    </item>
+    
+    <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2019-26/</link>
+      <pubDate>Mon, 01 Jul 2019 07:42:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-26/</guid>
+      <description>This week I mostly spent researching raspberry pi and 3d printing.</description>
+    </item>
+    
+    <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2019-25/</link>
+      <pubDate>Sun, 23 Jun 2019 22:57:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-25/</guid>
+      <description>This week I celebrated midsumer with friends. Nothing really happened codewise.</description>
+    </item>
+    
+    <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2019-24/</link>
+      <pubDate>Sun, 16 Jun 2019 22:33:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-24/</guid>
+      <description>This week I mostly watched netflix again. I really need to finish the extended json part of my json reader so I can use it in my own projects.</description>
+    </item>
+    
+    <item>
+      <title>Week 23</title>
+      <link>https://i.madeso.me/devlog/2019-23/</link>
+      <pubDate>Mon, 10 Jun 2019 07:05:06 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-23/</guid>
+      <description>This week I added some cases on github for my json parser, but most of my time was spent on irl stuff.</description>
+    </item>
+    
+    <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2019-22/</link>
+      <pubDate>Mon, 03 Jun 2019 00:06:15 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-22/</guid>
+      <description>This week I released jsonh and started watching the first four fast and furious.</description>
+    </item>
+    
+    <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2019-21/</link>
+      <pubDate>Sun, 26 May 2019 22:34:46 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-21/</guid>
+      <description>This week I added some more tests, and added coverage. Turns out that even if you think you have 100% you dont&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2019-20/</link>
+      <pubDate>Sun, 19 May 2019 22:55:05 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-20/</guid>
+      <description>This week I didn&amp;rsquo;t work on the json reader as I was supposed to. Instead I worked on my bezier editor. Ideally I want the json reader complete before the end on may and a stable API a week before, so by the end of next week&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2019-19/</link>
+      <pubDate>Sun, 12 May 2019 21:53:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-19/</guid>
+      <description>This week I continued cleaning up the json library, writing tests and stuff. At the end I started refactoring/moving code around in euphoria.</description>
+    </item>
+    
+    <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2019-18/</link>
+      <pubDate>Mon, 06 May 2019 22:26:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-18/</guid>
+      <description>This week I continued on my json library, making it ready for the 1.0 release in a few weeks.</description>
+    </item>
+    
+    <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2019-17/</link>
+      <pubDate>Mon, 29 Apr 2019 08:09:11 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-17/</guid>
+      <description>This week I spent on improving my command line argument parser, though I noticed at the end of the week I might be able to replace my code with a library.</description>
+    </item>
+    
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2019-16/</link>
+      <pubDate>Sun, 21 Apr 2019 22:42:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-16/</guid>
+      <description>This week I mostly spend on maze generation. I implemnted 2 maze generation algorithms and one cave generator.</description>
+    </item>
+    
+    <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2019-15/</link>
+      <pubDate>Sun, 14 Apr 2019 22:22:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-15/</guid>
+      <description>This week I mostly spent on watching love, death and robots. I managed to write some on my arch/i3 setup but nothing much</description>
+    </item>
+    
+    <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2019-14/</link>
+      <pubDate>Sun, 07 Apr 2019 23:27:22 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-14/</guid>
+      <description>This work I mostly watched netflix, but I did manage to update my aur script a little bit more.</description>
+    </item>
+    
+    <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2019-13/</link>
+      <pubDate>Sun, 31 Mar 2019 22:45:14 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-13/</guid>
+      <description>This week I continued on my arch config quest. I updated my aur tool to be able to write updated dependencies per install instead of globally. It now also can tell the git commits between when you last wrote and the latest. I started writing a tool to create a new localized mirrors file based on the official one. Finally I started writing on a simple script to extract pngs at various resolutions from a svg file.</description>
+    </item>
+    
+    <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2019-12/</link>
+      <pubDate>Sun, 24 Mar 2019 22:47:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-12/</guid>
+      <description>This week I did a little on the json library but most of my time has either been spent on watch netflix and updating my arch installation. I switched over to dimming inactive windows and hiding the titlebar to get more screen estate and with the current compton settings, things actually look pretty.</description>
+    </item>
+    
+    <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2019-11/</link>
+      <pubDate>Sun, 17 Mar 2019 21:23:12 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-11/</guid>
+      <description>This week I started writing a json parser. I spent a little time on my AUR script, and wrote a script to randomly select a background. THere is still a few things to fix on my arch/i3 config before I can actually switch to it, on oh boy I am longing for the switch.</description>
+    </item>
+    
+    <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2019-10/</link>
+      <pubDate>Sun, 10 Mar 2019 23:42:15 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-10/</guid>
+      <description>This week I spent some more time on my aur tool. It&amp;rsquo;s not quite there just yet, but it&amp;rsquo;s getting there. I also resurected my tracery implementation and merged my tracery repo into euphoria.</description>
+    </item>
+    
+    <item>
+      <title>Week 9</title>
+      <link>https://i.madeso.me/devlog/2019-9/</link>
+      <pubDate>Sun, 03 Mar 2019 23:24:49 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-9/</guid>
+      <description>This week I started watching Umbrella Academy, and I&amp;rsquo;m liking it so far. I also added return values to fel, continued playing around with ncurses and started working on my aur tool for arch linux.</description>
+    </item>
+    
+    <item>
+      <title>Week 8</title>
+      <link>https://i.madeso.me/devlog/2019-8/</link>
+      <pubDate>Sun, 24 Feb 2019 21:12:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-8/</guid>
+      <description>This week I continued work on fel. I did a little bit of refactoring and started adding a bytecode. Rest of the week was spent on either rewatching the first season of battlestar galactica or getting up to speed on star trek discovery.</description>
+    </item>
+    
+    <item>
+      <title>Week 7</title>
+      <link>https://i.madeso.me/devlog/2019-7/</link>
+      <pubDate>Sun, 17 Feb 2019 21:58:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-7/</guid>
+      <description>This week I took a fel break and mostly spent it on implementing a table print function. I also threw out most of the fel parser and started writing a AST and runner, currently it can only print strings but with this approach it can be extended instead of writing it all at once.</description>
+    </item>
+    
+    <item>
+      <title>Week 6</title>
+      <link>https://i.madeso.me/devlog/2019-6/</link>
+      <pubDate>Sun, 10 Feb 2019 21:14:33 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-6/</guid>
+      <description>This week I spent creating my custom scripting language fel. It&amp;rsquo;s currently only parsing, but it&amp;rsquo;s parses the whole specification written so far.</description>
+    </item>
+    
+    <item>
+      <title>Week 5</title>
+      <link>https://i.madeso.me/devlog/2019-5/</link>
+      <pubDate>Sun, 03 Feb 2019 22:41:18 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-5/</guid>
+      <description>This week I completed the bfxr installations so that the build generates a installer and uploads it so people can use it, unfortunatly it looks like it doesn&amp;rsquo;t work so I have to investigate why. I also spent some time on euphoria making the vector/point refactor compile and I started a test if lua is a better scripting engine than js. So far I am not convinced.</description>
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>https://i.madeso.me/devlog/2019-4/</link>
+      <pubDate>Sun, 27 Jan 2019 23:43:27 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-4/</guid>
+      <description>This week I started working on the installer and continous integration for bfxr. I finished the weekend by entering the global game jam and made a game about running.</description>
+    </item>
+    
+    <item>
+      <title>Week 3</title>
+      <link>https://i.madeso.me/devlog/2019-3/</link>
+      <pubDate>Mon, 21 Jan 2019 00:38:07 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-3/</guid>
+      <description>This week I went to the library to read Scientific American from 78 to learn how a pink noise algorithm worked. I also continued working on my bfxr port.</description>
+    </item>
+    
+    <item>
+      <title>Week 2</title>
+      <link>https://i.madeso.me/devlog/2019-2/</link>
+      <pubDate>Sun, 13 Jan 2019 22:42:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-2/</guid>
+      <description>This week I started working, so my time is less than it was before, though I started to port the bfxr tool from flash back to c++ so I can use it again without problems. Still a few things to do but it&amp;rsquo;s shaping up nicely.</description>
+    </item>
+    
+    <item>
+      <title>Week 1</title>
+      <link>https://i.madeso.me/devlog/2019-1/</link>
+      <pubDate>Sun, 06 Jan 2019 22:50:28 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2019-1/</guid>
+      <description>This week I watched a few netflix movies and continued on tweaking i3 and my arch installation, almost there but not quite yet.</description>
+    </item>
+    
+    <item>
+      <title>Week 52</title>
+      <link>https://i.madeso.me/devlog/2018-52/</link>
+      <pubDate>Sun, 30 Dec 2018 23:40:15 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-52/</guid>
+      <description>This week I added color functions to euphoria, and continued my work on dotfiles and installing arch and i3 on my test machine.</description>
+    </item>
+    
+    <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2018-51/</link>
+      <pubDate>Tue, 25 Dec 2018 21:41:40 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-51/</guid>
+      <description>This week I really didn&amp;rsquo;t do much. I mostly did xmas things and a little bit of dot file tweakings.</description>
+    </item>
+    
+    <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2018-50/</link>
+      <pubDate>Mon, 17 Dec 2018 00:22:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-50/</guid>
+      <description>This week I mostly spent on configuring colors and vim. I continued on fel but no major contribution yet.</description>
+    </item>
+    
+    <item>
+      <title>Week 49</title>
+      <link>https://i.madeso.me/devlog/2018-49/</link>
+      <pubDate>Sun, 09 Dec 2018 22:24:01 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-49/</guid>
+      <description>This week I continued work on my tiny scriping engine, but most of my time was spent on either netflix or tweaking colors in my terminals/dotfiles.</description>
+    </item>
+    
+    <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2018-48/</link>
+      <pubDate>Sun, 02 Dec 2018 22:59:00 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-48/</guid>
+      <description>This week I relaxed from the kodsnack spelsylt gamejam. Apprently I came third, so yay me. I also started on my own scripting language called fel. A mix between typescript and lua. I&amp;rsquo;m gonna try and apply the same commtiment I used for the kodsylt, that is lets see how much I can acchieve during 2 weeks.</description>
+    </item>
+    
+    <item>
+      <title>Week 47</title>
+      <link>https://i.madeso.me/devlog/2018-47/</link>
+      <pubDate>Mon, 26 Nov 2018 01:19:31 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-47/</guid>
+      <description>This week I continued my participation in the kodsnack spelsylt gamejam. While I&amp;rsquo;m proud of what I have achieved I might continue on and actually complete the game. It feels pretty good to play and I like the style of the game.</description>
+    </item>
+    
+    <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2018-46/</link>
+      <pubDate>Sun, 18 Nov 2018 22:04:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-46/</guid>
+      <description>This week I worked on my kodsnack gamejam entry. I mostly going well but I think I might have failed to estimate how much it will take to create a platformer in my free time.</description>
+    </item>
+    
+    <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2018-45/</link>
+      <pubDate>Sun, 11 Nov 2018 23:17:22 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-45/</guid>
+      <description>This week I really didn&amp;rsquo;t do much. Real life I suppose got in the way. I did a little prejam practice and kinda started on a platformer in love2d.</description>
+    </item>
+    
+    <item>
+      <title>Week 44</title>
+      <link>https://i.madeso.me/devlog/2018-44/</link>
+      <pubDate>Sun, 04 Nov 2018 21:07:20 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-44/</guid>
+      <description>This week I pretty much only fixed compile errors from the point/vector refactor/renaming from last week. It&amp;rsquo;s almost done, so Im hoping the comming week will be a bit more productive.</description>
+    </item>
+    
+    <item>
+      <title>Week 43</title>
+      <link>https://i.madeso.me/devlog/2018-43/</link>
+      <pubDate>Sun, 28 Oct 2018 22:20:32 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-43/</guid>
+      <description>This week I fixed and cleaned up the windows build, removed libraries that aren&amp;rsquo;t and shouldnt be used, I wrote a custom typeinfo code and made ctti optional. Finally I started on a refactor of the vector classes.</description>
+    </item>
+    
+    <item>
+      <title>Week 42</title>
+      <link>https://i.madeso.me/devlog/2018-42/</link>
+      <pubDate>Sun, 21 Oct 2018 22:09:31 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-42/</guid>
+      <description>This week I did some cleanup but most of my time was spent on removing the RTTI requirement from euphoria.</description>
+    </item>
+    
+    <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2018-41/</link>
+      <pubDate>Sun, 14 Oct 2018 21:27:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-41/</guid>
+      <description>This week I spent on refactoring my duktype binding library for euphoria. Much has been done, but there is also more to be done before I am finished.</description>
+    </item>
+    
+    <item>
+      <title>Week 40</title>
+      <link>https://i.madeso.me/devlog/2018-40/</link>
+      <pubDate>Sun, 07 Oct 2018 23:42:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-40/</guid>
+      <description>This week I didn&amp;rsquo;t do anything except celebrate my birthday. Huray for me.</description>
+    </item>
+    
+    <item>
+      <title>Week 39</title>
+      <link>https://i.madeso.me/devlog/2018-39/</link>
+      <pubDate>Sun, 30 Sep 2018 20:33:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-39/</guid>
+      <description>This week I didn&amp;rsquo;t really do much. I read some code, thought about the future and what I wanted to do and spent some time updating my i3 installation. Hopefully next week will have been more productive.</description>
+    </item>
+    
+    <item>
+      <title>Week 38</title>
+      <link>https://i.madeso.me/devlog/2018-38/</link>
+      <pubDate>Sun, 23 Sep 2018 23:15:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-38/</guid>
+      <description>This week I completed the second season of Iron Fist, and continued onto the first season of Merlin. I also bought a midi controller and added a basic hacky midi input to my synth project.</description>
+    </item>
+    
+    <item>
+      <title>Week 37</title>
+      <link>https://i.madeso.me/devlog/2018-37/</link>
+      <pubDate>Sun, 16 Sep 2018 21:57:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-37/</guid>
+      <description>This week I implemented a really basic arpegiator to my synth project, and spent the remainder catching a cold, catching up on my MCU and Season 2 of Iron Fist while getting and recovering from a fever and said cold.</description>
+    </item>
+    
+    <item>
+      <title>Week 36</title>
+      <link>https://i.madeso.me/devlog/2018-36/</link>
+      <pubDate>Mon, 10 Sep 2018 07:19:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-36/</guid>
+      <description>This week I was back on synth programming. I implemented polyphonics and a basic envelope.</description>
+    </item>
+    
+    <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2018-35/</link>
+      <pubDate>Mon, 03 Sep 2018 00:41:51 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-35/</guid>
+      <description>This week I did some work on my synth project, starting to refactor the keyboard input from the actual sound synth so I can play with midi input some time in the future. I also made a skateboarding, mail delivery game for the gmtk2018 game jam called Skate and die. The name is obviously a nod to the classic &amp;ldquo;Skate or die&amp;rdquo; but what can you do when you get an idea that absolutly must be created?</description>
+    </item>
+    
+    <item>
+      <title>Week 34</title>
+      <link>https://i.madeso.me/devlog/2018-34/</link>
+      <pubDate>Sun, 26 Aug 2018 23:39:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-34/</guid>
+      <description>This week I started working again. I did a little work on my software synth and my dotfiles management util/script. In less than a week is the gmtk gamejam and I&amp;rsquo;m getting hyped.</description>
+    </item>
+    
+    <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2018-33/</link>
+      <pubDate>Sun, 19 Aug 2018 23:04:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-33/</guid>
+      <description>This week I started on software synth, and participated in game jam but didn&amp;rsquo;t really finish it :( On the upside is I added a feature to the assimp library and terminal application that I soon hopefully will add via a pull request.</description>
+    </item>
+    
+    <item>
+      <title>Week 32</title>
+      <link>https://i.madeso.me/devlog/2018-32/</link>
+      <pubDate>Mon, 13 Aug 2018 00:40:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-32/</guid>
+      <description>This week I mostly spend relaxing and real life stuff. I made a few small games in godot and started on switching my main system from ubuntu to arch.</description>
+    </item>
+    
+    <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2018-31/</link>
+      <pubDate>Sun, 05 Aug 2018 20:52:32 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-31/</guid>
+      <description>This week was my first vacation and I added a OnInit function and creation arguments to the the create function in euphoria. I also, in preperation of the upcomming gamejams, started to play around with godot a bit and started on a smaller platformer test/game thing.</description>
+    </item>
+    
+    <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2018-30/</link>
+      <pubDate>Sun, 29 Jul 2018 22:20:31 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-30/</guid>
+      <description>This week a heatwave struck, so I didn&amp;rsquo;t really do much. I started on the OnInit callback, but that&amp;rsquo;s pretty much it.</description>
+    </item>
+    
+    <item>
+      <title>Week 29</title>
+      <link>https://i.madeso.me/devlog/2018-29/</link>
+      <pubDate>Sun, 22 Jul 2018 22:34:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-29/</guid>
+      <description>This week I made it so that shots are destroyed when the have left the viewport. I also started laying the grounds for adding a init function for when creating entities.</description>
+    </item>
+    
+    <item>
+      <title>Week 28</title>
+      <link>https://i.madeso.me/devlog/2018-28/</link>
+      <pubDate>Sun, 15 Jul 2018 22:49:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-28/</guid>
+      <description>This week I merged the main.cc from all various applications in the euphoria framework, extracting all the copy-paste code into another utility file. I also finally came up with how to best handle how to check for when objects are outside the viewport, so that should be done soon.</description>
+    </item>
+    
+    <item>
+      <title>Week 27</title>
+      <link>https://i.madeso.me/devlog/2018-27/</link>
+      <pubDate>Sun, 08 Jul 2018 22:23:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-27/</guid>
+      <description>This week I finished the viewport logic, and started looking at how to handle objects getting outside of the view. Not uch but I also binged luke cage season 2, so pretty ok progress considering.</description>
+    </item>
+    
+    <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2018-26/</link>
+      <pubDate>Sun, 01 Jul 2018 23:13:54 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-26/</guid>
+      <description>This week I spent on watching luke cage season 2, adding enum support to imgui option for gaf, fixed the issue with not resusing ids and started on writing viewport handling. The latter is not quite finished yet, but it&amp;rsquo;s getting there.</description>
+    </item>
+    
+    <item>
+      <title>Week 25</title>
+      <link>https://i.madeso.me/devlog/2018-25/</link>
+      <pubDate>Sun, 24 Jun 2018 23:49:06 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-25/</guid>
+      <description>This week consisted mostly of real life stuff, but I managed to fix a few gaf related things. Next week should hopefulle be more productive.</description>
+    </item>
+    
+    <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2018-24/</link>
+      <pubDate>Sun, 17 Jun 2018 23:04:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-24/</guid>
+      <description>This week I continued work on the editor and gaf and it&amp;rsquo;s finally getting near completion.</description>
+    </item>
+    
+    <item>
+      <title>Week 23</title>
+      <link>https://i.madeso.me/devlog/2018-23/</link>
+      <pubDate>Sun, 10 Jun 2018 17:43:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-23/</guid>
+      <description>This week I threw out the wx scimed/ninepatch editor and have now a improved dear imgui version of it. There still are some non imgui like parts from the ported code but things are looking better. I just started on the imgui extension for gaf, and after that is completed I can work on saving json so I can close this chapter.</description>
+    </item>
+    
+    <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2018-22/</link>
+      <pubDate>Sun, 03 Jun 2018 21:47:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-22/</guid>
+      <description>This week I mostly finished the move from protobuf to gaf. I still can&amp;rsquo;t save gaf files, but that will come after I throw out the current wxWidgets based editor, and that&amp;rsquo;s what I&amp;rsquo;m working on now.</description>
+    </item>
+    
+    <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2018-21/</link>
+      <pubDate>Sun, 27 May 2018 23:45:49 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-21/</guid>
+      <description>This week I contintued the work on my protobuf replacement library, gaf, and actually started on replacing protobuf in euphoria. I hope that by the time of the next devlog I have finished the refactoring.</description>
+    </item>
+    
+    <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2018-20/</link>
+      <pubDate>Mon, 21 May 2018 01:14:28 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-20/</guid>
+      <description>This week I basically just went through the entire list of errors that clang-tidy can detect and decided what to use, and what to ignore, and fixed several warnings. Then I continued workin on my protobuf replacement library, gaf, that I started ages ago. Hopefully within a week or two I can replace protobuf in euphoria soon.</description>
+    </item>
+    
+    <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2018-19/</link>
+      <pubDate>Sun, 13 May 2018 22:48:54 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-19/</guid>
+      <description>This week I completed the component system, and added a way to both create and remove objects dynamically, though my current system for referencing script objects is lacking, so I need to fix that next week before things starts to get out of hand.</description>
+    </item>
+    
+    <item>
+      <title>Week 18</title>
+      <link>https://i.madeso.me/devlog/2018-18/</link>
+      <pubDate>Sun, 06 May 2018 23:14:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-18/</guid>
+      <description>This week I started on creating objects dynamically but it seems that I need to replace my component/entity engine first. I was planning to do so anyway since I dont like how it integrates with script defined components, but I thought this was something to do later. I guess not.</description>
+    </item>
+    
+    <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2018-17/</link>
+      <pubDate>Tue, 01 May 2018 08:52:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-17/</guid>
+      <description>This week I completed the scrip bind system replacement. Now I can finally focus on adding more features.</description>
+    </item>
+    
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2018-16/</link>
+      <pubDate>Sun, 22 Apr 2018 22:52:23 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-16/</guid>
+      <description>This week I continued on writing the wrapper. It is pretty much almost done now. I know I said it was going to be done this week, but what can I say, things took longer than expected :)</description>
+    </item>
+    
+    <item>
+      <title>Week 15</title>
+      <link>https://i.madeso.me/devlog/2018-15/</link>
+      <pubDate>Sun, 15 Apr 2018 23:44:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-15/</guid>
+      <description>This week I continued on writing a wrapper to replace dukglue. I fall goes well it should be completed next week.</description>
+    </item>
+    
+    <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2018-14/</link>
+      <pubDate>Sun, 08 Apr 2018 22:35:45 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-14/</guid>
+      <description>This week I started on replacing dukglue, my javascrip engine wrapper with a custom wrapper. While it is not completed yet, I got a good feeling about this.</description>
+    </item>
+    
+    <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2018-13/</link>
+      <pubDate>Sun, 01 Apr 2018 20:59:35 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-13/</guid>
+      <description>This week I added a crash display, so that the game enters a &amp;ldquo;blue screen&amp;rdquo; instead of crashing. At first I used my own built in debug print but then I replaced it with the much nicer dear imgui display. I also moved my duktape wrapper to core and started reasearching into replacing dukglue with a custom much simpler system.</description>
+    </item>
+    
+    <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2018-12/</link>
+      <pubDate>Mon, 26 Mar 2018 00:02:07 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-12/</guid>
+      <description>This week I didnt do much since I started watching season 2 of Jessica Jones.</description>
+    </item>
+    
+    <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2018-11/</link>
+      <pubDate>Sun, 18 Mar 2018 21:05:31 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-11/</guid>
+      <description>This week I finished up the basic javascript test that I wrote last week, and after two days of struggling on how to design the API I just went ahead and added the bare minimum input handling: keyboard buttons. Sooner or later I have to figure out how I should handle joysticks, gamepads, touch controls, vr controls, virtual buttons on touch controls etc. etc, but so far the everything is data driven, so I guess that&amp;rsquo;s nice.</description>
+    </item>
+    
+    <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2018-10/</link>
+      <pubDate>Sun, 11 Mar 2018 23:41:24 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-10/</guid>
+      <description>This week I fixed the javascript issue I was having. Still considering to write my own custom library, but that will have to wait. Now it&amp;rsquo;s 10 weeks until ludum dare so I have to get a move on if I want to use my framework for the game jam.</description>
+    </item>
+    
+    <item>
+      <title>Week 9</title>
+      <link>https://i.madeso.me/devlog/2018-09/</link>
+      <pubDate>Sun, 04 Mar 2018 22:31:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-09/</guid>
+      <description>This week I still mostly recovered from the flue. When I actually managed to find the time to code, I fought the duktype/dukglue registration of custom classes. Currently I&amp;rsquo;m considering discarding dukglue and writing my own simpler version.</description>
+    </item>
+    
+    <item>
+      <title>Week 8</title>
+      <link>https://i.madeso.me/devlog/2018-08/</link>
+      <pubDate>Tue, 27 Feb 2018 08:00:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-08/</guid>
+      <description>This week I worked on the entity system integration. It still isn&amp;rsquo;t complete but it&amp;rsquo;s getting there.</description>
+    </item>
+    
+    <item>
+      <title>Week 7</title>
+      <link>https://i.madeso.me/devlog/2018-07/</link>
+      <pubDate>Sun, 18 Feb 2018 21:40:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-07/</guid>
+      <description>This week I had a fever and pretty much only slept, ate and watched netflix.</description>
+    </item>
+    
+    <item>
+      <title>Week 6</title>
+      <link>https://i.madeso.me/devlog/2018-06/</link>
+      <pubDate>Mon, 12 Feb 2018 00:46:05 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-06/</guid>
+      <description>This week I wrote several different ECS systems before I decided to integrate the entt instead of using a custom one. I also decided that the first game will be a really basic version of tyrian.</description>
+    </item>
+    
+    <item>
+      <title>Week 5</title>
+      <link>https://i.madeso.me/devlog/2018-05/</link>
+      <pubDate>Mon, 05 Feb 2018 07:58:45 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-05/</guid>
+      <description>This week I decieded that I am gonna try to enter the april ludum dare jam with my own engine so I started planning out what needs to be done for that to happen. I ported my old unique id generator to euphoria and started to look into embedding javascript/typescript through duktape as a scriping language.</description>
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>https://i.madeso.me/devlog/2018-04/</link>
+      <pubDate>Wed, 31 Jan 2018 00:39:03 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-04/</guid>
+      <description>This week I decided to up my rust game, so I started a pretty much completed a minor rust library called keyvalueextractor to extract data from a path. I ended the week with joining a game jam and creating the vr game &amp;ldquo;Inside sunshine&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Week 3</title>
+      <link>https://i.madeso.me/devlog/2018-03/</link>
+      <pubDate>Mon, 22 Jan 2018 09:07:29 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-03/</guid>
+      <description>This week I finished the spacetyper/euphoria font rendering rewrite and finally managed to add inlined icons in text when rendering. I also somehow managed to binge the entire first season of punisher.</description>
+    </item>
+    
+    <item>
+      <title>Week 2</title>
+      <link>https://i.madeso.me/devlog/2018-02/</link>
+      <pubDate>Mon, 15 Jan 2018 08:33:14 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-02/</guid>
+      <description>This week I spent most of my time on euphoria/spacetyper working on getting the coordinate system correct and fixing so that the padding/margin -top/bottom values werent mixed.</description>
+    </item>
+    
+    <item>
+      <title>Week 1</title>
+      <link>https://i.madeso.me/devlog/2018-01/</link>
+      <pubDate>Sun, 07 Jan 2018 22:15:55 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2018-01/</guid>
+      <description>This week I mostly spend either watching netflix movies or coding on euphoria/spaceyper. One of my new year resolutions is to complete a few projects, including fish hunt, space typer and star collector. Of all the projects fish hunt is the one that is most completed. Star collector comes second but that is an android project so releasing that is another project entirly. Until next week.</description>
+    </item>
+    
+    <item>
+      <title>Week52</title>
+      <link>https://i.madeso.me/devlog/2017-52/</link>
+      <pubDate>Sun, 31 Dec 2017 12:21:11 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-52/</guid>
+      <description>This week I continued on the chatbot and updating the euphoria engine. In a few hours I&amp;rsquo;ll be leaving for new years celebration so fishhunt will have to be completed in the beginning of the next year.</description>
+    </item>
+    
+    <item>
+      <title>Week51</title>
+      <link>https://i.madeso.me/devlog/2017-51/</link>
+      <pubDate>Sat, 23 Dec 2017 14:50:24 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-51/</guid>
+      <description>This week I continued working on spacetyper and started a semi new project. A basic chatbot. Given that I am leaving for xmas celebrations, the week isnt over, and I&amp;rsquo;m switching to my laptop I probably will continue working on fishhunt for the rest of the week. Stay tuned for next week.</description>
+    </item>
+    
+    <item>
+      <title>Week50</title>
+      <link>https://i.madeso.me/devlog/2017-50/</link>
+      <pubDate>Sun, 17 Dec 2017 22:24:23 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-50/</guid>
+      <description>This week I mostly worked on upgrading spacetyper to the latest euphoria codebase. I really should have worked on completing fishhunt but I wanted to code some C++ for a change.</description>
+    </item>
+    
+    <item>
+      <title>Week49</title>
+      <link>https://i.madeso.me/devlog/2017-49/</link>
+      <pubDate>Sun, 10 Dec 2017 20:46:42 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-49/</guid>
+      <description>Game is shaping up. Not much left now. I&amp;rsquo;m hoping for a release next week or the week after that, before x-mas at least.</description>
+    </item>
+    
+    <item>
+      <title>Week48</title>
+      <link>https://i.madeso.me/devlog/2017-48/</link>
+      <pubDate>Sun, 10 Dec 2017 14:05:19 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-48/</guid>
+      <description>This week I found a few assets and started combining them in unity. Given that it&amp;rsquo;s a small game, it shouldnt take that long to complete. Fingers crossed.</description>
+    </item>
+    
+    <item>
+      <title>Week47</title>
+      <link>https://i.madeso.me/devlog/2017-47/</link>
+      <pubDate>Tue, 28 Nov 2017 19:45:47 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-47/</guid>
+      <description>This week I pretty much continued on star collector. It&amp;rsquo;s progressing nicely and I&amp;rsquo;m hoping that it will be done before or arount X-mas.</description>
+    </item>
+    
+    <item>
+      <title>Week46</title>
+      <link>https://i.madeso.me/devlog/2017-46/</link>
+      <pubDate>Thu, 23 Nov 2017 07:32:50 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-46/</guid>
+      <description>This week I decided I should actually complete my older projects colelcting dust, so I took an old project of mine, starcollector, and started polishing it. I hope that I can actually complete it this time.</description>
+    </item>
+    
+    <item>
+      <title>Week45</title>
+      <link>https://i.madeso.me/devlog/2017-45/</link>
+      <pubDate>Sat, 18 Nov 2017 23:19:08 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-45/</guid>
+      <description>This week I didnt do much at all. I pretty much just watched random episodes of How I Met Your Mother.</description>
+    </item>
+    
+    <item>
+      <title>Week44</title>
+      <link>https://i.madeso.me/devlog/2017-44/</link>
+      <pubDate>Thu, 09 Nov 2017 08:31:05 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-44/</guid>
+      <description>This week I implemented the ray-sphere collision, and tested it by highlightin all the intersections. I realized that a simple check such as this would be suitable for clicking on the closest object so I need to implement more acurate ray collisions.</description>
+    </item>
+    
+    <item>
+      <title>Week43</title>
+      <link>https://i.madeso.me/devlog/2017-43/</link>
+      <pubDate>Sun, 29 Oct 2017 22:26:34 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-43/</guid>
+      <description>This week I finished implementing the aabb collison check, but realized that I probably need a sphere/ray intersection instead as that would work regardless of the rotation of the object.</description>
+    </item>
+    
+    <item>
+      <title>Week42</title>
+      <link>https://i.madeso.me/devlog/2017-42/</link>
+      <pubDate>Sat, 28 Oct 2017 22:05:59 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-42/</guid>
+      <description>This week I completed the basic outline feature to each actor/mesh so I can highlight the current selected tile/actor in t3d. I also started work on getting a ray so I can actually select.</description>
+    </item>
+    
+    <item>
+      <title>Week41</title>
+      <link>https://i.madeso.me/devlog/2017-41/</link>
+      <pubDate>Tue, 17 Oct 2017 08:58:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-41/</guid>
+      <description>This week I actually did a little work on t3d. I started on a tile library and fixed a problem with the mesh loader in euphoria. I loaded the ambient color and assimp defaulted to a black ambient, but since most models only specify diffuse I added a option to assume the ambient color is the same as the diffuse color.</description>
+    </item>
+    
+    <item>
+      <title>Week40</title>
+      <link>https://i.madeso.me/devlog/2017-40/</link>
+      <pubDate>Tue, 10 Oct 2017 08:46:15 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-40/</guid>
+      <description>This week I was lazy and didn&amp;rsquo;t do much. I rediscovered agents of shield and spent way to much time watching episodes I&amp;rsquo;ve already seen. Then I spent some time on t3d, but way way less than I wanted.</description>
+    </item>
+    
+    <item>
+      <title>Week39</title>
+      <link>https://i.madeso.me/devlog/2017-39/</link>
+      <pubDate>Mon, 02 Oct 2017 00:26:23 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-39/</guid>
+      <description>This week I started on rewriting ride in rust. From the ground up. I have some really basic custom input control in the GTK build, but I&amp;rsquo;ll need to get a proper text rendering system up before I can continue. I also started working on a 3d level editor that I need for any game. Not much progress as I just grabbed the demo application and started removing things from it.</description>
+    </item>
+    
+    <item>
+      <title>Week38</title>
+      <link>https://i.madeso.me/devlog/2017-38/</link>
+      <pubDate>Mon, 25 Sep 2017 21:36:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-38/</guid>
+      <description>This week I continued on the continuous integration and fixed some image coordinate bugs.</description>
+    </item>
+    
+    <item>
+      <title>Week37</title>
+      <link>https://i.madeso.me/devlog/2017-37/</link>
+      <pubDate>Mon, 18 Sep 2017 20:41:36 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-37/</guid>
+      <description>This week I added a linux build on Travis CI and a Windows build on Appveyour. The linux build runs my unit tests and the windows currently only builds. Testing comes later.</description>
+    </item>
+    
+    <item>
+      <title>Week36</title>
+      <link>https://i.madeso.me/devlog/2017-36/</link>
+      <pubDate>Sun, 10 Sep 2017 22:52:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-36/</guid>
+      <description>This week I didnt do that much. I sorted game ideas, and other non-game ideas. The most actual development I did was when I created a git alias to list all commit messages and created a wordcloud of it.</description>
+    </item>
+    
+    <item>
+      <title>Week35</title>
+      <link>https://i.madeso.me/devlog/2017-35/</link>
+      <pubDate>Wed, 06 Sep 2017 08:18:29 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-35/</guid>
+      <description>This week I continued on the rect and image refactoring, added a few image drawing tests and added base64 support so I can test image loading without being dependent on actual files. Finally I updated the dear imgui library to get access to the new color widget.</description>
+    </item>
+    
+    <item>
+      <title>Week34</title>
+      <link>https://i.madeso.me/devlog/2017-34/</link>
+      <pubDate>Fri, 01 Sep 2017 20:09:37 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-34/</guid>
+      <description>This week I continued working on the engine, loading advanced meshes, default textures in the shader and replaced google test in favour of catch. At the weekend I participated in kenney jam and made a breakout clone in unity.</description>
+    </item>
+    
+    <item>
+      <title>Week33</title>
+      <link>https://i.madeso.me/devlog/2017-33/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-33/</guid>
+      <description>This week I was back on work and even though my time was more limited, I still managed to do a little bit on the &amp;ldquo;engine&amp;rdquo;. I added clang-tidy and clang-format as a optional step in the build process. I then continued on fixing almost all the error that clang-tidy found. That took the better part of the week. Then I added basic lightning to the engine demo.</description>
+    </item>
+    
+    <item>
+      <title>Week32</title>
+      <link>https://i.madeso.me/devlog/2017-32/</link>
+      <pubDate>Mon, 14 Aug 2017 07:33:33 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-32/</guid>
+      <description>After several days I&amp;rsquo;m back home and back to roughly the same posting shedule. I spent the lasat vacation week with working on &amp;ldquo;the engine&amp;rdquo; and it is slowly getting there, but as I get back to work I expect things to slow down quite a bit.</description>
+    </item>
+    
+    <item>
+      <title>Week31</title>
+      <link>https://i.madeso.me/devlog/2017-31/</link>
+      <pubDate>Sat, 12 Aug 2017 20:05:37 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-31/</guid>
+      <description>This week I continued working on the &amp;ldquo;engine&amp;rdquo;, but I dont think I&amp;rsquo;ll be able to use it on my next jam as time is slowly running out.</description>
+    </item>
+    
+    <item>
+      <title>Week30</title>
+      <link>https://i.madeso.me/devlog/2017-30/</link>
+      <pubDate>Fri, 04 Aug 2017 19:25:19 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-30/</guid>
+      <description>This week I mostly spent on binge watching Agents of Shield (again), and did some real world stuff, however I decided that I&amp;rsquo;d want to use my own 3d engine for my next game jam, so I spent a significant part of the weekend on this engine. I&amp;rsquo;m hoping that it will be in a useful state for the Kenney jam on a month.</description>
+    </item>
+    
+    <item>
+      <title>Week29</title>
+      <link>https://i.madeso.me/devlog/2017-29/</link>
+      <pubDate>Sun, 23 Jul 2017 22:38:16 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-29/</guid>
+      <description>This week I didnt do much, and I&amp;rsquo;m honestly not sure what I did except work related stuff, shopping a few new furnitures and attending a birthday party. Work on the graph widget has been lacking theese last weeks and I desperetly both want and need it to be finished.</description>
+    </item>
+    
+    <item>
+      <title>Restarting Alsa</title>
+      <link>https://i.madeso.me/blog/restart-alsa/</link>
+      <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/restart-alsa/</guid>
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:
+$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload Found on Stack overflow</description>
+    </item>
+    
+    <item>
+      <title>Week28</title>
+      <link>https://i.madeso.me/devlog/2017-28/</link>
+      <pubDate>Sun, 16 Jul 2017 22:52:35 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-28/</guid>
+      <description>This week I mostly watched season 4 of &amp;ldquo;Agents of Shield&amp;rdquo;, but I also added proper smiley graphics and pagination and fixed a bug causing the image on some pages to not be displayed so at least I made some progress.</description>
+    </item>
+    
+    <item>
+      <title>Week27</title>
+      <link>https://i.madeso.me/devlog/2017-27/</link>
+      <pubDate>Tue, 11 Jul 2017 08:24:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-27/</guid>
+      <description>This week I continued working on the graph widget. I also found 2 earlier blogs of mine and moved all of them here.</description>
+    </item>
+    
+    <item>
+      <title>Week26</title>
+      <link>https://i.madeso.me/devlog/2017-26/</link>
+      <pubDate>Mon, 03 Jul 2017 07:33:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-26/</guid>
+      <description>This week I pretty much continued on NodeCalc and the graph widget driving it all.</description>
+    </item>
+    
+    <item>
+      <title>Week25</title>
+      <link>https://i.madeso.me/devlog/2017-25/</link>
+      <pubDate>Thu, 29 Jun 2017 21:07:47 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-25/</guid>
+      <description>This week I started on a project called nodecalc. It aims to replace my need for most excel/open office calc needs by calculating expressions in a graph like manner instead of referencing cells.</description>
+    </item>
+    
+    <item>
+      <title>Week24</title>
+      <link>https://i.madeso.me/devlog/2017-24/</link>
+      <pubDate>Thu, 22 Jun 2017 07:16:31 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-24/</guid>
+      <description>This week I spent time learning various unity things, trying to up my unity game. I also started learning blender and trying (and failing) to make a 3d character.</description>
+    </item>
+    
+    <item>
+      <title>week23</title>
+      <link>https://i.madeso.me/devlog/2017-23/</link>
+      <pubDate>Tue, 13 Jun 2017 08:43:18 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-23/</guid>
+      <description>This week I entered the no more sweden gamejam and made a game called &amp;ldquo;Looking for love&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>week22</title>
+      <link>https://i.madeso.me/devlog/2017-22/</link>
+      <pubDate>Sun, 04 Jun 2017 21:22:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-22/</guid>
+      <description>This week started with a small project of creating a tracery.io commandline application in C++. It currently missing some advanced features but it was a nice break in the great konmari cleansing.</description>
+    </item>
+    
+    <item>
+      <title>week21</title>
+      <link>https://i.madeso.me/devlog/2017-21/</link>
+      <pubDate>Tue, 30 May 2017 07:19:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-21/</guid>
+      <description>This was a little bit better. I watched a little bit of netflix, but converted the current deploy script from bash to python so I, in the future, can add more advanced image rezising functions that hugo currently doesnt support. Then I pretty much started the konmari appartment cleanup so I guess I wont get much development stuff done for a couple of weeks.</description>
+    </item>
+    
+    <item>
+      <title>week20</title>
+      <link>https://i.madeso.me/devlog/2017-20/</link>
+      <pubDate>Sun, 21 May 2017 21:07:17 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-20/</guid>
+      <description>This week was also lazy. What can I say, except I&amp;rsquo;ve now binged one more series on netflix.</description>
+    </item>
+    
+    <item>
+      <title>A fix for spotify filling up the C: drive</title>
+      <link>https://i.madeso.me/blog/spotify-windows-ssd/</link>
+      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/spotify-windows-ssd/</guid>
+      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.
+It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
+    </item>
+    
+    <item>
+      <title>week19</title>
+      <link>https://i.madeso.me/devlog/2017-19/</link>
+      <pubDate>Mon, 15 May 2017 08:42:27 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-19/</guid>
+      <description>This week should have been spent on either gaf, t3d or finishing the spacetyper menu but it was spent on finishing crappy series on netflix instead. I guess the blame is mostly on the bad cycle of beeing too tired and then just binge watching myself one more episode past bedtime.</description>
+    </item>
+    
+    <item>
+      <title>week18</title>
+      <link>https://i.madeso.me/devlog/2017-18/</link>
+      <pubDate>Mon, 08 May 2017 21:07:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-18/</guid>
+      <description>This week I continued working on this homepage, scaling images to fit in the design and it&amp;rsquo;s taking longer than expected. I also finally restarted my tile based 3d level editor called t3d. Since it&amp;rsquo;s still in its infancy there arent any pretty pictures so I&amp;rsquo;ll keep it here in the devlog for now.</description>
+    </item>
+    
+    <item>
+      <title>week17</title>
+      <link>https://i.madeso.me/devlog/2017-17/</link>
+      <pubDate>Mon, 01 May 2017 20:46:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-17/</guid>
+      <description>Much of the page is now in &amp;ldquo;kinda working&amp;rdquo; order. There are still projects missing images and download links, and most projects have the wrong header image size. There only one thing to do, and that&amp;rsquo;s keep on working on it.</description>
+    </item>
+    
+    <item>
+      <title>week16</title>
+      <link>https://i.madeso.me/devlog/2017-16/</link>
+      <pubDate>Mon, 24 Apr 2017 00:12:50 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-16/</guid>
+      <description>This week I did a little work on gaf, but my whole weeked was spent on moving my blogs and page to this new hugo based page. It isn&amp;rsquo;t done yet, but hopefully soon.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://i.madeso.me/about/</link>
+      <pubDate>Sat, 22 Apr 2017 00:15:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/about/</guid>
+      <description>Hello I am Gustav.</description>
+    </item>
+    
+    <item>
+      <title>week15</title>
+      <link>https://i.madeso.me/devlog/2017-15/</link>
+      <pubDate>Mon, 17 Apr 2017 19:54:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-15/</guid>
+      <description>This week I continued working on gaf, now supporting json loading and default values, next up is array support (yay)</description>
+    </item>
+    
+    <item>
+      <title>week14</title>
+      <link>https://i.madeso.me/devlog/2017-14/</link>
+      <pubDate>Wed, 12 Apr 2017 15:16:00 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-14/</guid>
+      <description>I continued working on gaf, and currently it parses a few test files, generate some c++11 code and runs a few unit tests on Travis. Next up is adding Json io and enums or arrays</description>
+    </item>
+    
+    <item>
+      <title>week13</title>
+      <link>https://i.madeso.me/devlog/2017-13/</link>
+      <pubDate>Tue, 04 Apr 2017 23:41:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-13/</guid>
+      <description>Last week was kinda productive despite a birthday party in Germany. I finally started on gaf, the game format file format generator, and separated the game and the engine part of spacetyper into super and sub repos.</description>
+    </item>
+    
+    <item>
+      <title>week12</title>
+      <link>https://i.madeso.me/devlog/2017-12/</link>
+      <pubDate>Tue, 28 Mar 2017 23:23:55 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-12/</guid>
+      <description>Last week wasn&amp;rsquo;t that eventful. Life got in my way I guess so no code was neither written nor committed. Better luck next(this) week I guess&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>week11</title>
+      <link>https://i.madeso.me/devlog/2017-11/</link>
+      <pubDate>Mon, 20 Mar 2017 07:07:41 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-11/</guid>
+      <description>I did nothing at all this week except watching Netflix. I managed to watch the entire Jessica Jones season 1 though so I&amp;rsquo;m both proud and appalled about my accomplishment.</description>
+    </item>
+    
+    <item>
+      <title>week10</title>
+      <link>https://i.madeso.me/devlog/2017-10/</link>
+      <pubDate>Tue, 14 Mar 2017 00:21:39 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-10/</guid>
+      <description>I haven&amp;rsquo;t really been doing that much last week. Instead of staring designing or coding the 2d rendering system I started on separating the engine repo from the game repo, but nothing is complete yet. I hope I&amp;rsquo;ll be able to finish it this week.</description>
+    </item>
+    
+    <item>
+      <title>week9</title>
+      <link>https://i.madeso.me/devlog/2017-09/</link>
+      <pubDate>Mon, 06 Mar 2017 05:44:35 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-09/</guid>
+      <description>This week I didn&amp;rsquo;t do much, except implementing radix sort with count sort as the second sorter. Pretty standard I guess but it wasn&amp;rsquo;t in my toolbox library and I will need it for the upcoming render optimization</description>
+    </item>
+    
+    <item>
+      <title>week8</title>
+      <link>https://i.madeso.me/devlog/2017-08/</link>
+      <pubDate>Sun, 26 Feb 2017 12:25:31 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2017-08/</guid>
+      <description>This week I replaced the built-in assert with a custom one to get callstack information, and I&amp;rsquo;ve also finally completed the rewrite of the new opengl buffer rendering.</description>
+    </item>
+    
+    <item>
+      <title>Shoelacing</title>
+      <link>https://i.madeso.me/blog/shoelacing/</link>
+      <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/shoelacing/</guid>
+      <description>I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!
+http://www.fieggen.com/shoelace/</description>
+    </item>
+    
+    <item>
+      <title>Keep your ubuntu-gnome from waking up at random</title>
+      <link>https://i.madeso.me/blog/gnomewakeup/</link>
+      <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/gnomewakeup/</guid>
+      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.
+It is really quite simple. First you need to install it, unless you already have it installed:
+$ sudo apt-get install acpitool Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
+    </item>
+    
+    <item>
+      <title>Non recursive file searching in Nautilus</title>
+      <link>https://i.madeso.me/blog/nonerecursivesearch/</link>
+      <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/nonerecursivesearch/</guid>
+      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).
+This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.
+http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
+    </item>
+    
+    <item>
+      <title>Revert google&#43; to a standard blogger profile on blogger</title>
+      <link>https://i.madeso.me/blog/googleplusblogger/</link>
+      <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/googleplusblogger/</guid>
+      <description>It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:
+http://www.blogger.com/revert-profile.g﻿
+Pretty simple but it took far too long to find it.</description>
+    </item>
+    
+    <item>
+      <title>Folders before files in ubuntu</title>
+      <link>https://i.madeso.me/blog/foldersbeforefiles/</link>
+      <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/foldersbeforefiles/</guid>
+      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:
+In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
+    </item>
+    
+    <item>
+      <title>Windows 10 wakes up from sleep at random</title>
+      <link>https://i.madeso.me/blog/win10wakeup/</link>
+      <pubDate>Fri, 26 Aug 2016 19:12:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/win10wakeup/</guid>
+      <description>After upgrading to Windows 10, my computer started randomly waking up. This extensive guide on superuser has proven time and time again to be a perfect guide to keep windows from waking up.</description>
+    </item>
+    
+    <item>
+      <title>Test markdown</title>
+      <link>https://i.madeso.me/blog/test/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://i.madeso.me/blog/test/</guid>
+      <description>Here&amp;rsquo;s a code chunk with syntax highlighting:
+var foo = function(x) { return(x + 5); } foo(3) $ echo $EDITOR vim $ git checkout master Switched to branch &amp;#39;master&amp;#39; Your branch is up-to-date with &amp;#39;origin/master&amp;#39;. $ git push Everything up-to-date $ echo &amp;#39;All &amp;gt; done!&amp;#39; All done! You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</description>
+    </item>
+    
+    <item>
+      <title>The road that follows</title>
+      <link>https://i.madeso.me/blog/sh-roadthatfollows/</link>
+      <pubDate>Fri, 25 Oct 2013 13:53:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-roadthatfollows/</guid>
+      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
+ Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
+    </item>
+    
+    <item>
+      <title>Development stories</title>
+      <link>https://i.madeso.me/blog/sh-devstories/</link>
+      <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-devstories/</guid>
+      <description>It’s been a while since I posted, but I have been buried deep in rift and input development. Rift development is pretty much done and I have rift support. I have received my razer hydra and backed the stem system and I’m hoping I’ll receive my sixense stem system in July.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on the controls</title>
+      <link>https://i.madeso.me/blog/sh-controls/</link>
+      <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-controls/</guid>
+      <description>I have started implementing the basic controls for both the keyboard and joysticks and to test everything out I added basic thrust and torque controls, and while this is really hard to control as each torque requires a counter torque from stopping to spinning I started thinking. The WebGL version of lander and I recall the original (I still can’t get it to play on my win7 system) let’s you enter the desired orientation and let a AI controls the torque thrusts.</description>
+    </item>
+    
+    <item>
+      <title>The music</title>
+      <link>https://i.madeso.me/blog/sh-music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-music/</guid>
+      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
+  Or some some ambient 80’s style electro music like this.
+Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Distribution</title>
+      <link>https://i.madeso.me/blog/sh-distribution/</link>
+      <pubDate>Thu, 20 Jun 2013 13:36:13 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-distribution/</guid>
+      <description>This week instead of talking just design I thought I would be nice to share some development ideas that I’ve been brewing for a while, and it has to do with distribution of the game. The obvious choice is steam, and probably the equivalent to the appstore on ubuntu(if that still exists and is flourishing), but a part of me wants to sell the game to all linux distributions and I can’t test that at all.</description>
+    </item>
+    
+    <item>
+      <title>Name of the game</title>
+      <link>https://i.madeso.me/blog/sh-name/</link>
+      <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-name/</guid>
+      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.
+First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.
+Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
+    </item>
+    
+    <item>
+      <title>Flowstorm</title>
+      <link>https://i.madeso.me/blog/sh-flowstorm/</link>
+      <pubDate>Thu, 23 May 2013 13:18:10 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-flowstorm/</guid>
+      <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
+    </item>
+    
+    <item>
+      <title>And so it begins...</title>
+      <link>https://i.madeso.me/blog/sh-begins/</link>
+      <pubDate>Tue, 21 May 2013 13:15:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-begins/</guid>
+      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.
+I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m not dead</title>
+      <link>https://i.madeso.me/blog/wp-notdead/</link>
+      <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-notdead/</guid>
+      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂
+Anyways, I’ve been quite busy since last time:
+ My pwn game library is still in development. and I’ve entered ludum dare twice..  I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve been busy</title>
+      <link>https://i.madeso.me/blog/wp-busy/</link>
+      <pubDate>Sun, 01 Nov 2009 12:16:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-busy/</guid>
+      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.
+Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.
+I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
+    </item>
+    
+    <item>
+      <title>Oh, the temptation</title>
+      <link>https://i.madeso.me/blog/wp-temptation/</link>
+      <pubDate>Thu, 24 Sep 2009 12:12:58 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-temptation/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Epic fail</title>
+      <link>https://i.madeso.me/blog/wp-epicfail/</link>
+      <pubDate>Wed, 29 Jul 2009 11:26:22 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-epicfail/</guid>
+      <description>I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish no more sweden :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the (external) editor, and to my horror it didn’t load. No message, no crash nor any exception – just silence.</description>
+    </item>
+    
+    <item>
+      <title>No more sweden - It can&#39;t be true</title>
+      <link>https://i.madeso.me/blog/wp-nomoresweden/</link>
+      <pubDate>Mon, 13 Jul 2009 11:20:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-nomoresweden/</guid>
+      <description>So I’m attending this game-jam called No more sweden(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer, so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.</description>
+    </item>
+    
+    <item>
+      <title>Yo frankie!</title>
+      <link>https://i.madeso.me/blog/wp-yofrankie/</link>
+      <pubDate>Mon, 06 Jul 2009 11:18:56 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-yofrankie/</guid>
+      <description>Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking Yo Frankie! with my tetris engine.
+Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games.</description>
+    </item>
+    
+    <item>
+      <title>Excursions into the UI</title>
+      <link>https://i.madeso.me/blog/wp-ui-excursions/</link>
+      <pubDate>Thu, 25 Jun 2009 11:08:13 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-ui-excursions/</guid>
+      <description>I recently read scarabus’ post regarding guis and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.
+So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d.</description>
+    </item>
+    
+    <item>
+      <title>Tetris got sacked!</title>
+      <link>https://i.madeso.me/blog/wp-tetris-sacked/</link>
+      <pubDate>Sun, 07 Jun 2009 11:06:13 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-tetris-sacked/</guid>
+      <description>I recently came to the conclusion that I wont continue tetris, and instead restart my third person shooter-beatemup zombie &amp;amp; soldier slayfest Survivors. I always knew I was going back to survivors, I just didn’t know that I was going to give up on tetris. In reality it has to do with I got bored and can’t come up with a satisfying way of designing the menys. It sucks really, but all of the time wont go to waste since most of the code is basic boilerplate and I’m happy with most of the layout.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re doomed (not)</title>
+      <link>https://i.madeso.me/blog/wp-darkangel/</link>
+      <pubDate>Tue, 02 Jun 2009 11:02:59 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-darkangel/</guid>
+      <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.
+ On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
+ Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
+    </item>
+    
+    <item>
+      <title>Stairway to heaven</title>
+      <link>https://i.madeso.me/blog/wp-stairway/</link>
+      <pubDate>Sat, 23 May 2009 11:01:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-stairway/</guid>
+      <description>I recently discovered, not only do the local library have CD’s full of modern music, with my chemical romance-blood among others(despite what you think of chemical romance, blood really is different), they also have a complete collection of sound fx CD’s. I guess I dont have to spend some of my hard earned money on thoose sorts of CD’s when I can borrow 🙂</description>
+    </item>
+    
+    <item>
+      <title>Foobar sorting</title>
+      <link>https://i.madeso.me/blog/wp-foobar/</link>
+      <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-foobar/</guid>
+      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
+Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+    </item>
+    
+    <item>
+      <title>Is there a bone in your shell?</title>
+      <link>https://i.madeso.me/blog/wp-shellbone/</link>
+      <pubDate>Mon, 23 Mar 2009 10:54:15 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-shellbone/</guid>
+      <description>I managed to get my skeleton loader working and I had some problem roatating the turtle 360 degrees but when I enabled ShortSlerp and fixed a few bugs in the angle-loading routine it worked as expected.</description>
+    </item>
+    
+    <item>
+      <title>Operating system not found</title>
+      <link>https://i.madeso.me/blog/wp-osnotfound/</link>
+      <pubDate>Tue, 24 Feb 2009 10:47:30 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-osnotfound/</guid>
+      <description>I had a nightmare a few nights ago. In the dream I apparently had formated my computer without doing a backup of my important data. Luckily it was only a dream…</description>
+    </item>
+    
+    <item>
+      <title>Hello, I am Gustav</title>
+      <link>https://i.madeso.me/blog/wp-hello/</link>
+      <pubDate>Sun, 25 Jan 2009 10:40:56 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-hello/</guid>
+      <description>.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion? Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.
+Until next time…</description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>https://i.madeso.me/blog/wp-firstpost/</link>
+      <pubDate>Tue, 30 Dec 2008 10:38:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-firstpost/</guid>
+      <description>As the current year is slowly coming to a close, I figured that it would be smart to make a few promises. The first would be to actually add a new post once in a while, say every week, instead of once a year. So who am I…? Stay tuned for my next update 🙂</description>
+    </item>
     
   </channel>
 </rss>

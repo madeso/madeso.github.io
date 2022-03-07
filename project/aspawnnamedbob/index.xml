@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons A spawn named bob </title>
+    <title>A spawn named bob on Gustav Jansson</title>
     <link>https://i.madeso.me/project/aspawnnamedbob/</link>
-    <description>&lt;p&gt;Pretty basic platformer made for ludum dare in 48 hours. Surprisingly fun because of the unlimited air dashing and matching sound effects.&lt;/p&gt;
-</description>
+    <description>Recent content in A spawn named bob on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Apr 2011 22:03:05 +0200</lastBuildDate>
-    <atom:link href="/project/aspawnnamedbob/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Thu, 21 Apr 2011 22:03:05 +0200</lastBuildDate><atom:link href="https://i.madeso.me/project/aspawnnamedbob/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

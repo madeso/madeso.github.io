@@ -1,15 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons free time </title>
+    <title>free time on Gustav Jansson</title>
     <link>https://i.madeso.me/categories/free-time/</link>
-    <description></description>
+    <description>Recent content in free time on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate>
-    <atom:link href="/categories/free-time/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate><atom:link href="https://i.madeso.me/categories/free-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ride</title>
+      <link>https://i.madeso.me/project/ride/</link>
+      <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/ride/</guid>
+      <description>A somewhat work in progress of my Rust IDE, currently written in C++.</description>
+    </item>
     
+    <item>
+      <title>4th Dimension</title>
+      <link>https://i.madeso.me/project/4thdimension/</link>
+      <pubDate>Wed, 21 Nov 2007 22:24:09 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/4thdimension/</guid>
+      <description>So&amp;hellip; In my quest to make a complete game with each engine, this is my second game. My first game was made with a homegrown 3d engine in OpenGL with ODE. This one however is in 2d and uses HGE and bass(through HGE). My previous game was made in a month, this was made in a week. The Game The game itself is based on a really old game for the mac that I liked, and I think it was called The 4th dimension, though I can only find a game dev company called 4th dimension.</description>
+    </item>
     
+    <item>
+      <title>World editor</title>
+      <link>https://i.madeso.me/project/wed/</link>
+      <pubDate>Sat, 21 Apr 2007 22:29:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/wed/</guid>
+      <description>A basic world editor inspired by sketchup.</description>
+    </item>
+    
+    <item>
+      <title>Survivors</title>
+      <link>https://i.madeso.me/project/survivors/</link>
+      <pubDate>Sat, 21 Apr 2007 22:28:56 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/survivors/</guid>
+      <description>A failed reboot of my previous game Infection.</description>
+    </item>
+    
+    <item>
+      <title>Lolball</title>
+      <link>https://i.madeso.me/project/lolball/</link>
+      <pubDate>Wed, 21 Mar 2007 22:03:12 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/lolball/</guid>
+      <description>Lolball is a simple guide-ball-to-the-end-of-the-level type of game with additional features such as particle combos(the explosions and the sprays), jumping, physics, slowmotion and crates.</description>
+    </item>
+    
+    <item>
+      <title>Infection</title>
+      <link>https://i.madeso.me/project/infection/</link>
+      <pubDate>Wed, 21 Jan 2004 22:03:32 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/infection/</guid>
+      <description>Infection is a unfinished FPS that I worked on between 2002-2004.</description>
+    </item>
     
   </channel>
 </rss>

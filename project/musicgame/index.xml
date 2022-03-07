@@ -1,15 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons Musicgame </title>
+    <title>Musicgame on Gustav Jansson</title>
     <link>https://i.madeso.me/project/musicgame/</link>
-    <description></description>
+    <description>Recent content in Musicgame on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2014 01:12:27 +0200</lastBuildDate>
-    <atom:link href="/project/musicgame/" rel="self" type="application/rss+xml" />
-
-    
-    
-    
+    <lastBuildDate>Mon, 28 Apr 2014 01:12:27 +0200</lastBuildDate><atom:link href="https://i.madeso.me/project/musicgame/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

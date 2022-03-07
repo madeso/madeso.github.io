@@ -7,8 +7,10 @@ body {
     line-height: 1.75em;
     color: #313537;
     background-color: #F3F5F6;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 .shortdate {
@@ -155,7 +157,7 @@ a i.fa-external-link {
 }
 
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: monaco, "Consolas", "Lucida Console", monospace;
 }
 
 

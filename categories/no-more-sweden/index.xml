@@ -1,15 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons no more sweden </title>
+    <title>no more sweden on Gustav Jansson</title>
     <link>https://i.madeso.me/categories/no-more-sweden/</link>
-    <description></description>
+    <description>Recent content in no more sweden on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
-    <atom:link href="/categories/no-more-sweden/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate><atom:link href="https://i.madeso.me/categories/no-more-sweden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Looking for love</title>
+      <link>https://i.madeso.me/project/looking-for-love/</link>
+      <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/looking-for-love/</guid>
+      <description>In this experience you wait for a bus that never seems to come and can take out your phone and try to look for love.</description>
+    </item>
     
+    <item>
+      <title>Sloth Dictator</title>
+      <link>https://i.madeso.me/project/slothdictator/</link>
+      <pubDate>Sun, 19 Jul 2015 01:31:06 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/slothdictator/</guid>
+      <description>The Sloth dictator and his sloth generals are overseeing the Slothlympics.
+Compete in the role of one of four animals and mash that button to get first to the finish line, but be careful: the dictator wants you to go slowly, so if they see you going fast, you&amp;rsquo;ll be penalized!
+Mash the button to go faster, and use the other two to change lanes. If you get behind another runner, you can push them to make them go fast, and be penalized!</description>
+    </item>
     
+    <item>
+      <title>Bad Dude</title>
+      <link>https://i.madeso.me/project/baddude/</link>
+      <pubDate>Thu, 28 Aug 2014 01:07:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/baddude/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Octohack</title>
+      <link>https://i.madeso.me/project/octohack/</link>
+      <pubDate>Sun, 12 Aug 2012 22:05:44 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/octohack/</guid>
+      <description>As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.</description>
+    </item>
+    
+    <item>
+      <title>Guru: the meaning of life</title>
+      <link>https://i.madeso.me/project/guru/</link>
+      <pubDate>Sun, 07 Aug 2011 22:04:21 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/guru/</guid>
+      <description>Find out the meaning of life while surfing on your beard.</description>
+    </item>
+    
+    <item>
+      <title>Chuck Norris The Demolition Dude</title>
+      <link>https://i.madeso.me/project/chucknorris/</link>
+      <pubDate>Sat, 21 Aug 2010 22:25:42 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/chucknorris/</guid>
+      <description>A old gamejam game. There is nothing really that can be done in the game, as I ran out of time, but there was a interesting mechaninc with roundhousekicking as a platform mechanic.</description>
+    </item>
     
   </channel>
 </rss>

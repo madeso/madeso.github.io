@@ -1,15 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons vr </title>
+    <title>vr on Gustav Jansson</title>
     <link>https://i.madeso.me/tags/vr/</link>
-    <description></description>
+    <description>Recent content in vr on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Oct 2013 13:52:20 +0200</lastBuildDate>
-    <atom:link href="/tags/vr/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Sun, 13 Oct 2013 13:52:20 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development stories</title>
+      <link>https://i.madeso.me/blog/sh-devstories/</link>
+      <pubDate>Sun, 13 Oct 2013 13:52:20 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-devstories/</guid>
+      <description>It’s been a while since I posted, but I have been buried deep in rift and input development. Rift development is pretty much done and I have rift support. I have received my razer hydra and backed the stem system and I’m hoping I’ll receive my sixense stem system in July.</description>
+    </item>
     
+    <item>
+      <title>Oculus development</title>
+      <link>https://i.madeso.me/blog/sh-oculus/</link>
+      <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-oculus/</guid>
+      <description>I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:</description>
+    </item>
     
+    <item>
+      <title>A modern cockpit view</title>
+      <link>https://i.madeso.me/blog/sh-cockpit/</link>
+      <pubDate>Sat, 08 Jun 2013 13:31:22 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/sh-cockpit/</guid>
+      <description>I never really liked the cockpit view of flying and driving games. It provies a sense of realism for sure, but I never believed it provided me with a view that I liked. Enter E3 2012 and the demonstration of the Oculus Rift. Together with a helicopter like transparent sphere like cockpit the cockpit view field of view that the rift provides and the slow speed of the craft it provide a sense of realism few games can match.</description>
+    </item>
     
   </channel>
 </rss>

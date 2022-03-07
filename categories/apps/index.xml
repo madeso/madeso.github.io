@@ -1,15 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons apps </title>
+    <title>apps on Gustav Jansson</title>
     <link>https://i.madeso.me/categories/apps/</link>
-    <description></description>
+    <description>Recent content in apps on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate>
-    <atom:link href="/categories/apps/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate><atom:link href="https://i.madeso.me/categories/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ride</title>
+      <link>https://i.madeso.me/project/ride/</link>
+      <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/ride/</guid>
+      <description>A somewhat work in progress of my Rust IDE, currently written in C++.</description>
+    </item>
     
-    
+    <item>
+      <title>World editor</title>
+      <link>https://i.madeso.me/project/wed/</link>
+      <pubDate>Sat, 21 Apr 2007 22:29:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/project/wed/</guid>
+      <description>A basic world editor inspired by sketchup.</description>
+    </item>
     
   </channel>
 </rss>

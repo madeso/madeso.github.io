@@ -1,15 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustav Janssons tetris </title>
+    <title>tetris on Gustav Jansson</title>
     <link>https://i.madeso.me/tags/tetris/</link>
-    <description></description>
+    <description>Recent content in tetris on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2009 11:06:13 +0200</lastBuildDate>
-    <atom:link href="/tags/tetris/" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Sun, 07 Jun 2009 11:06:13 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/tetris/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tetris got sacked!</title>
+      <link>https://i.madeso.me/blog/wp-tetris-sacked/</link>
+      <pubDate>Sun, 07 Jun 2009 11:06:13 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-tetris-sacked/</guid>
+      <description>I recently came to the conclusion that I wont continue tetris, and instead restart my third person shooter-beatemup zombie &amp;amp; soldier slayfest Survivors. I always knew I was going back to survivors, I just didn’t know that I was going to give up on tetris. In reality it has to do with I got bored and can’t come up with a satisfying way of designing the menys. It sucks really, but all of the time wont go to waste since most of the code is basic boilerplate and I’m happy with most of the layout.</description>
+    </item>
     
-    
+    <item>
+      <title>Hello, I am Gustav</title>
+      <link>https://i.madeso.me/blog/wp-hello/</link>
+      <pubDate>Sun, 25 Jan 2009 10:40:56 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/wp-hello/</guid>
+      <description>.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion? Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.
+Until next time…</description>
+    </item>
     
   </channel>
 </rss>
