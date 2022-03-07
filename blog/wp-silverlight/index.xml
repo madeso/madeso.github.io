@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons Silverlight Installation </title>
+    <link>https://i.madeso.me/blog/wp-silverlight/</link>
+    <description>&lt;p&gt;I recently had to install silverlight at my computer(channel 9 required it), since I wanted to have a look at the brand new Visual Studio 2010 without downloading that huge ctp, and I must say that I really liked the installation process. Unlike most installations it doesn’t force you to press 20 buttons to install it. Only 2, ” install now”, and “close”.  It actually felt refreshing.&lt;/p&gt;
+&lt;p&gt;It still manages to mention silverlight 4 times though without telling you what it does. Still, it’s &lt;a href=&#34;http://www.joelonsoftware.com/items/2009/01/12.html&#34;&gt;better than Java&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;silverlight.png&#34; alt=&#34;silverlight&#34;&gt;&lt;/p&gt;
+</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Feb 2009 10:42:29 +0200</lastBuildDate>
+    <atom:link href="/blog/wp-silverlight/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+  </channel>
+</rss>

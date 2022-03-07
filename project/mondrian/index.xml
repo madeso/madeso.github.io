@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons The Mondrian crash </title>
+    <link>https://i.madeso.me/project/mondrian/</link>
+    <description>&lt;p&gt;Score points by building chains and destroying them with explosions.&lt;/p&gt;
+</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2013 22:41:52 +0200</lastBuildDate>
+    <atom:link href="/project/mondrian/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons Octohack </title>
+    <link>https://i.madeso.me/project/octohack/</link>
+    <description>&lt;p&gt;As one of 2 programmers in a team of four we made a turn based octopus game where you kill your enemies by fighting them and detaching limbs for more attackpower.&lt;/p&gt;
+</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Aug 2012 22:05:44 +0200</lastBuildDate>
+    <atom:link href="/project/octohack/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons dudidadala </title>
+    <link>https://i.madeso.me/project/dudidadala/</link>
+    <description>&lt;p&gt;Mario-esc jump and shoot kinda game.&lt;/p&gt;
+</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Aug 2010 22:03:59 +0200</lastBuildDate>
+    <atom:link href="/project/dudidadala/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+  </channel>
+</rss>

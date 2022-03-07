@@ -1,0 +1,154 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons Tags </title>
+    <link>https://i.madeso.me/tags/</link>
+    <description></description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jul 2017 14:31:24 +0200</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+
+    
+    
+    <item>
+      <title>linux</title>
+      <link>https://i.madeso.me/tags/linux/</link>
+      <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://i.madeso.me/tags/ubuntu/</link>
+      <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spotify</title>
+      <link>https://i.madeso.me/tags/spotify/</link>
+      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/spotify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssd</title>
+      <link>https://i.madeso.me/tags/ssd/</link>
+      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/ssd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://i.madeso.me/tags/windows/</link>
+      <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://i.madeso.me/tags/code/</link>
+      <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://i.madeso.me/tags/git/</link>
+      <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lacing</title>
+      <link>https://i.madeso.me/tags/lacing/</link>
+      <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/lacing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifestyle</title>
+      <link>https://i.madeso.me/tags/lifestyle/</link>
+      <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shoes</title>
+      <link>https://i.madeso.me/tags/shoes/</link>
+      <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/shoes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hibernate</title>
+      <link>https://i.madeso.me/tags/hibernate/</link>
+      <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/hibernate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nautilus</title>
+      <link>https://i.madeso.me/tags/nautilus/</link>
+      <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/nautilus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogger</title>
+      <link>https://i.madeso.me/tags/blogger/</link>
+      <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/blogger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google&#43;</title>
+      <link>https://i.madeso.me/tags/google&#43;/</link>
+      <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/tags/google&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>https://i.madeso.me/tags/example/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://i.madeso.me/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    
+  </channel>
+</rss>

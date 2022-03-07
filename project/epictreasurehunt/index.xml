@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustav Janssons Epic Treasure Hunt </title>
+    <link>https://i.madeso.me/project/epictreasurehunt/</link>
+    <description>&lt;p&gt;Climb around, throw stones at monkeys and find treasures. A somewhat failed attempt at humor in games and long boring/grinding levels.&lt;/p&gt;
+</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Dec 2010 22:04:16 +0200</lastBuildDate>
+    <atom:link href="/project/epictreasurehunt/" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+  </channel>
+</rss>
