@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 10</title>
+      <link>https://i.madeso.me/devlog/2022-10/</link>
+      <pubDate>Sun, 13 Mar 2022 23:56:14 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-10/</guid>
+      <description>This week I implemented translate and rotate gizmos for t3d</description>
+    </item>
+    
+    <item>
       <title>Week 09</title>
       <link>https://i.madeso.me/devlog/2022-09/</link>
       <pubDate>Sun, 06 Mar 2022 22:01:44 +0100</pubDate>
