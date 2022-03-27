@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2022-12/</link>
+      <pubDate>Sun, 27 Mar 2022 23:30:32 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-12/</guid>
+      <description>This week I replaced the old ECS with the new ECS and started improving the t3d camera experience</description>
+    </item>
+    
+    <item>
       <title>Week 11</title>
       <link>https://i.madeso.me/devlog/2022-11/</link>
       <pubDate>Sun, 20 Mar 2022 22:56:17 +0100</pubDate>
