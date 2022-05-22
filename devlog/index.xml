@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 20</title>
+      <link>https://i.madeso.me/devlog/2022-20/</link>
+      <pubDate>Sun, 22 May 2022 23:50:17 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-20/</guid>
+      <description>This week I continued refactoring tred main to what can be called a rendering engine.</description>
+    </item>
+    
+    <item>
       <title>Week 19</title>
       <link>https://i.madeso.me/devlog/2022-19/</link>
       <pubDate>Sun, 15 May 2022 22:25:27 +0200</pubDate>
