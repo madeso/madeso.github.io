@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2022-24/</link>
+      <pubDate>Sun, 19 Jun 2022 22:57:53 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-24/</guid>
+      <description>This week I added the World concept to tred, extracted all the engine parts out of main.cc and started on adding more features to the rust version of build</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://i.madeso.me/devlog/2022-23/</link>
       <pubDate>Sun, 12 Jun 2022 23:51:11 +0200</pubDate>
@@ -2550,7 +2559,7 @@ var foo = function(x) { return(x + 5); } foo(3) $ echo $EDITOR vim $ git checkou
       
       <guid>https://i.madeso.me/blog/sh-roadthatfollows/</guid>
       <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
- Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
+Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
     </item>
     
     <item>
@@ -2578,7 +2587,7 @@ var foo = function(x) { return(x + 5); } foo(3) $ echo $EDITOR vim $ git checkou
       
       <guid>https://i.madeso.me/blog/sh-music/</guid>
       <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
-  Or some some ambient 80’s style electro music like this.
+Or some some ambient 80’s style electro music like this.
 Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
     </item>
     
@@ -2629,7 +2638,7 @@ I thought about remaking a previous game of mine, lolball, but all the design I 
       <guid>https://i.madeso.me/blog/wp-notdead/</guid>
       <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂
 Anyways, I’ve been quite busy since last time:
- My pwn game library is still in development. and I’ve entered ludum dare twice..  I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
     </item>
     
     <item>
@@ -2649,7 +2658,7 @@ I’ve also been thinking about creating a 2d level editor as editing text-files
       <pubDate>Thu, 24 Sep 2009 12:12:58 +0200</pubDate>
       
       <guid>https://i.madeso.me/blog/wp-temptation/</guid>
-      <description>   </description>
+      <description> </description>
     </item>
     
     <item>
@@ -2706,8 +2715,8 @@ So, beeing picky I have tried several mesh modelers. The imcomplete list is anim
       
       <guid>https://i.madeso.me/blog/wp-darkangel/</guid>
       <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.
- On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
- Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
+On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
+Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
     </item>
     
     <item>
@@ -2727,7 +2736,7 @@ So, beeing picky I have tried several mesh modelers. The imcomplete list is anim
       <guid>https://i.madeso.me/blog/wp-foobar/</guid>
       <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
 Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
-$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
     </item>
     
     <item>

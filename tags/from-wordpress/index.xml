@@ -15,7 +15,7 @@
       <guid>https://i.madeso.me/blog/wp-notdead/</guid>
       <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂
 Anyways, I’ve been quite busy since last time:
- My pwn game library is still in development. and I’ve entered ludum dare twice..  I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ I’ve also been thinking about creating a 2d level editor as editing text-files
       <pubDate>Thu, 24 Sep 2009 12:12:58 +0200</pubDate>
       
       <guid>https://i.madeso.me/blog/wp-temptation/</guid>
-      <description>   </description>
+      <description> </description>
     </item>
     
     <item>
@@ -102,8 +102,8 @@ So, beeing picky I have tried several mesh modelers. The imcomplete list is anim
       
       <guid>https://i.madeso.me/blog/wp-darkangel/</guid>
       <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.
- On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
- Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
+On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
+Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
     </item>
     
     <item>
@@ -123,7 +123,7 @@ So, beeing picky I have tried several mesh modelers. The imcomplete list is anim
       <guid>https://i.madeso.me/blog/wp-foobar/</guid>
       <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
 Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
-$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
     </item>
     
     <item>

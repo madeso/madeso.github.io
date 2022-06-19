@@ -14,7 +14,7 @@
       
       <guid>https://i.madeso.me/blog/sh-music/</guid>
       <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
-  Or some some ambient 80’s style electro music like this.
+Or some some ambient 80’s style electro music like this.
 Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
     </item>
     
@@ -35,7 +35,7 @@ Given the I’ve already found some electro music that seems to be fitting and t
       <guid>https://i.madeso.me/blog/wp-foobar/</guid>
       <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
 Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
-$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)  That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
     </item>
     
   </channel>
