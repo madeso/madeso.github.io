@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 30</title>
+      <link>https://i.madeso.me/devlog/2022-30/</link>
+      <pubDate>Sun, 31 Jul 2022 22:59:17 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-30/</guid>
+      <description>This week I actually continued reading &amp;ldquo;crafting interpreters&amp;rdquo; and restarted my lox implementation and I just recently added looing, conditionals to the language and unit tests to the build so I don&amp;rsquo;t break any features.</description>
+    </item>
+    
+    <item>
       <title>Week 29</title>
       <link>https://i.madeso.me/devlog/2022-29/</link>
       <pubDate>Sun, 24 Jul 2022 23:46:22 +0200</pubDate>
