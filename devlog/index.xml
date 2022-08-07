@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2022-31/</link>
+      <pubDate>Sun, 07 Aug 2022 23:37:09 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-31/</guid>
+      <description>This week I continued working on lox. I&amp;rsquo;m still not finished with the first section but I&amp;rsquo;m slowly getting there. Hopefully soon I can start integrating the first version into fyro and see what I&amp;rsquo;m missing.</description>
+    </item>
+    
+    <item>
       <title>Week 30</title>
       <link>https://i.madeso.me/devlog/2022-30/</link>
       <pubDate>Sun, 31 Jul 2022 22:59:17 +0200</pubDate>
