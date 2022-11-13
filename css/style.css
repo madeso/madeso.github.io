@@ -113,12 +113,14 @@ h2.latestpostsheader {
     font-size: 1em;
 }
 
-.footerbuttons a .fa {
+.footerbuttons a i
+{
     -webkit-transition: -webkit-transform .1s ease-out;
     transition: transform .1s ease-out;
 }
 
-.footerbuttons a:hover .fa {
+.footerbuttons a:hover i
+{
     -ms-transform: scale(2.3, 2.3); /* IE 9 */
     -webkit-transform: scale(2.3, 2.3); /* Safari */
     transform: scale(2.3, 2.3);
