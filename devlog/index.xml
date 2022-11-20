@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 46</title>
+      <link>https://i.madeso.me/devlog/2022-46/</link>
+      <pubDate>Sun, 20 Nov 2022 23:51:57 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-46/</guid>
+      <description>This week I continued the work on ride, mostly refactoring and getting a consistent code style. Some more work to be done for sure with PCH and cmake aliases next week.</description>
+    </item>
+    
+    <item>
       <title>Week 45</title>
       <link>https://i.madeso.me/devlog/2022-45/</link>
       <pubDate>Sun, 13 Nov 2022 22:55:42 +0100</pubDate>
