@@ -142,7 +142,11 @@ h2.latestpostsheader {
 
 h1 { font-size: 1.7em; }
 h2 { font-size: 1.5em; color: #ff7f27; }
-h3 { font-size: 1.4em; }
+h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 a i.fa-external-link {
     font-size: 0.6em;
@@ -443,4 +447,12 @@ hr + p::before
     top: -40px;
     left: 50%;
     margin: 0 0 0 -6px;
+}
+
+
+nav#TableOfContents ol li
+{
+    list-style-type: decimal-leading-zero;
+    padding-left: 0.4em;
+    margin-left: 0.4em;
 }
