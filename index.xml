@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2022-48/</link>
+      <pubDate>Sun, 04 Dec 2022 23:57:42 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-48/</guid>
+      <description>This week I mostly watched star tred TOS season 2, thinking and writing small bits on ride and playing around with the new OpenAI chat system.</description>
+    </item>
+    
+    <item>
       <title>Adventures in chatting with an AI</title>
       <link>https://i.madeso.me/blog/adventures-in-chatting-with-an-ai/</link>
       <pubDate>Sat, 03 Dec 2022 18:16:08 +0100</pubDate>
