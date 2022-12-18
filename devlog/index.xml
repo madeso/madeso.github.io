@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2022-50/</link>
+      <pubDate>Sun, 18 Dec 2022 22:35:02 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2022-50/</guid>
+      <description>This week I mostly watched star trek TOS but I played a little bit with zig</description>
+    </item>
+    
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2022-49/</link>
       <pubDate>Sun, 11 Dec 2022 23:34:57 +0100</pubDate>
