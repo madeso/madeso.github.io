@@ -62,6 +62,15 @@
         <h2 class="latestpostsheader">Latest devlogs</h2>
             <article class="post">
 <div class="title">
+<a href="https://i.madeso.me/devlog/2022-52/"><div class="previewheader header">Week 52</div></a>
+<div class="shortdate right">1 January 2023</div>
+</div>
+<div class="markdown">
+<p>This week I finished TOS and started replacing all streams for euphoria with fmt. There are only 2 parts left but that whole section should be rewritten soon anyway so I figured I wouldn&rsquo;t bother replacing them.</p>
+</div>
+  </article>
+            <article class="post">
+<div class="title">
 <a href="https://i.madeso.me/devlog/2022-51/"><div class="previewheader header">Week 51</div></a>
 <div class="shortdate right">25 December 2022</div>
 </div>
@@ -78,19 +87,20 @@
 <p>This week I mostly watched star trek TOS but I played a little bit with zig</p>
 </div>
   </article>
-            <article class="post">
-<div class="title">
-<a href="https://i.madeso.me/devlog/2022-49/"><div class="previewheader header">Week 49</div></a>
-<div class="shortdate right">11 December 2022</div>
-</div>
-<div class="markdown">
-<p>This week I didn&rsquo;t really do much, recovering from a cold and kinda tired to be honest.</p>
-</div>
-  </article>
             <a href="./devlog/" class="see-more">See more devlogs...</a>
     </div>
     <div id="latestblog" class="featured">
         <h2 class="latestpostsheader">Latest blog posts</h2>
+            <article class="post">
+<div class="title">
+<a href="https://i.madeso.me/blog/2022-in-review/"><div class="previewheader header">2022 in review</div></a>
+<div class="shortdate right">1 January 2023</div>
+</div>
+<p>I recently realized that I&rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&rsquo;ll summarize and write a smallish review of what I&rsquo;ve done on all my hobby projects the past year.
+Euphoria Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.
+Code wise I&rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core.</p>
+<p><a href="https://i.madeso.me/blog/2022-in-review/">Read the rest...</a></p>
+  </article>
             <article class="post">
 <div class="title">
 <a href="https://i.madeso.me/blog/adventures-in-chatting-with-an-ai/"><div class="previewheader header">Adventures in chatting with an AI</div></a>
@@ -107,22 +117,6 @@ Sorry for focusing so much on Uncle Bob. He&rsquo;s the name I think the AI woul
 </div>
 <p>Introduction Clean Code, mostly authored by Robert C. Martin, aka Uncle Bob, has come up lately in discussions and apparently it is still being read. I haven&rsquo;t read it and only read the responses about how bad it is and I&rsquo;ve read that it&rsquo;s pretty popular to hate on it and who am I to miss a trend. Join me as I read chapter to chapter and express my feelings and thoughts about each chapter.</p>
 <p><a href="https://i.madeso.me/blog/clean-code-chapter-2/">Read the rest...</a></p>
-  </article>
-            <article class="post">
-<div class="title">
-<a href="https://i.madeso.me/blog/restart-alsa/"><div class="previewheader header">Restarting Alsa</div></a>
-<div class="shortdate right">23 July 2017</div>
-</div>
-<div class="markdown">
-<p>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ pulseaudio -k <span class="o">&amp;&amp;</span> sudo alsa force-reload
-</span></span></code></pre></div><p>Found on <a href="https://askubuntu.com/a/230893">Stack overflow <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-</div>
-  <div class="taglist">
-    &nbsp;<a class="tag" href="/tags/linux">#linux</a>
-    &nbsp;<a class="tag" href="/tags/ubuntu">#ubuntu</a>
-  or <a class="tag" href="/tags/">(all)</a>
-  </div>
   </article>
             <a href="./blog/" class="see-more">See more blog posts...</a>
     </div>
