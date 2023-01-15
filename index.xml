@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 02</title>
+      <link>https://i.madeso.me/devlog/2023-02/</link>
+      <pubDate>Mon, 16 Jan 2023 00:56:01 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-02/</guid>
+      <description>This week I ported most of my tools from rust to c#.</description>
+    </item>
+    
+    <item>
       <title>Week 01</title>
       <link>https://i.madeso.me/devlog/2023-01/</link>
       <pubDate>Sun, 08 Jan 2023 23:03:33 +0100</pubDate>
