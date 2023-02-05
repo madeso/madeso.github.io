@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2023-05/</link>
+      <pubDate>Mon, 06 Feb 2023 00:22:37 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-05/</guid>
+      <description>This week I started removing templates from some classes since they were only used within tests while the rest of the code used the same type. I also added hugo import and custom meta data to the blaggen generator.</description>
+    </item>
+    
+    <item>
       <title>Week 04</title>
       <link>https://i.madeso.me/devlog/2023-04/</link>
       <pubDate>Sun, 29 Jan 2023 23:10:50 +0100</pubDate>
