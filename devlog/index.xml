@@ -9,6 +9,15 @@
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2023-06/</link>
+      <pubDate>Sun, 12 Feb 2023 22:40:54 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-06/</guid>
+      <description>This week I expanded blaggen with custom page data, I removed the templates from some euphoria types and added a initial version of a tool to detect confusing member order for classes/structs to workbench</description>
+    </item>
+    
+    <item>
+      <title>Week 06</title>
       <link>https://i.madeso.me/devlog/2023-05/</link>
       <pubDate>Mon, 06 Feb 2023 00:22:37 +0100</pubDate>
       
