@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 07</title>
+      <link>https://i.madeso.me/devlog/2023-07/</link>
+      <pubDate>Sun, 19 Feb 2023 22:13:02 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-07/</guid>
+      <description>This week I finished the rewatch of Bobbys entity talk and fixed typos so that my notes compile. I&amp;rsquo;ll probably will soon start integrating it into euphoria. Speaking of euphoria I also started cleaning up the code based on suggestions by the tool I hacked together last week and I&amp;rsquo;m almost done cleaning up the code. When that&amp;rsquo;s done I think it&amp;rsquo;s time to clean up the python scripts and switch the main repo to the dotnet tools.</description>
+    </item>
+    
+    <item>
       <title>Week 06</title>
       <link>https://i.madeso.me/devlog/2023-06/</link>
       <pubDate>Sun, 12 Feb 2023 22:40:54 +0100</pubDate>
