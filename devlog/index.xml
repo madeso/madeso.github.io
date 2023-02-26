@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 08</title>
+      <link>https://i.madeso.me/devlog/2023-08/</link>
+      <pubDate>Sun, 26 Feb 2023 23:55:17 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-08/</guid>
+      <description>This week I continued working on workbench and fixing the detected issues in euphoria. I also started on a smaller rendering experiment called Klotter, with anti-goals so I hope it will accomplish part of what tred tried to do.</description>
+    </item>
+    
+    <item>
       <title>Week 07</title>
       <link>https://i.madeso.me/devlog/2023-07/</link>
       <pubDate>Sun, 19 Feb 2023 22:13:02 +0100</pubDate>
