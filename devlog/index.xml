@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2023-12/</link>
+      <pubDate>Sun, 26 Mar 2023 23:47:38 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-12/</guid>
+      <description>This week I fixed the last function names in euphoria. Now all the function names start with verb or verb phrases. I still don&amp;rsquo;t know if this is a good thing or not, time will tell. I also completed my entry in the kodsnack gamejam and started a new project called vecy.</description>
+    </item>
+    
+    <item>
       <title>Week 11</title>
       <link>https://i.madeso.me/devlog/2023-11/</link>
       <pubDate>Mon, 20 Mar 2023 00:07:20 +0100</pubDate>
