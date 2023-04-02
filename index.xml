@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 13</title>
+      <link>https://i.madeso.me/devlog/2023-13/</link>
+      <pubDate>Sun, 02 Apr 2023 23:30:03 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-13/</guid>
+      <description>This week I mostly continued the work on vecy</description>
+    </item>
+    
+    <item>
       <title>Week 12</title>
       <link>https://i.madeso.me/devlog/2023-12/</link>
       <pubDate>Sun, 26 Mar 2023 23:47:38 +0200</pubDate>
