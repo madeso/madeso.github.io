@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 14</title>
+      <link>https://i.madeso.me/devlog/2023-14/</link>
+      <pubDate>Sun, 09 Apr 2023 21:12:28 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-14/</guid>
+      <description>This week I continued fixing clang-tidy errors in euphoria. I also decided what projects I need to work on so I created a plan for euphoria and continued working on ride, a project I&amp;rsquo;ve recently found a use for again</description>
+    </item>
+    
+    <item>
       <title>Week 13</title>
       <link>https://i.madeso.me/devlog/2023-13/</link>
       <pubDate>Sun, 02 Apr 2023 23:30:03 +0200</pubDate>
