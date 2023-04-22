@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 22:08:45 +0200</lastBuildDate><atom:link href="https://i.madeso.me/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Check Your Assumptions</title>
+      <link>https://i.madeso.me/blog/2023-check-your-assumptions/</link>
+      <pubDate>Sat, 22 Apr 2023 22:05:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/blog/2023-check-your-assumptions/</guid>
+      <description>In November of last year I noticed that the time it took to process inputs in Ride was way too high, almost a full second between each key input and for a text editor that&amp;rsquo;s unbearable. I tried to tweak the event handling but nothing helped and lost motivation, put the project on ice and started working on other things.
+About 3 weeks ago the motivation came back and I started hacking and refactoring on the code to support multiple &amp;ldquo;backends&amp;rdquo; for rendering and handling input.</description>
+    </item>
+    
+    <item>
       <title>2022 in review</title>
       <link>https://i.madeso.me/blog/2022-in-review/</link>
       <pubDate>Sun, 01 Jan 2023 17:19:08 +0100</pubDate>
