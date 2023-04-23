@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2023-16/</link>
+      <pubDate>Sun, 23 Apr 2023 23:57:24 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-16/</guid>
+      <description>This week I continued working on Ride and actually solved the lagging rendering on Windows! This has lead to putting the other backends on ice and soon will result in me working on actual ride features again, but before I can do that I&amp;rsquo;ll probably upgrade the current dependencies.</description>
+    </item>
+    
+    <item>
       <title>Check Your Assumptions</title>
       <link>https://i.madeso.me/blog/2023-check-your-assumptions/</link>
       <pubDate>Sat, 22 Apr 2023 22:05:40 +0200</pubDate>
