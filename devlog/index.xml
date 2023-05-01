@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 17</title>
+      <link>https://i.madeso.me/devlog/2023-17/</link>
+      <pubDate>Mon, 01 May 2023 11:15:55 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-17/</guid>
+      <description>This week I decided to port bosca ceoil from adobe air to c++ and dear imgui. It&amp;rsquo;s still a work in progress</description>
+    </item>
+    
+    <item>
       <title>Week 16</title>
       <link>https://i.madeso.me/devlog/2023-16/</link>
       <pubDate>Sun, 23 Apr 2023 23:57:24 +0200</pubDate>
