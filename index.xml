@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 24</title>
+      <link>https://i.madeso.me/devlog/2023-24/</link>
+      <pubDate>Sun, 18 Jun 2023 22:43:08 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-24/</guid>
+      <description>This week I decided to not continue working on porting markdeep and instead focus on finishing blaggen to working state so I can continue&amp;hellip; work on other more fun things.</description>
+    </item>
+    
+    <item>
       <title>Week 23</title>
       <link>https://i.madeso.me/devlog/2023-23/</link>
       <pubDate>Sun, 11 Jun 2023 23:08:45 +0200</pubDate>
