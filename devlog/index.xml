@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 26</title>
+      <link>https://i.madeso.me/devlog/2023-26/</link>
+      <pubDate>Sun, 02 Jul 2023 22:07:11 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-26/</guid>
+      <description>This week I completed the tags feature and mostly completed the live server for the blaggen project.</description>
+    </item>
+    
+    <item>
       <title>Week 25</title>
       <link>https://i.madeso.me/devlog/2023-25/</link>
       <pubDate>Sun, 25 Jun 2023 21:13:50 +0200</pubDate>
