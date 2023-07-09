@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 27</title>
+      <link>https://i.madeso.me/devlog/2023-27/</link>
+      <pubDate>Sun, 09 Jul 2023 23:25:59 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-27/</guid>
+      <description>This week I mostly did research for hot reload and watched various youtube videos. I also discovered that chat-gpt is pretty good tool for brainstorming different names for games. Great for various working titles but I don&amp;rsquo;t think any will be final.</description>
+    </item>
+    
+    <item>
       <title>Week 26</title>
       <link>https://i.madeso.me/devlog/2023-26/</link>
       <pubDate>Sun, 02 Jul 2023 22:07:11 +0200</pubDate>
