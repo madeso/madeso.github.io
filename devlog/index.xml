@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 31</title>
+      <link>https://i.madeso.me/devlog/2023-31/</link>
+      <pubDate>Sun, 06 Aug 2023 21:02:48 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-31/</guid>
+      <description>Has it been another week already? I mostly watched talks this week, and read up on hot reloading using websockets on both the js and the c# side. For next week I should really start implementing it so I can move on to the more fun stuff.</description>
+    </item>
+    
+    <item>
       <title>Week 30</title>
       <link>https://i.madeso.me/devlog/2023-30/</link>
       <pubDate>Sun, 30 Jul 2023 23:45:43 +0200</pubDate>
