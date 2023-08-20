@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 33</title>
+      <link>https://i.madeso.me/devlog/2023-33/</link>
+      <pubDate>Sun, 20 Aug 2023 21:13:52 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-33/</guid>
+      <description>This week I worked on my json library, trying to get it to parse sexpr like expressions with [] in json. Next step is to be able to pretty print it like a sexpr but I think I should work on other aspects and libraries first before. So I can focus my time and energy on things I&amp;rsquo;ll have use for in the near future</description>
+    </item>
+    
+    <item>
       <title>Week 32</title>
       <link>https://i.madeso.me/devlog/2023-32/</link>
       <pubDate>Sun, 13 Aug 2023 22:50:56 +0200</pubDate>
