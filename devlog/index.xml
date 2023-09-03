@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 35</title>
+      <link>https://i.madeso.me/devlog/2023-35/</link>
+      <pubDate>Sun, 03 Sep 2023 22:54:28 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-35/</guid>
+      <description>This week I started a project cleaning up core in euphoria. No progress really, mostly just working on tools that should make the process easier.</description>
+    </item>
+    
+    <item>
       <title>Week 34</title>
       <link>https://i.madeso.me/devlog/2023-34/</link>
       <pubDate>Sun, 27 Aug 2023 21:53:18 +0200</pubDate>
