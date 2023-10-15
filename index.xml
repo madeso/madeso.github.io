@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate><atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 41</title>
+      <link>https://i.madeso.me/devlog/2023-41/</link>
+      <pubDate>Sun, 15 Oct 2023 21:56:40 +0200</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-41/</guid>
+      <description>This week I integrated the dotnet workbench changes into main and fixed a few style issues in euphoria that apparently have been there for quite a while</description>
+    </item>
+    
+    <item>
       <title>Week 40</title>
       <link>https://i.madeso.me/devlog/2023-40/</link>
       <pubDate>Sun, 08 Oct 2023 23:11:14 +0200</pubDate>
