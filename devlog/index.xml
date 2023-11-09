@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate><atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 45</title>
+      <link>https://i.madeso.me/devlog/2023-45/</link>
+      <pubDate>Thu, 09 Nov 2023 21:36:07 +0100</pubDate>
+      
+      <guid>https://i.madeso.me/devlog/2023-45/</guid>
+      <description>This week I pushed clang-format settings and formatted the klotter code. I also started on running and fxing issues in my include order tool from workbench, it&amp;rsquo;s almost done but I might end up removing it if I can make clang-format do the work, time will tell.</description>
+    </item>
+    
+    <item>
       <title>Week 44</title>
       <link>https://i.madeso.me/devlog/2023-44/</link>
       <pubDate>Sun, 05 Nov 2023 23:45:47 +0100</pubDate>
