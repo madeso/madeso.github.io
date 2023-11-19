@@ -6,16 +6,15 @@
     <description>Recent content in assets on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2009 11:18:56 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/assets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2009 11:18:56 +0200</lastBuildDate>
+    <atom:link href="https://i.madeso.me/tags/assets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yo frankie!</title>
       <link>https://i.madeso.me/blog/wp-yofrankie/</link>
       <pubDate>Mon, 06 Jul 2009 11:18:56 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/wp-yofrankie/</guid>
       <description>Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking Yo Frankie! with my tetris engine.
 Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games.</description>
     </item>
-    
   </channel>
 </rss>

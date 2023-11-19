@@ -6,24 +6,21 @@
     <description>Recent content in other games on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 May 2013 13:18:10 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/other-games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 May 2013 13:18:10 +0200</lastBuildDate>
+    <atom:link href="https://i.madeso.me/tags/other-games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flowstorm</title>
       <link>https://i.madeso.me/blog/sh-flowstorm/</link>
       <pubDate>Thu, 23 May 2013 13:18:10 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/sh-flowstorm/</guid>
       <description>I attended the nordic game indie night, and got to play flowstorm (that did a kickstarter) and realized 2 things: It’t a really hard game and that it’s also a lander-like 2d game. Check it out if you haven’t already.</description>
     </item>
-    
     <item>
       <title>Fear the consoles</title>
       <link>https://i.madeso.me/blog/wp-fear/</link>
       <pubDate>Thu, 12 Feb 2009 10:45:14 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/wp-fear/</guid>
       <description>I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.</description>
     </item>
-    
   </channel>
 </rss>

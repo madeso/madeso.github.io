@@ -6,17 +6,16 @@
     <description>Recent content in foobar on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2009 10:55:57 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/foobar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2009 10:55:57 +0200</lastBuildDate>
+    <atom:link href="https://i.madeso.me/tags/foobar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Foobar sorting</title>
       <link>https://i.madeso.me/blog/wp-foobar/</link>
       <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/wp-foobar/</guid>
       <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
 Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
 $replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
     </item>
-    
   </channel>
 </rss>

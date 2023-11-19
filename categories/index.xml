@@ -6,96 +6,77 @@
     <description>Recent content in Categories on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate><atom:link href="https://i.madeso.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
+    <atom:link href="https://i.madeso.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>games</title>
       <link>https://i.madeso.me/categories/games/</link>
       <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/games/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>in 48 hours</title>
       <link>https://i.madeso.me/categories/in-48-hours/</link>
       <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/in-48-hours/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>no more sweden</title>
       <link>https://i.madeso.me/categories/no-more-sweden/</link>
       <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/no-more-sweden/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>apps</title>
       <link>https://i.madeso.me/categories/apps/</link>
       <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/apps/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>free time</title>
       <link>https://i.madeso.me/categories/free-time/</link>
       <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/free-time/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ggj</title>
       <link>https://i.madeso.me/categories/ggj/</link>
       <pubDate>Sun, 22 Jan 2017 01:03:26 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/ggj/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ngj</title>
       <link>https://i.madeso.me/categories/ngj/</link>
       <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/ngj/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>shayla</title>
       <link>https://i.madeso.me/categories/shayla/</link>
       <pubDate>Sun, 24 May 2015 01:40:41 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/shayla/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ludumdare</title>
       <link>https://i.madeso.me/categories/ludumdare/</link>
       <pubDate>Mon, 28 Apr 2014 01:10:38 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/ludumdare/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>4e</title>
       <link>https://i.madeso.me/categories/4e/</link>
       <pubDate>Wed, 21 Jun 2006 22:06:00 +0200</pubDate>
-      
       <guid>https://i.madeso.me/categories/4e/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

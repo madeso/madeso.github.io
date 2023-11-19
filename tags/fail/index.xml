@@ -6,34 +6,29 @@
     <description>Recent content in fail on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2013 13:48:53 +0200</lastBuildDate><atom:link href="https://i.madeso.me/tags/fail/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Sep 2013 13:48:53 +0200</lastBuildDate>
+    <atom:link href="https://i.madeso.me/tags/fail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oculus development</title>
       <link>https://i.madeso.me/blog/sh-oculus/</link>
       <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/sh-oculus/</guid>
       <description>I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:</description>
     </item>
-    
     <item>
       <title>Say, that&#39;s a nice bike</title>
       <link>https://i.madeso.me/blog/wp-nicebike/</link>
       <pubDate>Tue, 14 Jul 2009 11:22:52 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/wp-nicebike/</guid>
       <description>So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.
 Though my extreme/hard-biking might be beacuse I’m so</description>
     </item>
-    
     <item>
       <title>There are bones in my turtle</title>
       <link>https://i.madeso.me/blog/wp-turtlebones/</link>
       <pubDate>Mon, 02 Mar 2009 10:50:25 +0200</pubDate>
-      
       <guid>https://i.madeso.me/blog/wp-turtlebones/</guid>
       <description>Working an a skeleton loader, theese are some shots while developing it. </description>
     </item>
-    
   </channel>
 </rss>
