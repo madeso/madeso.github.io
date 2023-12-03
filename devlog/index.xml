@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 48</title>
+      <link>https://i.madeso.me/devlog/2023-48/</link>
+      <pubDate>Mon, 04 Dec 2023 00:45:44 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2023-48/</guid>
+      <description>This week I continued working on tred, adding lights. This time I deced to use a different light attenuation formula and I&amp;rsquo;m almost complete with the &amp;ldquo;spotlight&amp;rdquo; that I also decided to do differently this time.</description>
+    </item>
+    <item>
       <title>Week 47</title>
       <link>https://i.madeso.me/devlog/2023-47/</link>
       <pubDate>Sun, 26 Nov 2023 23:35:27 +0100</pubDate>
