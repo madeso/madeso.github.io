@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 50</title>
+      <link>https://i.madeso.me/devlog/2023-50/</link>
+      <pubDate>Sun, 17 Dec 2023 23:55:07 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2023-50/</guid>
+      <description>This week I continued work on klotter, adding basic line rendering for debugging and starting on billboards</description>
+    </item>
+    <item>
       <title>Week 49</title>
       <link>https://i.madeso.me/devlog/2023-49/</link>
       <pubDate>Sun, 10 Dec 2023 21:44:50 +0100</pubDate>

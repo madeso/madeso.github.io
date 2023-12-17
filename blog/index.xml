@@ -13,25 +13,21 @@
       <link>https://i.madeso.me/blog/2023-check-your-assumptions/</link>
       <pubDate>Sat, 22 Apr 2023 22:05:40 +0200</pubDate>
       <guid>https://i.madeso.me/blog/2023-check-your-assumptions/</guid>
-      <description>In November of last year I noticed that the time it took to process inputs in Ride was way too high, almost a full second between each key input and for a text editor that&amp;rsquo;s unbearable. I tried to tweak the event handling but nothing helped and lost motivation, put the project on ice and started working on other things.
-About 3 weeks ago the motivation came back and I started hacking and refactoring on the code to support multiple &amp;ldquo;backends&amp;rdquo; for rendering and handling input.</description>
+      <description>In November of last year I noticed that the time it took to process inputs in Ride was way too high, almost a full second between each key input and for a text editor that&amp;rsquo;s unbearable. I tried to tweak the event handling but nothing helped and lost motivation, put the project on ice and started working on other things.&#xA;About 3 weeks ago the motivation came back and I started hacking and refactoring on the code to support multiple &amp;ldquo;backends&amp;rdquo; for rendering and handling input.</description>
     </item>
     <item>
       <title>2022 in review</title>
       <link>https://i.madeso.me/blog/2022-in-review/</link>
       <pubDate>Sun, 01 Jan 2023 17:19:08 +0100</pubDate>
       <guid>https://i.madeso.me/blog/2022-in-review/</guid>
-      <description>I recently realized that I&amp;rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&amp;rsquo;ll summarize and write a smallish review of what I&amp;rsquo;ve done on all my hobby projects the past year.
-Euphoria Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.
-Code wise I&amp;rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core.</description>
+      <description>I recently realized that I&amp;rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&amp;rsquo;ll summarize and write a smallish review of what I&amp;rsquo;ve done on all my hobby projects the past year.&#xA;Euphoria Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.&#xA;Code wise I&amp;rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core.</description>
     </item>
     <item>
       <title>Adventures in chatting with an AI</title>
       <link>https://i.madeso.me/blog/adventures-in-chatting-with-an-ai/</link>
       <pubDate>Sat, 03 Dec 2022 18:16:08 +0100</pubDate>
       <guid>https://i.madeso.me/blog/adventures-in-chatting-with-an-ai/</guid>
-      <description>I took Open AI: Chat for a spin and it&amp;rsquo;s easy to get it to write a fictional conversation between one or more people that probably never going to have a conversation. Here are some of theese meetings that I found entertaining.
-Sorry for focusing so much on Uncle Bob. He&amp;rsquo;s the name I think the AI would have read most about and the only name I can think of that has written about many various topics that could be discussed with various fictional characters.</description>
+      <description>I took Open AI: Chat for a spin and it&amp;rsquo;s easy to get it to write a fictional conversation between one or more people that probably never going to have a conversation. Here are some of theese meetings that I found entertaining.&#xA;Sorry for focusing so much on Uncle Bob. He&amp;rsquo;s the name I think the AI would have read most about and the only name I can think of that has written about many various topics that could be discussed with various fictional characters.</description>
     </item>
     <item>
       <title>Clean Code - Chapter 2</title>
@@ -45,59 +41,49 @@ Sorry for focusing so much on Uncle Bob. He&amp;rsquo;s the name I think the AI 
       <link>https://i.madeso.me/blog/restart-alsa/</link>
       <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
       <guid>https://i.madeso.me/blog/restart-alsa/</guid>
-      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:
-$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload Found on Stack overflow</description>
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:&#xA;$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload Found on Stack overflow</description>
     </item>
     <item>
       <title>A fix for spotify filling up the C: drive</title>
       <link>https://i.madeso.me/blog/spotify-windows-ssd/</link>
       <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
       <guid>https://i.madeso.me/blog/spotify-windows-ssd/</guid>
-      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.
-It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
+      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&#xA;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
     </item>
     <item>
       <title>Shoelacing</title>
       <link>https://i.madeso.me/blog/shoelacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
       <guid>https://i.madeso.me/blog/shoelacing/</guid>
-      <description>I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!
-http://www.fieggen.com/shoelace/</description>
+      <description>I recently bought new shoes and needed to lace them, hence it&amp;rsquo;s time to google how to lace shoes again. Ians shoelace site is my favorite and I&amp;rsquo;ve been visiting it for what it seems like an eternity. I don&amp;rsquo;t know much about the competition, but I can&amp;rsquo;t find anything missing from it. It&amp;rsquo;s the best!&#xA;http://www.fieggen.com/shoelace/</description>
     </item>
     <item>
       <title>Keep your ubuntu-gnome from waking up at random</title>
       <link>https://i.madeso.me/blog/gnomewakeup/</link>
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       <guid>https://i.madeso.me/blog/gnomewakeup/</guid>
-      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.
-It is really quite simple. First you need to install it, unless you already have it installed:
-$ sudo apt-get install acpitool Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
+      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&#xA;It is really quite simple. First you need to install it, unless you already have it installed:&#xA;$ sudo apt-get install acpitool Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
     </item>
     <item>
       <title>Non recursive file searching in Nautilus</title>
       <link>https://i.madeso.me/blog/nonerecursivesearch/</link>
       <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
       <guid>https://i.madeso.me/blog/nonerecursivesearch/</guid>
-      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).
-This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.
-http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
+      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&#xA;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&#xA;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
     </item>
     <item>
       <title>Revert google&#43; to a standard blogger profile on blogger</title>
       <link>https://i.madeso.me/blog/googleplusblogger/</link>
       <pubDate>Fri, 26 Aug 2016 19:29:53 +0200</pubDate>
       <guid>https://i.madeso.me/blog/googleplusblogger/</guid>
-      <description>It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:
-http://www.blogger.com/revert-profile.g﻿
-Pretty simple but it took far too long to find it.</description>
+      <description>It turns out google has removed it from various links, so I don&amp;rsquo;t know how long this link will last, but here it goes:&#xA;http://www.blogger.com/revert-profile.g﻿&#xA;Pretty simple but it took far too long to find it.</description>
     </item>
     <item>
       <title>Folders before files in ubuntu</title>
       <link>https://i.madeso.me/blog/foldersbeforefiles/</link>
       <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
       <guid>https://i.madeso.me/blog/foldersbeforefiles/</guid>
-      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:
-In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
+      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:&#xA;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
     </item>
     <item>
       <title>Windows 10 wakes up from sleep at random</title>
@@ -111,16 +97,14 @@ In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-dir
       <link>https://i.madeso.me/blog/test/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://i.madeso.me/blog/test/</guid>
-      <description>Here&amp;rsquo;s a code chunk with syntax highlighting:
-var foo = function(x) { return(x + 5); } foo(3) $ echo $EDITOR vim $ git checkout master Switched to branch &amp;#39;master&amp;#39; Your branch is up-to-date with &amp;#39;origin/master&amp;#39;. $ git push Everything up-to-date $ echo &amp;#39;All &amp;gt; done!&amp;#39; All done! You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</description>
+      <description>Here&amp;rsquo;s a code chunk with syntax highlighting:&#xA;var foo = function(x) { return(x + 5); } foo(3) $ echo $EDITOR vim $ git checkout master Switched to branch &amp;#39;master&amp;#39; Your branch is up-to-date with &amp;#39;origin/master&amp;#39;. $ git push Everything up-to-date $ echo &amp;#39;All &amp;gt; done!&amp;#39; All done! You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</description>
     </item>
     <item>
       <title>The road that follows</title>
       <link>https://i.madeso.me/blog/sh-roadthatfollows/</link>
       <pubDate>Fri, 25 Oct 2013 13:53:42 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-roadthatfollows/</guid>
-      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
-Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
+      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:&#xA;Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
     </item>
     <item>
       <title>Development stories</title>
@@ -141,9 +125,7 @@ Redesign the hardcoded input system, I’m working on this now Add lights and sh
       <link>https://i.madeso.me/blog/sh-music/</link>
       <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-music/</guid>
-      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
-Or some some ambient 80’s style electro music like this.
-Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
+      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:&#xA;Or some some ambient 80’s style electro music like this.&#xA;Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
     </item>
     <item>
       <title>Thoughts on Distribution</title>
@@ -157,9 +139,7 @@ Given the I’ve already found some electro music that seems to be fitting and t
       <link>https://i.madeso.me/blog/sh-name/</link>
       <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-name/</guid>
-      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.
-First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.
-Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
+      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.&#xA;First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.&#xA;Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
     </item>
     <item>
       <title>Flowstorm</title>
@@ -173,26 +153,21 @@ Neither is hustling of any kind. You are a soldier/mercenary/technician for hire
       <link>https://i.madeso.me/blog/sh-begins/</link>
       <pubDate>Tue, 21 May 2013 13:15:57 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-begins/</guid>
-      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.
-I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
+      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.&#xA;I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
     </item>
     <item>
       <title>I&#39;m not dead</title>
       <link>https://i.madeso.me/blog/wp-notdead/</link>
       <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-notdead/</guid>
-      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂
-Anyways, I’ve been quite busy since last time:
-My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂&#xA;Anyways, I’ve been quite busy since last time:&#xA;My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
     </item>
     <item>
       <title>I&#39;ve been busy</title>
       <link>https://i.madeso.me/blog/wp-busy/</link>
       <pubDate>Sun, 01 Nov 2009 12:16:30 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-busy/</guid>
-      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.
-Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.
-I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
+      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.&#xA;Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.&#xA;I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
     </item>
     <item>
       <title>Oh, the temptation</title>
@@ -220,16 +195,14 @@ I’ve also been thinking about creating a 2d level editor as editing text-files
       <link>https://i.madeso.me/blog/wp-yofrankie/</link>
       <pubDate>Mon, 06 Jul 2009 11:18:56 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-yofrankie/</guid>
-      <description>Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking Yo Frankie! with my tetris engine.
-Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games.</description>
+      <description>Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking Yo Frankie! with my tetris engine.&#xA;Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games.</description>
     </item>
     <item>
       <title>Excursions into the UI</title>
       <link>https://i.madeso.me/blog/wp-ui-excursions/</link>
       <pubDate>Thu, 25 Jun 2009 11:08:13 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-ui-excursions/</guid>
-      <description>I recently read scarabus’ post regarding guis and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.
-So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d.</description>
+      <description>I recently read scarabus’ post regarding guis and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.&#xA;So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d.</description>
     </item>
     <item>
       <title>Tetris got sacked!</title>
@@ -243,9 +216,7 @@ So, beeing picky I have tried several mesh modelers. The imcomplete list is anim
       <link>https://i.madeso.me/blog/wp-darkangel/</link>
       <pubDate>Tue, 02 Jun 2009 11:02:59 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-darkangel/</guid>
-      <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.
-On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.
-Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
+      <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&#xA;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&#xA;Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
     </item>
     <item>
       <title>Stairway to heaven</title>
@@ -259,9 +230,7 @@ Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
       <link>https://i.madeso.me/blog/wp-foobar/</link>
       <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-foobar/</guid>
-      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
-Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
-$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.&#xA;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&#xA;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
     </item>
     <item>
       <title>Is there a bone in your shell?</title>
@@ -282,8 +251,7 @@ $replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(�
       <link>https://i.madeso.me/blog/wp-hello/</link>
       <pubDate>Sun, 25 Jan 2009 10:40:56 +0200</pubDate>
       <guid>https://i.madeso.me/blog/wp-hello/</guid>
-      <description>.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion? Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.
-Until next time…</description>
+      <description>.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion? Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.&#xA;Until next time…</description>
     </item>
     <item>
       <title>First post</title>

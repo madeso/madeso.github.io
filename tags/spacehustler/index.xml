@@ -13,8 +13,7 @@
       <link>https://i.madeso.me/blog/sh-roadthatfollows/</link>
       <pubDate>Fri, 25 Oct 2013 13:53:42 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-roadthatfollows/</guid>
-      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:
-Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
+      <description>I really want to release a demo to get a feedback on the actual game, but there are a few things that I think should be fixed before I release a early preview build:&#xA;Redesign the hardcoded input system, I’m working on this now Add lights and shadows to the renderer, this will really help the player determine the depth when flying around and help immersion Add 2d rendering/menu, this will provide the GUI for the “press start to play” so the game know what control to accept input from Physics motor, this is perhaps the most important feature.</description>
     </item>
     <item>
       <title>Development stories</title>
@@ -56,9 +55,7 @@ Redesign the hardcoded input system, I’m working on this now Add lights and sh
       <link>https://i.madeso.me/blog/sh-music/</link>
       <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-music/</guid>
-      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:
-Or some some ambient 80’s style electro music like this.
-Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
+      <description>Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:&#xA;Or some some ambient 80’s style electro music like this.&#xA;Given the I’ve already found some electro music that seems to be fitting and that lander used some similar music pieces, it’s safe to assume that I will be using that electro music during the early alpha builds.</description>
     </item>
     <item>
       <title>Thoughts on Distribution</title>
@@ -72,9 +69,7 @@ Given the I’ve already found some electro music that seems to be fitting and t
       <link>https://i.madeso.me/blog/sh-name/</link>
       <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-name/</guid>
-      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.
-First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.
-Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
+      <description>I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.&#xA;First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.&#xA;Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.</description>
     </item>
     <item>
       <title>A modern cockpit view</title>
@@ -95,8 +90,7 @@ Neither is hustling of any kind. You are a soldier/mercenary/technician for hire
       <link>https://i.madeso.me/blog/sh-artstyle/</link>
       <pubDate>Sat, 25 May 2013 13:20:12 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-artstyle/</guid>
-      <description>Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.
-One idea I’ve been tossing around is the World War 2 with jet engines.</description>
+      <description>Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.&#xA;One idea I’ve been tossing around is the World War 2 with jet engines.</description>
     </item>
     <item>
       <title>Flowstorm</title>
@@ -110,8 +104,7 @@ One idea I’ve been tossing around is the World War 2 with jet engines.</descri
       <link>https://i.madeso.me/blog/sh-begins/</link>
       <pubDate>Tue, 21 May 2013 13:15:57 +0200</pubDate>
       <guid>https://i.madeso.me/blog/sh-begins/</guid>
-      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.
-I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
+      <description>So I decided that I need to make a bigger game, a game that I can work on for a few months at least and not get bored. I shouldn’t have any complicated animations and should be “easy” to make. A basic renderer on the top of a physics simulation won’t be that complicated and could be fun.&#xA;I thought about remaking a previous game of mine, lolball, but all the design I could come up with was way to complicated for what I had imagined.</description>
     </item>
   </channel>
 </rss>

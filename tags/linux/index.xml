@@ -13,34 +13,28 @@
       <link>https://i.madeso.me/blog/restart-alsa/</link>
       <pubDate>Sun, 23 Jul 2017 14:31:24 +0200</pubDate>
       <guid>https://i.madeso.me/blog/restart-alsa/</guid>
-      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:
-$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload Found on Stack overflow</description>
+      <description>Sometimes after I wake up my computer after a hibernate I notice that sound is not playing. A simple fix for this seems to be to restart alsa:&#xA;$ pulseaudio -k &amp;amp;&amp;amp; sudo alsa force-reload Found on Stack overflow</description>
     </item>
     <item>
       <title>Keep your ubuntu-gnome from waking up at random</title>
       <link>https://i.madeso.me/blog/gnomewakeup/</link>
       <pubDate>Sun, 18 Sep 2016 14:34:04 +0200</pubDate>
       <guid>https://i.madeso.me/blog/gnomewakeup/</guid>
-      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.
-It is really quite simple. First you need to install it, unless you already have it installed:
-$ sudo apt-get install acpitool Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
+      <description>I have tried using /proc/acpi/wakeup and I&amp;rsquo;ve tried looking in /sys/bus/usb/devices/SOMETHING/power/wakeup for devices that will wake up the computer, however I finally fixed my random wakeup problems with a tool called acpitool.&#xA;It is really quite simple. First you need to install it, unless you already have it installed:&#xA;$ sudo apt-get install acpitool Once it&amp;rsquo;s installed you can list what you can do with it, and to make it works.</description>
     </item>
     <item>
       <title>Non recursive file searching in Nautilus</title>
       <link>https://i.madeso.me/blog/nonerecursivesearch/</link>
       <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
       <guid>https://i.madeso.me/blog/nonerecursivesearch/</guid>
-      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).
-This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.
-http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
+      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&#xA;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&#xA;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
     </item>
     <item>
       <title>Folders before files in ubuntu</title>
       <link>https://i.madeso.me/blog/foldersbeforefiles/</link>
       <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
       <guid>https://i.madeso.me/blog/foldersbeforefiles/</guid>
-      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:
-In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
+      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:&#xA;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
     </item>
   </channel>
 </rss>
