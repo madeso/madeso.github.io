@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 51</title>
+      <link>https://i.madeso.me/devlog/2023-51/</link>
+      <pubDate>Sun, 24 Dec 2023 10:47:40 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2023-51/</guid>
+      <description>This week I got billboards working and started work on framebuffers and a simple post processing framework. The initial basic version is almost complete&amp;hellip;</description>
+    </item>
+    <item>
       <title>Week 50</title>
       <link>https://i.madeso.me/devlog/2023-50/</link>
       <pubDate>Sun, 17 Dec 2023 23:55:07 +0100</pubDate>
