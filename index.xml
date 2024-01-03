@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2023 52</title>
+      <link>https://i.madeso.me/devlog/2023-52/</link>
+      <pubDate>Wed, 03 Jan 2024 23:15:33 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2023-52/</guid>
+      <description>This last week of the year, I am still working on klotter, I feel blur is done soon and I can finally continue working on non post-proc stuff for a while.</description>
+    </item>
+    <item>
       <title>Week 51</title>
       <link>https://i.madeso.me/devlog/2023-51/</link>
       <pubDate>Sun, 24 Dec 2023 10:47:40 +0100</pubDate>
