@@ -9,7 +9,21 @@
     <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2023 52</title>
+      <title>Week 01</title>
+      <link>https://i.madeso.me/devlog/2024-01/</link>
+      <pubDate>Sun, 07 Jan 2024 23:47:17 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-01/</guid>
+      <description>Thie week I completed framebuffer/post proc and adding support for cubemaps and skyboxes to klotter.</description>
+    </item>
+    <item>
+      <title>2023 in review</title>
+      <link>https://i.madeso.me/blog/2023-in-review/</link>
+      <pubDate>Sat, 06 Jan 2024 20:54:16 +0100</pubDate>
+      <guid>https://i.madeso.me/blog/2023-in-review/</guid>
+      <description>Another year full of devlogs and another review of what I have achieved and failed to achieve.&#xA;workbench, euphoria, gaf and json Workbench started out as a repo of various build scripts, but is now a single tool for running all those &amp;ldquo;scripts&amp;rdquo;. This year I ported everything from rust to c# and scoured my repos for other tools to integrate it into the code base.&#xA;One of the big reasons for choosing C# is so that I can use the spectre project to get a nicer cli.</description>
+    </item>
+    <item>
+      <title>Week 52</title>
       <link>https://i.madeso.me/devlog/2023-52/</link>
       <pubDate>Wed, 03 Jan 2024 23:15:33 +0100</pubDate>
       <guid>https://i.madeso.me/devlog/2023-52/</guid>
