@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 21 Apr 2017 23:40:32 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 04</title>
+      <link>https://i.madeso.me/devlog/2024-04/</link>
+      <pubDate>Sun, 28 Jan 2024 23:53:13 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-04/</guid>
+      <description>This week I worked on instancing, it&amp;rsquo;s still not complete but it&amp;rsquo;s getting there</description>
+    </item>
+    <item>
       <title>Week 03</title>
       <link>https://i.madeso.me/devlog/2024-03/</link>
       <pubDate>Mon, 22 Jan 2024 01:02:03 +0100</pubDate>
