@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Apr 2017 07:37:38 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 23:06:34 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 05</title>
+      <link>https://i.madeso.me/devlog/2024-05/</link>
+      <pubDate>Sun, 04 Feb 2024 23:06:34 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-05/</guid>
+      <description>This week I mostly just thought about how to integrate Instancing into klotter and how buffers are connected.</description>
+    </item>
     <item>
       <title>Week 04</title>
       <link>https://i.madeso.me/devlog/2024-04/</link>
