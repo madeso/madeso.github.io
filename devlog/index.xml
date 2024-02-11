@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2024 23:06:34 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2024 23:34:30 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 06</title>
+      <link>https://i.madeso.me/devlog/2024-06/</link>
+      <pubDate>Sun, 11 Feb 2024 23:34:30 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-06/</guid>
+      <description>This week I implemented 2 different versions of a finite state machine. I also came to the realization that I need to start &amp;ldquo;fresh&amp;rdquo; on the instancing so that&amp;rsquo;s what I&amp;rsquo;ll be doing</description>
+    </item>
     <item>
       <title>Week 05</title>
       <link>https://i.madeso.me/devlog/2024-05/</link>
