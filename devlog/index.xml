@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Feb 2024 23:34:30 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2024 20:32:54 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 07</title>
+      <link>https://i.madeso.me/devlog/2024-07/</link>
+      <pubDate>Sun, 18 Feb 2024 20:32:54 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-07/</guid>
+      <description>This week I spend to some watching videos about gui development and refactoring my old widget sizer code that I might reuse for the gui system in euphoria. Regarding klotter I basically deleted all my progress and started fresh with a readme like development and wrote the actual usage&amp;hellip; and now I just have to implement the few functions so hopefully I won&amp;rsquo;t get stuck in details this time.</description>
+    </item>
     <item>
       <title>Week 06</title>
       <link>https://i.madeso.me/devlog/2024-06/</link>
