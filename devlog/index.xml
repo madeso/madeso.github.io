@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 20:44:04 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2024 22:08:39 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 09</title>
+      <link>https://i.madeso.me/devlog/2024-09/</link>
+      <pubDate>Sun, 03 Mar 2024 22:08:39 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-09/</guid>
+      <description>This week I continued getting euph build working. clang-tidy is taking too long so that&amp;rsquo;s next. I&amp;rsquo;m planning to extend workbench and run multiple clang-tidy instances. That should hopefully cut down on the analysis time. Next up is probably replacing the coverage report. I&amp;rsquo;ve grown tired of online services and want something that I can run locally. For the &amp;ldquo;coveralls&amp;rdquo; experience I should make sure the result generates a badge and it can be viewed in a browser.</description>
+    </item>
     <item>
       <title>Week 08</title>
       <link>https://i.madeso.me/devlog/2024-08/</link>
