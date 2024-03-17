@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2024 23:23:39 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 21:03:55 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 11</title>
+      <link>https://i.madeso.me/devlog/2024-11/</link>
+      <pubDate>Sun, 17 Mar 2024 21:03:55 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-11/</guid>
+      <description>This week I a animation book and started compiling the base code for that book. I also got some inspiration to write some ride code so I updated its dependencies, added a todo and started thinking about how to get a useful version working.</description>
+    </item>
     <item>
       <title>Week 10</title>
       <link>https://i.madeso.me/devlog/2024-10/</link>
