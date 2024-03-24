@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2024 21:03:55 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 23:07:17 +0100</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 12</title>
+      <link>https://i.madeso.me/devlog/2024-12/</link>
+      <pubDate>Sun, 24 Mar 2024 23:07:17 +0100</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-12/</guid>
+      <description>This week I continued on reading and cleaning up animation micro engine. Both blaggen and kloter has entered my mind and might deserve some love/work but we&amp;rsquo;ll see what the comming week will result in</description>
+    </item>
     <item>
       <title>Week 11</title>
       <link>https://i.madeso.me/devlog/2024-11/</link>
