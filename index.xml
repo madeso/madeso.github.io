@@ -4,10 +4,17 @@
     <title>home on Gustav Jansson</title>
     <link>https://i.madeso.me/</link>
     <description>Recent content in home on Gustav Jansson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2024 22:00:23 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 23:59:25 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 16</title>
+      <link>https://i.madeso.me/devlog/2024-16/</link>
+      <pubDate>Sun, 21 Apr 2024 23:59:25 +0200</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-16/</guid>
+      <description>This week I continued reading about animation and quickly resurected my old &amp;ldquo;simple&amp;rdquo; engine from 15 years ago to see how I solved it last time.</description>
+    </item>
     <item>
       <title>Week 15</title>
       <link>https://i.madeso.me/devlog/2024-15/</link>
