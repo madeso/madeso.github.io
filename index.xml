@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 May 2024 20:54:49 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 20:57:03 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 19</title>
+      <link>https://i.madeso.me/devlog/2024-19/</link>
+      <pubDate>Mon, 13 May 2024 20:57:03 +0200</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-19/</guid>
+      <description>This week I cleaned up some sonar lint warnings in klotter, started refreshing my memory on the old genesis3d(my favorite) and continued cleaning up my animation notes</description>
+    </item>
     <item>
       <title>Week 18</title>
       <link>https://i.madeso.me/devlog/2024-18/</link>
