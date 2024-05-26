@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2024 22:46:37 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 23:55:28 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 21</title>
+      <link>https://i.madeso.me/devlog/2024-21/</link>
+      <pubDate>Sun, 26 May 2024 23:55:28 +0200</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-21/</guid>
+      <description>This week I continued working on my altdevblog cloner. I started integrating multiple indexings. I currently merge 3 different timestamps but will probably increase to some more as there is still articles I&amp;rsquo;m missing. I also mostly completed the genesis transformation. It didn&amp;rsquo;t contain what I was orignally looking for so I will probably have to expand to include the extensions I was using and I am in luck because I&amp;rsquo;ve saved everything :D</description>
+    </item>
     <item>
       <title>Week 20</title>
       <link>https://i.madeso.me/devlog/2024-20/</link>
