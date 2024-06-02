@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 23:55:28 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 21:52:10 +0200</lastBuildDate>
     <atom:link href="https://i.madeso.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 22</title>
+      <link>https://i.madeso.me/devlog/2024-22/</link>
+      <pubDate>Sun, 02 Jun 2024 21:52:10 +0200</pubDate>
+      <guid>https://i.madeso.me/devlog/2024-22/</guid>
+      <description>This week I continued on altdev, getting really close to having the text of all posts now. Extracting tags and categories is up next. Genesis is also comming along nicely. Copying the public documentation the doxygen comments I realize that reading detailed comments is nice, even though the comments aren&amp;rsquo;t exactly helping it is sometimes nice having some comments to look at when pulling hair out trying to figure out a problem.</description>
+    </item>
     <item>
       <title>Week 21</title>
       <link>https://i.madeso.me/devlog/2024-21/</link>
