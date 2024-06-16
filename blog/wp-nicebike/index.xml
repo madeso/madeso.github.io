@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Say, that&#39;s a nice bike on Gustav Jansson</title>
-    <link>https://i.madeso.me/blog/wp-nicebike/</link>
+    <link>https://madeso.github.io/blog/wp-nicebike/</link>
     <description>Recent content in Say, that&#39;s a nice bike on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://i.madeso.me/blog/wp-nicebike/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/blog/wp-nicebike/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

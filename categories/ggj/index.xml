@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ggj on Gustav Jansson</title>
-    <link>https://i.madeso.me/categories/ggj/</link>
+    <link>https://madeso.github.io/categories/ggj/</link>
     <description>Recent content in Ggj on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 01:03:26 +0200</lastBuildDate>
-    <atom:link href="https://i.madeso.me/categories/ggj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/categories/ggj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wave Ohoy</title>
-      <link>https://i.madeso.me/project/waveohoy/</link>
+      <link>https://madeso.github.io/project/waveohoy/</link>
       <pubDate>Sun, 22 Jan 2017 01:03:26 +0200</pubDate>
-      <guid>https://i.madeso.me/project/waveohoy/</guid>
+      <guid>https://madeso.github.io/project/waveohoy/</guid>
       <description></description>
     </item>
     <item>
       <title>Office rituals</title>
-      <link>https://i.madeso.me/project/officerituals/</link>
+      <link>https://madeso.github.io/project/officerituals/</link>
       <pubDate>Sun, 31 Jan 2016 00:58:29 +0200</pubDate>
-      <guid>https://i.madeso.me/project/officerituals/</guid>
+      <guid>https://madeso.github.io/project/officerituals/</guid>
       <description>Just another day at the office. Drink loads of coffee. Smoke cigarettes. Take credit for your co workers accomplishments. Go to pointless meetings and avoid getting fired.&#xA;Drink coffee and smoke so that you can work efficiently. Everyone is working on the same project, but you win if you did most of the work ! You can steal each other&amp;rsquo;s work by working at someone else&amp;rsquo;s desk.&#xA;Oh, also, don&amp;rsquo;t miss the meetings or your Boss will be angry!</description>
     </item>
   </channel>

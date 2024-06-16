@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Gustav Jansson</title>
-    <link>https://i.madeso.me/tags/windows/</link>
+    <link>https://madeso.github.io/tags/windows/</link>
     <description>Recent content in Windows on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 May 2017 07:28:24 +0200</lastBuildDate>
-    <atom:link href="https://i.madeso.me/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A fix for spotify filling up the C: drive</title>
-      <link>https://i.madeso.me/blog/spotify-windows-ssd/</link>
+      <link>https://madeso.github.io/blog/spotify-windows-ssd/</link>
       <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
-      <guid>https://i.madeso.me/blog/spotify-windows-ssd/</guid>
+      <guid>https://madeso.github.io/blog/spotify-windows-ssd/</guid>
       <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&#xA;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
     </item>
     <item>
       <title>Windows 10 wakes up from sleep at random</title>
-      <link>https://i.madeso.me/blog/win10wakeup/</link>
+      <link>https://madeso.github.io/blog/win10wakeup/</link>
       <pubDate>Fri, 26 Aug 2016 19:12:53 +0200</pubDate>
-      <guid>https://i.madeso.me/blog/win10wakeup/</guid>
+      <guid>https://madeso.github.io/blog/win10wakeup/</guid>
       <description>After upgrading to Windows 10, my computer started randomly waking up. This extensive guide on superuser has proven time and time again to be a perfect guide to keep windows from waking up.</description>
     </item>
   </channel>

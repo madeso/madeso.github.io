@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Input on Gustav Jansson</title>
-    <link>https://i.madeso.me/tags/input/</link>
+    <link>https://madeso.github.io/tags/input/</link>
     <description>Recent content in Input on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Aug 2013 13:42:58 +0200</lastBuildDate>
-    <atom:link href="https://i.madeso.me/tags/input/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/tags/input/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on the controls</title>
-      <link>https://i.madeso.me/blog/sh-controls/</link>
+      <link>https://madeso.github.io/blog/sh-controls/</link>
       <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
-      <guid>https://i.madeso.me/blog/sh-controls/</guid>
+      <guid>https://madeso.github.io/blog/sh-controls/</guid>
       <description>I have started implementing the basic controls for both the keyboard and joysticks and to test everything out I added basic thrust and torque controls, and while this is really hard to control as each torque requires a counter torque from stopping to spinning I started thinking. The WebGL version of lander and I recall the original (I still can’t get it to play on my win7 system) let’s you enter the desired orientation and let a AI controls the torque thrusts.</description>
     </item>
   </channel>

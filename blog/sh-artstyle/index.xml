@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on the artstyle on Gustav Jansson</title>
-    <link>https://i.madeso.me/blog/sh-artstyle/</link>
+    <link>https://madeso.github.io/blog/sh-artstyle/</link>
     <description>Recent content in Thoughts on the artstyle on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://i.madeso.me/blog/sh-artstyle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/blog/sh-artstyle/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

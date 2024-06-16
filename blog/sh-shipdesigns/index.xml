@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ship designs on Gustav Jansson</title>
-    <link>https://i.madeso.me/blog/sh-shipdesigns/</link>
+    <link>https://madeso.github.io/blog/sh-shipdesigns/</link>
     <description>Recent content in Ship designs on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://i.madeso.me/blog/sh-shipdesigns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/blog/sh-shipdesigns/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

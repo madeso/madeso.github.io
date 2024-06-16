@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4th Dimension on Gustav Jansson</title>
-    <link>https://i.madeso.me/project/4thdimension/</link>
+    <link>https://madeso.github.io/project/4thdimension/</link>
     <description>Recent content in 4th Dimension on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://i.madeso.me/project/4thdimension/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/project/4thdimension/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

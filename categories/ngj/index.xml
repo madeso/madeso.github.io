@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngj on Gustav Jansson</title>
-    <link>https://i.madeso.me/categories/ngj/</link>
+    <link>https://madeso.github.io/categories/ngj/</link>
     <description>Recent content in Ngj on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Apr 2016 01:01:32 +0200</lastBuildDate>
-    <atom:link href="https://i.madeso.me/categories/ngj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madeso.github.io/categories/ngj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Truck game</title>
-      <link>https://i.madeso.me/project/truckgame/</link>
+      <link>https://madeso.github.io/project/truckgame/</link>
       <pubDate>Sun, 10 Apr 2016 01:01:32 +0200</pubDate>
-      <guid>https://i.madeso.me/project/truckgame/</guid>
+      <guid>https://madeso.github.io/project/truckgame/</guid>
       <description>Pseudo-3D game with a top-down view where 2 cats drive water supply trucks through the desert. Each player must try to destroy the other truck with weaponry, or by gaining a considerable lead.</description>
     </item>
     <item>
       <title>Roomy</title>
-      <link>https://i.madeso.me/project/roomy/</link>
+      <link>https://madeso.github.io/project/roomy/</link>
       <pubDate>Sun, 08 Feb 2015 01:05:09 +0200</pubDate>
-      <guid>https://i.madeso.me/project/roomy/</guid>
+      <guid>https://madeso.github.io/project/roomy/</guid>
       <description>Get ouside the room. The most obvious is to use the key, but will that get you out?</description>
     </item>
     <item>
       <title>Musicgame</title>
-      <link>https://i.madeso.me/project/musicgame/</link>
+      <link>https://madeso.github.io/project/musicgame/</link>
       <pubDate>Mon, 28 Apr 2014 01:12:27 +0200</pubDate>
-      <guid>https://i.madeso.me/project/musicgame/</guid>
+      <guid>https://madeso.github.io/project/musicgame/</guid>
       <description></description>
     </item>
   </channel>
