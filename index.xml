@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 23:31:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2024 22:23:41 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2024-25/</link>
+      <pubDate>Sun, 23 Jun 2024 22:23:41 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-25/</guid>
+      <description>This week I fixed some/most links for my homepage and continued cleaning up the altdev clone.</description>
+    </item>
     <item>
       <title>Week 24</title>
       <link>https://madeso.github.io/devlog/2024-24/</link>
