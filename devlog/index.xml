@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2024 22:39:22 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:13:22 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2024-28/</link>
+      <pubDate>Mon, 15 Jul 2024 00:13:22 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-28/</guid>
+      <description>This week I continued the work on altdevblog and I&amp;rsquo;m slowing getting closer to finishing the &amp;ldquo;blender donut&amp;rdquo; tutorial</description>
+    </item>
     <item>
       <title>Week 27</title>
       <link>https://madeso.github.io/devlog/2024-27/</link>
