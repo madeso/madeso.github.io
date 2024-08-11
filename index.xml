@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 23:27:36 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 08:39:52 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2024-32/</link>
+      <pubDate>Sun, 11 Aug 2024 08:39:52 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-32/</guid>
+      <description>This week I continued with the duplicate removal and merging altdev archive to single posts. It&amp;rsquo;s going slower than I wanted but it&amp;rsquo;s progressing at least. Currently I&amp;rsquo;m adding extensions to exstensionless images. I also restarted work on fyro, making the code cleaner so I can add object/object collision and response.</description>
+    </item>
     <item>
       <title>Week 31</title>
       <link>https://madeso.github.io/devlog/2024-31/</link>
