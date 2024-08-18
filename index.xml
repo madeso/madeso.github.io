@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 08:39:52 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2024 21:27:36 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2024-33/</link>
+      <pubDate>Sun, 18 Aug 2024 21:27:36 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-33/</guid>
+      <description>This week I spent most of the week with family. I managed to continue the fyro refactoring and altdev cleanup but it&amp;rsquo;s been a slow and steady progress. Next week will hopefully be more productive.</description>
+    </item>
     <item>
       <title>Week 32</title>
       <link>https://madeso.github.io/devlog/2024-32/</link>
