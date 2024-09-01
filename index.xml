@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Aug 2024 19:54:27 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 21:46:46 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 35</title>
+      <link>https://madeso.github.io/devlog/2024-35/</link>
+      <pubDate>Sun, 01 Sep 2024 21:46:46 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-35/</guid>
+      <description>This week I continued work on fyro. I finally completed the code restructuring and stared doing some small changes, now inheritance support inheriting from classes in namespaces, how about that? I did a rough breakdown of object/object collision and what needs to happen before I can actually start writing code for it and that ball will start rolling next week.</description>
+    </item>
     <item>
       <title>Week 34</title>
       <link>https://madeso.github.io/devlog/2024-34/</link>
