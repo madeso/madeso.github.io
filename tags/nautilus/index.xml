@@ -13,14 +13,14 @@
       <link>https://madeso.github.io/blog/nonerecursivesearch/</link>
       <pubDate>Sat, 27 Aug 2016 13:07:39 +0200</pubDate>
       <guid>https://madeso.github.io/blog/nonerecursivesearch/</guid>
-      <description>Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&#xA;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&#xA;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html</description>
+      <description>&lt;p&gt;Recursive search is the default in nautilus (search in subfolders), but I prefer type ahead search(only search in current folder).&lt;/p&gt;&#xA;&lt;p&gt;This is easy to change, but not very obvious. In dconf-editor navigate to org &amp;gt; gnome &amp;gt; nautilus &amp;gt; preferences and set the enable-interactive-search value to what you&amp;rsquo;d like to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html&#34;&gt;http://www.webupd8.org/2014/01/nautilus-type-ahead-find-feature.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Folders before files in ubuntu</title>
       <link>https://madeso.github.io/blog/foldersbeforefiles/</link>
       <pubDate>Fri, 26 Aug 2016 19:13:53 +0200</pubDate>
       <guid>https://madeso.github.io/blog/foldersbeforefiles/</guid>
-      <description>I like to view folders before my files with Files/Nautilus, and here is how to enable it:&#xA;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set sort-directories-first to true.</description>
+      <description>&lt;p&gt;I like to view folders before my files with Files/Nautilus, and here is &lt;a href=&#34;http://gexperts.com/wp/gnome-3-12-filesnautilus-sort-folders-before-files-issues/&#34;&gt;how to enable it&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;In dconf-editor navigate to: org.gnome.nautilus.preferences key and set  sort-directories-first to true.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

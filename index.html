@@ -17,7 +17,7 @@
   <meta property="og:description" content="Welcome to my lair.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
-  <meta name="generator" content="Hugo 0.133.1"><link rel="canonical" href="https://madeso.github.io/"> 
+  <meta name="generator" content="Hugo 0.134.1"><link rel="canonical" href="https://madeso.github.io/"> 
   <title>home</title>
   <link rel="stylesheet" href="https://madeso.github.io/css/reset.css" />
   <link rel="stylesheet" href="https://madeso.github.io/css/style.css" />
@@ -65,6 +65,15 @@
         <h2 class="latestpostsheader">Latest devlogs</h2>
             <article class="post">
 <div class="title">
+<a href="https://madeso.github.io/devlog/2024-36/"><div class="previewheader header">Week 36</div></a>
+<div class="shortdate right">8 September 2024</div>
+</div>
+<div class="markdown">
+<p>This week I continued on fyro object/object collision, expanding the script system type information. I&rsquo;m not sure I&rsquo;ll be able to finish it next week but I&rsquo;ll keep on working on it</p>
+</div>
+  </article>
+            <article class="post">
+<div class="title">
 <a href="https://madeso.github.io/devlog/2024-35/"><div class="previewheader header">Week 35</div></a>
 <div class="shortdate right">1 September 2024</div>
 </div>
@@ -81,15 +90,6 @@
 <p>This week I continued working on fyro and refactoring things. Hopefully next week I can start on adding object-object collisions, we&rsquo;ll see.</p>
 </div>
   </article>
-            <article class="post">
-<div class="title">
-<a href="https://madeso.github.io/devlog/2024-33/"><div class="previewheader header">Week 33</div></a>
-<div class="shortdate right">18 August 2024</div>
-</div>
-<div class="markdown">
-<p>This week I spent most of the week with family. I managed to continue the fyro refactoring and altdev cleanup but it&rsquo;s been a slow and steady progress. Next week will hopefully be more productive.</p>
-</div>
-  </article>
             <a href="./devlog/" class="see-more">See more devlogs...</a>
     </div>
     <div id="latestblog" class="featured">
@@ -99,9 +99,11 @@
 <a href="https://madeso.github.io/blog/2023-in-review/"><div class="previewheader header">2023 in review</div></a>
 <div class="shortdate right">6 January 2024</div>
 </div>
-<p>Another year full of devlogs and another review of what I have achieved and failed to achieve.
-workbench, euphoria, gaf and json Workbench started out as a repo of various build scripts, but is now a single tool for running all those &ldquo;scripts&rdquo;. This year I ported everything from rust to c# and scoured my repos for other tools to integrate it into the code base.
-One of the big reasons for choosing C# is so that I can use the spectre project to get a nicer cli.</p>
+<p><p>Another year full of devlogs and another review of what I have achieved and failed to achieve.</p>
+<h2 id="workbench-euphoria-gaf-and-json">workbench, euphoria, gaf and json</h2>
+<p>Workbench started out as a repo of various build scripts, but is now a single tool for running all those &ldquo;scripts&rdquo;. This year I ported everything from rust to c# and scoured my repos for other tools to integrate it into the code base.</p>
+<p>One of the big reasons for choosing C# is so that I can use the spectre project to get a nicer cli.
+The other big reason is that I use c# as a language for work so I&rsquo;m very familiar with it. I can also use resharper to clean up the code and do major refactorings, that wasn&rsquo;t really possible with the rust or the python version.</p></p>
 <p><a href="https://madeso.github.io/blog/2023-in-review/">Read the rest...</a></p>
   </article>
             <article class="post">
@@ -109,8 +111,8 @@ One of the big reasons for choosing C# is so that I can use the spectre project 
 <a href="https://madeso.github.io/blog/2023-check-your-assumptions/"><div class="previewheader header">Check Your Assumptions</div></a>
 <div class="shortdate right">22 April 2023</div>
 </div>
-<p>In November of last year I noticed that the time it took to process inputs in Ride was way too high, almost a full second between each key input and for a text editor that&rsquo;s unbearable. I tried to tweak the event handling but nothing helped and lost motivation, put the project on ice and started working on other things.
-About 3 weeks ago the motivation came back and I started hacking and refactoring on the code to support multiple &ldquo;backends&rdquo; for rendering and handling input.</p>
+<p><p>In November of last year I noticed that the time it took to process inputs in Ride was way too high, almost a full second between each key input and for a text editor that&rsquo;s unbearable. I tried to tweak the event handling but nothing helped and lost motivation, put the project on ice and started working on other things.</p>
+<p>About 3 weeks ago the motivation came back and I started hacking and refactoring on the code to support multiple &ldquo;backends&rdquo; for rendering and handling input. Currently it&rsquo;s using OpenGL but I previously had both a wxWidgets and a software renderer backend so it was &ldquo;only&rdquo; a matter of bringing them back from the depths of the git history.</p></p>
 <p><a href="https://madeso.github.io/blog/2023-check-your-assumptions/">Read the rest...</a></p>
   </article>
             <article class="post">
@@ -118,9 +120,10 @@ About 3 weeks ago the motivation came back and I started hacking and refactoring
 <a href="https://madeso.github.io/blog/2022-in-review/"><div class="previewheader header">2022 in review</div></a>
 <div class="shortdate right">1 January 2023</div>
 </div>
-<p>I recently realized that I&rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&rsquo;ll summarize and write a smallish review of what I&rsquo;ve done on all my hobby projects the past year.
-Euphoria Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.
-Code wise I&rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core.</p>
+<p><p>I recently realized that I&rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&rsquo;ll summarize and write a smallish review of what I&rsquo;ve done on all my hobby projects the past year.</p>
+<h2 id="euphoria">Euphoria</h2>
+<p>Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.</p>
+<p>Code wise I&rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core. Added a PCH cut the compilation time by roughly 66%.</p></p>
 <p><a href="https://madeso.github.io/blog/2022-in-review/">Read the rest...</a></p>
   </article>
             <a href="./blog/" class="see-more">See more blog posts...</a>

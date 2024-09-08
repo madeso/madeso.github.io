@@ -13,7 +13,7 @@
       <link>https://madeso.github.io/blog/wp-foobar/</link>
       <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-foobar/</guid>
-      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.&#xA;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&#xA;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+      <description>&lt;p&gt;Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of &lt;a href=&#34;http://www.foobar2000.org/&#34;&gt;foobar2000&lt;/a&gt; place them in a sane directory-structure and keep them there.&lt;/p&gt;&#xA;&lt;p&gt;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

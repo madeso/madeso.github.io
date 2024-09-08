@@ -13,7 +13,7 @@
       <link>https://madeso.github.io/blog/spotify-windows-ssd/</link>
       <pubDate>Thu, 18 May 2017 07:28:24 +0200</pubDate>
       <guid>https://madeso.github.io/blog/spotify-windows-ssd/</guid>
-      <description>I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&#xA;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.</description>
+      <description>&lt;p&gt;I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&lt;/p&gt;&#xA;&lt;p&gt;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

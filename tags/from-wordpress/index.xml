@@ -13,133 +13,133 @@
       <link>https://madeso.github.io/blog/wp-notdead/</link>
       <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-notdead/</guid>
-      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂&#xA;Anyways, I’ve been quite busy since last time:&#xA;My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+      <description>&lt;p&gt;Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂&lt;/p&gt;&#xA;&lt;p&gt;Anyways, I’ve been quite busy since last time:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My &lt;a href=&#34;http://code.google.com/p/pwn-engine/&#34;&gt;pwn game library&lt;/a&gt; is still in development.&lt;/li&gt;&#xA;&lt;li&gt;and I’ve entered ludum dare twice..&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I’ve posted my first entry, let’s go cave exploring, earlier in this blog.&#xA;My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished&#xA;2-player game that ends when everything is explored&lt;/p&gt;</description>
     </item>
     <item>
       <title>I&#39;ve been busy</title>
       <link>https://madeso.github.io/blog/wp-busy/</link>
       <pubDate>Sun, 01 Nov 2009 12:16:30 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-busy/</guid>
-      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.&#xA;Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.&#xA;I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
+      <description>&lt;p&gt;Since last time I’ve entered &lt;a href=&#34;http://www.ludumdare.com/compo/&#34;&gt;Ludum Dare&lt;/a&gt; and actually &lt;a href=&#34;http://www.ludumdare.com/compo/ludum-dare-15/?uid=1135&#34;&gt;finished&lt;/a&gt; at 75ths place and a bronze in community – yay me.&lt;/p&gt;&#xA;&lt;p&gt;Since then I’ve integrated the half/16-bit float from the glorious &lt;a href=&#34;http://www.openexr.com/&#34;&gt;OpenEXR-project&lt;/a&gt; into my game-library &lt;a href=&#34;http://code.google.com/p/pwn-engine/&#34;&gt;pwn&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good&#xA;level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor,&#xA;like the &lt;a href=&#34;http://www.youtube.com/watch?v=bsT6otdcTv0&#34;&gt;aquaria editor&lt;/a&gt;(nicely captured by &lt;a href=&#34;http://www.youtube.com/watch?v=1BpRsjF7QTM&#34;&gt;wolfire design tour&lt;/a&gt;) or the boingo editor that is briefly visible in their &lt;a href=&#34;http://www.youtube.com/watch?v=VuqSnmseWkI&#34;&gt;sga trailer&lt;/a&gt;.&#xA;Preferably I like the editor to be integrate-able with &lt;a href=&#34;http://www.box2d.org/&#34;&gt;box2d&lt;/a&gt; (so that it generates the collision geometry).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oh, the temptation</title>
       <link>https://madeso.github.io/blog/wp-temptation/</link>
       <pubDate>Thu, 24 Sep 2009 12:12:58 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-temptation/</guid>
-      <description> </description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;  &lt;iframe src=&#34;https://player.vimeo.com/video/5239013&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Epic fail</title>
       <link>https://madeso.github.io/blog/wp-epicfail/</link>
       <pubDate>Wed, 29 Jul 2009 11:26:22 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-epicfail/</guid>
-      <description>I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish no more sweden :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the (external) editor, and to my horror it didn’t load. No message, no crash nor any exception – just silence.</description>
+      <description>&lt;p&gt;I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish &lt;a href=&#34;http://www.nomoresweden.com/&#34;&gt;no more sweden&lt;/a&gt; :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the &lt;a href=&#34;http://mapeditor.org/&#34;&gt;(external) editor&lt;/a&gt;, and to my horror it didn’t load. No message, no crash nor any exception – just silence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Say, that&#39;s a nice bike</title>
       <link>https://madeso.github.io/blog/wp-nicebike/</link>
       <pubDate>Tue, 14 Jul 2009 11:22:52 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-nicebike/</guid>
-      <description>So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.&#xA;Though my extreme/hard-biking might be beacuse I’m so</description>
+      <description>&lt;p&gt;So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bikehard.jpg&#34; alt=&#34;bikehard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Though my extreme/hard-biking might be beacuse I’m so&lt;/p&gt;</description>
     </item>
     <item>
       <title>No more sweden - It can&#39;t be true</title>
       <link>https://madeso.github.io/blog/wp-nomoresweden/</link>
       <pubDate>Mon, 13 Jul 2009 11:20:12 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-nomoresweden/</guid>
-      <description>So I’m attending this game-jam called No more sweden(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer, so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.</description>
+      <description>&lt;p&gt;So I’m attending this game-jam called &lt;a href=&#34;http://www.nomoresweden.com/nms-2009/&#34;&gt;No more sweden&lt;/a&gt;(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer,  so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Yo frankie!</title>
       <link>https://madeso.github.io/blog/wp-yofrankie/</link>
       <pubDate>Mon, 06 Jul 2009 11:18:56 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-yofrankie/</guid>
-      <description>Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking Yo Frankie! with my tetris engine.&#xA;Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games.</description>
+      <description>&lt;p&gt;Given that I sacked tetris more than a month ago, gamedev has been pretty stale at the moment. I’ve been studying fighting-systems and analysing combo-lists for the fighting-system in survivors. The usual stuff. However since the last post I’ve been thinking about remaking &lt;a href=&#34;http://www.yofrankie.org/&#34;&gt;Yo Frankie!&lt;/a&gt; with my tetris engine.&lt;/p&gt;&#xA;&lt;p&gt;Tetris actually outlived it’s purpose, as the purpose of the tetris project was to build a solid foundation for survivors and all my other 3d games. So the purpose of Yo Frankie is to get a solid 3d game. The reason why tetris and Yo Frankie are a great choice for these games is that both tetris and Frankie have all defined game-play elements written down in stone and free media already available at start, I believe this is to be a huge motivational-booster. This is especially true in the case of Yo Frankie. I get free(cc licensed) good-looking 3d test data, with a cohesive design. On top of that it also includes high-quality animations and appropriate sound and music effects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Excursions into the UI</title>
       <link>https://madeso.github.io/blog/wp-ui-excursions/</link>
       <pubDate>Thu, 25 Jun 2009 11:08:13 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-ui-excursions/</guid>
-      <description>I recently read scarabus’ post regarding guis and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.&#xA;So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d.</description>
+      <description>&lt;p&gt;I recently read &lt;a href=&#34;http://www.scalari.net/2009/06/25/lessons-in-gui-design/&#34;&gt;scarabus’ post regarding guis&lt;/a&gt; and I wanted to follow up/ add a few notes of my own. Since scarabus considers blender to have the worst user-interface(ui for short), I’m going to compare it to other similar applications and guess why it might be non-intuitive.&lt;/p&gt;&#xA;&lt;p&gt;So, beeing picky I have tried several mesh modelers. The imcomplete list is anim8or, google sketchup, misfit model 3d, xsi modtool, blender, art of illusion, truespace and wings 3d. All of them are free and can be found through google. Other applications are 3d studio max and maya.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tetris got sacked!</title>
       <link>https://madeso.github.io/blog/wp-tetris-sacked/</link>
       <pubDate>Sun, 07 Jun 2009 11:06:13 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-tetris-sacked/</guid>
-      <description>I recently came to the conclusion that I wont continue tetris, and instead restart my third person shooter-beatemup zombie &amp;amp; soldier slayfest Survivors. I always knew I was going back to survivors, I just didn’t know that I was going to give up on tetris. In reality it has to do with I got bored and can’t come up with a satisfying way of designing the menys. It sucks really, but all of the time wont go to waste since most of the code is basic boilerplate and I’m happy with most of the layout.</description>
+      <description>&lt;p&gt;I recently came to the conclusion that I wont continue tetris, and instead restart my third person shooter-beatemup zombie &amp;amp; soldier slayfest Survivors. I always knew I was going back to survivors, I just didn’t know that I was going to give up on tetris. In reality it has to do with I got bored and can’t come up with  a satisfying way of designing the menys. It sucks really, but all of the time wont go to waste since most of the code is basic boilerplate and I’m happy with most of the layout.&lt;/p&gt;</description>
     </item>
     <item>
       <title>We&#39;re doomed (not)</title>
       <link>https://madeso.github.io/blog/wp-darkangel/</link>
       <pubDate>Tue, 02 Jun 2009 11:02:59 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-darkangel/</guid>
-      <description>Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&#xA;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&#xA;Source: http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)</description>
+      <description>&lt;p&gt;Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&#34;&gt;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stairway to heaven</title>
       <link>https://madeso.github.io/blog/wp-stairway/</link>
       <pubDate>Sat, 23 May 2009 11:01:30 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-stairway/</guid>
-      <description>I recently discovered, not only do the local library have CD’s full of modern music, with my chemical romance-blood among others(despite what you think of chemical romance, blood really is different), they also have a complete collection of sound fx CD’s. I guess I dont have to spend some of my hard earned money on thoose sorts of CD’s when I can borrow 🙂</description>
+      <description>&lt;p&gt;I recently discovered, not only do the local library have CD’s full of modern music, with my &lt;a href=&#34;http://www.youtube.com/watch?v=9CB4obgXtw4&#34;&gt;chemical romance-blood&lt;/a&gt; among others(despite what you think of chemical romance, &lt;a href=&#34;http://www.youtube.com/watch?v=9CB4obgXtw4&#34;&gt;blood&lt;/a&gt; really is different), they also have a complete collection of sound fx CD’s. I guess I dont have to spend some of my hard earned money on thoose sorts of CD’s when I can borrow 🙂&lt;/p&gt;</description>
     </item>
     <item>
       <title>Foobar sorting</title>
       <link>https://madeso.github.io/blog/wp-foobar/</link>
       <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-foobar/</guid>
-      <description>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.&#xA;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&#xA;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,) That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</description>
+      <description>&lt;p&gt;Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of &lt;a href=&#34;http://www.foobar2000.org/&#34;&gt;foobar2000&lt;/a&gt; place them in a sane directory-structure and keep them there.&lt;/p&gt;&#xA;&lt;p&gt;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is there a bone in your shell?</title>
       <link>https://madeso.github.io/blog/wp-shellbone/</link>
       <pubDate>Mon, 23 Mar 2009 10:54:15 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-shellbone/</guid>
-      <description>I managed to get my skeleton loader working and I had some problem roatating the turtle 360 degrees but when I enabled ShortSlerp and fixed a few bugs in the angle-loading routine it worked as expected.</description>
+      <description>&lt;p&gt;I managed to get my skeleton loader working and I had some problem roatating the turtle 360 degrees but when I enabled ShortSlerp and fixed a few bugs in the angle-loading routine it worked as expected.&lt;/p&gt;</description>
     </item>
     <item>
       <title>There are bones in my turtle</title>
       <link>https://madeso.github.io/blog/wp-turtlebones/</link>
       <pubDate>Mon, 02 Mar 2009 10:50:25 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-turtlebones/</guid>
-      <description>Working an a skeleton loader, theese are some shots while developing it. </description>
+      <description>&lt;p&gt;Working an a skeleton loader, theese are some shots while developing it.&#xA;&lt;img src=&#34;bones1.png&#34; alt=&#34;weird bones 1&#34;&gt;&#xA;&lt;img src=&#34;bones2.png&#34; alt=&#34;weird bones 2&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operating system not found</title>
       <link>https://madeso.github.io/blog/wp-osnotfound/</link>
       <pubDate>Tue, 24 Feb 2009 10:47:30 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-osnotfound/</guid>
-      <description>I had a nightmare a few nights ago. In the dream I apparently had formated my computer without doing a backup of my important data. Luckily it was only a dream…</description>
+      <description>&lt;p&gt;I had a nightmare a few nights ago. In the dream I apparently had formated my computer without doing a backup of my important data.&#xA;Luckily it was only a dream…&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fear the consoles</title>
       <link>https://madeso.github.io/blog/wp-fear/</link>
       <pubDate>Thu, 12 Feb 2009 10:45:14 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-fear/</guid>
-      <description>I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.</description>
+      <description>&lt;p&gt;I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Silverlight Installation</title>
       <link>https://madeso.github.io/blog/wp-silverlight/</link>
       <pubDate>Tue, 03 Feb 2009 10:42:29 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-silverlight/</guid>
-      <description>I recently had to install silverlight at my computer(channel 9 required it), since I wanted to have a look at the brand new Visual Studio 2010 without downloading that huge ctp, and I must say that I really liked the installation process. Unlike most installations it doesn’t force you to press 20 buttons to install it. Only 2, ” install now”, and “close”. It actually felt refreshing.&#xA;It still manages to mention silverlight 4 times though without telling you what it does.</description>
+      <description>&lt;p&gt;I recently had to install silverlight at my computer(channel 9 required it), since I wanted to have a look at the brand new Visual Studio 2010 without downloading that huge ctp, and I must say that I really liked the installation process. Unlike most installations it doesn’t force you to press 20 buttons to install it. Only 2, ” install now”, and “close”.  It actually felt refreshing.&lt;/p&gt;&#xA;&lt;p&gt;It still manages to mention silverlight 4 times though without telling you what it does. Still, it’s &lt;a href=&#34;http://www.joelonsoftware.com/items/2009/01/12.html&#34;&gt;better than Java&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello, I am Gustav</title>
       <link>https://madeso.github.io/blog/wp-hello/</link>
       <pubDate>Sun, 25 Jan 2009 10:40:56 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-hello/</guid>
-      <description>.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion? Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.&#xA;Until next time…</description>
+      <description>&lt;p&gt;.. and I’m a game programmer. My best game so far would probably be lolball. A game where you move through levels as fast as possible to get a better score, all while doing as many combos as possible. Did I mention particle effects and slow-motion?&#xA;Currently however I’m working on a remake of tetris so I can get a stable codebase for my next progress.&lt;/p&gt;&#xA;&lt;p&gt;Until next time…&lt;/p&gt;</description>
     </item>
     <item>
       <title>First post</title>
       <link>https://madeso.github.io/blog/wp-firstpost/</link>
       <pubDate>Tue, 30 Dec 2008 10:38:53 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-firstpost/</guid>
-      <description>As the current year is slowly coming to a close, I figured that it would be smart to make a few promises. The first would be to actually add a new post once in a while, say every week, instead of once a year. So who am I…? Stay tuned for my next update 🙂</description>
+      <description>&lt;p&gt;As the current year is slowly coming to a close, I figured that it would be smart to make a few promises. The first would be to actually add a new post once in a while, say every week, instead of once a year. So who am I…?&#xA;Stay tuned for my next update 🙂&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

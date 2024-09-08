@@ -13,7 +13,7 @@
       <link>https://madeso.github.io/blog/sh-controls/</link>
       <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
       <guid>https://madeso.github.io/blog/sh-controls/</guid>
-      <description>I have started implementing the basic controls for both the keyboard and joysticks and to test everything out I added basic thrust and torque controls, and while this is really hard to control as each torque requires a counter torque from stopping to spinning I started thinking. The WebGL version of lander and I recall the original (I still can’t get it to play on my win7 system) let’s you enter the desired orientation and let a AI controls the torque thrusts.</description>
+      <description>&lt;p&gt;I have started implementing the basic controls for both the keyboard and joysticks&#xA;and to test everything out I added basic thrust and torque controls, and while this&#xA;is really hard to control as each torque requires a counter torque from stopping&#xA;to spinning I started thinking. The &lt;a href=&#34;http://lanael.free.fr/webgl/hopper.html&#34;&gt;WebGL version of lander&lt;/a&gt; and I recall the original&#xA;(I still can’t get it to play on my win7 system) let’s you enter the desired orientation&#xA;and let a AI controls the torque thrusts. This is a much easier control scheme as you don’t&#xA;have to compensate for the rotational adjustments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

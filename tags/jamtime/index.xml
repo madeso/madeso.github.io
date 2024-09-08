@@ -13,28 +13,28 @@
       <link>https://madeso.github.io/blog/wp-notdead/</link>
       <pubDate>Tue, 04 May 2010 12:19:24 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-notdead/</guid>
-      <description>Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂&#xA;Anyways, I’ve been quite busy since last time:&#xA;My pwn game library is still in development. and I’ve entered ludum dare twice.. I’ve posted my first entry, let’s go cave exploring, earlier in this blog. My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished 2-player game that ends when everything is explored</description>
+      <description>&lt;p&gt;Whoa… almost 5 months since last time! I gotta post more than twice a year 🙂&lt;/p&gt;&#xA;&lt;p&gt;Anyways, I’ve been quite busy since last time:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My &lt;a href=&#34;http://code.google.com/p/pwn-engine/&#34;&gt;pwn game library&lt;/a&gt; is still in development.&lt;/li&gt;&#xA;&lt;li&gt;and I’ve entered ludum dare twice..&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I’ve posted my first entry, let’s go cave exploring, earlier in this blog.&#xA;My second entry for the “Explore” theme was “Xplorer – the game” a kinda unfinished&#xA;2-player game that ends when everything is explored&lt;/p&gt;</description>
     </item>
     <item>
       <title>I&#39;ve been busy</title>
       <link>https://madeso.github.io/blog/wp-busy/</link>
       <pubDate>Sun, 01 Nov 2009 12:16:30 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-busy/</guid>
-      <description>Since last time I’ve entered Ludum Dare and actually finished at 75ths place and a bronze in community – yay me.&#xA;Since then I’ve integrated the half/16-bit float from the glorious OpenEXR-project into my game-library pwn.&#xA;I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor, like the aquaria editor(nicely captured by wolfire design tour) or the boingo editor that is briefly visible in their sga trailer.</description>
+      <description>&lt;p&gt;Since last time I’ve entered &lt;a href=&#34;http://www.ludumdare.com/compo/&#34;&gt;Ludum Dare&lt;/a&gt; and actually &lt;a href=&#34;http://www.ludumdare.com/compo/ludum-dare-15/?uid=1135&#34;&gt;finished&lt;/a&gt; at 75ths place and a bronze in community – yay me.&lt;/p&gt;&#xA;&lt;p&gt;Since then I’ve integrated the half/16-bit float from the glorious &lt;a href=&#34;http://www.openexr.com/&#34;&gt;OpenEXR-project&lt;/a&gt; into my game-library &lt;a href=&#34;http://code.google.com/p/pwn-engine/&#34;&gt;pwn&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I’ve also been thinking about creating a 2d level editor as editing text-files suck, and there doesn’t seem to be a good&#xA;level-editor. Most of the 2d level editors are focused on tile-based editing, but I want a more free-flow sprite-based editor,&#xA;like the &lt;a href=&#34;http://www.youtube.com/watch?v=bsT6otdcTv0&#34;&gt;aquaria editor&lt;/a&gt;(nicely captured by &lt;a href=&#34;http://www.youtube.com/watch?v=1BpRsjF7QTM&#34;&gt;wolfire design tour&lt;/a&gt;) or the boingo editor that is briefly visible in their &lt;a href=&#34;http://www.youtube.com/watch?v=VuqSnmseWkI&#34;&gt;sga trailer&lt;/a&gt;.&#xA;Preferably I like the editor to be integrate-able with &lt;a href=&#34;http://www.box2d.org/&#34;&gt;box2d&lt;/a&gt; (so that it generates the collision geometry).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Epic fail</title>
       <link>https://madeso.github.io/blog/wp-epicfail/</link>
       <pubDate>Wed, 29 Jul 2009 11:26:22 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-epicfail/</guid>
-      <description>I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish no more sweden :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the (external) editor, and to my horror it didn’t load. No message, no crash nor any exception – just silence.</description>
+      <description>&lt;p&gt;I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish &lt;a href=&#34;http://www.nomoresweden.com/&#34;&gt;no more sweden&lt;/a&gt; :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the &lt;a href=&#34;http://mapeditor.org/&#34;&gt;(external) editor&lt;/a&gt;, and to my horror it didn’t load. No message, no crash nor any exception – just silence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>No more sweden - It can&#39;t be true</title>
       <link>https://madeso.github.io/blog/wp-nomoresweden/</link>
       <pubDate>Mon, 13 Jul 2009 11:20:12 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-nomoresweden/</guid>
-      <description>So I’m attending this game-jam called No more sweden(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer, so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.</description>
+      <description>&lt;p&gt;So I’m attending this game-jam called &lt;a href=&#34;http://www.nomoresweden.com/nms-2009/&#34;&gt;No more sweden&lt;/a&gt;(funny name) this week. Wednesday/Thursday to Saturday/Sunday. I’ll be attending most of it, though I have to work at Thursday and Friday, which is a bummer,  so Ive been thinking at what kind of game I’m be making. I’ve been thinking about making a simple plat former for some time now, and this might be good time as any to make it a reality.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
