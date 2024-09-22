@@ -19,7 +19,7 @@ Enjoy!">
 Enjoy!">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
-  <meta name="generator" content="Hugo 0.134.1"><link rel="canonical" href="https://madeso.github.io/blog/"> 
+  <meta name="generator" content="Hugo 0.134.3"><link rel="canonical" href="https://madeso.github.io/blog/"> 
   <title>blog</title>
   <link rel="stylesheet" href="https://madeso.github.io/css/reset.css" />
   <link rel="stylesheet" href="https://madeso.github.io/css/style.css" />
@@ -174,7 +174,9 @@ The other big reason is that I use c# as a language for work so I&rsquo;m very f
 <p><img src="new.jpg" alt="new"></p>
 <p>It&rsquo;s simple to get this log. Just type in:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git log --graph --pretty<span class="o">=</span>format:<span class="s1">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span> --abbrev-commit
-</span></span></code></pre></div><p>I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:</p></p>
+</span></span></code></pre></div><p>I guess that&rsquo;s a bit too long, eh? Let&rsquo;s just make an alias. Copy and paste the line below on your terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git config --global alias.lg <span class="s2">&#34;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39; --abbrev-commit&#34;</span>
+</span></span></code></pre></div><p>And every time you need to see your log, just type in</p></p>
 <p><a href="https://madeso.github.io/blog/gitlog/">Read the rest...</a></p>
   <div class="taglist">
     &nbsp;<a class="tag" href="/tags/git">#git</a>

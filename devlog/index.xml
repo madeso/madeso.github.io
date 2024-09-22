@@ -6,8 +6,22 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 22:50:41 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 20:39:45 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2024-38/</link>
+      <pubDate>Sun, 22 Sep 2024 20:39:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-38/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much, some work on poster tester but no progress on neither klotter nor fyro/fel. Better &amp;ldquo;luck&amp;rdquo; next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 37</title>
+      <link>https://madeso.github.io/devlog/2024-37/</link>
+      <pubDate>Thu, 12 Sep 2024 23:26:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-37/</guid>
+      <description>&lt;p&gt;This week I continued work on the type system. Variables have types but they can&amp;rsquo;t be set from script. Currently printing the argument information for functions crashes and I&amp;rsquo;m currently working on making sure that doesn&amp;rsquo;t happen.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 36</title>
       <link>https://madeso.github.io/devlog/2024-36/</link>
