@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 23:58:14 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 21:47:07 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2024-40/</link>
+      <pubDate>Sun, 06 Oct 2024 21:47:07 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-40/</guid>
+      <description>&lt;p&gt;This week I started work on my entry for the the kodsnack gamejam and continued work on booskhelf&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 39</title>
       <link>https://madeso.github.io/devlog/2024-39/</link>
