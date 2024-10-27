@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2024 23:39:41 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Oct 2024 23:51:01 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 43</title>
+      <link>https://madeso.github.io/devlog/2024-43/</link>
+      <pubDate>Sun, 27 Oct 2024 23:51:01 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-43/</guid>
+      <description>&lt;p&gt;Besides a few minor changes in workbench and bookshelf I&amp;rsquo;ve mostly been reading code and trying to understand code, upcomming features for world/level building and whatnot. next week should be lots of work on fyro, finally trying to get the collision code working&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 42</title>
       <link>https://madeso.github.io/devlog/2024-42/</link>
