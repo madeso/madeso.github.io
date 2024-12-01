@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 22:52:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 22:43:03 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 48</title>
+      <link>https://madeso.github.io/devlog/2024-48/</link>
+      <pubDate>Sun, 01 Dec 2024 22:43:03 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-48/</guid>
+      <description>&lt;p&gt;This week I started to get back into klotter and actually upgraded the glad and opengl version to be the latest that my machines support. I also continued on my kdl project, I&amp;rsquo;m somewhat considering to replace json with kdl in euphoria. next week will be the day I implement in klotter, I promise!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 47</title>
       <link>https://madeso.github.io/devlog/2024-47/</link>
