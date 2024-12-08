@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2024 22:43:03 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 23:35:51 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2024-49/</link>
+      <pubDate>Sun, 08 Dec 2024 23:35:51 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024-49/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t completed instancing but wrote a first revision of the user facing api so all I have left is actually implementing it :)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 48</title>
       <link>https://madeso.github.io/devlog/2024-48/</link>
