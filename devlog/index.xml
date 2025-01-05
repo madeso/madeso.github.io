@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 23:49:16 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2025 22:22:58 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2025-01/</link>
+      <pubDate>Sun, 05 Jan 2025 22:22:58 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-01/</guid>
+      <description>&lt;p&gt;This week, last year, I started replacing the depndency on external coverage reports by also publishing the html report. The next year I continued with showing a the code city of the current euphoria and displaying the clang-tidy warnings on the demo html page. I also caught a fever that I&amp;rsquo;m recovring from so that&amp;rsquo;s perhaps why I haven&amp;rsquo;t worked on instancing, maybe next week&amp;hellip; :)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 52</title>
       <link>https://madeso.github.io/devlog/2024-52/</link>
