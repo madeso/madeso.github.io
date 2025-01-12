@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://madeso.github.io/devlog/2025-02/</loc>
+    <lastmod>2025-01-12T22:53:20+01:00</lastmod>
+  </url><url>
     <loc>https://madeso.github.io/devlog/2025-01/</loc>
     <lastmod>2025-01-05T22:22:58+01:00</lastmod>
   </url><url>
@@ -162,6 +165,12 @@
     <lastmod>2024-01-07T23:47:17+01:00</lastmod>
   </url><url>
     <loc>https://madeso.github.io/blog/2023-in-review/</loc>
+    <lastmod>2024-01-06T20:54:16+01:00</lastmod>
+  </url><url>
+    <loc>https://madeso.github.io/tags/</loc>
+    <lastmod>2024-01-06T20:54:16+01:00</lastmod>
+  </url><url>
+    <loc>https://madeso.github.io/tags/year-in-review/</loc>
     <lastmod>2024-01-06T20:54:16+01:00</lastmod>
   </url><url>
     <loc>https://madeso.github.io/devlog/2023-52/</loc>
@@ -1164,9 +1173,6 @@
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
   </url><url>
     <loc>https://madeso.github.io/blog/restart-alsa/</loc>
-    <lastmod>2017-07-23T14:31:24+02:00</lastmod>
-  </url><url>
-    <loc>https://madeso.github.io/tags/</loc>
     <lastmod>2017-07-23T14:31:24+02:00</lastmod>
   </url><url>
     <loc>https://madeso.github.io/tags/ubuntu/</loc>

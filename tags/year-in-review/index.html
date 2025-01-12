@@ -8,30 +8,21 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="author" content=""/>
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="2023 in review">
-  <meta name="twitter:description" content="Another year full of devlogs and another review of what I have achieved and failed to achieve.
-workbench, euphoria, gaf and json Workbench started out as a repo of various build scripts, but is now a single tool for running all those “scripts”. This year I ported everything from rust to c# and scoured my repos for other tools to integrate it into the code base.
-One of the big reasons for choosing C# is so that I can use the spectre project to get a nicer cli. The other big reason is that I use c# as a language for work so I’m very familiar with it. I can also use resharper to clean up the code and do major refactorings, that wasn’t really possible with the rust or the python version.">
+  <meta name="twitter:title" content="Year-in-Review">
       <meta name="twitter:site" content="@sirGustav">
-  <meta property="og:url" content="https://madeso.github.io/blog/2023-in-review/">
+  <meta property="og:url" content="https://madeso.github.io/tags/year-in-review/">
   <meta property="og:site_name" content="Gustav Jansson">
-  <meta property="og:title" content="2023 in review">
-  <meta property="og:description" content="Another year full of devlogs and another review of what I have achieved and failed to achieve.
-workbench, euphoria, gaf and json Workbench started out as a repo of various build scripts, but is now a single tool for running all those “scripts”. This year I ported everything from rust to c# and scoured my repos for other tools to integrate it into the code base.
-One of the big reasons for choosing C# is so that I can use the spectre project to get a nicer cli. The other big reason is that I use c# as a language for work so I’m very familiar with it. I can also use resharper to clean up the code and do major refactorings, that wasn’t really possible with the rust or the python version.">
+  <meta property="og:title" content="Year-in-Review">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2024-01-06T20:54:16+01:00">
-    <meta property="article:modified_time" content="2024-01-06T20:54:16+01:00">
-    <meta property="article:tag" content="Year-in-Review">
-  <meta name="generator" content="Hugo 0.140.2"><link rel="canonical" href="https://madeso.github.io/blog/2023-in-review/"> 
-  <title>2023 in review</title>
+  <meta property="og:type" content="website">
+  <meta name="generator" content="Hugo 0.140.2"><link rel="canonical" href="https://madeso.github.io/tags/year-in-review/"> 
+  <title>Year-in-Review</title>
   <link rel="stylesheet" href="https://madeso.github.io/css/reset.css" />
   <link rel="stylesheet" href="https://madeso.github.io/css/style.css" />
   <link rel="stylesheet" href="https://madeso.github.io/css/codestyle.css" />
   <script src="https://kit.fontawesome.com/ffb2187c9e.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="alternate" type="application/rss+xml" href="https://madeso.github.io/tags/year-in-review/index.xml" title="Gustav Jansson" />
   <link rel="stylesheet" href="https://madeso.github.io/external/lightbox/css/lightbox.min.css">
   <link rel="shortcut icon" href="https://madeso.github.io//favicon.ico" type="image/x-icon">
   <link rel="icon" href="https://madeso.github.io//favicon.ico" type="image/x-icon">
@@ -52,6 +43,51 @@ One of the big reasons for choosing C# is so that I can use the spectre project 
     <a href="https://madeso.github.io/about/">[about]</a>
   </div>
 </header>
+<div class="firstcontent">
+  <div class="page-heading">Posts about Year-in-Review</div>
+</div>
+<div id="pages">
+<article class="post">
+  <a href="https://madeso.github.io/blog/2022-in-review/"><h1>2022 in review</h1></a>
+  <p>
+    Sunday, 1 January 2023 at 17:19
+      <span style="display: inline-block; width: 10px"> &nbsp; </span>
+      //
+      reading time 
+      ~4 minutes
+  </p>
+<div class="markdown">
+<p>I recently realized that I&rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&rsquo;ll summarize and write a smallish review of what I&rsquo;ve done on all my hobby projects the past year.</p>
+<h2 id="euphoria">Euphoria</h2>
+<p>Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.</p>
+<p>Code wise I&rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core. Added a PCH cut the compilation time by roughly 66%.</p>
+<p>Feature wise most user facing would be the &ldquo;through the lens&rdquo; <a href="https://www.youtube.com/watch?v=oz4HPDra7g0">camera movement <i class="fa fa-external-link" aria-hidden="true"></i></a> in the world/level editor t3d and 3d world selection and <a href="https://www.youtube.com/watch?v=yyyJLmCYUrw">item movements <i class="fa fa-external-link" aria-hidden="true"></i></a>.</p>
+<h2 id="tred">Tred</h2>
+<p>Speaking of euphoria, the next version of euphoria rendering, <a href="https://github.com/madeso/tred">tred <i class="fa fa-external-link" aria-hidden="true"></i></a> got a cleanup and refactor, and I started added the world concept.</p>
+<h2 id="fyro">Fyro</h2>
+<p>I also got excited about the thought of a simple engine, something like a <a href="https://www.lexaloffle.com/pico-8.php">pico-8 <i class="fa fa-external-link" aria-hidden="true"></i></a> <a href="https://love2d.org/">love2d <i class="fa fa-external-link" aria-hidden="true"></i></a> mashup and forked the 2d rendering from tred and started removing all 3d and simplifying it and calling it <a href="https://github.com/madeso/fyro">Fyro <i class="fa fa-external-link" aria-hidden="true"></i></a>. This split allowed tred to focus on 3d with 2d and fyro to only focus on 2d. The 2d sample games was moved to fyro.</p>
+<p>Currently there is a working snake clone complete with rumble input and local multiplayer. There is also a 2d platformer base complete with pixel perfect collision (inspired by <a href="https://maddythorson.medium.com/celeste-and-towerfall-physics-d24bd2ae0fc5">celeste and towerfall <i class="fa fa-external-link" aria-hidden="true"></i></a>), tiled loading and camera movement. All this is controlled by a custom scripting language and that brings us to the next project.</p>
+<h2 id="lox">Lox</h2>
+<p>I read the first part of <a href="https://www.craftinginterpreters.com/">crafting interpreters <i class="fa fa-external-link" aria-hidden="true"></i></a>, implemented my custom version, <a href="">still called lox <i class="fa fa-external-link" aria-hidden="true"></i></a> and continued adding on it. If I have any new year resolution is that I should read the second chapter and learn about virtual machines, bytecodes and how to optimize the scripting language.</p>
+<h2 id="workbench">Workbench</h2>
+<p>Looping back to work that I did for euphoria, it wouldn&rsquo;t be possible without the <a href="https://github.com/madeso/build">build/workbench <i class="fa fa-external-link" aria-hidden="true"></i></a> project. This year I came to the realization that python, while nice to work with, doesn&rsquo;t really result in easy to maintain programs when they grow beyond a certain size and my c++ helper scripts, I think, have reached that size.
+So in 2022 I have explored 2 different languages: rust and c#. The rust port is further along, and in some ways have more features than the python version and while I like the language and I don&rsquo;t particularly like to read the code and feel like a variable very often always have the wrong type.</p>
+<p>So I tried c# now that Linux support isn&rsquo;t a afterthought and I know from work projects that I both like c# and it&rsquo;s libraries. I encountered a roadblock however in that a nop-build is way slower than both c++ and rust, and since I&rsquo;m integrating it into console applications I mostly tend to do nop builds when developing.</p>
+<h2 id="clean-code">Clean code</h2>
+<p>I started reading clean code and wrote a post about the <a href="https://i.madeso.me/blog/clean-code-chapter-2/">&ldquo;first&rdquo; (second) chapter <i class="fa fa-external-link" aria-hidden="true"></i></a>. I also read the &ldquo;second&rdquo; (third) chapter and wrote a post about it but since then I learned about what some part actually means so I have yet to rewrite the post and publish it. Another resolution: rewrite that blog post!</p>
+<h2 id="postertester">Postertester</h2>
+<p>In between all the c++ and rust I added a few nice to have features to my <a href="https://github.com/madeso/postertester/">postman clone/replacement <i class="fa fa-external-link" aria-hidden="true"></i></a> and published the repo. There are still some things to be done before releasing 1.0 and calling it feature complete.</p>
+<h2 id="other-tidbits">Other tidbits</h2>
+<p>I joined a gamejam and <a href="https://github.com/madeso/spelsylt7-val">created a game <i class="fa fa-external-link" aria-hidden="true"></i></a>. I would have made a much better game if I didn&rsquo;t get distracted and started writing my own physics engine.</p>
+<p>For my text editor <a href="https://github.com/madeso/ride">ride <i class="fa fa-external-link" aria-hidden="true"></i></a> I realized I could just copy the fyro code and do the rendering with OpenGL. This turns out works great on Linux but on windows it tends to be a bit laggy. I&rsquo;m still not sure and I wonder if I have this effect with the older renderers and just didn&rsquo;t notice so I slowly started bringing back part of the old structure where I could test out different rendering APIs for freeform application development. It&rsquo;s still a work in progress but something I hope to continue with in 2023.</p>
+<p>I watched a part of <a href="https://www.youtube.com/watch?v=l1b7Da2DnPo&amp;t=833s">talk by Nikita <i class="fa fa-external-link" aria-hidden="true"></i></a> about <a href="https://github.com/tonsky/vscode-theme-alabaster">alabaster <i class="fa fa-external-link" aria-hidden="true"></i></a> but didn&rsquo;t like the colors so I started work on a <a href="https://ethanschoonover.com/solarized/">solarized <i class="fa fa-external-link" aria-hidden="true"></i></a> <a href="https://github.com/madeso/vscode-theme-alabaster-solarized">version <i class="fa fa-external-link" aria-hidden="true"></i></a>, but found bugs in VS code and couldn&rsquo;t continue.</p>
+<p>After watching both <a href="https://www.imdb.com/title/tt0112178/?ref_=fn_al_tt_1">Star Trek: Voyager <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a href="https://www.imdb.com/title/tt0244365/?ref_=fn_al_tt_1">Star Trek: Enterprise <i class="fa fa-external-link" aria-hidden="true"></i></a> I decided I would start from well&hellip; the start so I watched <a href="https://www.imdb.com/title/tt0060028/?ref_=nv_sr_srsg_0">the original series <i class="fa fa-external-link" aria-hidden="true"></i></a>. While I wouldn&rsquo;t say the episodes are great there are some really great ones, and probably at one point I&rsquo;m going to write a blog post about the great episodes so I won&rsquo;t forget what they are.</p>
+</div>
+  <div class="taglist">
+    &nbsp;<a class="tag" href="/tags/year-in-review">#year-in-review</a>
+  or <a class="tag" href="/tags/">(all)</a>
+  </div>
+  </article>
 <article class="post">
   <a href="https://madeso.github.io/blog/2023-in-review/"><h1>2023 in review</h1></a>
   <p>
@@ -100,6 +136,7 @@ I switched to the main workbench branch and started replacing some custom script
   or <a class="tag" href="/tags/">(all)</a>
   </div>
   </article>
+</div>
 <footer id="footer" class="me-footer">
 <div class="footerbuttons">
  <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
@@ -112,7 +149,7 @@ I switched to the main workbench branch and started replacing some custom script
 </footer>
 </div> 
 <script>
-$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/2023-in-review\/#"]', function(e) {
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/tags\/year-in-review\/#"]', function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
