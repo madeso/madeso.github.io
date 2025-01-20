@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2025 22:53:20 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 20:01:27 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 03</title>
+      <link>https://madeso.github.io/devlog/2025-03/</link>
+      <pubDate>Mon, 20 Jan 2025 20:01:27 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-03/</guid>
+      <description>&lt;p&gt;This week I mostly worked on adding unit tests to workbench and documenting and expanding classes in euphoria.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 02</title>
       <link>https://madeso.github.io/devlog/2025-02/</link>
