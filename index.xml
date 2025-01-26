@@ -6,10 +6,17 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 20:01:27 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 22:33:45 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2025 03</title>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2025-04/</link>
+      <pubDate>Sun, 26 Jan 2025 22:33:45 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-04/</guid>
+      <description>&lt;p&gt;This week I continued on workbench dependency injection and finally managed to run a simple clang-tidy as part of a unit/integration test. On euphoria side I continued on cleaning up the code. I discovered a way to run regex on strings so I&amp;rsquo;m probably going to take advantage of that when I implement 100% function coverage later on. I finally did a little bit of planning and decided that the cleanup process should last at maximum to the end of february. Pretty realistic goal, I think, and hopefully I can finish it before then.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
       <link>https://madeso.github.io/devlog/2025-03/</link>
       <pubDate>Mon, 20 Jan 2025 20:01:27 +0100</pubDate>
       <guid>https://madeso.github.io/devlog/2025-03/</guid>
