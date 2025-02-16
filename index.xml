@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2025 23:44:21 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 22:02:02 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2025-07/</link>
+      <pubDate>Sun, 16 Feb 2025 22:02:02 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-07/</guid>
+      <description>&lt;p&gt;This week I got sidetracked and started to look into ubiquity, but even worse I think I took the wrong approach when starting to add types and trying to understand the code. Now I think the best way is to get a version running first before I start adding types &amp;hellip; but that will probably not be next week. I both need and want to get back to euphoria and klotter.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 06</title>
       <link>https://madeso.github.io/devlog/2025-06/</link>
