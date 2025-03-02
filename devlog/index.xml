@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2025 23:15:34 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 21:17:36 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2025-09/</link>
+      <pubDate>Sun, 02 Mar 2025 21:17:36 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-09/</guid>
+      <description>&lt;p&gt;This week I replaced all external code analysis and code coverage tools for euphoria and finally replaced them with tools that are run locally.&#xA;Since March has started I should move on to the next &amp;ldquo;sprint&amp;rdquo; but I really want to get a 100% function coverage. The start of the next sprint is completing the klotter project so technically&#xA;I can work on both, at least until the klotter project is complete so that&amp;rsquo;s most likely what I&amp;rsquo;m going to do. Until next time&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 08</title>
       <link>https://madeso.github.io/devlog/2025-08/</link>
