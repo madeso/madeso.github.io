@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Mar 2025 21:17:36 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 20:59:40 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2025-10/</link>
+      <pubDate>Sun, 09 Mar 2025 20:59:40 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-10/</guid>
+      <description>&lt;p&gt;This week I more or less comleted the rest of the base sprint and can continue with the 3d rendering phase. It has slowly started and the next step is excluding and removing complexity and then, finally, instancing&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 09</title>
       <link>https://madeso.github.io/devlog/2025-09/</link>
