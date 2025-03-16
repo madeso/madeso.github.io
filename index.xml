@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Mar 2025 20:59:40 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 21:56:55 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2025-11/</link>
+      <pubDate>Sun, 16 Mar 2025 21:56:55 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-11/</guid>
+      <description>&lt;p&gt;This week I mostly watched star trek. I did some small things on euph and made the FSE, full screen effect, optional. After sleeping on it, and thinking about it for a day I probably going to remove the option to toggle the FSE&#xA;as it didn&amp;rsquo;tappear to  affect loading time as much as I thought it would, and the if complicates a already complicated code base. March and April is supposed to be when I work on the 3d rendering and to that end I did look at instancing again and I now think that it will be easier to implement than I initially thought, perhaps I&amp;rsquo;m going to get it done next week &amp;hellip;if I don&amp;rsquo;t spend so much time watching star trek :D&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 10</title>
       <link>https://madeso.github.io/devlog/2025-10/</link>
