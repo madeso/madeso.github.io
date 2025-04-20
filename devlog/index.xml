@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Apr 2025 20:58:29 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2025 23:43:51 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2025-16/</link>
+      <pubDate>Sun, 20 Apr 2025 23:43:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-16/</guid>
+      <description>&lt;p&gt;This week I managed to get most of forma to compile on windows. I also realized that smide might need a php-like code generator instead of the current mustache-based generator.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 15</title>
       <link>https://madeso.github.io/devlog/2025-15/</link>
