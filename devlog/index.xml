@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Apr 2025 23:03:56 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 22:10:51 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2025-18/</link>
+      <pubDate>Sun, 04 May 2025 22:10:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-18/</guid>
+      <description>&lt;p&gt;This week I continued on klotter instancing implementation. I think most of the code is finally written, now I just need to make it not crash and work.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 17</title>
       <link>https://madeso.github.io/devlog/2025-17/</link>
