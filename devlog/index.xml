@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 May 2025 22:57:37 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 23:49:45 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2025-20/</link>
+      <pubDate>Sun, 18 May 2025 23:49:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-20/</guid>
+      <description>&lt;p&gt;The only read progress I made this  week was adding blinn-phong specular rendering to klotter. I also spent time figuring out how to expand the current system to add gamma correction and HDR/bloom rendering and when to transform between the linear and the gamma color spaces. Next week will hopefully be the time that I&amp;rsquo;ll implement it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 19</title>
       <link>https://madeso.github.io/devlog/2025-19/</link>
