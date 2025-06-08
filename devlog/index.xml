@@ -6,8 +6,29 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 May 2025 23:49:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jun 2025 21:03:20 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2025-23/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-23/</guid>
+      <description>&lt;p&gt;This week I worked on a idea that I got during my &amp;ldquo;vacation&amp;rdquo; away from the computer, a typesafe open gl called glox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2025-22/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:04 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-22/</guid>
+      <description>&lt;p&gt;This week I was away from my computer so I mostly just wrote documentation and added todos for code that didn&amp;rsquo;t look like it was correct or could use some improvement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2025-21/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:01 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-21/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Week 20</title>
       <link>https://madeso.github.io/devlog/2025-20/</link>
