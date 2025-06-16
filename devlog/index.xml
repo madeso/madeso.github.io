@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jun 2025 21:03:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 09:43:53 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2025-24/</link>
+      <pubDate>Mon, 16 Jun 2025 09:43:53 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-24/</guid>
+      <description>&lt;p&gt;This week started out with me adding code generation support to glox but transitioned back to kotter when I was told that my problem could be solved by the debug output extension and that my usage has been broken since 2017. After I fixed that issue glox was less interesting and so I actually just continued working on klotter and completed the anti aliasing task, so next week I&amp;rsquo;ll continue with the cleanup task and perhaps start on gamma correction.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 23</title>
       <link>https://madeso.github.io/devlog/2025-23/</link>
