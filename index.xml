@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:02:33 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 21:32:43 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 27</title>
+      <link>https://madeso.github.io/devlog/2025-27/</link>
+      <pubDate>Sun, 06 Jul 2025 21:32:43 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-27/</guid>
+      <description>&lt;p&gt;This week added a option to disable the debugging information, added header hero to the ci, added code so that klotter requests the high performance GPU by default and fixed a bug for loading textures from a pixel &amp;hellip; and that concludes the cleanup task so now I can finally continue with the rendering tasks.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 26</title>
       <link>https://madeso.github.io/devlog/2025-26/</link>
