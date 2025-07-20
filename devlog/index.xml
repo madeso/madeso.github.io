@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jul 2025 22:56:43 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 23:59:06 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2025-29/</link>
+      <pubDate>Sun, 20 Jul 2025 23:59:06 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-29/</guid>
+      <description>&lt;p&gt;This week I started implementing gamma correction. It&amp;rsquo;s not complete but getting there, mostly just tweaking left I hope.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 28</title>
       <link>https://madeso.github.io/devlog/2025-28/</link>
