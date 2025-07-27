@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 23:59:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 22:21:23 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2025-30/</link>
+      <pubDate>Sun, 27 Jul 2025 22:21:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-30/</guid>
+      <description>&lt;p&gt;This week I continued on klotter, completing gamma correction and started on hdr rendering. With any luck, both hdr and bloom will be done next week :)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 29</title>
       <link>https://madeso.github.io/devlog/2025-29/</link>
