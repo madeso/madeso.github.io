@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Aug 2025 23:16:10 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 23:24:20 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2025-33/</link>
+      <pubDate>Sun, 17 Aug 2025 23:24:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-33/</guid>
+      <description>&lt;p&gt;This week I completed the &amp;ldquo;last&amp;rdquo; step for bloom. Next step is adding a smooth/knee for the bloom cutoff, improving the blur and adding a intensity effect so it can be scaled&amp;hellip; but that&amp;rsquo;s for next week.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 32</title>
       <link>https://madeso.github.io/devlog/2025-32/</link>
