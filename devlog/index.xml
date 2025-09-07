@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Aug 2025 22:27:13 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 22:39:14 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 36</title>
+      <link>https://madeso.github.io/devlog/2025-36/</link>
+      <pubDate>Sun, 07 Sep 2025 22:39:14 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-36/</guid>
+      <description>&lt;p&gt;This week I continued to clean the code. Next week will (hopefully) be directional light and some more light cleanup&amp;hellip; I&amp;rsquo;m getting the itch to work on workbench to find more issues with my code but that&amp;rsquo;ll have to wait until the arcade racer is &amp;ldquo;complete&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 35</title>
       <link>https://madeso.github.io/devlog/2025-35/</link>
