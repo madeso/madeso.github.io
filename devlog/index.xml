@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2025 22:06:11 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 20:23:36 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2025-40/</link>
+      <pubDate>Sun, 05 Oct 2025 20:23:36 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-40/</guid>
+      <description>&lt;p&gt;This week the work on visual debug continued. I managed to catch a cold at the end, that I&amp;rsquo;m still fighting, so work progressed slowly. I&amp;rsquo;m hoping for a bigger progress next week as I&amp;rsquo;m hopefully near the end.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 39</title>
       <link>https://madeso.github.io/devlog/2025-39/</link>
