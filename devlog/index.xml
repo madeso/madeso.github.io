@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Oct 2025 20:29:51 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 21:06:02 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 42</title>
+      <link>https://madeso.github.io/devlog/2025-42/</link>
+      <pubDate>Sun, 19 Oct 2025 21:06:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-42/</guid>
+      <description>&lt;p&gt;This week I mostly worked on the poster tester project as I started using it again for work. I also came to the realization that altough I won&amp;rsquo;t complete the arcade racer, I could complete the rendering engine and thus started to read up onhow to improve the display of textures in dear imgui as this will greatly improve how I can debug the shadow rendering.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 41</title>
       <link>https://madeso.github.io/devlog/2025-41/</link>
