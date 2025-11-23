@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 21:05:46 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 23 Nov 2025 20:44:31 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 47</title>
+      <link>https://madeso.github.io/devlog/2025-47/</link>
+      <pubDate>Sun, 23 Nov 2025 20:44:31 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-47/</guid>
+      <description>&lt;p&gt;This week I also didn&amp;rsquo;t work on shadows, but I atleast did some work on klotter. Most work was on dotgrid, but I managed to update depdendencies so that it builds with the latest cmake version. Next week is shadows&amp;hellip;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 46</title>
       <link>https://madeso.github.io/devlog/2025-46/</link>
