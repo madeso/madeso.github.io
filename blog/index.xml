@@ -223,7 +223,7 @@
       <link>https://madeso.github.io/blog/wp-darkangel/</link>
       <pubDate>Tue, 02 Jun 2009 11:02:59 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-darkangel/</guid>
-      <description>&lt;p&gt;Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&#34;&gt;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&#34;&gt;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stairway to heaven</title>
@@ -237,7 +237,7 @@
       <link>https://madeso.github.io/blog/wp-foobar/</link>
       <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-foobar/</guid>
-      <description>&lt;p&gt;Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of &lt;a href=&#34;http://www.foobar2000.org/&#34;&gt;foobar2000&lt;/a&gt; place them in a sane directory-structure and keep them there.&lt;/p&gt;&#xA;&lt;p&gt;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of &lt;a href=&#34;http://www.foobar2000.org/&#34;&gt;foobar2000&lt;/a&gt; place them in a sane directory-structure and keep them there.&lt;/p&gt;&#xA;&lt;p&gt;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is there a bone in your shell?</title>
