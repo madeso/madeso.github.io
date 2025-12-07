@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 22:38:37 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 20:50:54 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2025-49/</link>
+      <pubDate>Sun, 07 Dec 2025 20:50:54 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-49/</guid>
+      <description>&lt;p&gt;This week I worked on making the dotgrid export better at lower resolutions. I also started a new project, samling, helping me determine what assets I own and if buying a new pack is worth it or not. I was planning to work on shadows but my week was was cut short with visitng familty giving me practically no weekend so shadows will have to wait yet another week :(&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 48</title>
       <link>https://madeso.github.io/devlog/2025-48/</link>
