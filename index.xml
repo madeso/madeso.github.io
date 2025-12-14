@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Dec 2025 20:50:54 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 22:15:28 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 50</title>
+      <link>https://madeso.github.io/devlog/2025-50/</link>
+      <pubDate>Sun, 14 Dec 2025 22:15:28 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-50/</guid>
+      <description>&lt;p&gt;This week I did some work on ride, resurected klotter and started the work on shadow rendering in ride. There are still some work on shadow left and while I don&amp;rsquo;t think I can complete it next week I think I can at least improve the current shadows by a bit.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 49</title>
       <link>https://madeso.github.io/devlog/2025-49/</link>
