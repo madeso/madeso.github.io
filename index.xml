@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 22:15:28 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 22:09:57 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 51</title>
+      <link>https://madeso.github.io/devlog/2025-51/</link>
+      <pubDate>Sun, 21 Dec 2025 22:09:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025-51/</guid>
+      <description>&lt;p&gt;This week I mostly watched start trek as it&amp;rsquo;s disapearing from netflix in a few weeks and I&amp;rsquo;d like to complete my watching(only the last 4 season of ds9 left). Besides that, I actually managed to continue work on klotter and fix both the linux and the windows ci. Next week, while watching star trek, I&amp;rsquo;m planning to fix the warnings CI has found and do some work on the samling project.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 50</title>
       <link>https://madeso.github.io/devlog/2025-50/</link>
