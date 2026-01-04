@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Dec 2025 22:42:21 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 22:47:39 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2026-01/</link>
+      <pubDate>Sun, 04 Jan 2026 22:47:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-01/</guid>
+      <description>&lt;p&gt;For this and last week of te last year I mostly watched Star Trek: Deep Space 9. I did some work on samling and some smaller work on klotter.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also been thinking about what a skeumorphic design for a &amp;ldquo;unity engine&amp;rdquo; could look like. Could each component look like a instrument in reaper with knobs and whatnot. How would that be written in code? What widgets are needed? That sort of thing. Perhaps I&amp;rsquo;ll make a prototype or something, &lt;a href=&#34;https://colorpalette.pro/&#34;&gt;colorpalette.pro&lt;/a&gt; is some sort of inspiration.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 52</title>
       <link>https://madeso.github.io/devlog/2025-52/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in blog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2024 20:54:16 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 19:38:24 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 in Review</title>
+      <link>https://madeso.github.io/blog/2024-in-review/</link>
+      <pubDate>Mon, 06 Jan 2025 19:38:24 +0100</pubDate>
+      <guid>https://madeso.github.io/blog/2024-in-review/</guid>
+      <description>&lt;h2 id=&#34;games&#34;&gt;games&lt;/h2&gt;&#xA;&lt;p&gt;THe only game I made this year, was a game made in 4 hours for the spelsylt gamejam.&lt;/p&gt;&#xA;&lt;p&gt;I think one of my new years resolutions will be making and publishing the car game is some way or another.&#xA;I&amp;rsquo;m really keen on working on the arcade car game.&lt;/p&gt;&#xA;&lt;h2 id=&#34;klotter&#34;&gt;klotter&lt;/h2&gt;&#xA;&lt;p&gt;The year started strong with implementing framebuffer/post proc, cubemaps, skyboxes and uniform buffers and continued with code cleaning in the end of february but then I just stopped and was stuck on instancing and having some sort of analysis paralysis and ignoring for most of the year before almost completing it before the end.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2023 in review</title>
       <link>https://madeso.github.io/blog/2023-in-review/</link>
