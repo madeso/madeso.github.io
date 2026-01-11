@@ -6,8 +6,15 @@
     <description>Recent content in blog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 19:38:24 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 14:26:44 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 in Review</title>
+      <link>https://madeso.github.io/blog/2025-in-review/</link>
+      <pubDate>Mon, 05 Jan 2026 14:26:44 +0100</pubDate>
+      <guid>https://madeso.github.io/blog/2025-in-review/</guid>
+      <description>&lt;h2 id=&#34;spotlight&#34;&gt;spotlight&lt;/h2&gt;&#xA;&lt;p&gt;I spent about 2 weeks on spotlight, my hugo blog featuring pretty windows spotlight images. My windows have stopped showing me new images, not sure what&amp;rsquo;s up with that so the contributions have more or less stopped. I should learn about how image processing works and publish it this year.&lt;/p&gt;&#xA;&lt;h2 id=&#34;star-trek&#34;&gt;Star trek&lt;/h2&gt;&#xA;&lt;p&gt;The year started with me watching star trek TNG and desperately watching the full series of deep space 9 before it was removed from netflix the last 2 to 3 weeks of the year.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 in Review</title>
       <link>https://madeso.github.io/blog/2024-in-review/</link>
