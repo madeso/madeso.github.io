@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jan 2026 19:34:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 23:22:29 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2026-04/</link>
+      <pubDate>Sun, 25 Jan 2026 23:22:29 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-04/</guid>
+      <description>&lt;p&gt;This week I wrote a basic theme builder for dear imgui but I think my original plan to only use a few colors perhaps is flawed. I will have to do some more thinking on it. In the mean time I started a new project, musik maskin. A basic software synth and soon a music generator for gamejam games.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 03</title>
       <link>https://madeso.github.io/devlog/2026-03/</link>
