@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 22:53:26 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 23:09:57 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2026-06/</link>
+      <pubDate>Sun, 08 Feb 2026 23:09:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-06/</guid>
+      <description>&lt;p&gt;This week I continued on the skeumorphic design and while it might get some extra features and exploration, I think it&amp;rsquo;s pretty much done for now. I did some more work on musikmaskin and I finally got back to work on klotter. The oklch based ui is coming along nicely.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 05</title>
       <link>https://madeso.github.io/devlog/2026-05/</link>
