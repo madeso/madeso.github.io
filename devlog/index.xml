@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Feb 2026 23:09:57 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 07:04:43 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2026-07/</link>
+      <pubDate>Sun, 15 Feb 2026 07:04:43 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-07/</guid>
+      <description>&lt;p&gt;This week I added gammut clipping to klotter tehen I discovered okhsl and okhsv colors spaces and since they seem to be a better way to pick dear imgui colors than oklch I added them as well and will start changing the current oklch based setup next.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 06</title>
       <link>https://madeso.github.io/devlog/2026-06/</link>
