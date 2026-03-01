@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 00:23:15 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 23:19:46 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2026-09/</link>
+      <pubDate>Sun, 01 Mar 2026 23:19:46 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-09/</guid>
+      <description>&lt;p&gt;This week I decided that nuklear probably isn&amp;rsquo;t the right call for the the euphoria editor and I wondered how far I could get in a week, and I started to scratch that itch. I started porting the texture and shader from klotter and grabbed the sprite batch from tred and managed to get both buttons and sliders working. Tomorrow is a basic text edit component and after that it&amp;rsquo;s either improving the text rendering or styling the ui. Hopefully I can have a working prototype by the end of the comming week.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 08</title>
       <link>https://madeso.github.io/devlog/2026-08/</link>
