@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 22:17:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 10:34:12 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2026-14/</link>
+      <pubDate>Mon, 06 Apr 2026 10:34:12 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-14/</guid>
+      <description>&lt;p&gt;This week I decided that I would do everything to get my card game running over the easter weekend.&#xA;While I still have one day left it&amp;rsquo;s looking less likely to succeed and the task that I originally planned to take a day has pretty much taken the entire weekend. The plan was to take the existing rendering code in my test project and just copy it over to the new engine with some slight modification. This failed to take into consideration that the codebases are different and while the dependencies match (in name), they are on different versions with different build configs and moving code around to support the new setup takes time.&#xA;Until next week (where I will continue the attempt on getting a game playable)&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 13</title>
       <link>https://madeso.github.io/devlog/2026-13/</link>
