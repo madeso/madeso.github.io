@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2026 10:34:12 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 21:47:35 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 15</title>
+      <link>https://madeso.github.io/devlog/2026-15/</link>
+      <pubDate>Sun, 12 Apr 2026 21:47:35 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-15/</guid>
+      <description>&lt;p&gt;This week I &amp;ldquo;finished&amp;rdquo; the klotter integration into euph as fasr as it&amp;rsquo;s not crashing on a empty scene. Next week will probably be spent on loading meshes and expanding the shaders/material system so a &amp;ldquo;mesh&amp;rdquo; can have more than one geom with more than one material, and the materials to be defined as part of tbe data pipeline. Let&amp;rsquo;s see how far I&amp;rsquo;ll get.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 14</title>
       <link>https://madeso.github.io/devlog/2026-14/</link>
