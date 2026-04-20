@@ -6,8 +6,15 @@
     <description>Recent content in devlog on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Apr 2026 21:47:35 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 00:24:27 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2026-16/</link>
+      <pubDate>Mon, 20 Apr 2026 00:24:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-16/</guid>
+      <description>&lt;p&gt;This week I continued on euphoria work. I got loading and rendering of meshes working. Next step is adding code so they can be dynamically moved and loading the actual material from gltf.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 15</title>
       <link>https://madeso.github.io/devlog/2026-15/</link>
