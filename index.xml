@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 23:29:29 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 22:25:51 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2026-20/</link>
+      <pubDate>Sun, 17 May 2026 22:25:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-20/</guid>
+      <description>&lt;p&gt;This week I continued on lax work, getting a good structure on the asm portion of the language that compiles to bytecode and a basic bytecode debugger/printer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 19</title>
       <link>https://madeso.github.io/devlog/2026-19/</link>
