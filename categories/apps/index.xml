@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps on </title>
+    <link>https://madeso.github.io/categories/apps/</link>
+    <description>Recent content in Apps on </description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 21 Apr 2017 22:30:49 +0200</lastBuildDate>
+    <atom:link href="https://madeso.github.io/categories/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ride</title>
+      <link>https://madeso.github.io/project/ride/</link>
+      <pubDate>Fri, 21 Apr 2017 22:30:49 +0200</pubDate>
+      <guid>https://madeso.github.io/project/ride/</guid>
+      <description>&lt;p&gt;A somewhat work in progress of my Rust IDE, currently written in C++.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World editor</title>
+      <link>https://madeso.github.io/project/wed/</link>
+      <pubDate>Sat, 21 Apr 2007 22:29:03 +0200</pubDate>
+      <guid>https://madeso.github.io/project/wed/</guid>
+      <description>&lt;p&gt;A basic world editor inspired by sketchup.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

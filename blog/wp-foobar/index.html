@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="author" content=""/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Foobar sorting">
+  <meta name="twitter:description" content="Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
+Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)
+That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:">
+      <meta name="twitter:site" content="@sirGustav">
+  <meta property="og:url" content="https://madeso.github.io/blog/wp-foobar/">
+  <meta property="og:title" content="Foobar sorting">
+  <meta property="og:description" content="Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of foobar2000 place them in a sane directory-structure and keep them there.
+Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.
+$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)
+That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2009-05-13T10:55:57+02:00">
+    <meta property="article:modified_time" content="2009-05-13T10:55:57+02:00">
+    <meta property="article:tag" content="From Wordpress">
+    <meta property="article:tag" content="Foobar">
+    <meta property="article:tag" content="Music">
+  <meta name="generator" content="Hugo 0.161.1"><link rel="canonical" href="https://madeso.github.io/blog/wp-foobar/"> 
+  <title>Foobar sorting</title>
+  <link rel="stylesheet" href="https://madeso.github.io/css/reset.css" />
+  <link rel="stylesheet" href="https://madeso.github.io/css/style.css" />
+  <link rel="stylesheet" href="https://madeso.github.io/css/codestyle.css" />
+  <script src="https://kit.fontawesome.com/ffb2187c9e.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://madeso.github.io/external/lightbox/css/lightbox.min.css">
+  <link rel="shortcut icon" href="https://madeso.github.io//favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://madeso.github.io//favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="192x192" href="https://madeso.github.io//favicon-highres.png">
+  <meta name="theme-color" content="#7092be">
+</head>
+<body lang="en" id="top">
+<div id="content">
+<header id="header">
+  <img id="mainlogo" alt="the main logo" src="https://madeso.github.io/logo.png">
+  <h1></h1>
+  <div id="toplinks">
+    <a href="https://madeso.github.io/">[home]</a>
+    <a href="https://madeso.github.io/devlog/">[devlog]</a>
+    <a href="https://madeso.github.io/blog/">[blog]</a>
+    <a href="https://madeso.github.io/project/">[Projects]</a>
+    <a href="https://madeso.github.io/cv/">[CV]</a>
+    <a href="https://madeso.github.io/about/">[about]</a>
+  </div>
+</header>
+<article class="post">
+  <a href="https://madeso.github.io/blog/wp-foobar/"><h1>Foobar sorting</h1></a>
+  <p>
+    Wednesday, 13 May 2009 at 10:55
+      <span style="display: inline-block; width: 10px"> &nbsp; </span>
+      //
+      reading time 
+      ~2 minutes
+  </p>
+<div class="markdown">
+<p>Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of <a href="http://www.foobar2000.org/">foobar2000 <i class="fa fa-external-link" aria-hidden="true"></i></a> place them in a sane directory-structure and keep them there.</p>
+<p>Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.</p>
+<pre><code>$replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)
+</code></pre>
+<p>That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:</p>
+<pre><code>$if($greater($strstr(ABCDEFGHIJKLMNOPQRSTUVWXYZ,$upper($left($ascii($replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)),1))),0),$upper($left($ascii($replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)),1)),Other)$ascii($swapprefix(%artist%))/$ascii(%title%)
+</code></pre>
+<p>and</p>
+<pre><code>$if($greater($strstr(ABCDEFGHIJKLMNOPQRSTUVWXYZ,$upper($left($ascii($replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)),1))),0),$upper($left($ascii($replace($replace($replace($stripprefix(%artist%),’|’,),'[‘,),'(‘,)),1)),Other)$ascii($swapprefix(%artist%))/$if([%album%],$ascii(%album%)/,)$ascii(%title%)
+</code></pre>
+<p>The first scripts places All My Loving with The Beatles from the album With The Beatles in BBeatles, TheAll My Loving.mp3 while the scrip places it in B/Beatles, The/With The Beatles/All My Loving.mp3. If  a folder is missing the album tag it places it in the same location as the first one.</p>
+<p>I posted these scripts here so that I might use them if my backup fails or for others. As the usual disclaimer goes, they are only tested on my music files, and may not work with yours. I am not responsible for what happens to your files.</p>
+<p>It should be noted that if you want to copy these and use them. For gods sake make sure the scrips doesn’t contain any white characters such as spaces or newlines, and that you copy the whole script, those spaces really screw up formatting.</p>
+</div>
+  <div class="taglist">
+    &nbsp;<a class="tag" href="/tags/from-wordpress">#from wordpress</a>
+    &nbsp;<a class="tag" href="/tags/foobar">#foobar</a>
+    &nbsp;<a class="tag" href="/tags/music">#music</a>
+  or <a class="tag" href="/tags/">(all)</a>
+  </div>
+  </article>
+<footer id="footer" class="me-footer">
+<div class="footerbuttons">
+ <a href="http://twitter.com/sirGustav"><i class="fa fa-twitter"></i></a> 
+ <a href="https://github.com/madeso/"><i class="fa fa-github"></i></a> 
+ <a href="https://keybase.io/madeso"><i class="fa-brands fa-keybase"></i></a> 
+ <a rel="me" href="https://mastodon.gamedev.place/@madeso"><i class="fa-brands fa-mastodon"></i></a> 
+ <a href="https://cohost.org/madeso"><i class="fa-solid fa-link"></i></a> 
+ <a href="https://imadesome.tumblr.com/"><i class="fa-brands fa-square-tumblr"></i></a> 
+</div>
+</footer>
+</div> 
+<script>
+$('*').on('click', 'a[href^="https:\/\/madeso.github.io\/blog\/wp-foobar\/#"]', function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>
+<script src="https://madeso.github.io/external/lightbox/js/lightbox.min.js"></script>
+<script src="https://madeso.github.io/external/jquery.inview-1.1.2/jquery.inview.min.js"></script>
+</body>
+</html>

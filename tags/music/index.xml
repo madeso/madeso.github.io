@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on </title>
+    <link>https://madeso.github.io/tags/music/</link>
+    <description>Recent content in Music on </description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 02 Jul 2013 13:28:26 +0200</lastBuildDate>
+    <atom:link href="https://madeso.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The music</title>
+      <link>https://madeso.github.io/blog/sh-music/</link>
+      <pubDate>Tue, 02 Jul 2013 13:28:26 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-music/</guid>
+      <description>&lt;p&gt;Development on the game engine has been slow this past week so this week I’ve been thinking about the background music for the game. I don’t know the actual graphical style of the game just yet but I think I narrowed down the musical style to either some slow form of swing/jazz like this:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8jzlJeKZ4w0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Or some some ambient &lt;a href=&#34;http://opengameart.org/content/through-space&#34;&gt;80’s style electro music like this&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stairway to heaven</title>
+      <link>https://madeso.github.io/blog/wp-stairway/</link>
+      <pubDate>Sat, 23 May 2009 11:01:30 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-stairway/</guid>
+      <description>&lt;p&gt;I recently discovered, not only do the local library have CD’s full of modern music, with my &lt;a href=&#34;http://www.youtube.com/watch?v=9CB4obgXtw4&#34;&gt;chemical romance-blood&lt;/a&gt; among others(despite what you think of chemical romance, &lt;a href=&#34;http://www.youtube.com/watch?v=9CB4obgXtw4&#34;&gt;blood&lt;/a&gt; really is different), they also have a complete collection of sound fx CD’s. I guess I dont have to spend some of my hard earned money on thoose sorts of CD’s when I can borrow 🙂&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foobar sorting</title>
+      <link>https://madeso.github.io/blog/wp-foobar/</link>
+      <pubDate>Wed, 13 May 2009 10:55:57 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-foobar/</guid>
+      <description>&lt;p&gt;Since some time I’ve been sorting my music collection. Going though my hard-drives and Cd’s finding all music-files and moving them to a common place and with the help of &lt;a href=&#34;http://www.foobar2000.org/&#34;&gt;foobar2000&lt;/a&gt; place them in a sane directory-structure and keep them there.&lt;/p&gt;&#xA;&lt;p&gt;Within foobar I sort the artists on the following script. This makes sure that The (International) Noise Conspiracy is among the other artist that begins with I.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;$replace($replace($replace($stripprefix(%artist%),’|’,),&#39;[‘,),&#39;(‘,)&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;That little script keeps things nice and tidy within foobar, but to sort I use these two massive scripts:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
