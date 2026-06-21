@@ -6,8 +6,15 @@
     <description>Recent content in home on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jun 2026 22:15:23 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 23:21:24 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2026-25/</link>
+      <pubDate>Sun, 21 Jun 2026 23:21:24 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-25/</guid>
+      <description>&lt;p&gt;This week I got the camera system working and started working on tools to help debuging the game code. Hopefully that will be done next week so I can continue working on the game and engine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 24</title>
       <link>https://madeso.github.io/devlog/2026-24/</link>
