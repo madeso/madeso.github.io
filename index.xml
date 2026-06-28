@@ -6,8 +6,15 @@
     <description>Recent content in home on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Jun 2026 23:21:24 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 22:06:27 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2026-26/</link>
+      <pubDate>Sun, 28 Jun 2026 22:06:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-26/</guid>
+      <description>&lt;p&gt;Euphoria took a backseat thiss week in favor of blaggen work and taking it slow during the heatwave that hit at the end of the week. Hopefully more work will be done next week as the heat wave dissapate&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 25</title>
       <link>https://madeso.github.io/devlog/2026-25/</link>
