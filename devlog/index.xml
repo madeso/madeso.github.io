@@ -6,8 +6,15 @@
     <description>Recent content in devlog on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 12 Jul 2026 14:29:32 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 22:27:07 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2026-29/</link>
+      <pubDate>Sun, 19 Jul 2026 22:27:07 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-29/</guid>
+      <description>&lt;p&gt;This week I continued work on blaggen and made it generate a page from markdown files.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 28</title>
       <link>https://madeso.github.io/devlog/2026-28/</link>
