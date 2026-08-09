@@ -6,8 +6,15 @@
     <description>Recent content in home on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Aug 2026 22:31:44 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 19:58:40 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2026-32/</link>
+      <pubDate>Sun, 09 Aug 2026 19:58:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026-32/</guid>
+      <description>&lt;p&gt;This week I continued work on euphoria. The rotation slider/gear widget is almost finished so I hopefully can continue on the rest of the game next week.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 31</title>
       <link>https://madeso.github.io/devlog/2026-31/</link>
