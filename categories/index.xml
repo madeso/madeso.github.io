@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title>Categories on Gustav Jansson</title>
     <link>https://madeso.github.io/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content in Categories on Gustav Jansson</description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en</language>
     <lastBuildDate>Tue, 13 Jun 2017 08:43:52 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -23,7 +23,7 @@
       <description></description>
     </item>
     <item>
-      <title>No-More-Sweden</title>
+      <title>No More Sweden</title>
       <link>https://madeso.github.io/categories/no-more-sweden/</link>
       <pubDate>Tue, 13 Jun 2017 08:43:52 +0200</pubDate>
       <guid>https://madeso.github.io/categories/no-more-sweden/</guid>

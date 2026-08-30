@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on </title>
+    <title>blog on Gustav Jansson</title>
     <link>https://madeso.github.io/blog/</link>
-    <description>Recent content in blog on </description>
+    <description>Recent content in blog on Gustav Jansson</description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en</language>
     <lastBuildDate>Mon, 05 Jan 2026 14:26:44 +0100</lastBuildDate>
     <atom:link href="https://madeso.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -72,6 +72,13 @@
       <description>&lt;p&gt;I recently got a notice that my SSD C: drive was getting low on space and after a quick check with WinDirStat I noticed that spoitfy was filling it up with loads of weird files in the AppData\Local\Spotify\Data folder, even after I have moved my cache location.&lt;/p&gt;&#xA;&lt;p&gt;It turns out the &amp;ldquo;cached location&amp;rdquo; is only the saved playlists, and the Data folder is the cached songs that arent in a playlist.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>A better git log</title>
+      <link>https://madeso.github.io/blog/gitlog/</link>
+      <pubDate>Wed, 22 Feb 2017 08:38:53 +0100</pubDate>
+      <guid>https://madeso.github.io/blog/gitlog/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve just changed my git log command from the standard:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;old.jpg&#34; alt=&#34;old&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;to the more compact and colorful:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;new.jpg&#34; alt=&#34;new&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s simple to get this log. Just type in:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git log --graph --pretty&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;format:&lt;span class=&#34;s1&#34;&gt;&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39;&lt;/span&gt; --abbrev-commit&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I guess that&amp;rsquo;s a bit too long, eh? Let&amp;rsquo;s just make an alias. Copy and paste the line below on your terminal:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git config --global alias.lg &lt;span class=&#34;s2&#34;&gt;&amp;#34;log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And every time you need to see your log, just type in&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Shoelacing</title>
       <link>https://madeso.github.io/blog/shoelacing/</link>
       <pubDate>Sun, 18 Sep 2016 14:39:04 +0200</pubDate>
@@ -135,11 +142,32 @@
       <description>&lt;p&gt;It’s been a while since I posted, but I have been buried deep in rift and input&#xA;development. Rift development is pretty much done and I have rift support. I&#xA;have received my &lt;a href=&#34;http://en.wikipedia.org/wiki/Razer_Hydra&#34;&gt;razer hydra&lt;/a&gt; and backed the stem system and I’m hoping I’ll&#xA;receive my &lt;a href=&#34;http://www.kickstarter.com/projects/89577853/stem-system-the-best-way-to-interact-with-virtual&#34;&gt;sixense stem&lt;/a&gt; system in July.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Oculus development</title>
+      <link>https://madeso.github.io/blog/sh-oculus/</link>
+      <pubDate>Sat, 07 Sep 2013 13:48:53 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-oculus/</guid>
+      <description>&lt;p&gt;I’m in the middle of adding oculus rift support to my engine, this is what happens when you mix up your matrices:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;matrix.png&#34; alt=&#34;matrix fail&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ship designs</title>
+      <link>https://madeso.github.io/blog/sh-shipdesigns/</link>
+      <pubDate>Sun, 01 Sep 2013 13:45:20 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-shipdesigns/</guid>
+      <description>&lt;p&gt;Bought myself a stylus and installed &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.adsk.sketchbookhdexpress&amp;amp;hl=en&#34;&gt;sketchbook express&lt;/a&gt;&#xA;on my nexus 7 and sketched some lander ships, this is the result:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;s1.png&#34; alt=&#34;sketch 1&#34;&gt;&#xA;&lt;img src=&#34;s2.png&#34; alt=&#34;sketch 2&#34;&gt;&#xA;&lt;img src=&#34;s3.png&#34; alt=&#34;sketch 3&#34;&gt;&#xA;&lt;img src=&#34;s4.png&#34; alt=&#34;sketch 4&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Thoughts on the controls</title>
       <link>https://madeso.github.io/blog/sh-controls/</link>
       <pubDate>Thu, 22 Aug 2013 13:42:58 +0200</pubDate>
       <guid>https://madeso.github.io/blog/sh-controls/</guid>
       <description>&lt;p&gt;I have started implementing the basic controls for both the keyboard and joysticks&#xA;and to test everything out I added basic thrust and torque controls, and while this&#xA;is really hard to control as each torque requires a counter torque from stopping&#xA;to spinning I started thinking. The &lt;a href=&#34;http://lanael.free.fr/webgl/hopper.html&#34;&gt;WebGL version of lander&lt;/a&gt; and I recall the original&#xA;(I still can’t get it to play on my win7 system) let’s you enter the desired orientation&#xA;and let a AI controls the torque thrusts. This is a much easier control scheme as you don’t&#xA;have to compensate for the rotational adjustments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Working hard</title>
+      <link>https://madeso.github.io/blog/sh-workinghard/</link>
+      <pubDate>Wed, 07 Aug 2013 13:40:53 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-workinghard/</guid>
+      <description>&lt;p&gt;I’m working hard, soon I will have input partly completed but in the meantime have a look at the physics in action on these stand-in graphics:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;fall.gif&#34; alt=&#34;ship falling&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The music</title>
@@ -161,6 +189,27 @@
       <pubDate>Thu, 13 Jun 2013 13:34:01 +0200</pubDate>
       <guid>https://madeso.github.io/blog/sh-name/</guid>
       <description>&lt;p&gt;I though this is good time to talk and clarify a little about the game and blog title, and how misleading that title might be.&lt;/p&gt;&#xA;&lt;p&gt;First and foremost the game is not set in space. The game might take place on different planets and you might travel from these places, but this is not part of the game.&lt;/p&gt;&#xA;&lt;p&gt;Neither is hustling of any kind. You are a soldier/mercenary/technician for hire, you do your job and you get paid, so no hustling whatsoever.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A modern cockpit view</title>
+      <link>https://madeso.github.io/blog/sh-cockpit/</link>
+      <pubDate>Sat, 08 Jun 2013 13:31:22 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-cockpit/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cockpit.png&#34; alt=&#34;A illustration of a ww2 cockpit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I never really liked the cockpit view of flying and driving games. It provies a sense of realism for sure, but I never believed it provided me with a view that I liked. Enter E3 2012 and the demonstration of the Oculus Rift. Together with a helicopter like transparent sphere like cockpit the cockpit view field of view that the rift provides and the slow speed of the craft it provide a sense of realism few games can match.&#xA;the oculus rift&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thoughts on mission types</title>
+      <link>https://madeso.github.io/blog/sh-missiontypes/</link>
+      <pubDate>Sat, 01 Jun 2013 13:25:01 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-missiontypes/</guid>
+      <description>&lt;p&gt;This week I’ve been thinking a lot about the different skirmish and mission types. The original lander basically had fetch an object and destroy missions. Hopper introduced “challenges” in the form of land without taking any damage and races, and while this could be expanded upon with acrobatical challenges(move through a narrow gap) and survival challenges (survive a meteor rain) I want to expand further in the mission and challenge/skirmish varieties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thoughts on the artstyle</title>
+      <link>https://madeso.github.io/blog/sh-artstyle/</link>
+      <pubDate>Sat, 25 May 2013 13:20:12 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/sh-artstyle/</guid>
+      <description>&lt;p&gt;Since I started working on Space Hustler I’ve been thinking about what art style the game should have. The original lander had a sci-fi style and while that will work there are a lot of sci fi games and sci fi shooters especially are a dime a dozen. Partly because of this I’ve been thinking about designin a little bit different.&lt;/p&gt;&#xA;&lt;p&gt;One idea I’ve been tossing around is the World War 2 with jet engines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flowstorm</title>
@@ -205,6 +254,13 @@
       <description>&lt;p&gt;I probably should have posted this earlier, however I been sleeping and sobbing over the fact that I didn’t finish &lt;a href=&#34;http://www.nomoresweden.com/&#34;&gt;no more sweden&lt;/a&gt; :). A few hours before deadline all tiles in one layer went 3 tiles up, but collision-tiles were still in the same place. I though that was strange so I went to check the map in the &lt;a href=&#34;http://mapeditor.org/&#34;&gt;(external) editor&lt;/a&gt;, and to my horror it didn’t load. No message, no crash nor any exception – just silence.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Say, that&#39;s a nice bike</title>
+      <link>https://madeso.github.io/blog/wp-nicebike/</link>
+      <pubDate>Tue, 14 Jul 2009 11:22:52 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-nicebike/</guid>
+      <description>&lt;p&gt;So my bicycle have been trashed for some time now. Since Thursday actually. It really isnt a big deal unless I was attending No More Sweden and bicycle is my only viable transportation. I might have to rent one if it doesn’t get finished. It was actually supposed to be finished this Monday, but they are missing spare parts. That’s right, I bike hard.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bikehard.jpg&#34; alt=&#34;bikehard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Though my extreme/hard-biking might be beacuse I’m so&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>No more sweden - It can&#39;t be true</title>
       <link>https://madeso.github.io/blog/wp-nomoresweden/</link>
       <pubDate>Mon, 13 Jul 2009 11:20:12 +0200</pubDate>
@@ -237,7 +293,7 @@
       <link>https://madeso.github.io/blog/wp-darkangel/</link>
       <pubDate>Tue, 02 Jun 2009 11:02:59 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-darkangel/</guid>
-      <description>&lt;p&gt;Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Dark_Angel_%28TV_series%29&#34;&gt;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apparently the pulse didnt came. Now my biggest problem apperently is if I’m such a great nerd because I noticed or I blogged about it.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;On June 1, 2009, months after Max’s escape, terrorists detonate an electromagnetic pulse weapon in the atmosphere over the U.S., which destroys the vast majority of computer and communication systems, throwing the country into utter chaos.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&#34;&gt;http://en.wikipedia.org/wiki/Dark_Angel_(TV_series)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stairway to heaven</title>
@@ -261,11 +317,32 @@
       <description>&lt;p&gt;I managed to get my skeleton loader working and I had some problem roatating the turtle 360 degrees but when I enabled ShortSlerp and fixed a few bugs in the angle-loading routine it worked as expected.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>There are bones in my turtle</title>
+      <link>https://madeso.github.io/blog/wp-turtlebones/</link>
+      <pubDate>Mon, 02 Mar 2009 10:50:25 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-turtlebones/</guid>
+      <description>&lt;p&gt;Working an a skeleton loader, theese are some shots while developing it.&#xA;&lt;img src=&#34;bones1.png&#34; alt=&#34;weird bones 1&#34;&gt;&#xA;&lt;img src=&#34;bones2.png&#34; alt=&#34;weird bones 2&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Operating system not found</title>
       <link>https://madeso.github.io/blog/wp-osnotfound/</link>
       <pubDate>Tue, 24 Feb 2009 10:47:30 +0200</pubDate>
       <guid>https://madeso.github.io/blog/wp-osnotfound/</guid>
       <description>&lt;p&gt;I had a nightmare a few nights ago. In the dream I apparently had formated my computer without doing a backup of my important data.&#xA;Luckily it was only a dream…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fear the consoles</title>
+      <link>https://madeso.github.io/blog/wp-fear/</link>
+      <pubDate>Thu, 12 Feb 2009 10:45:14 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-fear/</guid>
+      <description>&lt;p&gt;I recently downloaded the f.e.a.r 2 demo and I must say that I am disappointed. First and foremost I probably need to get a fresh installation of my xp to better enjoy it, not to mention better hardware, but that won’t help the poor design decisions the f.e.a.r team seems to have made. Some of these designs make it seems it’s just a port of the console version, and not a PC game as the original was, while not as obvious as the lock picking in oblivion some of the interactions stems from the consoles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Silverlight Installation</title>
+      <link>https://madeso.github.io/blog/wp-silverlight/</link>
+      <pubDate>Tue, 03 Feb 2009 10:42:29 +0200</pubDate>
+      <guid>https://madeso.github.io/blog/wp-silverlight/</guid>
+      <description>&lt;p&gt;I recently had to install silverlight at my computer(channel 9 required it), since I wanted to have a look at the brand new Visual Studio 2010 without downloading that huge ctp, and I must say that I really liked the installation process. Unlike most installations it doesn’t force you to press 20 buttons to install it. Only 2, ” install now”, and “close”.  It actually felt refreshing.&lt;/p&gt;&#xA;&lt;p&gt;It still manages to mention silverlight 4 times though without telling you what it does. Still, it’s &lt;a href=&#34;http://www.joelonsoftware.com/items/2009/01/12.html&#34;&gt;better than Java&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello, I am Gustav</title>

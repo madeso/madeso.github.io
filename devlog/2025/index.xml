@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025 on Gustav Jansson</title>
+    <link>https://madeso.github.io/devlog/2025/</link>
+    <description>Recent content in 2025 on Gustav Jansson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Dec 2025 22:42:21 +0100</lastBuildDate>
+    <atom:link href="https://madeso.github.io/devlog/2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 52</title>
+      <link>https://madeso.github.io/devlog/2025/52/</link>
+      <pubDate>Sun, 28 Dec 2025 22:42:21 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/52/</guid>
+      <description>&lt;p&gt;Last week of the year. This week I watched ds9, did some simpler samling work and planned for the future/next year. It looks like it will be a great year.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 51</title>
+      <link>https://madeso.github.io/devlog/2025/51/</link>
+      <pubDate>Sun, 21 Dec 2025 22:09:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/51/</guid>
+      <description>&lt;p&gt;This week I mostly watched start trek as it&amp;rsquo;s disapearing from netflix in a few weeks and I&amp;rsquo;d like to complete my watching(only the last 4 season of ds9 left). Besides that, I actually managed to continue work on klotter and fix both the linux and the windows ci. Next week, while watching star trek, I&amp;rsquo;m planning to fix the warnings CI has found and do some work on the samling project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 50</title>
+      <link>https://madeso.github.io/devlog/2025/50/</link>
+      <pubDate>Sun, 14 Dec 2025 22:15:28 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/50/</guid>
+      <description>&lt;p&gt;This week I did some work on ride, resurected klotter and started the work on shadow rendering in ride. There are still some work on shadow left and while I don&amp;rsquo;t think I can complete it next week I think I can at least improve the current shadows by a bit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2025/49/</link>
+      <pubDate>Sun, 07 Dec 2025 20:50:54 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/49/</guid>
+      <description>&lt;p&gt;This week I worked on making the dotgrid export better at lower resolutions. I also started a new project, samling, helping me determine what assets I own and if buying a new pack is worth it or not. I was planning to work on shadows but my week was was cut short with visitng familty giving me practically no weekend so shadows will have to wait yet another week :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 48</title>
+      <link>https://madeso.github.io/devlog/2025/48/</link>
+      <pubDate>Sun, 30 Nov 2025 22:38:37 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/48/</guid>
+      <description>&lt;p&gt;This week I continued work on dotgrid and trying to complete the last action (for now), hardening the serializing, and while my intention also was to to complete the shadow rendering I failed to do so.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 47</title>
+      <link>https://madeso.github.io/devlog/2025/47/</link>
+      <pubDate>Sun, 23 Nov 2025 20:44:31 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/47/</guid>
+      <description>&lt;p&gt;This week I also didn&amp;rsquo;t work on shadows, but I atleast did some work on klotter. Most work was on dotgrid, but I managed to update depdendencies so that it builds with the latest cmake version. Next week is shadows&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 46</title>
+      <link>https://madeso.github.io/devlog/2025/46/</link>
+      <pubDate>Sun, 16 Nov 2025 21:05:46 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/46/</guid>
+      <description>&lt;p&gt;This week I continued work on dotgrid, perhaps next week there will be time for working on shadows&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 45</title>
+      <link>https://madeso.github.io/devlog/2025/45/</link>
+      <pubDate>Sun, 09 Nov 2025 21:35:43 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/45/</guid>
+      <description>&lt;p&gt;This week the plan was to work on shadow rendering but I mostly worked on my dotgrid fork, next week&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 44</title>
+      <link>https://madeso.github.io/devlog/2025/44/</link>
+      <pubDate>Sun, 02 Nov 2025 22:05:52 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/44/</guid>
+      <description>&lt;p&gt;This week I continued work on shadow rendering in klotter and actually managaed to get ride/pony running again with the new fil/dir api&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 43</title>
+      <link>https://madeso.github.io/devlog/2025/43/</link>
+      <pubDate>Sun, 26 Oct 2025 19:27:29 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/43/</guid>
+      <description>&lt;p&gt;This week I did some work on poster tester and upgraded dear imgui to lastest for klotter. While the upgrade took a while (I was years behind) I still managed to start on rendering the textures in gamma space (again). While I could live without gamma correct textures, rendering depth is something I &amp;ldquo;need&amp;rdquo; and that will be done after gamma corrected textures is completed, hopefully next week&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 42</title>
+      <link>https://madeso.github.io/devlog/2025/42/</link>
+      <pubDate>Sun, 19 Oct 2025 21:06:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/42/</guid>
+      <description>&lt;p&gt;This week I mostly worked on the poster tester project as I started using it again for work. I also came to the realization that altough I won&amp;rsquo;t complete the arcade racer, I could complete the rendering engine and thus started to read up onhow to improve the display of textures in dear imgui as this will greatly improve how I can debug the shadow rendering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 41</title>
+      <link>https://madeso.github.io/devlog/2025/41/</link>
+      <pubDate>Sun, 12 Oct 2025 20:29:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/41/</guid>
+      <description>&lt;p&gt;This week I mostly worked on visual debug and I think that is going to take another week. So&amp;hellip; while I won&amp;rsquo;t complete arcade racer game this year, I think a (new) worthy goal is to at least complete the renderer, along with a extremly rough &amp;ldquo;proof of concept&amp;rdquo; asset importer so that I can perhaps buy some sweat new assets for the end of the year sales that always seems to pop up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2025/40/</link>
+      <pubDate>Sun, 05 Oct 2025 20:23:36 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/40/</guid>
+      <description>&lt;p&gt;This week the work on visual debug continued. I managed to catch a cold at the end, that I&amp;rsquo;m still fighting, so work progressed slowly. I&amp;rsquo;m hoping for a bigger progress next week as I&amp;rsquo;m hopefully near the end.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 39</title>
+      <link>https://madeso.github.io/devlog/2025/39/</link>
+      <pubDate>Sun, 28 Sep 2025 22:06:11 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/39/</guid>
+      <description>&lt;p&gt;This week I continued working on the visual debugger. It&amp;rsquo;s getting close to completion&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2025/38/</link>
+      <pubDate>Sun, 21 Sep 2025 23:54:59 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/38/</guid>
+      <description>&lt;p&gt;This week I continued working on shadows. As it looks currently I don&amp;rsquo;t think I will be completing the car game this year and it&amp;rsquo;s probably better that I change my goal to complete the rendering engine&amp;hellip; Something to think about&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 37</title>
+      <link>https://madeso.github.io/devlog/2025/37/</link>
+      <pubDate>Sun, 14 Sep 2025 22:59:34 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/37/</guid>
+      <description>&lt;p&gt;This week I continued work on klotter, mostly cleaning up stuff and preparing for shadows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 36</title>
+      <link>https://madeso.github.io/devlog/2025/36/</link>
+      <pubDate>Sun, 07 Sep 2025 22:39:14 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/36/</guid>
+      <description>&lt;p&gt;This week I continued to clean the code. Next week will (hopefully) be directional light and some more light cleanup&amp;hellip; I&amp;rsquo;m getting the itch to work on workbench to find more issues with my code but that&amp;rsquo;ll have to wait until the arcade racer is &amp;ldquo;complete&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 35</title>
+      <link>https://madeso.github.io/devlog/2025/35/</link>
+      <pubDate>Sun, 31 Aug 2025 22:27:13 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/35/</guid>
+      <description>&lt;p&gt;This week I continued fixing various todo comments and other minor issues in klotter. I think I will spend at most one week more on this cleanup sprint before diving deep into shadow rendering&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 34</title>
+      <link>https://madeso.github.io/devlog/2025/34/</link>
+      <pubDate>Sun, 24 Aug 2025 21:57:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/34/</guid>
+      <description>&lt;p&gt;This week I continued work on klotter. I added a knee to the bloom and decided that the knee would be the last bloom for now. Going to focus on more &amp;ldquo;gameplay&amp;rdquo; related features from now on so I think after the current cleanup section, I&amp;rsquo;[m going to finish up rendering with shadows, and probably only directional shadows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2025/33/</link>
+      <pubDate>Sun, 17 Aug 2025 23:24:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/33/</guid>
+      <description>&lt;p&gt;This week I completed the &amp;ldquo;last&amp;rdquo; step for bloom. Next step is adding a smooth/knee for the bloom cutoff, improving the blur and adding a intensity effect so it can be scaled&amp;hellip; but that&amp;rsquo;s for next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2025/32/</link>
+      <pubDate>Sun, 10 Aug 2025 23:16:10 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/32/</guid>
+      <description>&lt;p&gt;This week, intead of working on more bloom, I made the image debugger more useful.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 31</title>
+      <link>https://madeso.github.io/devlog/2025/31/</link>
+      <pubDate>Sun, 03 Aug 2025 21:33:00 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/31/</guid>
+      <description>&lt;p&gt;This week I implemented HDR rendering in klotter&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2025/30/</link>
+      <pubDate>Sun, 27 Jul 2025 22:21:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/30/</guid>
+      <description>&lt;p&gt;This week I continued on klotter, completing gamma correction and started on hdr rendering. With any luck, both hdr and bloom will be done next week :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2025/29/</link>
+      <pubDate>Sun, 20 Jul 2025 23:59:06 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/29/</guid>
+      <description>&lt;p&gt;This week I started implementing gamma correction. It&amp;rsquo;s not complete but getting there, mostly just tweaking left I hope.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2025/28/</link>
+      <pubDate>Sun, 13 Jul 2025 22:56:43 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/28/</guid>
+      <description>&lt;p&gt;This week I continued cleaning and documenting the code and started the gamma correction work for klotter. Hopefully it will done by the end of next week but we&amp;rsquo;ll see.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 27</title>
+      <link>https://madeso.github.io/devlog/2025/27/</link>
+      <pubDate>Sun, 06 Jul 2025 21:32:43 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/27/</guid>
+      <description>&lt;p&gt;This week added a option to disable the debugging information, added header hero to the ci, added code so that klotter requests the high performance GPU by default and fixed a bug for loading textures from a pixel &amp;hellip; and that concludes the cleanup task so now I can finally continue with the rendering tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2025/26/</link>
+      <pubDate>Mon, 30 Jun 2025 00:02:33 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/26/</guid>
+      <description>&lt;p&gt;This week I continued on cleaning up klotter. I removed the dependency on my current build setup on windows and added windows to the CI. I also expanded the test CI and fixed all clang-tidy warnings. Next week is finishing up fixing warnings and hopefully finally implementing gamma correction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2025/25/</link>
+      <pubDate>Sun, 22 Jun 2025 23:55:05 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/25/</guid>
+      <description>&lt;p&gt;This week I contnued labeling objects in klotter. While labling is complete, there are a few more steps to take before I can continue on gamma correction and hdr rendering, but I hope that I atleast can start on gamma correction next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2025/24/</link>
+      <pubDate>Mon, 16 Jun 2025 09:43:53 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/24/</guid>
+      <description>&lt;p&gt;This week started out with me adding code generation support to glox but transitioned back to kotter when I was told that my problem could be solved by the debug output extension and that my usage has been broken since 2017. After I fixed that issue glox was less interesting and so I actually just continued working on klotter and completed the anti aliasing task, so next week I&amp;rsquo;ll continue with the cleanup task and perhaps start on gamma correction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2025/23/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/23/</guid>
+      <description>&lt;p&gt;This week I worked on a idea that I got during my &amp;ldquo;vacation&amp;rdquo; away from the computer, a typesafe open gl called glox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2025/22/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:04 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/22/</guid>
+      <description>&lt;p&gt;This week I was away from my computer so I mostly just wrote documentation and added todos for code that didn&amp;rsquo;t look like it was correct or could use some improvement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2025/21/</link>
+      <pubDate>Sun, 08 Jun 2025 21:03:01 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/21/</guid>
+      <description>&lt;p&gt;This week I mostly worked on klotter, lots of cleanup but finally upgraded the code to work with MSAA. Still some more steps to be done and I&amp;rsquo;m on a mini vacation next week but hopefully after I&amp;rsquo;m back I can continute completing the MSAA task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2025/20/</link>
+      <pubDate>Sun, 18 May 2025 23:49:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/20/</guid>
+      <description>&lt;p&gt;The only read progress I made this  week was adding blinn-phong specular rendering to klotter. I also spent time figuring out how to expand the current system to add gamma correction and HDR/bloom rendering and when to transform between the linear and the gamma color spaces. Next week will hopefully be the time that I&amp;rsquo;ll implement it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2025/19/</link>
+      <pubDate>Sun, 11 May 2025 22:57:37 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/19/</guid>
+      <description>&lt;p&gt;This week I finally completed the instancing rendering and directly started to look into antialiasing, blinn-phong and gamma correction. Hopefully all those will be implemented next week, but we&amp;rsquo;ll see what happens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2025/18/</link>
+      <pubDate>Sun, 04 May 2025 22:10:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/18/</guid>
+      <description>&lt;p&gt;This week I continued on klotter instancing implementation. I think most of the code is finally written, now I just need to make it not crash and work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2025/17/</link>
+      <pubDate>Sun, 27 Apr 2025 23:03:56 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/17/</guid>
+      <description>&lt;p&gt;This week I made the copyright work like tags on my hugo spotlight page, forma compiles and runs  and I took one more step towards instancing. While forma probably will get some cleanup love this week I really hope instancing will be runnable the next week. Fingers crossed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2025/16/</link>
+      <pubDate>Sun, 20 Apr 2025 23:43:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/16/</guid>
+      <description>&lt;p&gt;This week I managed to get most of forma to compile on windows. I also realized that smide might need a php-like code generator instead of the current mustache-based generator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 15</title>
+      <link>https://madeso.github.io/devlog/2025/15/</link>
+      <pubDate>Sun, 13 Apr 2025 20:58:29 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/15/</guid>
+      <description>&lt;p&gt;This week I realy didn&amp;rsquo;t do much. I added a few things to smide. Next week is easter and I hope I both will have the time and be motivated enough to get out of this slump&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2025/14/</link>
+      <pubDate>Sun, 06 Apr 2025 21:54:44 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/14/</guid>
+      <description>&lt;p&gt;This week I also didn&amp;rsquo;t really do much. I started a new project, smide, focusing on code generation and that&amp;rsquo;s about all I did this week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2025/13/</link>
+      <pubDate>Sun, 30 Mar 2025 23:11:22 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/13/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much development, I mostly looked at workbench or catching up on star trek when I should have been working on klotter. Perhaps next week will be more focused on the things that I want to work on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12</title>
+      <link>https://madeso.github.io/devlog/2025/12/</link>
+      <pubDate>Sun, 23 Mar 2025 22:06:13 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/12/</guid>
+      <description>&lt;p&gt;This week I ported the 100 rabbits application dotgrid to typescript (for fun) and continued the work on klotter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2025/11/</link>
+      <pubDate>Sun, 16 Mar 2025 21:56:55 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/11/</guid>
+      <description>&lt;p&gt;This week I mostly watched star trek. I did some small things on euph and made the FSE, full screen effect, optional. After sleeping on it, and thinking about it for a day I probably going to remove the option to toggle the FSE&#xA;as it didn&amp;rsquo;tappear to  affect loading time as much as I thought it would, and the if complicates a already complicated code base. March and April is supposed to be when I work on the 3d rendering and to that end I did look at instancing again and I now think that it will be easier to implement than I initially thought, perhaps I&amp;rsquo;m going to get it done next week &amp;hellip;if I don&amp;rsquo;t spend so much time watching star trek :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2025/10/</link>
+      <pubDate>Sun, 09 Mar 2025 20:59:40 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/10/</guid>
+      <description>&lt;p&gt;This week I more or less comleted the rest of the base sprint and can continue with the 3d rendering phase. It has slowly started and the next step is excluding and removing complexity and then, finally, instancing&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2025/09/</link>
+      <pubDate>Sun, 02 Mar 2025 21:17:36 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/09/</guid>
+      <description>&lt;p&gt;This week I replaced all external code analysis and code coverage tools for euphoria and finally replaced them with tools that are run locally.&#xA;Since March has started I should move on to the next &amp;ldquo;sprint&amp;rdquo; but I really want to get a 100% function coverage. The start of the next sprint is completing the klotter project so technically&#xA;I can work on both, at least until the klotter project is complete so that&amp;rsquo;s most likely what I&amp;rsquo;m going to do. Until next time&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 08</title>
+      <link>https://madeso.github.io/devlog/2025/08/</link>
+      <pubDate>Sun, 23 Feb 2025 23:15:34 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/08/</guid>
+      <description>&lt;p&gt;This week I added a badge generator to workbench and started integrating it into euph, with a little luck I can remove all external coverage tools next week!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2025/07/</link>
+      <pubDate>Sun, 16 Feb 2025 22:02:02 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/07/</guid>
+      <description>&lt;p&gt;This week I got sidetracked and started to look into ubiquity, but even worse I think I took the wrong approach when starting to add types and trying to understand the code. Now I think the best way is to get a version running first before I start adding types &amp;hellip; but that will probably not be next week. I both need and want to get back to euphoria and klotter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2025/06/</link>
+      <pubDate>Sun, 09 Feb 2025 23:44:21 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/06/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much. Some small work on spotlight, workbench and various other smaller projects but nothing big.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 05</title>
+      <link>https://madeso.github.io/devlog/2025/05/</link>
+      <pubDate>Sun, 02 Feb 2025 22:51:50 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/05/</guid>
+      <description>&lt;p&gt;This week I continued work on euphoria. I am currently working on getting 100% function coverage for the base library before I move onto rendering and tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2025/04/</link>
+      <pubDate>Sun, 26 Jan 2025 22:33:45 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/04/</guid>
+      <description>&lt;p&gt;This week I continued on workbench dependency injection and finally managed to run a simple clang-tidy as part of a unit/integration test. On euphoria side I continued on cleaning up the code. I discovered a way to run regex on strings so I&amp;rsquo;m probably going to take advantage of that when I implement 100% function coverage later on. I finally did a little bit of planning and decided that the cleanup process should last at maximum to the end of february. Pretty realistic goal, I think, and hopefully I can finish it before then.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
+      <link>https://madeso.github.io/devlog/2025/03/</link>
+      <pubDate>Mon, 20 Jan 2025 20:01:27 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/03/</guid>
+      <description>&lt;p&gt;This week I mostly worked on adding unit tests to workbench and documenting and expanding classes in euphoria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 02</title>
+      <link>https://madeso.github.io/devlog/2025/02/</link>
+      <pubDate>Sun, 12 Jan 2025 22:53:20 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/02/</guid>
+      <description>&lt;p&gt;This week I started work on the yearly review of what I&amp;rsquo;ve done the last year. Among other things I&amp;rsquo;ve work on was creating the clang-tidy html report and trying to get ride/pony, removing the rust and gui focus and getting it to a useful state where I can dogfeed it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2025/01/</link>
+      <pubDate>Sun, 05 Jan 2025 22:22:58 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2025/01/</guid>
+      <description>&lt;p&gt;This week, last year, I started replacing the depndency on external coverage reports by also publishing the html report. The next year I continued with showing a the code city of the current euphoria and displaying the clang-tidy warnings on the demo html page. I also caught a fever that I&amp;rsquo;m recovring from so that&amp;rsquo;s perhaps why I haven&amp;rsquo;t worked on instancing, maybe next week&amp;hellip; :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

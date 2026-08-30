@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024 on Gustav Jansson</title>
+    <link>https://madeso.github.io/devlog/2024/</link>
+    <description>Recent content in 2024 on Gustav Jansson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Dec 2024 23:49:16 +0100</lastBuildDate>
+    <atom:link href="https://madeso.github.io/devlog/2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 52</title>
+      <link>https://madeso.github.io/devlog/2024/52/</link>
+      <pubDate>Sun, 29 Dec 2024 23:49:16 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/52/</guid>
+      <description>&lt;p&gt;Last week of the year, but still 2-ish more days of completing the instacing API. Other than not working on instancing I&amp;rsquo;ve been working on cleaning up euphoria for the car game. I think one of my new years resolutions will be making and publishing the car game is some way or another.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 51</title>
+      <link>https://madeso.github.io/devlog/2024/51/</link>
+      <pubDate>Sun, 22 Dec 2024 22:47:10 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/51/</guid>
+      <description>&lt;p&gt;Almost end of the year, I didn&amp;rsquo;t work on instancing but I did some big changes in euphoria. I &amp;ldquo;removed&amp;rdquo; pretty much everything and started refactoring the base project. I bumped the unbuntu CI builder and with the new linter comes a new list of warnings to fix or silence. When that is done I can start working on the new dear imgui based editor app with undo/redo support, at least until the 3d rendering is &amp;ldquo;done&amp;rdquo;. My goal before the end of the year is to finally complete the instancing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 50</title>
+      <link>https://madeso.github.io/devlog/2024/50/</link>
+      <pubDate>Sun, 15 Dec 2024 21:27:43 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/50/</guid>
+      <description>&lt;p&gt;Instancing has been pused back a week or so. This week I&amp;rsquo;ve more or less just worked on cleaning up the altdevblog for a alpha publication, hopefully before xmas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2024/49/</link>
+      <pubDate>Sun, 08 Dec 2024 23:35:51 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/49/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t completed instancing but wrote a first revision of the user facing api so all I have left is actually implementing it :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 48</title>
+      <link>https://madeso.github.io/devlog/2024/48/</link>
+      <pubDate>Sun, 01 Dec 2024 22:43:03 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/48/</guid>
+      <description>&lt;p&gt;This week I started to get back into klotter and actually upgraded the glad and opengl version to be the latest that my machines support. I also continued on my kdl project, I&amp;rsquo;m somewhat considering to replace json with kdl in euphoria. next week will be the day I implement in klotter, I promise!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 47</title>
+      <link>https://madeso.github.io/devlog/2024/47/</link>
+      <pubDate>Sun, 24 Nov 2024 22:52:18 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/47/</guid>
+      <description>&lt;p&gt;Countrary to my plans I didn&amp;rsquo;t really do much this week, mostly just some simple extension to the workbench/buidl project to display statistics on the files you&amp;rsquo;re about to commit. Next week, for sure this time, I need to continue on klotter and get instancing working&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 46</title>
+      <link>https://madeso.github.io/devlog/2024/46/</link>
+      <pubDate>Sun, 17 Nov 2024 23:00:25 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/46/</guid>
+      <description>&lt;p&gt;This week I sent another email to Mike Acton about my flipcode clone, hoping this results in a better response than twitter DM (:/) otherwise I mmostly worked on flipcode. I was going to get back into rendering but for one reason or another it didn&amp;rsquo;t happen this weekend either. Perhaps next week. I&amp;rsquo;m really keen on working on the arcade car game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 45</title>
+      <link>https://madeso.github.io/devlog/2024/45/</link>
+      <pubDate>Sun, 10 Nov 2024 22:50:34 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/45/</guid>
+      <description>&lt;p&gt;This week I continued work on understanding the portal sample, started converting flipcode to markdown and slowly started to work on klotter again&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 44</title>
+      <link>https://madeso.github.io/devlog/2024/44/</link>
+      <pubDate>Sun, 03 Nov 2024 22:57:03 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/44/</guid>
+      <description>&lt;p&gt;This week I continued on learning about portals and finally got around working on fyro again&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 43</title>
+      <link>https://madeso.github.io/devlog/2024/43/</link>
+      <pubDate>Sun, 27 Oct 2024 23:51:01 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/43/</guid>
+      <description>&lt;p&gt;Besides a few minor changes in workbench and bookshelf I&amp;rsquo;ve mostly been reading code and trying to understand code, upcomming features for world/level building and whatnot. next week should be lots of work on fyro, finally trying to get the collision code working&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 42</title>
+      <link>https://madeso.github.io/devlog/2024/42/</link>
+      <pubDate>Sun, 20 Oct 2024 23:39:41 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/42/</guid>
+      <description>&lt;p&gt;This week I did the final fixes on the upgrade to dotnet 8 for postertester and some small work on workbench&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 41</title>
+      <link>https://madeso.github.io/devlog/2024/41/</link>
+      <pubDate>Sun, 13 Oct 2024 22:04:13 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/41/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much I started reading open JK code but I spent most of the week learning &amp;ldquo;hacking for developers&amp;rdquo;. I don&amp;rsquo;t think I will complete it before my eval ends next week so I just have to hope I can continue the course when work gives me access again. I atleast managed to upgraded my static page generator to the latest .net lts and started thinking about perhaps completing it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2024/40/</link>
+      <pubDate>Sun, 06 Oct 2024 21:47:07 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/40/</guid>
+      <description>&lt;p&gt;This week I started work on my entry for the the kodsnack gamejam and continued work on booskhelf&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 39</title>
+      <link>https://madeso.github.io/devlog/2024/39/</link>
+      <pubDate>Sun, 29 Sep 2024 23:58:14 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/39/</guid>
+      <description>&lt;p&gt;This week I continued on fyro/lox and got printing working. I also revived an old project and converted it to a hugo theme. The following 2 weeks is gamejam time so fyro/lox time will be limited&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2024/38/</link>
+      <pubDate>Sun, 22 Sep 2024 20:39:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/38/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much, some work on poster tester but no progress on neither klotter nor fyro/fel. Better &amp;ldquo;luck&amp;rdquo; next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 37</title>
+      <link>https://madeso.github.io/devlog/2024/37/</link>
+      <pubDate>Thu, 12 Sep 2024 23:26:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/37/</guid>
+      <description>&lt;p&gt;This week I continued work on the type system. Variables have types but they can&amp;rsquo;t be set from script. Currently printing the argument information for functions crashes and I&amp;rsquo;m currently working on making sure that doesn&amp;rsquo;t happen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 36</title>
+      <link>https://madeso.github.io/devlog/2024/36/</link>
+      <pubDate>Sun, 08 Sep 2024 22:50:41 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/36/</guid>
+      <description>&lt;p&gt;This week I continued on fyro object/object collision, expanding the script system type information. I&amp;rsquo;m not sure I&amp;rsquo;ll be able to finish it next week but I&amp;rsquo;ll keep on working on it&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 35</title>
+      <link>https://madeso.github.io/devlog/2024/35/</link>
+      <pubDate>Sun, 01 Sep 2024 21:46:46 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/35/</guid>
+      <description>&lt;p&gt;This week I continued work on fyro. I finally completed the code restructuring and stared doing some small changes, now inheritance support inheriting from classes in namespaces, how about that? I did a rough breakdown of object/object collision and what needs to happen before I can actually start writing code for it and that ball will start rolling next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 34</title>
+      <link>https://madeso.github.io/devlog/2024/34/</link>
+      <pubDate>Sun, 25 Aug 2024 19:54:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/34/</guid>
+      <description>&lt;p&gt;This week I continued working on fyro and refactoring things. Hopefully next week I can start on adding object-object collisions, we&amp;rsquo;ll see.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2024/33/</link>
+      <pubDate>Sun, 18 Aug 2024 21:27:36 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/33/</guid>
+      <description>&lt;p&gt;This week I spent most of the week with family. I managed to continue the fyro refactoring and altdev cleanup but it&amp;rsquo;s been a slow and steady progress. Next week will hopefully be more productive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2024/32/</link>
+      <pubDate>Sun, 11 Aug 2024 08:39:52 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/32/</guid>
+      <description>&lt;p&gt;This week I continued with the duplicate removal and merging altdev archive to single posts. It&amp;rsquo;s going slower than I wanted but it&amp;rsquo;s progressing at least. Currently I&amp;rsquo;m adding extensions to exstensionless images. I also restarted work on fyro, making the code cleaner so I can add object/object collision and response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 31</title>
+      <link>https://madeso.github.io/devlog/2024/31/</link>
+      <pubDate>Sun, 04 Aug 2024 23:27:36 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/31/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m getting closer to publishing the alpha version of altdev. I&amp;rsquo;m currently merging duplicates and my goal is to be done with it before the end of the next week, but we&amp;rsquo;ll so how that goes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2024/30/</link>
+      <pubDate>Sun, 28 Jul 2024 21:42:59 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/30/</guid>
+      <description>&lt;p&gt;This week I continued work on altdev. Still only 2 things left before manual work but hopefully theese are the last 2 things&amp;hellip;Let&amp;rsquo;s see if that&amp;rsquo;s true next week :/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2024/29/</link>
+      <pubDate>Sun, 21 Jul 2024 21:36:58 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/29/</guid>
+      <description>&lt;p&gt;This week I continued work on altdev. Although a new todo pops up almost as fast as I can complete them, I feel like it&amp;rsquo;s getting really close to alpha deploy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2024/28/</link>
+      <pubDate>Mon, 15 Jul 2024 00:13:22 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/28/</guid>
+      <description>&lt;p&gt;This week I continued the work on altdevblog and I&amp;rsquo;m slowing getting closer to finishing the &amp;ldquo;blender donut&amp;rdquo; tutorial&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 27</title>
+      <link>https://madeso.github.io/devlog/2024/27/</link>
+      <pubDate>Sun, 07 Jul 2024 22:39:22 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/27/</guid>
+      <description>&lt;p&gt;This week I continued on the altdev archive. I converted the last html to markdown yesterday and it&amp;rsquo;s looking fine. Some small manual cleanup remains. Current step is to algorithmically remove duplicates and it basically consists of looking at various duplicates and see if I can detect and fix patterns early on. Then, and hopefully I can start on this before the end of the week, is copying the comment structure to the hugo setup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2024/26/</link>
+      <pubDate>Sun, 30 Jun 2024 23:43:39 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/26/</guid>
+      <description>&lt;p&gt;This week I continued work on the altdev archive. I gave up trying to use pandoc and currently use tidy to convert html to xhtml that can then easily be parsed(mostly) using a regular xml structure. The output is about as good as can be expected when the html is kinda broken but the result is far better than what I had with pandoc. A few weeks more and I think I&amp;rsquo;m done with markdown generation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2024/25/</link>
+      <pubDate>Sun, 23 Jun 2024 22:23:41 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/25/</guid>
+      <description>&lt;p&gt;This week I fixed some/most links for my homepage and continued cleaning up the altdev clone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2024/24/</link>
+      <pubDate>Sun, 16 Jun 2024 23:31:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/24/</guid>
+      <description>&lt;p&gt;This week I continued working on the altdev archive. I&amp;rsquo;m currently in the process of styling the theme and tweaking the markdown output. Next week is copying the images, making sure there are placeholders for the missing images, and starting downloading the comment section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2024/23/</link>
+      <pubDate>Sun, 09 Jun 2024 21:02:10 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/23/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve mostly been working on the altdev cloning. Categories are done and image cloning is almost done. It&amp;rsquo;s been running for a few days nowand getting closer to completion. Downloading many images, especially if there are lots of redirects, 404s and you want to be nice to the server takes time. I am also slowly coming to the conclusion that my main engine, euphoria, has 90% yagni in it. I&amp;rsquo;ve always added things that I found interesting and was &amp;ldquo;game like&amp;rdquo; but it has somewhat become a behemoth without any features to speak of and I&amp;rsquo;m strongly considering going over the code and yagni/sunsetting/moving most of the code to a legacy folder until I can find a good place for it. It&amp;rsquo;s working as intended but maybe that isn&amp;rsquo;t enough anymore&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2024/22/</link>
+      <pubDate>Sun, 02 Jun 2024 21:52:10 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/22/</guid>
+      <description>&lt;p&gt;This week I continued on altdev, getting really close to having the text of all posts now. Extracting tags and categories is up next. Genesis is also comming along nicely. Copying the public documentation the doxygen comments I realize that reading detailed comments is nice, even though the comments aren&amp;rsquo;t exactly helping it is sometimes nice having some comments to look at when pulling hair out trying to figure out a problem. I&amp;rsquo;m not sure if that&amp;rsquo;s a good enough argument in keeping them around but&amp;hellip;&#xA;The final project I worked on this week is actually a new one, one that I found when reading altdev. It&amp;rsquo;s a documentation system and currently most of the work is converting the ruby code to c# and me trying to understand it. Perhaps I&amp;rsquo;m having second thoughs about doxygen&amp;hellip; we&amp;rsquo;ll see what happens and how it turns out in the comming weeks&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2024/21/</link>
+      <pubDate>Sun, 26 May 2024 23:55:28 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/21/</guid>
+      <description>&lt;p&gt;This week I continued working on my altdevblog cloner. I started integrating multiple indexings. I currently merge 3 different timestamps but will probably increase to some more as there is still articles I&amp;rsquo;m missing. I also mostly completed the genesis transformation. It didn&amp;rsquo;t contain what I was orignally looking for so I will probably have to expand to include the extensions I was using and I am in luck because I&amp;rsquo;ve saved everything :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2024/20/</link>
+      <pubDate>Sun, 19 May 2024 22:46:37 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/20/</guid>
+      <description>&lt;p&gt;This week I continued work on updating the genesis 3d api, but most of the week have been spent on writing a god awful script to download AltDevBlogADay from wayback machine and replacing archive with modern links where it makes sense. There is some small extraction left to be done but I think the next major thing will be merging several mirrors, since apart from being slow apparently wayback also haven&amp;rsquo;t mirrored everything (404 errors happen). It could be that the page was in a bad state when it was mirrored, who knows&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2024/19/</link>
+      <pubDate>Mon, 13 May 2024 20:57:03 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/19/</guid>
+      <description>&lt;p&gt;This week I cleaned up some sonar lint warnings in klotter, started refreshing my memory on the old genesis3d(my favorite) and continued cleaning up my animation notes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2024/18/</link>
+      <pubDate>Sun, 05 May 2024 20:54:49 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/18/</guid>
+      <description>&lt;p&gt;This week I implemented the IK to my vita animation testbed. I think this marks the project as &amp;ldquo;completed&amp;rdquo;. There still is chapters to be read but I don&amp;rsquo;t think I will implement them, so I started cleaning up my animation notes. Next week will continue the klotter project and the final step is to merge the animation notes, perhaps  with some of the vite animation code into the klotter project, but first there is a lot of klotter to be done.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2024/17/</link>
+      <pubDate>Sun, 28 Apr 2024 21:45:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/17/</guid>
+      <description>&lt;p&gt;This week I finished watching the anim talk and I finished reading the Ik part of the animation book. Next week I&amp;rsquo;ll clean up and understand the IK code and cleaning up my animation notes. After that it&amp;rsquo;s back to klotterfinish up rendering so I can implement all of the animation on top of it, but that is further away than next week, so until then&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2024/16/</link>
+      <pubDate>Sun, 21 Apr 2024 23:59:25 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/16/</guid>
+      <description>&lt;p&gt;This week I continued reading about animation and quickly resurected my old &amp;ldquo;simple&amp;rdquo; engine from 15 years ago to see how I solved it last time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 15</title>
+      <link>https://madeso.github.io/devlog/2024/15/</link>
+      <pubDate>Sun, 14 Apr 2024 22:00:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/15/</guid>
+      <description>&lt;p&gt;This week I continued reading about animation&amp;hellip; not much more to say really :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2024/14/</link>
+      <pubDate>Mon, 08 Apr 2024 21:28:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/14/</guid>
+      <description>&lt;p&gt;This week I continued on animation, reading book, reading articles watching talks writing code&amp;hellip; all about animation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2024/13/</link>
+      <pubDate>Mon, 01 Apr 2024 21:57:17 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/13/</guid>
+      <description>&lt;p&gt;This week I did some small fixes in blaggen and continued work on the anim project. I&amp;rsquo;m about to start reading chapter 9 of 15 and implementing chapter 8 so with any luck the anim project is soon finished and the knowledge from that can be applied to the kloter project&amp;hellip; and speaking of klotter, I really should just continue working on it and actually complete a render project once.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12</title>
+      <link>https://madeso.github.io/devlog/2024/12/</link>
+      <pubDate>Sun, 24 Mar 2024 23:07:17 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/12/</guid>
+      <description>&lt;p&gt;This week I continued on reading and cleaning up animation micro engine. Both blaggen and kloter has entered my mind and might deserve some love/work but we&amp;rsquo;ll see what the comming week will result in&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2024/11/</link>
+      <pubDate>Sun, 17 Mar 2024 21:03:55 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/11/</guid>
+      <description>&lt;p&gt;This week I a animation book and started compiling the base code for that book. I also got some inspiration to write some ride code so I updated its dependencies, added a todo and started thinking about how to get a useful version working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2024/10/</link>
+      <pubDate>Sun, 10 Mar 2024 23:23:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/10/</guid>
+      <description>&lt;p&gt;This week I got clang-tidy running on Github actions and it looks like it&amp;rsquo;s the only big thing left before everything is green again for euph. I started thinking about replacing the coverage displays like coveralls that I&amp;rsquo;m currently using with something I can run locally.&#xA;This week I also restarted fyro/lox and removed the public/private requirement from code. It was pretty easy since everything was required to be public. Initially I wanted to go in a c# direction but I think a typescript direction is better for lox. It should be easier to implement and stay more true to the original language.&#xA;With the fyro work also semi-started work on a game jam entry, the goal if I continue on it is to work on the game/fyro for a week and publish a magic game. A nice break from work klotter/euphoria work, let&amp;rsquo;s see if I continue on it or go back to my regular projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2024/09/</link>
+      <pubDate>Sun, 03 Mar 2024 22:08:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/09/</guid>
+      <description>&lt;p&gt;This week I continued getting euph build working. clang-tidy is taking too long so that&amp;rsquo;s next. I&amp;rsquo;m planning to extend workbench and run multiple clang-tidy instances. That should hopefully cut down on the analysis time.&#xA;Next up is probably replacing the coverage report. I&amp;rsquo;ve grown tired of online services and want something that I can run locally. For the &amp;ldquo;coveralls&amp;rdquo; experience I should make sure the result generates a badge and it can be viewed in a browser. But this task lays beond the klotter work. I really want to continue working on klotter and finish the instanced rendering task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 08</title>
+      <link>https://madeso.github.io/devlog/2024/08/</link>
+      <pubDate>Sun, 25 Feb 2024 20:44:04 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/08/</guid>
+      <description>&lt;p&gt;This week I accidentally commited to euphoria repo and for some reason all the builds started failing, so I worked on fixing them, including updating to the latest catch and the latest compiler that is installed on the runners. Next week I&amp;rsquo;m going to do some basic workbench things to fix more build issues and then 100% focus on klotter ignoring the euph build errors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2024/07/</link>
+      <pubDate>Sun, 18 Feb 2024 20:32:54 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/07/</guid>
+      <description>&lt;p&gt;This week I spend to some watching videos about gui development and refactoring my old widget sizer code that I might reuse for the gui system in euphoria. Regarding klotter I basically deleted all my progress and started fresh with a readme like development and wrote the actual usage&amp;hellip; and now I just have to implement the few functions so hopefully I won&amp;rsquo;t get stuck in details this time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2024/06/</link>
+      <pubDate>Sun, 11 Feb 2024 23:34:30 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/06/</guid>
+      <description>&lt;p&gt;This week I implemented 2 different versions of a finite state machine. I also came to the realization that I need to start &amp;ldquo;fresh&amp;rdquo; on the instancing so that&amp;rsquo;s what I&amp;rsquo;ll be doing&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 05</title>
+      <link>https://madeso.github.io/devlog/2024/05/</link>
+      <pubDate>Sun, 04 Feb 2024 23:06:34 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/05/</guid>
+      <description>&lt;p&gt;This week I mostly just thought about how to integrate Instancing into klotter and how buffers are connected.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2024/04/</link>
+      <pubDate>Sun, 28 Jan 2024 23:53:13 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/04/</guid>
+      <description>&lt;p&gt;This week I worked on instancing, it&amp;rsquo;s still not complete but it&amp;rsquo;s getting there&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
+      <link>https://madeso.github.io/devlog/2024/03/</link>
+      <pubDate>Mon, 22 Jan 2024 01:02:03 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/03/</guid>
+      <description>&lt;p&gt;This week I added uniform buffer to klotter&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 02</title>
+      <link>https://madeso.github.io/devlog/2024/02/</link>
+      <pubDate>Sun, 14 Jan 2024 23:37:14 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/02/</guid>
+      <description>&lt;p&gt;This week I made a game in 4 hours, added a skybox to klotter, installed sonar lint, fixed some of its suggestions and finally made the existing unit tests compile and run&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2024/01/</link>
+      <pubDate>Sun, 07 Jan 2024 23:47:17 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2024/01/</guid>
+      <description>&lt;p&gt;Thie week I completed framebuffer/post proc and adding support for cubemaps and skyboxes to klotter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

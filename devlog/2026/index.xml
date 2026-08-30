@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2026 on Gustav Jansson</title>
+    <link>https://madeso.github.io/devlog/2026/</link>
+    <description>Recent content in 2026 on Gustav Jansson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Aug 2026 15:02:02 +0200</lastBuildDate>
+    <atom:link href="https://madeso.github.io/devlog/2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>35</title>
+      <link>https://madeso.github.io/devlog/2026/35/</link>
+      <pubDate>Sun, 30 Aug 2026 15:02:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/35/</guid>
+      <description>&lt;p&gt;This week I completed the gear icon/widget in euphoria and then essentially spent the rest week on cleaning up this site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 34</title>
+      <link>https://madeso.github.io/devlog/2026/34/</link>
+      <pubDate>Sun, 23 Aug 2026 21:42:21 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/34/</guid>
+      <description>&lt;p&gt;This week I continued work on workbench by adding the text tools from my PrettyGood.net project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2026/33/</link>
+      <pubDate>Sun, 16 Aug 2026 22:20:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/33/</guid>
+      <description>&lt;p&gt;This week I continued work on the rotoslider in euphria and ended with adding a new tool to workbench.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2026/32/</link>
+      <pubDate>Sun, 09 Aug 2026 19:58:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/32/</guid>
+      <description>&lt;p&gt;This week I continued work on euphoria. The rotation slider/gear widget is almost finished so I hopefully can continue on the rest of the game next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 31</title>
+      <link>https://madeso.github.io/devlog/2026/31/</link>
+      <pubDate>Sun, 02 Aug 2026 22:31:44 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/31/</guid>
+      <description>&lt;p&gt;This week I continued on blaggen. It can now finally generate the main page. There is more to do like taxonomies and language support and exposing more variables and functions, I think most of the hard work is done. I also want to continue working on the car game so I will probably focus on that the rest of the year.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2026/30/</link>
+      <pubDate>Sun, 26 Jul 2026 23:00:52 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/30/</guid>
+      <description>&lt;p&gt;This week I continued work on blaggen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2026/29/</link>
+      <pubDate>Sun, 19 Jul 2026 22:27:07 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/29/</guid>
+      <description>&lt;p&gt;This week I continued work on blaggen and made it generate a page from markdown files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2026/28/</link>
+      <pubDate>Sun, 12 Jul 2026 14:29:32 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/28/</guid>
+      <description>&lt;p&gt;This week I continued work on blaggen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2026/26/</link>
+      <pubDate>Sun, 28 Jun 2026 22:06:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/26/</guid>
+      <description>&lt;p&gt;Euphoria took a backseat thiss week in favor of blaggen work and taking it slow during the heatwave that hit at the end of the week. Hopefully more work will be done next week as the heat wave dissapate&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2026/25/</link>
+      <pubDate>Sun, 21 Jun 2026 23:21:24 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/25/</guid>
+      <description>&lt;p&gt;This week I got the camera system working and started working on tools to help debuging the game code. Hopefully that will be done next week so I can continue working on the game and engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2026/24/</link>
+      <pubDate>Sun, 14 Jun 2026 22:15:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/24/</guid>
+      <description>&lt;p&gt;This week I continued work on the entity system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2026/23/</link>
+      <pubDate>Sun, 07 Jun 2026 22:21:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/23/</guid>
+      <description>&lt;p&gt;This week I worked on the entity system. Next week will be completing it and integrating a physics engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2026/22/</link>
+      <pubDate>Sun, 31 May 2026 23:33:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/22/</guid>
+      <description>&lt;p&gt;This week I fixed the ypr rotation and fixed the code enough so that the ci system was able to run the linter.&#xA;I also did some work on ride and started rewriting on how it should handle color themes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2026/21/</link>
+      <pubDate>Sun, 24 May 2026 20:35:17 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/21/</guid>
+      <description>&lt;p&gt;This week I did a little bit of everything. Some work on lax, some work on euphoria and some work on ride.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2026/20/</link>
+      <pubDate>Sun, 17 May 2026 22:25:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/20/</guid>
+      <description>&lt;p&gt;This week I continued on lax work, getting a good structure on the asm portion of the language that compiles to bytecode and a basic bytecode debugger/printer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2026/19/</link>
+      <pubDate>Sun, 10 May 2026 23:29:29 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/19/</guid>
+      <description>&lt;p&gt;This week I added input to control the car.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2026/18/</link>
+      <pubDate>Sat, 09 May 2026 21:43:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/18/</guid>
+      <description>&lt;p&gt;This week I added overloadable operators for classes to the lax scripting language.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2026/17/</link>
+      <pubDate>Sun, 26 Apr 2026 23:52:10 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/17/</guid>
+      <description>&lt;p&gt;This week I added level loading to euphoria. Next week is scripting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2026/16/</link>
+      <pubDate>Mon, 20 Apr 2026 00:24:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/16/</guid>
+      <description>&lt;p&gt;This week I continued on euphoria work. I got loading and rendering of meshes working. Next step is adding code so they can be dynamically moved and loading the actual material from gltf.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 15</title>
+      <link>https://madeso.github.io/devlog/2026/15/</link>
+      <pubDate>Sun, 12 Apr 2026 21:47:35 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/15/</guid>
+      <description>&lt;p&gt;This week I &amp;ldquo;finished&amp;rdquo; the klotter integration into euph as fasr as it&amp;rsquo;s not crashing on a empty scene. Next week will probably be spent on loading meshes and expanding the shaders/material system so a &amp;ldquo;mesh&amp;rdquo; can have more than one geom with more than one material, and the materials to be defined as part of tbe data pipeline. Let&amp;rsquo;s see how far I&amp;rsquo;ll get.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2026/14/</link>
+      <pubDate>Mon, 06 Apr 2026 10:34:12 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/14/</guid>
+      <description>&lt;p&gt;This week I decided that I would do everything to get my card game running over the easter weekend.&#xA;While I still have one day left it&amp;rsquo;s looking less likely to succeed and the task that I originally planned to take a day has pretty much taken the entire weekend. The plan was to take the existing rendering code in my test project and just copy it over to the new engine with some slight modification. This failed to take into consideration that the codebases are different and while the dependencies match (in name), they are on different versions with different build configs and moving code around to support the new setup takes time.&#xA;Until next week (where I will continue the attempt on getting a game playable)&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2026/13/</link>
+      <pubDate>Sun, 29 Mar 2026 22:17:09 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/13/</guid>
+      <description>&lt;p&gt;Yet another week of little bit of everything. I did some work on getting the bytecode working in lax and I continued work on euph but decided I&amp;rsquo;m going to focus on getting a game running. Next week, easter, will hopefully be way more productive!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12</title>
+      <link>https://madeso.github.io/devlog/2026/12/</link>
+      <pubDate>Sun, 22 Mar 2026 21:26:14 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/12/</guid>
+      <description>&lt;p&gt;This week I did a little bit of eveything. Som reading on lox, slowly started work on textgen and some minor work on euphoria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2026/11/</link>
+      <pubDate>Sun, 15 Mar 2026 21:34:12 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/11/</guid>
+      <description>&lt;p&gt;This week I did small thing on euphoria and restarted the lox project as I probably will use that for scripting in euphoria too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2026/10/</link>
+      <pubDate>Sun, 08 Mar 2026 18:15:59 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/10/</guid>
+      <description>&lt;p&gt;This week I added slider and text rendering. Next step is text editing and evaluating/seeing if I can create a skeumorphic editor or I&amp;rsquo;m just going to create a standard looking editor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2026/09/</link>
+      <pubDate>Sun, 01 Mar 2026 23:19:46 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/09/</guid>
+      <description>&lt;p&gt;This week I decided that nuklear probably isn&amp;rsquo;t the right call for the the euphoria editor and I wondered how far I could get in a week, and I started to scratch that itch. I started porting the texture and shader from klotter and grabbed the sprite batch from tred and managed to get both buttons and sliders working. Tomorrow is a basic text edit component and after that it&amp;rsquo;s either improving the text rendering or styling the ui. Hopefully I can have a working prototype by the end of the comming week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 08</title>
+      <link>https://madeso.github.io/devlog/2026/08/</link>
+      <pubDate>Mon, 23 Feb 2026 00:23:15 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/08/</guid>
+      <description>&lt;p&gt;This week I mostly completed the klotter/dear imgui color project by switching back to hsl. I started the match implementation and continued by making sure euphoria still compiles.&lt;/p&gt;&#xA;&lt;p&gt;Since skeumorphic was successful I want to evaluate nuklear for the editor gui and might just use euphoria to do it, since that is were it&amp;rsquo;s going to end up anyway. I might also start the game gui since I more or less already know how (the first version of) the 2d renderer should work and how the high level api should work (in theory).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2026/07/</link>
+      <pubDate>Sun, 15 Feb 2026 07:04:43 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/07/</guid>
+      <description>&lt;p&gt;This week I added gammut clipping to klotter tehen I discovered okhsl and okhsv colors spaces and since they seem to be a better way to pick dear imgui colors than oklch I added them as well and will start changing the current oklch based setup next.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2026/06/</link>
+      <pubDate>Sun, 08 Feb 2026 23:09:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/06/</guid>
+      <description>&lt;p&gt;This week I continued on the skeumorphic design and while it might get some extra features and exploration, I think it&amp;rsquo;s pretty much done for now. I did some more work on musikmaskin and I finally got back to work on klotter. The oklch based ui is coming along nicely.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 05</title>
+      <link>https://madeso.github.io/devlog/2026/05/</link>
+      <pubDate>Sun, 01 Feb 2026 22:53:26 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/05/</guid>
+      <description>&lt;p&gt;This week I worked on musikmaskin and at the end of the week I started seriously considering a&#xA;skeumorphic design and started a small prototype for what a engine/editor could look like.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2026/04/</link>
+      <pubDate>Sun, 25 Jan 2026 23:22:29 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/04/</guid>
+      <description>&lt;p&gt;This week I wrote a basic theme builder for dear imgui but I think my original plan to only use a few colors perhaps is flawed. I will have to do some more thinking on it. In the mean time I started a new project, musik maskin. A basic software synth and soon a music generator for gamejam games.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
+      <link>https://madeso.github.io/devlog/2026/03/</link>
+      <pubDate>Sun, 18 Jan 2026 19:34:18 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/03/</guid>
+      <description>&lt;p&gt;This week I added the oklab and oklch colorspaces to klotter. Next week is hopefully using them to create a dear imgui theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 02</title>
+      <link>https://madeso.github.io/devlog/2026/02/</link>
+      <pubDate>Sun, 11 Jan 2026 23:30:42 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/02/</guid>
+      <description>&lt;p&gt;This week I finished star trek ds9 so I mostly just spent time on my notes and planning for future euphoria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2026/01/</link>
+      <pubDate>Sun, 04 Jan 2026 22:47:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/01/</guid>
+      <description>&lt;p&gt;For this and last week of te last year I mostly watched Star Trek: Deep Space 9. I did some work on samling and some smaller work on klotter.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also been thinking about what a skeumorphic design for a &amp;ldquo;unity engine&amp;rdquo; could look like. Could each component look like a instrument in reaper with knobs and whatnot. How would that be written in code? What widgets are needed? That sort of thing. Perhaps I&amp;rsquo;ll make a prototype or something, &lt;a href=&#34;https://colorpalette.pro/&#34;&gt;colorpalette.pro&lt;/a&gt; is some sort of inspiration.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

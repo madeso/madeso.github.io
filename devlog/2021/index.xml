@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 on Gustav Jansson</title>
+    <link>https://madeso.github.io/devlog/2021/</link>
+    <description>Recent content in 2021 on Gustav Jansson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Jan 2022 00:46:48 +0100</lastBuildDate>
+    <atom:link href="https://madeso.github.io/devlog/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 52</title>
+      <link>https://madeso.github.io/devlog/2021/52/</link>
+      <pubDate>Mon, 03 Jan 2022 00:46:48 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/52/</guid>
+      <description>&lt;p&gt;This week I watched alot of netflix, relaxed and continued porting the python scripts to rust.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 51</title>
+      <link>https://madeso.github.io/devlog/2021/51/</link>
+      <pubDate>Sun, 26 Dec 2021 23:33:26 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/51/</guid>
+      <description>&lt;p&gt;This week I started porting the build scripts from python to rust.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 50</title>
+      <link>https://madeso.github.io/devlog/2021/50/</link>
+      <pubDate>Sun, 19 Dec 2021 23:53:32 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/50/</guid>
+      <description>&lt;p&gt;This week I spent on cleaning up and refactoring euphoria code. Getting real close to zero warnings in clang-tidy&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2021/49/</link>
+      <pubDate>Sun, 12 Dec 2021 23:30:04 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/49/</guid>
+      <description>&lt;p&gt;This week I started refactoring euph to CamelCase and I expect it will take a while for it to be complete. I thought I was done with core but running clang-tidy checks on it it seems I&amp;rsquo;ve still missed a few spots&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 48</title>
+      <link>https://madeso.github.io/devlog/2021/48/</link>
+      <pubDate>Sun, 05 Dec 2021 23:52:30 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/48/</guid>
+      <description>&lt;p&gt;This week I mostly thought about rendering design, trying to come up with a flexible structure for 3d shader, mesh layout and API design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 47</title>
+      <link>https://madeso.github.io/devlog/2021/47/</link>
+      <pubDate>Sun, 28 Nov 2021 23:51:25 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/47/</guid>
+      <description>&lt;p&gt;This week I continued working on tred, adding test for vertex_layout, adding a custom assert library and continued working on the API design&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 46</title>
+      <link>https://madeso.github.io/devlog/2021/46/</link>
+      <pubDate>Sun, 21 Nov 2021 23:59:38 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/46/</guid>
+      <description>&lt;p&gt;This week I continued working on tred and finally got multi window rendering working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 45</title>
+      <link>https://madeso.github.io/devlog/2021/45/</link>
+      <pubDate>Sun, 14 Nov 2021 23:39:03 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/45/</guid>
+      <description>&lt;p&gt;This week I continued working on tred, refactoring, adding featuers and fixing issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 44</title>
+      <link>https://madeso.github.io/devlog/2021/44/</link>
+      <pubDate>Sun, 07 Nov 2021 23:16:50 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/44/</guid>
+      <description>&lt;p&gt;This week I continued working on tred. Cleaning up and mostly working on boring non-visible stuff. I started combining the 2d and 3d rendering and I think I have a pretty good API but it currently isn&amp;rsquo;t working. Have to look into why next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 43</title>
+      <link>https://madeso.github.io/devlog/2021/43/</link>
+      <pubDate>Mon, 01 Nov 2021 00:26:18 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/43/</guid>
+      <description>&lt;p&gt;This week I continued work on tred, cleaning up the code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 42</title>
+      <link>https://madeso.github.io/devlog/2021/42/</link>
+      <pubDate>Sun, 24 Oct 2021 23:54:47 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/42/</guid>
+      <description>&lt;p&gt;This week I completed my entry for the spelsylt gamejam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 41</title>
+      <link>https://madeso.github.io/devlog/2021/41/</link>
+      <pubDate>Mon, 18 Oct 2021 00:05:28 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/41/</guid>
+      <description>&lt;p&gt;This week I worked on the kodsnack spelsylt gamejam. Another week unti it finishes and the progress is pretty great.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2021/40/</link>
+      <pubDate>Mon, 11 Oct 2021 01:42:50 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/40/</guid>
+      <description>&lt;p&gt;This week I continued work on ride, adding input and started on unit tests.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 39</title>
+      <link>https://madeso.github.io/devlog/2021/39/</link>
+      <pubDate>Sun, 03 Oct 2021 23:06:57 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/39/</guid>
+      <description>&lt;p&gt;This week I continued working on ride. Most of the selection is done and I&amp;rsquo;ve just started on text input.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2021/38/</link>
+      <pubDate>Sun, 26 Sep 2021 23:44:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/38/</guid>
+      <description>&lt;p&gt;This week I continued working on ride.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 37</title>
+      <link>https://madeso.github.io/devlog/2021/37/</link>
+      <pubDate>Sun, 19 Sep 2021 23:42:47 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/37/</guid>
+      <description>&lt;p&gt;Theese past few weeks I have been moving to a new apparment and I&amp;rsquo;m finally getting back to coding again. This past week I&amp;rsquo;ve been gettng back into ride from scratch and finally have some progress. I can render text and scroll!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2021/32/</link>
+      <pubDate>Mon, 16 Aug 2021 00:01:34 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/32/</guid>
+      <description>&lt;p&gt;This week I continued working on ride and started porting lite to C++ so I can get a better handle on how I want to structure ride.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 31</title>
+      <link>https://madeso.github.io/devlog/2021/31/</link>
+      <pubDate>Sun, 08 Aug 2021 21:42:55 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/31/</guid>
+      <description>&lt;p&gt;This week I worked on xml loading and error handling in gaf and integrating it in euphoria. Still missing XSD generation and more testing needs to be done but for now it seems to be working, allowing me to continue working on tred.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2021/30/</link>
+      <pubDate>Sun, 01 Aug 2021 23:23:12 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/30/</guid>
+      <description>&lt;p&gt;This week I continued working on gaf, the new xml loading is almost complete&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2021/29/</link>
+      <pubDate>Sun, 25 Jul 2021 22:40:04 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/29/</guid>
+      <description>&lt;p&gt;This week I continued the work on jsonh and gaf. Jsonh almost seems ready for a 2.0 version, but I might also deprecated it and replace it with a xml loader instead as xml both provide xpath and xsd that will aid when writing files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2021/28/</link>
+      <pubDate>Mon, 19 Jul 2021 00:36:24 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/28/</guid>
+      <description>&lt;p&gt;This week I continued work on my json library and updated the gaf compiler to c++&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 27</title>
+      <link>https://madeso.github.io/devlog/2021/27/</link>
+      <pubDate>Sun, 11 Jul 2021 22:38:39 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/27/</guid>
+      <description>&lt;p&gt;This week I moved all of my todos for euphoria from trello to the github issues, now people can see the current plan. I also continued on the next version of my json library. Hopefully it won&amp;rsquo;t take long to complete and I can start using it in my engine&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2021/26/</link>
+      <pubDate>Sun, 04 Jul 2021 23:25:30 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/26/</guid>
+      <description>&lt;p&gt;This week I worked on cleaning up git commits and using better commit messages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2021/25/</link>
+      <pubDate>Sun, 27 Jun 2021 23:40:59 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/25/</guid>
+      <description>&lt;p&gt;This week I continued on cleaning up euphoria&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2021/24/</link>
+      <pubDate>Mon, 21 Jun 2021 23:26:02 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/24/</guid>
+      <description>&lt;p&gt;This week I continued on refactoring and code health for euphoria. Still got a few errors and warnings to take care of :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2021/23/</link>
+      <pubDate>Sun, 13 Jun 2021 23:32:43 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/23/</guid>
+      <description>&lt;p&gt;This week I converted the color palettes to constexpr and focused on fixing code style issues&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2021/22/</link>
+      <pubDate>Sun, 06 Jun 2021 23:58:18 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/22/</guid>
+      <description>&lt;p&gt;This week I replaced travis with github actions for euphoria. In the process I also updated imgui, replaced freetype with stb.truetype and continued cleaning up the source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2021/21/</link>
+      <pubDate>Sun, 30 May 2021 22:59:32 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/21/</guid>
+      <description>&lt;p&gt;This week I finally finished the refactoring and started the process of moving from travis and appveyor to github actions for the ci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2021/19/</link>
+      <pubDate>Sun, 16 May 2021 21:50:14 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/19/</guid>
+      <description>&lt;p&gt;This week I continued the reactoring and the core is almost done now, only a few compilation errors with gcc that&amp;rsquo;s left. Next up is rendering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2021/18/</link>
+      <pubDate>Sun, 09 May 2021 22:22:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/18/</guid>
+      <description>&lt;p&gt;This week I continued refactoring euph to the new code style. The core library is almost complete now :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2021/17/</link>
+      <pubDate>Sun, 02 May 2021 23:43:51 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/17/</guid>
+      <description>&lt;p&gt;This week I added both a brand new minesweeper clone and a old four-in-a-row in 3d clone that I made in 07. There is still some minor work to be done on both, but there are 2 game examples for fyro/tred now, hurray.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2021/16/</link>
+      <pubDate>Sun, 25 Apr 2021 22:32:29 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/16/</guid>
+      <description>&lt;p&gt;This week I started refactoring euphoria from CamelCase to snake_case. I also started work on batching sprite rendering for tred&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 15</title>
+      <link>https://madeso.github.io/devlog/2021/15/</link>
+      <pubDate>Sun, 18 Apr 2021 22:42:38 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/15/</guid>
+      <description>&lt;p&gt;This week I i removed the last of javascript references merged the lua branch of euphoria into master. Still a few places to clean up but I can move forward now with a better scriping engine. I am actually tempted to put all my efforts into a vertical slice of the engine so we&amp;rsquo;ll see in a week if I took action or continued cleaning up the code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2021/14/</link>
+      <pubDate>Sun, 11 Apr 2021 23:22:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/14/</guid>
+      <description>&lt;p&gt;This week I realized that lua perhaps could be a good candidate for scripting language, so I updated the lua fork to the lastest master.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2021/13/</link>
+      <pubDate>Mon, 05 Apr 2021 08:31:09 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/13/</guid>
+      <description>&lt;p&gt;This week I started updating my script-test since I have recently found myself in need of a better scripting language. I also took the plunge and started making a small textbased game in typescript and react.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12</title>
+      <link>https://madeso.github.io/devlog/2021/12/</link>
+      <pubDate>Sun, 28 Mar 2021 23:17:45 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/12/</guid>
+      <description>&lt;p&gt;This week I started on clang-tidying euphoria. I probably should complete the tred before gettting back to euphoria&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2021/11/</link>
+      <pubDate>Sun, 21 Mar 2021 21:27:34 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/11/</guid>
+      <description>&lt;p&gt;This week I mostly been watching netflix but I did started to clean up my bookscript&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2021/10/</link>
+      <pubDate>Sun, 14 Mar 2021 22:33:33 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/10/</guid>
+      <description>&lt;p&gt;This week I continued to work on the book script. It&amp;rsquo;s actually getting close to completion now. A few smaller things left but the only major is only generating a ebook file from the source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2021/09/</link>
+      <pubDate>Sun, 07 Mar 2021 23:16:56 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/09/</guid>
+      <description>&lt;p&gt;Haha. No rendering work this week. Instead I updated my infofile to more modern parsing without flex/bison and started updating my book.py script for creating e-books. That is also mostly done so I can get back to working on rendering in tred&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 08</title>
+      <link>https://madeso.github.io/devlog/2021/08/</link>
+      <pubDate>Sun, 28 Feb 2021 23:42:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/08/</guid>
+      <description>&lt;p&gt;This week I completed my c# port and continued on input for tred. A few things left before it&amp;rsquo;s done for this round but soon I can continue working on the rendering again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wekk 07</title>
+      <link>https://madeso.github.io/devlog/2021/07/</link>
+      <pubDate>Sun, 21 Feb 2021 23:27:52 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/07/</guid>
+      <description>&lt;p&gt;This week I started porting my c# engine &amp;lsquo;simple engine&amp;rsquo; from 2009 to c++.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2021/06/</link>
+      <pubDate>Sun, 14 Feb 2021 21:43:12 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/06/</guid>
+      <description>&lt;p&gt;This week I found a opensource tracer so I started porting it to c++. I then realized I need to load js like json files and started to update my json loader.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 05</title>
+      <link>https://madeso.github.io/devlog/2021/05/</link>
+      <pubDate>Sun, 07 Feb 2021 23:20:37 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/05/</guid>
+      <description>&lt;p&gt;This week I have been working on game controller implementation. First I wrote most of one implementation and then removed that in favor of a more-code but less complex solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2021/04/</link>
+      <pubDate>Sun, 31 Jan 2021 22:40:23 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/04/</guid>
+      <description>&lt;p&gt;This week I continued working on the input system. Better error handling and working fallback when a connected joystick is lost. Next up is gamepad, rumble and finally 3d rendering again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
+      <link>https://madeso.github.io/devlog/2021/03/</link>
+      <pubDate>Mon, 25 Jan 2021 00:28:02 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/03/</guid>
+      <description>&lt;p&gt;This week more or less nothing was implemented but I watched many GDC presentations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 02</title>
+      <link>https://madeso.github.io/devlog/2021/02/</link>
+      <pubDate>Sun, 17 Jan 2021 23:03:36 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/02/</guid>
+      <description>&lt;p&gt;This week I continued on the Input System. Another refactoring but I think it&amp;rsquo;s finally the beginning of the end now&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2021/01/</link>
+      <pubDate>Sun, 10 Jan 2021 23:26:39 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2021/01/</guid>
+      <description>&lt;p&gt;This week I continued on working on the input system. Getting closer now, hopefully it will be &amp;ldquo;done&amp;rdquo; next week.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

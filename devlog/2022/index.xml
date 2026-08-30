@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022 on Gustav Jansson</title>
+    <link>https://madeso.github.io/devlog/2022/</link>
+    <description>Recent content in 2022 on Gustav Jansson</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jan 2023 22:59:56 +0100</lastBuildDate>
+    <atom:link href="https://madeso.github.io/devlog/2022/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 52</title>
+      <link>https://madeso.github.io/devlog/2022/52/</link>
+      <pubDate>Sun, 01 Jan 2023 22:59:56 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/52/</guid>
+      <description>&lt;p&gt;This week I finished TOS and started replacing all streams for euphoria with fmt. There are only 2 parts left but that whole section should be rewritten soon anyway so I figured I wouldn&amp;rsquo;t bother replacing them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 51</title>
+      <link>https://madeso.github.io/devlog/2022/51/</link>
+      <pubDate>Sun, 25 Dec 2022 23:57:01 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/51/</guid>
+      <description>&lt;p&gt;This week I mostly watched star trek (again)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 50</title>
+      <link>https://madeso.github.io/devlog/2022/50/</link>
+      <pubDate>Sun, 18 Dec 2022 22:35:02 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/50/</guid>
+      <description>&lt;p&gt;This week I mostly watched star trek TOS but I played a little bit with zig&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 49</title>
+      <link>https://madeso.github.io/devlog/2022/49/</link>
+      <pubDate>Sun, 11 Dec 2022 23:34:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/49/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t really do much, recovering from a cold and kinda tired to be honest.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 48</title>
+      <link>https://madeso.github.io/devlog/2022/48/</link>
+      <pubDate>Sun, 04 Dec 2022 23:57:42 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/48/</guid>
+      <description>&lt;p&gt;This week I mostly watched star tred TOS season 2, thinking and writing small bits on ride and playing around with the new OpenAI chat system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 47</title>
+      <link>https://madeso.github.io/devlog/2022/47/</link>
+      <pubDate>Sun, 27 Nov 2022 23:29:15 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/47/</guid>
+      <description>&lt;p&gt;This week I found out that the opengl version of ride was slwoish on windows so I started porting the old wxWidgets based rendering so I could to test if it&amp;rsquo;s more viable and/or prepare for a api with more than one rendering backend&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 46</title>
+      <link>https://madeso.github.io/devlog/2022/46/</link>
+      <pubDate>Sun, 20 Nov 2022 23:51:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/46/</guid>
+      <description>&lt;p&gt;This week I continued the work on ride, mostly refactoring and getting a consistent code style. Some more work to be done for sure with PCH and cmake aliases next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 45</title>
+      <link>https://madeso.github.io/devlog/2022/45/</link>
+      <pubDate>Sun, 13 Nov 2022 22:55:42 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/45/</guid>
+      <description>&lt;p&gt;This week I coninued working on poster tester and started working on the console tool&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 44</title>
+      <link>https://madeso.github.io/devlog/2022/44/</link>
+      <pubDate>Sun, 06 Nov 2022 22:40:38 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/44/</guid>
+      <description>&lt;p&gt;This week I mostly spent on hacking on my postman &amp;ldquo;replacement&amp;rdquo;, for lack of a better word, that I started way way back but resurected a few weeks ago and been updating and improving.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 43</title>
+      <link>https://madeso.github.io/devlog/2022/43/</link>
+      <pubDate>Mon, 31 Oct 2022 00:58:23 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/43/</guid>
+      <description>&lt;p&gt;This week I didn&amp;rsquo;t do much. Besides a few commits here and there I mostly just relaxed after the spelsylt gamejam. I completed season 1 of Star Trek - The original series and realized I should probably create a list of the best episodes for each star trek series + season I&amp;rsquo;ve watched so I can recall the good episodes if I feel I need to watch some good star trek again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 42</title>
+      <link>https://madeso.github.io/devlog/2022/42/</link>
+      <pubDate>Sun, 23 Oct 2022 23:57:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/42/</guid>
+      <description>&lt;p&gt;This week I completed a game for the kodsnack gamejam &amp;ldquo;spelsylt&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 41</title>
+      <link>https://madeso.github.io/devlog/2022/41/</link>
+      <pubDate>Sun, 16 Oct 2022 23:31:57 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/41/</guid>
+      <description>&lt;p&gt;This week I continued on physics project and started work on a basic renderer to test the physics sim&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 40</title>
+      <link>https://madeso.github.io/devlog/2022/40/</link>
+      <pubDate>Sun, 09 Oct 2022 23:52:21 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/40/</guid>
+      <description>&lt;p&gt;This week I continued writing on things for ride. I should have worked on my kodsnack game jam entry but I didn&amp;rsquo;t :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 39</title>
+      <link>https://madeso.github.io/devlog/2022/39/</link>
+      <pubDate>Sun, 02 Oct 2022 23:03:09 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/39/</guid>
+      <description>&lt;p&gt;This week I a camera to fyro, &amp;ldquo;fixed&amp;rdquo; a failing HDD and watched a lot of star trek. I&amp;rsquo;ve also thought long and hard on the sprite rendering in fyro and I&amp;rsquo;ve come to the conclusion that I need to rewrite parts of how characters are rendered to support &amp;ldquo;override&amp;rdquo; single-use animations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2022/38/</link>
+      <pubDate>Mon, 26 Sep 2022 01:24:11 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/38/</guid>
+      <description>&lt;p&gt;This week I added collision and tiled loading to the fyro engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 37</title>
+      <link>https://madeso.github.io/devlog/2022/37/</link>
+      <pubDate>Sun, 18 Sep 2022 23:18:00 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/37/</guid>
+      <description>&lt;p&gt;This week I added texture, sprite animation and started on 2d &amp;ldquo;pixel perfect&amp;rdquo; collision detection to fyro. This required me to start adding support for scripting classes to inherit from native classes and that is what I&amp;rsquo;m currently laying the finishing touches on. Hopefully by the end of next week I have some basic 2d topdown and platformer collision going on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 36</title>
+      <link>https://madeso.github.io/devlog/2022/36/</link>
+      <pubDate>Sun, 11 Sep 2022 23:47:17 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/36/</guid>
+      <description>&lt;p&gt;This week I started integrating my scripting engine lox into the small 2d engine, and got snake, gamepad input with rumble and basic local multiplayer support working. Pretty productive!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 35</title>
+      <link>https://madeso.github.io/devlog/2022/35/</link>
+      <pubDate>Mon, 05 Sep 2022 09:12:08 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/35/</guid>
+      <description>&lt;p&gt;This week I continued working on lox, adding arrays among other things. I think this will be the last week of full lox as arrays marks the last major thing to add before I can start integrating it and find the real actual pain points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 34</title>
+      <link>https://madeso.github.io/devlog/2022/34/</link>
+      <pubDate>Sun, 28 Aug 2022 22:31:54 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/34/</guid>
+      <description>&lt;p&gt;This week I introduced native packages/namespaces and split numbers into integers and floats&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 33</title>
+      <link>https://madeso.github.io/devlog/2022/33/</link>
+      <pubDate>Sun, 21 Aug 2022 23:30:48 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/33/</guid>
+      <description>&lt;p&gt;This week I completed the second chapter in crafting interpreters and started to implement my own feature requests to lox. Hopefully sometime during the next week I can start integrating it into fyro and make som actual games&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 32</title>
+      <link>https://madeso.github.io/devlog/2022/32/</link>
+      <pubDate>Sun, 14 Aug 2022 23:32:18 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/32/</guid>
+      <description>&lt;p&gt;This week I continued working on lox and finally completed the second chapter so now I have a working, but very basic scripting engine. Next week is refactoring so I can extend it with custom classes and begin expanding the language and library with more features&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 31</title>
+      <link>https://madeso.github.io/devlog/2022/31/</link>
+      <pubDate>Sun, 07 Aug 2022 23:37:09 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/31/</guid>
+      <description>&lt;p&gt;This week I continued working on lox. I&amp;rsquo;m still not finished with the first section but I&amp;rsquo;m slowly getting there. Hopefully soon I can start integrating the first version into fyro and see what I&amp;rsquo;m missing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 30</title>
+      <link>https://madeso.github.io/devlog/2022/30/</link>
+      <pubDate>Sun, 31 Jul 2022 22:59:17 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/30/</guid>
+      <description>&lt;p&gt;This week I actually continued reading &amp;ldquo;crafting interpreters&amp;rdquo; and restarted my lox implementation and I just recently added looing, conditionals to the language and unit tests to the build so I don&amp;rsquo;t break any features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 29</title>
+      <link>https://madeso.github.io/devlog/2022/29/</link>
+      <pubDate>Sun, 24 Jul 2022 23:46:22 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/29/</guid>
+      <description>&lt;p&gt;This week I split the tred and fyro project to seperate repos. I resurected my textgen project, the &amp;ldquo;substance designer light clone&amp;rdquo; I started a year ago and continued my work on my implementation of lox from &amp;ldquo;crafting interpreters&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 28</title>
+      <link>https://madeso.github.io/devlog/2022/28/</link>
+      <pubDate>Sun, 17 Jul 2022 22:05:53 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/28/</guid>
+      <description>&lt;p&gt;This week I decided to work on ride and more specifically the rendering, so I started switching it to OpenGL, there still are things left to do but it&amp;rsquo;s looking more promising than the bitblit method I was using earlier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 27</title>
+      <link>https://madeso.github.io/devlog/2022/27/</link>
+      <pubDate>Sun, 10 Jul 2022 21:40:32 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/27/</guid>
+      <description>&lt;p&gt;This week I continued refactoring tred rendering. It&amp;rsquo;s getting closer :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 26</title>
+      <link>https://madeso.github.io/devlog/2022/26/</link>
+      <pubDate>Sun, 03 Jul 2022 23:09:04 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/26/</guid>
+      <description>&lt;p&gt;This week I spent mostly on refactoring the rendering in tred. I also forked alabaster vs code theme so I could add support for solarized.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 25</title>
+      <link>https://madeso.github.io/devlog/2022/25/</link>
+      <pubDate>Sun, 26 Jun 2022 23:58:23 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/25/</guid>
+      <description>&lt;p&gt;This week I refactored all tred rendering to the render namespace and worked on scripts to find potential areas to clean up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 24</title>
+      <link>https://madeso.github.io/devlog/2022/24/</link>
+      <pubDate>Sun, 19 Jun 2022 22:57:53 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/24/</guid>
+      <description>&lt;p&gt;This week I added the &lt;code&gt;World&lt;/code&gt; concept to tred, extracted all the engine parts out of &lt;code&gt;main.cc&lt;/code&gt; and started on adding more features to the rust version of build&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 23</title>
+      <link>https://madeso.github.io/devlog/2022/23/</link>
+      <pubDate>Sun, 12 Jun 2022 23:51:11 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/23/</guid>
+      <description>&lt;p&gt;This week I continued work on tred. I started working on the World concept, the API is getting there but it still isn&amp;rsquo;t usable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 22</title>
+      <link>https://madeso.github.io/devlog/2022/22/</link>
+      <pubDate>Mon, 06 Jun 2022 23:15:40 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/22/</guid>
+      <description>&lt;p&gt;This week I completed the render queue implementation and added PCH to tred speeding up the compilation to a third of what it was before.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 21</title>
+      <link>https://madeso.github.io/devlog/2022/21/</link>
+      <pubDate>Sun, 29 May 2022 23:24:28 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/21/</guid>
+      <description>&lt;p&gt;This week I continued refactoring tred to a engine and it&amp;rsquo;s now &amp;ldquo;done&amp;rdquo; in a runnable state. There is way more things to be done for sure, but for now at least most of the raw opengl calls have been refactored away into a render queue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 20</title>
+      <link>https://madeso.github.io/devlog/2022/20/</link>
+      <pubDate>Sun, 22 May 2022 23:50:17 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/20/</guid>
+      <description>&lt;p&gt;This week I continued refactoring tred main to what can be called a rendering engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 19</title>
+      <link>https://madeso.github.io/devlog/2022/19/</link>
+      <pubDate>Sun, 15 May 2022 22:25:27 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/19/</guid>
+      <description>&lt;p&gt;This week I started cleaning up tred and started preparing it so that it can be made into a proper rendering engine&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 18</title>
+      <link>https://madeso.github.io/devlog/2022/18/</link>
+      <pubDate>Mon, 09 May 2022 07:43:20 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/18/</guid>
+      <description>&lt;p&gt;This week I mostly spent on investigating better ways to structure the renderer and how to animate a third person character&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 17</title>
+      <link>https://madeso.github.io/devlog/2022/17/</link>
+      <pubDate>Sun, 01 May 2022 23:51:26 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/17/</guid>
+      <description>&lt;p&gt;This week I added code coverage to the uphoria build and started compiling ride codebase again after it has been on ice for a while. I&amp;rsquo;m going to test replacing the bitblit quad rendering with a simple OpenGL rendering. It should solve all the scaling issues that the current bitblit solution has.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 16</title>
+      <link>https://madeso.github.io/devlog/2022/16/</link>
+      <pubDate>Mon, 25 Apr 2022 20:53:26 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/16/</guid>
+      <description>&lt;p&gt;This week I refactored the polybezier widget control along with part of the api and how to launch a simple dear imgui app.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week  15</title>
+      <link>https://madeso.github.io/devlog/2022/15/</link>
+      <pubDate>Sun, 17 Apr 2022 22:59:08 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/15/</guid>
+      <description>&lt;p&gt;This week I started cleaning up the polygon and polybezier api for euphoria&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 14</title>
+      <link>https://madeso.github.io/devlog/2022/14/</link>
+      <pubDate>Sun, 10 Apr 2022 22:41:43 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/14/</guid>
+      <description>&lt;p&gt;This week I finished working on the t3d editor camera.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 13</title>
+      <link>https://madeso.github.io/devlog/2022/13/</link>
+      <pubDate>Sun, 03 Apr 2022 23:35:29 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/13/</guid>
+      <description>&lt;p&gt;This week I continued working on the camera, completing the pan function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 12</title>
+      <link>https://madeso.github.io/devlog/2022/12/</link>
+      <pubDate>Sun, 27 Mar 2022 23:30:32 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/12/</guid>
+      <description>&lt;p&gt;This week I replaced the old ECS with the new ECS and started improving the t3d camera experience&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 11</title>
+      <link>https://madeso.github.io/devlog/2022/11/</link>
+      <pubDate>Sun, 20 Mar 2022 22:56:17 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/11/</guid>
+      <description>&lt;p&gt;This week I added proper raycast to t3d and started replacing the old entity component system with a new, better one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 10</title>
+      <link>https://madeso.github.io/devlog/2022/10/</link>
+      <pubDate>Sun, 13 Mar 2022 23:56:14 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/10/</guid>
+      <description>&lt;p&gt;This week I implemented translate and rotate gizmos for t3d&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 09</title>
+      <link>https://madeso.github.io/devlog/2022/09/</link>
+      <pubDate>Sun, 06 Mar 2022 22:01:44 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/09/</guid>
+      <description>&lt;p&gt;This week I added the doxygen documentation and some examples for euphoria to a simple gh-pages page. I also switched back from xml to json for all data files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 08</title>
+      <link>https://madeso.github.io/devlog/2022/08/</link>
+      <pubDate>Sun, 27 Feb 2022 23:52:41 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/08/</guid>
+      <description>&lt;p&gt;This week I mostly continued working on the clang.rs port from clang.py. I got a html output now but there are still things left to do. I also made some small fixes to actual euphoria code but nothing much.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 07</title>
+      <link>https://madeso.github.io/devlog/2022/07/</link>
+      <pubDate>Sun, 20 Feb 2022 22:39:19 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/07/</guid>
+      <description>&lt;p&gt;This week I started writing on the blog post that will become the second chapter of &amp;ldquo;clean code&amp;rdquo;. Should be up sometimes next week. I spent most of the weekend with running clang-tidy and porting my clang-tidy script to workbench, mostly because I wanted a html report now that I&amp;rsquo;ve seen how pretty the header hero report looks :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 06</title>
+      <link>https://madeso.github.io/devlog/2022/06/</link>
+      <pubDate>Sun, 13 Feb 2022 23:43:25 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/06/</guid>
+      <description>&lt;p&gt;This week I continued working on the header hero port for workbench and actually started using it for small refactorings in euphoria. All that work is finally starting to pay off :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 05</title>
+      <link>https://madeso.github.io/devlog/2022/05/</link>
+      <pubDate>Sun, 06 Feb 2022 22:55:38 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/05/</guid>
+      <description>&lt;p&gt;This week I completed the checkincludes part of workbench. Now I can pickup where I left with the other header command, or perhaps integrate header hero. Decisions&amp;hellip; decisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 04</title>
+      <link>https://madeso.github.io/devlog/2022/04/</link>
+      <pubDate>Sun, 30 Jan 2022 23:52:25 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/04/</guid>
+      <description>&lt;p&gt;This week I mostly wrote a blog post about Clean Code Chapter 2. I found a project called Header Hero that I might incorporate into my own header tool and started to refactor euphoria core library so I can get a better flow/structure and in preparation of the introduction of PCHs. Hopefully all will get the compilation times down to some form manageable levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 03</title>
+      <link>https://madeso.github.io/devlog/2022/03/</link>
+      <pubDate>Sun, 23 Jan 2022 22:17:57 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/03/</guid>
+      <description>&lt;p&gt;This week I fixed the last of the compiler warnings. Now euphoria builds without warnings on w4/Wall+extra. Next up to complete would proabably be to port the last of the build scripts and fix any warnings in euphoria that they will find.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 02</title>
+      <link>https://madeso.github.io/devlog/2022/02/</link>
+      <pubDate>Sun, 16 Jan 2022 23:58:27 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/02/</guid>
+      <description>&lt;p&gt;This week I started working on reducing the ammount of warnings euphoria generated. Thees things sometimes feels like whac-a-mole squishing warnings in clang and then find some new in msvc but it&amp;rsquo;s moving along.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 01</title>
+      <link>https://madeso.github.io/devlog/2022/01/</link>
+      <pubDate>Mon, 10 Jan 2022 01:00:47 +0100</pubDate>
+      <guid>https://madeso.github.io/devlog/2022/01/</guid>
+      <description>&lt;p&gt;This week I continued working on my port of python code and I&amp;rsquo;m currently working on the &amp;ldquo;most common headers for a c++ file&amp;rdquo; tool, useful for determining what files to add to a pch&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
