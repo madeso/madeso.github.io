@@ -6,10 +6,17 @@
     <description>Recent content in 2026 on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 23:04:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 23:29:49 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/devlog/2026/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>37</title>
+      <title>Week 38</title>
+      <link>https://madeso.github.io/devlog/2026/38/</link>
+      <pubDate>Sun, 20 Sep 2026 23:29:49 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/38/</guid>
+      <description>&lt;p&gt;This week I added the transform to euphoria and worked on clang-tidy and cleared some warnings, but I think most of the week was spent on the tagger project. Both will continue on next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 37</title>
       <link>https://madeso.github.io/devlog/2026/37/</link>
       <pubDate>Sun, 13 Sep 2026 23:04:05 +0200</pubDate>
       <guid>https://madeso.github.io/devlog/2026/37/</guid>
