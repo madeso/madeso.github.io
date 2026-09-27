@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 23:29:49 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:31:29 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 39</title>
+      <link>https://madeso.github.io/devlog/2026/39/</link>
+      <pubDate>Sun, 27 Sep 2026 22:31:29 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/39/</guid>
+      <description>&lt;p&gt;This week tagger took a backseat as I continued work on euphoria. The week started with some clang-tidy fixes but ended with improvements to the kdl wrapper and various dear imgui, sdl3 tweaks and trying to figure out what math function work and what functions are broken.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 38</title>
       <link>https://madeso.github.io/devlog/2026/38/</link>
