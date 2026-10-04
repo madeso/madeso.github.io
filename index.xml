@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 22:31:29 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:05:33 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>40</title>
+      <link>https://madeso.github.io/devlog/2026/40/</link>
+      <pubDate>Sun, 04 Oct 2026 21:05:33 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/40/</guid>
+      <description>&lt;p&gt;This week I upgraded both my spotlight and recept site to use hugo resources. Using this month tokens I asked copilot to lint the euphoria codebase and that gave me a few problems to investigate (along with the clang-tidy issues I&amp;rsquo;m fixing).&#xA;I&amp;rsquo;ve been thinking of trying out llm-buddy but it&amp;rsquo;s written for emacs, which I am not using, so I also did a initial port to vscode using copilot. I&amp;rsquo;m not happy about the code structure, but not sure it comes from the emacs structure or somewhere else.&#xA;Next week will probably mainly be focused on euphoria and working towards getting towards driving a car.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Week 39</title>
       <link>https://madeso.github.io/devlog/2026/39/</link>
