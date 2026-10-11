@@ -6,8 +6,15 @@
     <description>Recent content in home on Gustav Jansson</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 21:05:33 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 22:21:06 +0200</lastBuildDate>
     <atom:link href="https://madeso.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 41</title>
+      <link>https://madeso.github.io/devlog/2026/41/</link>
+      <pubDate>Sun, 11 Oct 2026 22:21:06 +0200</pubDate>
+      <guid>https://madeso.github.io/devlog/2026/41/</guid>
+      <description>&lt;p&gt;This week I continued on euphoria. I fixed the temporary level so all tiles are rotated correctly now and started on debug widgets for the transform hiearchy. I&amp;rsquo;m still unsure about them, might need to workshop them some more. It&amp;rsquo;s better than before but the debug framework of the transforms needs to improve.&lt;/p&gt;&#xA;&lt;p&gt;I also added a lightbox to spotlight and started to clean up the code for llm-buddy. I&amp;rsquo;m still not sure about the change detection, need to have a closer look to how it&amp;rsquo;s done in the original version and my version needs a better setup process.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>40</title>
       <link>https://madeso.github.io/devlog/2026/40/</link>
@@ -1435,13 +1442,6 @@
       <pubDate>Sun, 04 Dec 2022 23:57:42 +0100</pubDate>
       <guid>https://madeso.github.io/devlog/2022/48/</guid>
       <description>&lt;p&gt;This week I mostly watched star tred TOS season 2, thinking and writing small bits on ride and playing around with the new OpenAI chat system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Adventures in chatting with an AI</title>
-      <link>https://madeso.github.io/blog/adventures-in-chatting-with-an-ai/</link>
-      <pubDate>Sat, 03 Dec 2022 18:16:08 +0100</pubDate>
-      <guid>https://madeso.github.io/blog/adventures-in-chatting-with-an-ai/</guid>
-      <description>&lt;p&gt;I took &lt;a href=&#34;https://chat.openai.com/&#34;&gt;Open AI: Chat&lt;/a&gt; for a spin and it&amp;rsquo;s easy to get it to write a fictional conversation between one or more people that probably never going to have a conversation. Here are some of theese meetings that I found entertaining.&lt;/p&gt;&#xA;&lt;p&gt;Sorry for focusing so much on Uncle Bob. He&amp;rsquo;s the name I think the AI would have read most about and the only name I can think of that has written about many various topics that could be discussed with various fictional characters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 47</title>

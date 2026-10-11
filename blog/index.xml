@@ -44,13 +44,6 @@
       <description>&lt;p&gt;I recently realized that I&amp;rsquo;ve been writing my devlog since 2017 but I have never compiled all the devblogs into a longer post starting from today. I&amp;rsquo;ll summarize and write a smallish review of what I&amp;rsquo;ve done on all my hobby projects the past year.&lt;/p&gt;&#xA;&lt;h2 id=&#34;euphoria&#34;&gt;Euphoria&lt;/h2&gt;&#xA;&lt;p&gt;Euphoria is my hobby game engine and to much surprise I did a couple of cool things related to it.&lt;/p&gt;&#xA;&lt;p&gt;Code wise I&amp;rsquo;ve continued to code cleanup (replacing streams with fmt), both warnings and enabled warning-as-errors(with w4/Wall+extra), I also added both a clang-tidy and coverage step on github actions so I can keep the code clean and strive towards a 100% coverage for the core. Added a PCH cut the compilation time by roughly 66%.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Adventures in chatting with an AI</title>
-      <link>https://madeso.github.io/blog/adventures-in-chatting-with-an-ai/</link>
-      <pubDate>Sat, 03 Dec 2022 18:16:08 +0100</pubDate>
-      <guid>https://madeso.github.io/blog/adventures-in-chatting-with-an-ai/</guid>
-      <description>&lt;p&gt;I took &lt;a href=&#34;https://chat.openai.com/&#34;&gt;Open AI: Chat&lt;/a&gt; for a spin and it&amp;rsquo;s easy to get it to write a fictional conversation between one or more people that probably never going to have a conversation. Here are some of theese meetings that I found entertaining.&lt;/p&gt;&#xA;&lt;p&gt;Sorry for focusing so much on Uncle Bob. He&amp;rsquo;s the name I think the AI would have read most about and the only name I can think of that has written about many various topics that could be discussed with various fictional characters.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Clean Code - Chapter 2</title>
       <link>https://madeso.github.io/blog/clean-code-chapter-2/</link>
       <pubDate>Sun, 23 Jan 2022 22:25:03 +0100</pubDate>
